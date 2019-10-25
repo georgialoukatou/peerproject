@@ -1,0 +1,107 @@
+---
+title             : "Peer speech project"
+---
+
+```{r setup, include = FALSE}
+library(childesr)
+library(dplyr)
+
+transcripts_ <-get_participants()
+exclude<-c("Biling", "Clinical", "Clinical-MOR")
+d=subset(transcripts_, !(transcripts_$collection_name %in% exclude))
+
+#CHECK 1st selection : corpora out of lab, > than 2 speakers
+outofLab<-c("LeeWongLeung","Beijing","TCCM","Zhou3","ZhouDinner","Tsay", "Jakarta", "Jiwon", "Ryu", "Bloom70", "Braunwald", "Brown", "Clark", "Gleason",  "Hall", "Kunczaj", "Post", "Sachs", "Snow", "Suppes", "Valian","Providence", "Champaud", "Geneva","Goadrose", "Leveille", "Paris", "Pauline", "Yamaguchi", "York", "Caroline", "Leo", "Miller", "Rigol","Wagner", "Plunkett", "Kari", "Ringstad", "Aguirre", "Linaza", "LlinasOjea", "Marrero", "Nieva", "OreaPine", "Ornat", "Romero", "Vila","Soto", "CCLAS", "Argus", "Kohler", "Korgessar", "Vija", "Zupping", "Family", "Samadi", "Doukas", "BatEI", "Berman", "Levy", "Ravid", "Bodor", "Reger", "Jamaican", "Demuth", "Narasimhan", "Gaeltacht", "Wijnen", "Utrecht", "Stellenbosch", "Belfast", "Forrester", "Lara", "Wells", "Hamasaki", "Ishii", "MiiPro", "Miyata", "Jordina", "Julia", "Mireiaevapascual", "Antelmi", "Calambrone", "Klammler", "Roma", "Florianopolis", "Santos", "Avram", "Kovacevic", "Chroma", "Protassova", "Tanja", "SCECL", "BSF", "Bol", "Thomas", "MPI-Eva-Manchester", "Beek")
+cSelect=subset(d, (d$corpus_name %in% outofLab))
+
+
+i<-1
+
+#verifies if all corpora have  > 3 speakers
+for (corpus in unique(cSelect$corpus_name)){
+  eachdb=cSelect[cSelect$corpus_name==corpus,]
+  if (length(unique(eachdb$role)) < 3) {unique(eachdb$corpus_name) }
+}
+
+unique(cSelect$role)
+```
+Out of the  lab corpora: 
+ `r unique(cSelect$corpus_name)` 
+ 
+Number of out of  the lab corpora:  `r length(unique(cSelect$corpus_name))` 
+
+Role tags in all CHILDES : `r unique(cSelect$role) `
+
+```{r child speech corpus}
+namePeerSpeech=list()
+dataPeer=list()
+
+#CHECK: all cousins, boys etc below age?
+childSpeakers=c("Sister", "Brother", "Playmate", "Teenager", "Cousin", "Child", "Girl", "Sibling", "Boy")
+
+cSelectPeer=subset(cSelect, (cSelect$role %in% childSpeakers))
+peerCorpusName=unique(cSelectPeer$corpus_name)
+
+
+
+```
+Out of lab CHILDES corpora with child speech (tags= `r head(childSpeakers)`):  `r peerCorpusName` 
+
+Number of CHILDES corpora with peer speech: `r length(peerCorpusName)`
+
+```{r read_csv, eval=TRUE, echo = TRUE} 
+#This chunk takes time to compute!
+table=list()
+i=1
+for (name in peerCorpusName) {
+  c<-get_utterances(corpus=name)
+  tabletmp0<-c %>% group_by(speaker_role) %>% summarise(no_rows = length(speaker_role))
+  tabletmp0<-rbind(table, tabletmp0)
+  i=i+1}
+table
+
+nuttsSummary<-table %>% group_by(speaker_role) %>% summarise(no_rows = sum(no_rows))
+nuttsSummary
+
+
+```
+
+Per corpus Number of utterances per speaker for CHILDES corpora with peer speech: (see table)
+Total Number of utterances per speaker for CHILDES corpora with peer speech: (see nuttsSummary)
+
+```{r wireless, include=TRUE }
+tablew=data.frame()
+
+#CHECK if only these
+wirelessCorpusName<-c("Wells", "Demuth", "Hall")
+
+i=1
+for (name in wirelessCorpusName) {
+  cw<-get_utterances(corpus=name)
+  tabletmp<-cw %>% group_by(speaker_role) %>% summarise(no_rows = length(speaker_role))
+  tablew<-rbind(tablew, tabletmp)
+  i=i+1}
+tablew
+
+nuttsWirelessSummary<-tablew %>% group_by(speaker_role) %>% summarise(no_rows = sum(no_rows))
+nuttsWirelessSummary
+```
+
+Per corpus Number of utterances per speaker for CHILDES corpora with peer speech AND wireless recordings: (see tablew)
+Total Number of utterances per speaker for CHILDES corpora with peer speech AND wireless recordings: (see nuttsWirelessSummary)
+
+
+
+```{r}
+library(googlesheets)
+
+demuth<-read.csv(file="~/Downloads/Copy_sesotho_CDI.csv", header=TRUE)
+# sesotho %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
+
+wells<-read.csv(file="~/Downloads/Wells/output5.csv", header=FALSE, sep=",")
+names(wells)<-c("speaker", "utterance", "directed")
+wells %>% group_by(speaker) %>% summarise(no_rows = length(speaker))
+
+
+```
+
