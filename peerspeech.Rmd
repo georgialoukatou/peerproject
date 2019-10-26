@@ -2,22 +2,28 @@
 title             : "Peer speech project"
 ---
 
-```{r setup, include = FALSE}
+```{r setup, include = FALSE, echo=TRUE, message=FALSE}
 library(childesr)
 library(dplyr)
 
+
 transcripts_ <-get_participants()
 exclude<-c("Biling", "Clinical", "Clinical-MOR")
-d=subset(transcripts_, !(transcripts_$collection_name %in% exclude))
+d=subset(transcripts_, !(transcripts_$collection_name %in% exclude)) #exclude bilingual and clinical studies
 
-#CHECK 1st selection : corpora out of lab, > than 2 speakers
-outofLab<-c("LeeWongLeung","Beijing","TCCM","Zhou3","ZhouDinner","Tsay", "Jakarta", "Jiwon", "Ryu", "Bloom70", "Braunwald", "Brown", "Clark", "Gleason",  "Hall", "Kunczaj", "Post", "Sachs", "Snow", "Suppes", "Valian","Providence", "Champaud", "Geneva","Goadrose", "Leveille", "Paris", "Pauline", "Yamaguchi", "York", "Caroline", "Leo", "Miller", "Rigol","Wagner", "Plunkett", "Kari", "Ringstad", "Aguirre", "Linaza", "LlinasOjea", "Marrero", "Nieva", "OreaPine", "Ornat", "Romero", "Vila","Soto", "CCLAS", "Argus", "Kohler", "Korgessar", "Vija", "Zupping", "Family", "Samadi", "Doukas", "BatEI", "Berman", "Levy", "Ravid", "Bodor", "Reger", "Jamaican", "Demuth", "Narasimhan", "Gaeltacht", "Wijnen", "Utrecht", "Stellenbosch", "Belfast", "Forrester", "Lara", "Wells", "Hamasaki", "Ishii", "MiiPro", "Miyata", "Jordina", "Julia", "Mireiaevapascual", "Antelmi", "Calambrone", "Klammler", "Roma", "Florianopolis", "Santos", "Avram", "Kovacevic", "Chroma", "Protassova", "Tanja", "SCECL", "BSF", "Bol", "Thomas", "MPI-Eva-Manchester", "Beek")
+#1 CHECK 1st selection : corpora out of lab, > than 2 speakers
+#2 CHECK names not found: BolKuiken, Chroma, Jamaican, Berman, CCLAS, Yamaguchi, Paris, Goadrose, Tsay, Zhou3
+
+
+outofLab<-c("LeeWongLeung","Beijing","TCCM","Zhou3","ZhouDinner","Tsay", "Jakarta", "Jiwon", "Ryu", "Bloom70", "Braunwald", "Brown", "Clark", "Gleason",  "Hall", "Kuczaj", "Post", "Sachs", "Snow", "Suppes", "Valian","Providence", "Champaud", "Geneva","Goadrose", "Leveille", "Paris", "Pauline", "Yamaguchi", "York", "Caroline", "Leo", "Miller", "Rigol","Wagner", "Plunkett", "Kari", "Ringstad", "Aguirre", "Linaza", "LlinasOjea", "Marrero", "Nieva", "OreaPine", "Ornat", "Romero", "Vila","Soto", "CCLAS", "Argus", "Kohler", "Korgesaar", "Vija", "Zupping", "Family", "Samadi", "Doukas", "BatEl", "Berman", "Levy", "Ravid", "Bodor", "Reger", "Jamaican", "Demuth", "Narasimhan", "Gaeltacht", "Wijnen", "Utrecht", "Stellenbosch", "Belfast", "Forrester", "Lara", "Wells", "Hamasaki", "Ishii", "MiiPro", "Miyata", "Jordina", "Julia", "MireiaEvaPascual", "SerraSole", "Antelmi", "Calambrone", "Klammler", "Roma", "Florianopolis", "Santos", "Avram", "Kovacevic", "Chroma", "Protassova", "Tanja", "SCECL", "BSF", "BolKuiken", "Thomas", "MPI-EVA-Manchester", "Beek") 
+
+
 cSelect=subset(d, (d$corpus_name %in% outofLab))
 
 
 i<-1
 
-#verifies if all corpora have  > 3 speakers
+#verifies if all corpora have at least 3 speakers
 for (corpus in unique(cSelect$corpus_name)){
   eachdb=cSelect[cSelect$corpus_name==corpus,]
   if (length(unique(eachdb$role)) < 3) {unique(eachdb$corpus_name) }
@@ -32,11 +38,12 @@ Number of out of  the lab corpora:  `r length(unique(cSelect$corpus_name))`
 
 Role tags in all CHILDES : `r unique(cSelect$role) `
 
-```{r child speech corpus}
+```{r child speech corpus, echo=TRUE, message=FALSE}
+#finds corpora with peer speech
 namePeerSpeech=list()
 dataPeer=list()
 
-#CHECK: all cousins, boys etc below age?
+#3 CHECK: all cousins, boys etc Nnot adults?
 childSpeakers=c("Sister", "Brother", "Playmate", "Teenager", "Cousin", "Child", "Girl", "Sibling", "Boy")
 
 cSelectPeer=subset(cSelect, (cSelect$role %in% childSpeakers))
@@ -49,18 +56,20 @@ Out of lab CHILDES corpora with child speech (tags= `r head(childSpeakers)`):  `
 
 Number of CHILDES corpora with peer speech: `r length(peerCorpusName)`
 
-```{r read_csv, eval=TRUE, echo = TRUE} 
+```{r read_csv, eval=TRUE, echo = TRUE, message=FALSE} 
+# counts number of utterances per speaker for the selected out-of-lab corpora
 #This chunk takes time to compute!
-table=list()
-i=1
-for (name in peerCorpusName) {
-  c<-get_utterances(corpus=name)
-  tabletmp0<-c %>% group_by(speaker_role) %>% summarise(no_rows = length(speaker_role))
-  tabletmp0<-rbind(table, tabletmp0)
-  i=i+1}
-table
+tablep=data.frame()
 
-nuttsSummary<-table %>% group_by(speaker_role) %>% summarise(no_rows = sum(no_rows))
+i=1
+for (name in peerCorpusName[1:5]) {   #choosing only first 5 corpora to have it compile faster! 
+  cp<-get_utterances(corpus=name)
+  tabletmp_<-cp %>% group_by(speaker_role) %>% summarise(no_rows = length(speaker_role))
+  tablep<-rbind(tablep, tabletmp_)
+  i=i+1}
+tablep
+
+nuttsSummary<-tablep %>% group_by(speaker_role) %>% summarise(no_rows = sum(no_rows))
 nuttsSummary
 
 
@@ -69,10 +78,12 @@ nuttsSummary
 Per corpus Number of utterances per speaker for CHILDES corpora with peer speech: (see table)
 Total Number of utterances per speaker for CHILDES corpora with peer speech: (see nuttsSummary)
 
-```{r wireless, include=TRUE }
+```{r wireless, include=TRUE, message=FALSE, echo=TRUE}
+# counts number of utterances per speaker for the selected out-of-lab corpora with wireless recordings
+
 tablew=data.frame()
 
-#CHECK if only these
+#4 CHECK if only these
 wirelessCorpusName<-c("Wells", "Demuth", "Hall")
 
 i=1
@@ -92,16 +103,42 @@ Total Number of utterances per speaker for CHILDES corpora with peer speech AND 
 
 
 
-```{r}
-library(googlesheets)
+```{r demuthandwells, include=TRUE, message=FALSE}
 
-demuth<-read.csv(file="~/Downloads/Copy_sesotho_CDI.csv", header=TRUE)
-# sesotho %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
+###5 CHECK: memory processing problems for googlesheets library
 
-wells<-read.csv(file="~/Downloads/Wells/output5.csv", header=FALSE, sep=",")
+#reads demnuth corpus and counts utterances per speaker
+demuth<-read.csv(file="/Users/lscpuser/Downloads/Copy_sesotho_CDI.csv", header=TRUE)
+#demuth_noTargetChild<-subset(demuth, !(demuth$speaker_role_raw == "Target_Child" ))
+sesotho_speakers<- demuth %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
+sesotho_speakers<- sesotho_speakers %>%   arrange(desc(no_rows))
+sesotho_speakers
+
+#reads %dir annotated demnuth corpus and counts utterances per speaker_id, matches with speaker role
+sesotho_directed<- as.data.frame(demuth %>% group_by(childdirected) %>% summarise(no_rows = length(childdirected)))
+speakers_info<- as.data.frame(unique(demuth %>%select(speaker_id, speaker_role_raw, speaker_age, speaker_gender)))
+sesotho_directed_si<-merge(x=sesotho_directed, y=speakers_info, by.x="childdirected", by.y="speaker_id", all.x)
+sesotho_directed_si<- sesotho_directed_si %>%   arrange(desc(no_rows))
+sesotho_directed_si
+
+#same for Wells 
+wells<-read.csv(file="/Users/lscpuser/Downloads/Wells/output2.csv", header=FALSE, sep=";")
 names(wells)<-c("speaker", "utterance", "directed")
-wells %>% group_by(speaker) %>% summarise(no_rows = length(speaker))
+wells_speakers<- wells %>% group_by(speaker) %>% summarise(no_rows = length(speaker))
+wells_speakers<- wells_speakers %>%   arrange(desc(no_rows))
+wells_speakers
 
+#6 CHECK : %dir annotation names 
+wells_directed<- wells %>% group_by(directed) %>% summarise(no_rows = length(directed))
+wells_directed<- wells_directed %>% as_tibble %>%   arrange(desc(no_rows))
+wells_directed<- wells_directed %>%   arrange(desc(no_rows))
+wells_directed
 
 ```
+
+Utterances per speaker Demuth corpus : see sesotho_speakers
+Utterances per speaker Demuth corpus with  directed annotation : see sesotho_directed_si
+
+Utterances per speaker Wells corpus  : see wells_speakers
+Utterances per speaker Wells corpus with directed  annotation : see wells_directed
 
