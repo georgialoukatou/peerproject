@@ -108,27 +108,36 @@ Total Number of utterances per speaker for CHILDES corpora with peer speech AND 
 ###5 CHECK: memory processing problems for googlesheets library
 
 #reads demnuth corpus and counts utterances per speaker
-demuth<-read.csv(file="/Users/lscpuser/Downloads/Copy_sesotho_CDI.csv", header=TRUE)
-#demuth_noTargetChild<-subset(demuth, !(demuth$speaker_role_raw == "Target_Child" ))
+demuth<-read.csv(file="/Users/lscpuser/Downloads/Sesotho_CDI_last.csv", header=TRUE)
 sesotho_speakers<- demuth %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
 sesotho_speakers<- sesotho_speakers %>%   arrange(desc(no_rows))
 sesotho_speakers
 
-#reads %dir annotated demnuth corpus and counts utterances per speaker_id, matches with speaker role
-sesotho_directed<- as.data.frame(demuth %>% group_by(childdirected) %>% summarise(no_rows = length(childdirected)))
-speakers_info<- as.data.frame(unique(demuth %>%select(speaker_id, speaker_role_raw, speaker_age, speaker_gender)))
-sesotho_directed_si<-merge(x=sesotho_directed, y=speakers_info, by.x="childdirected", by.y="speaker_id", all.x)
-sesotho_directed_si<- sesotho_directed_si %>%   arrange(desc(no_rows))
-sesotho_directed_si
+demuth_ntc<-subset(demuth, !(demuth$speaker_role_raw == "Target_Child" ))
+demuth_notdirected<-subset(demuth_ntc, !(demuth_ntc$childdirected=="1"))
+demuth_directed<-subset(demuth_ntc, (demuth_ntc$childdirected=="1"))
 
-#same for Wells 
-wells<-read.csv(file="/Users/lscpuser/Downloads/Wells/output2.csv", header=FALSE, sep=";")
+#counts child directed utterances per speaker
+sesotho_speakers_directed<- demuth_directed %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
+sesotho_speakers_directed<- sesotho_speakers_directed %>%   arrange(desc(no_rows))
+sesotho_speakers_directed #has child directed number of utts per speaker
+
+#matches addressee with speaker role
+directed<- as.data.frame(demuth %>% group_by(childdirected) %>% summarise(no_rows = length(childdirected)))
+speaker_info<- as.data.frame(unique(demuth %>%select(speaker_id, speaker_role_raw, speaker_age, speaker_gender)))
+directed_speaker_info<-merge(x=directed, y=speakers_info, by.x="childdirected", by.y="speaker_id", all.x=TRUE, sort=TRUE)
+directed_speaker_info<- directed_speaker_info %>%   arrange(desc(no_rows))
+directed_speaker_info
+
+#Wells
+#number of utterances per speaker
+wells<-read.csv(file="/Users/lscpuser/Documents/peerproject/peerproject/output2.csv", header=FALSE, sep=";")
 names(wells)<-c("speaker", "utterance", "directed")
 wells_speakers<- wells %>% group_by(speaker) %>% summarise(no_rows = length(speaker))
 wells_speakers<- wells_speakers %>%   arrange(desc(no_rows))
 wells_speakers
 
-#6 CHECK : %dir annotation names 
+#child directed n of utterances
 wells_directed<- wells %>% group_by(directed) %>% summarise(no_rows = length(directed))
 wells_directed<- wells_directed %>% as_tibble %>%   arrange(desc(no_rows))
 wells_directed<- wells_directed %>%   arrange(desc(no_rows))
