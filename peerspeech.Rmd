@@ -108,7 +108,7 @@ Total Number of utterances per speaker for CHILDES corpora with peer speech AND 
 ###5 CHECK: memory processing problems for googlesheets library
 
 #reads demnuth corpus and counts utterances per speaker
-demuth<-read.csv(file="/Users/lscpuser/Downloads/Sesotho_CDI_last.csv", header=TRUE)
+demuth<-read.csv(file="/Users/lscpuser/Downloads/sesotho_CDI_last.csv", header=TRUE)
 sesotho_speakers<- demuth %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
 sesotho_speakers<- sesotho_speakers %>%   arrange(desc(no_rows))
 sesotho_speakers
@@ -142,6 +142,7 @@ wells_directed<- wells %>% group_by(directed) %>% summarise(no_rows = length(dir
 wells_directed<- wells_directed %>% as_tibble %>%   arrange(desc(no_rows))
 wells_directed<- wells_directed %>%   arrange(desc(no_rows))
 wells_directed
+
 
 ```
 
