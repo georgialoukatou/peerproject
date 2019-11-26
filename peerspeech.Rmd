@@ -2,7 +2,7 @@
 title             : "Peer speech project"
 ---
 
-```{r setup, include = FALSE, echo=TRUE, message=FALSE}
+```{r setup,  include = FALSE, echo=TRUE, message=FALSE}
 library(childesr)
 library(dplyr)
 
@@ -56,13 +56,13 @@ Out of lab CHILDES corpora with child speech (tags= `r head(childSpeakers)`):  `
 
 Number of CHILDES corpora with peer speech: `r length(peerCorpusName)`
 
-```{r read_csv, eval=TRUE, echo = TRUE, message=FALSE} 
+```{r read_csv, eval=FALSE, echo = TRUE, message=FALSE} 
 # counts number of utterances per speaker for the selected out-of-lab corpora
 #This chunk takes time to compute!
 tablep=data.frame()
 
 i=1
-for (name in peerCorpusName[1:5]) {   #choosing only first 5 corpora to have it compile faster! 
+for (name in peerCorpusName[1:2]) {   #choosing only first 2 corpora to have it compile faster! 
   cp<-get_utterances(corpus=name)
   tabletmp_<-cp %>% group_by(speaker_role) %>% summarise(no_rows = length(speaker_role))
   tablep<-rbind(tablep, tabletmp_)
@@ -78,7 +78,7 @@ nuttsSummary
 Per corpus Number of utterances per speaker for CHILDES corpora with peer speech: (see table)
 Total Number of utterances per speaker for CHILDES corpora with peer speech: (see nuttsSummary)
 
-```{r wireless, include=TRUE, message=FALSE, echo=TRUE}
+```{r wireless, eval=FALSE, include=TRUE, message=FALSE, echo=TRUE}
 # counts number of utterances per speaker for the selected out-of-lab corpora with wireless recordings
 
 tablew=data.frame()
@@ -103,52 +103,146 @@ Total Number of utterances per speaker for CHILDES corpora with peer speech AND 
 
 
 
-```{r demuthandwells, include=TRUE, message=FALSE}
+```{r demuth, eval=TRUE, include=TRUE, message=FALSE}
 
-###5 CHECK: memory processing problems for googlesheets library
+lang<-"Sesotho"
 
-#reads demnuth corpus and counts utterances per speaker
-demuth<-read.csv(file="/Users/lscpuser/Downloads/sesotho_CDI_last.csv", header=TRUE)
-sesotho_speakers<- demuth %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
+#reads demuth corpus and counts utterances per speaker
+demuth<-read.csv(file="/Users/lscpuser/Documents/peerproject/peerproject/sesotho_emilie_CDI.csv", header=TRUE) # memory processing problems, can't load googlesheets library
+sesotho_speakers<- demuth %>% group_by(role_raw) %>% summarise(no_rows = length(role_raw))
 sesotho_speakers<- sesotho_speakers %>%   arrange(desc(no_rows))
-sesotho_speakers
+sesotho_speakers<-as.data.frame(sesotho_speakers)
+sesotho_speakers_input<-subset(sesotho_speakers, !(sesotho_speakers$role_raw=="Target_Child")) # speaker category  and n of utts per speaker
+sesotho_speakers_input
 
-demuth_ntc<-subset(demuth, !(demuth$speaker_role_raw == "Target_Child" ))
-demuth_notdirected<-subset(demuth_ntc, !(demuth_ntc$childdirected=="1"))
-demuth_directed<-subset(demuth_ntc, (demuth_ntc$childdirected=="1"))
 
-#counts child directed utterances per speaker
-sesotho_speakers_directed<- demuth_directed %>% group_by(speaker_role_raw) %>% summarise(no_rows = length(speaker_role_raw))
-sesotho_speakers_directed<- sesotho_speakers_directed %>%   arrange(desc(no_rows))
-sesotho_speakers_directed #has child directed number of utts per speaker
+total_input<-sum(sesotho_speakers_input$no_rows)
 
-#matches addressee with speaker role
-directed<- as.data.frame(demuth %>% group_by(childdirected) %>% summarise(no_rows = length(childdirected)))
-speaker_info<- as.data.frame(unique(demuth %>%select(speaker_id, speaker_role_raw, speaker_age, speaker_gender)))
-directed_speaker_info<-merge(x=directed, y=speakers_info, by.x="childdirected", by.y="speaker_id", all.x=TRUE, sort=TRUE)
-directed_speaker_info<- directed_speaker_info %>%   arrange(desc(no_rows))
-directed_speaker_info
+#mother input:
+sesotho_mother<-subset(sesotho_speakers_input, (sesotho_speakers_input$role_raw=="Mother"))
+sesotho_mother$no_rows/total_input
 
-#Wells
-#number of utterances per speaker
-wells<-read.csv(file="/Users/lscpuser/Documents/peerproject/peerproject/output2.csv", header=FALSE, sep=";")
-names(wells)<-c("speaker", "utterance", "directed")
-wells_speakers<- wells %>% group_by(speaker) %>% summarise(no_rows = length(speaker))
-wells_speakers<- wells_speakers %>%   arrange(desc(no_rows))
-wells_speakers
+#siblings input:
+sesotho_siblings<-subset(sesotho_speakers_input, (sesotho_speakers_input$role_raw=="Sister" |sesotho_speakers_input$role_raw=="Brother" ))
+sum(sesotho_siblings$no_rows/total_input)
 
-#child directed n of utterances
-wells_directed<- wells %>% group_by(directed) %>% summarise(no_rows = length(directed))
-wells_directed<- wells_directed %>% as_tibble %>%   arrange(desc(no_rows))
-wells_directed<- wells_directed %>%   arrange(desc(no_rows))
-wells_directed
+#other children input:
+sesotho_peers<-subset(sesotho_speakers_input, (sesotho_speakers_input$role_raw=="Cousin" |sesotho_speakers_input$role_raw=="Playmate" | sesotho_speakers_input$role_raw=="Teenager"   ))
+sum(sesotho_peers$no_rows/total_input)
+
+#other adult input:
+sesotho_adults<-subset(sesotho_speakers_input, ( sesotho_speakers_input$role_raw=="Grandmother" | sesotho_speakers_input$role_raw=="Uncle" | sesotho_speakers_input$role_raw=="Adult" |  sesotho_speakers_input$role_raw=="Father"    ))
+sum(sesotho_adults$no_rows/total_input)
+
+#annotated utterances by emilie
+annotated<-demuth[1:36782,]
+annotated_input<-subset(annotated, !(annotated$role_raw=="Target_Child"))
+annotated_input$childdirected<-as.factor(annotated_input$childdirected)
+total_annotated_input<-length(annotated_input$utterance_id)
+annotated_table<- annotated_input %>% group_by(childdirected) %>% summarise(no_rows = length(childdirected))
+annotated_table<-as.data.frame(annotated_table)
+annotated_table<- annotated_table %>%   arrange(desc(no_rows))
+annotated_table
+
+
+
+#target  child directed utts
+child_directed<-subset(annotated_input, (annotated_input$childdirected=="1"))
+cddirected_utts<- as.data.frame(child_directed %>%select(utterance))
+#write.table(cddirected_utts, file=paste0("~/Documents/peerproject/peerproject", lang, "childdirected"), row.names=F, col.names=T,  quote=F) 
+length(child_directed$utterance)/total_annotated_input #percentage of child directed speech vs total annotated
+
+
+#matches addressee with speaker role (especially for non-child directed)
+speaker_info<- as.data.frame(unique(demuth %>%select(speaker_id, role_raw)))
+colnames(speaker_info)[colnames(speaker_info)=="role_raw"] <- "role_adressee"
+annotated_speaker_info<-merge(x=annotated_input, y=speaker_info, by.x="childdirected", by.y="speaker_id", all.x=TRUE, sort=TRUE)
+
+#adult directed utts
+adult_directed<-subset(annotated_speaker_info, !(annotated_speaker_info$role_adressee=="Playmate"| annotated_speaker_info$role_adressee=="Cousin"|annotated_speaker_info$role_adressee=="?"| annotated_speaker_info$childdirected=="SELF"| annotated_speaker_info$role_adressee=="SELF"| annotated_speaker_info$role_adressee=="Brother"| annotated_speaker_info$childdirected=="NA"| annotated_speaker_info$role_adressee=="Teenager"|annotated_speaker_info$role_adressee=="Sister"|annotated_speaker_info$childdirected=="1"|annotated_speaker_info$childdirected=="0"|annotated_speaker_info$childdirected=="O"))
+addirected_utts<- as.data.frame(adult_directed %>%select(utterance))
+write.table(addirected_utts, file=paste0("~/Documents/peerproject/peerproject", "Sesothoadultdirected"), row.names=F, col.names=T,  quote=F) 
+length(adult_directed$utterance)/total_annotated_input #percentage of child directed speech vs total annotated
+
+#na directed
+na_directed<-subset(annotated_input, (annotated_input$childdirected=="NA" |annotated_input$childdirected=="?"  ))
+nadirected_utts<- as.data.frame(na_directed %>%select(utterance))
+#write.table(cddirected_utts, file=paste0("~/Documents/peerproject/peerproject", lang, "childdirected"), row.names=F, col.names=T,  quote=F) 
+length(na_directed$utterance)/total_annotated_input #percentage of child directed speech vs total annotated
+
+
+
+#Sentence  type
+sentence_type_child_annotated<- child_directed %>% group_by(sentence_type) %>% summarise(no_rows = length(sentence_type))
+directed_questions<-subset(sentence_type_child_annotated, (sentence_type_child_annotated$sentence_type=="question"))
+directed_questions$no_rows/sum(sentence_type_child_annotated$no_rows)
+
+sentence_type_adult_annotated<- adult_directed %>% group_by(sentence_type) %>% summarise(no_rows = length(sentence_type))
+adultdirected_questions<-subset(sentence_type_adult_annotated, (sentence_type_adult_annotated$sentence_type=="question"))
+adultdirected_questions$no_rows/sum(sentence_type_adult_annotated$no_rows)
 
 
 ```
 
-Utterances per speaker Demuth corpus : see sesotho_speakers
-Utterances per speaker Demuth corpus with  directed annotation : see sesotho_directed_si
 
-Utterances per speaker Wells corpus  : see wells_speakers
-Utterances per speaker Wells corpus with directed  annotation : see wells_directed
+```{r wells, eval=TRUE, include=TRUE, message=FALSE}
+
+#WELLS
+
+lang<-"English"
+wells<-read.csv(file="/Users/lscpuser/Documents/peerproject/ongoingwellsannotation/wells.csv", header=TRUE)
+wells_input<- wells[!grepl("Target", wells$ROLE),] #remove target child utts
+
+#number of utterances per speaker
+wells_input_speakers<- wells_input %>% group_by(ROLE) %>% summarise(no_rows = length(ROLE))
+wells_input_speakers<- wells_input_speakers %>%   arrange(desc(no_rows))
+wells_input_speakers<- as.data.frame(wells_input_speakers )
+wells_input_speakers  #number of utterances per speaker 
+
+total_winput<-sum(wells_input_speakers$no_rows) #number  of total input utterances
+
+#mother input:
+wells_mother<-subset(wells_input_speakers, (wells_input_speakers$ROLE=="Mother")) #number of utterances by mother 
+wells_mother$no_rows/total_winput # percentage of utterances by mother in total input
+
+#siblings input:
+wells_siblings<- wells_input_speakers[grep("Sister|Brother|Sibling", wells_input_speakers$ROLE),] 
+sum(wells_siblings$no_rows)/total_winput
+
+#other children input:
+wells_chi<- wells_input_speakers[grep("Child|Playmate", wells_input_speakers$ROLE),] 
+sum(wells_chi$no_rows)/total_winput
+
+#other adults input:
+wells_adu<- wells_input_speakers[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father",wells_input_speakers$ROLE),] 
+sum(wells_adu$no_rows)/total_winput
+
+
+#ADRESSEE ANNOTATIONS PART
+wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now
+wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
+wells_annotated_value<-as.data.frame(wells_annotated_value)
+wells_total_annotated_input<-sum(wells_annotated_value$no_rows) #annotated adressees and n of utts  
+wells_annotated_value
+
+#target  child directed
+wells_annotated_CHI<-subset(wells_annotated_input, (wells_annotated_input$DIRECTED=="CHI")) #wells annotated child-directed corpus
+length(wells_annotated_CHI$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)    # n of child-directed utterances
+cddirected_utts<- as.data.frame(wells_annotated_CHI %>%select(UTTERANCE))
+write.table(cddirected_utts, file=paste0("~/Documents/peerproject/", lang,"Wellschilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+
+
+#adult directed 
+adult_directed<-subset(wells_annotated_input, !(wells_annotated_input$DIRECTED=="CHI" |wells_annotated_input$DIRECTED=="0" |wells_annotated_input$DIRECTED=="O" | wells_annotated_input$DIRECTED=="?" | wells_annotated_input$DIRECTED=="SELF"| wells_annotated_input$DIRECTED=="NIC"  | wells_annotated_input$DIRECTED=="TELEPHONE" | wells_annotated_input$DIRECTED=="MIX" | wells_annotated_input$DIRECTED=="LOU" | wells_annotated_input$DIRECTED=="REB" | wells_annotated_input$DIRECTED=="PET"| wells_annotated_input$DIRECTED=="RAC" | wells_annotated_input$DIRECTED=="CHR" | wells_annotated_input$DIRECTED=="NA"))
+addirected_utts<- as.data.frame(adult_directed %>%select(UTTERANCE))
+write.table(addirected_utts, file=paste0("~/Documents/peerproject/", lang, "Wellsadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
+
+length(addirected_utts$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)    # n of child-directed utterances
+
+#NA annotations
+wells_annotated_na <- subset(wells_annotated_input,(wells_annotated_input$DIRECTED=="?"|wells_annotated_input$DIRECTED=="NA"|wells_annotated_input$DIRECTED==""|wells_annotated_input$DIRECTED==" "))
+length(wells_annotated_na$UTTERANCE)/ length(wells_annotated_input$UTTERANCE) 
+
+```
+
 
