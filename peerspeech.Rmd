@@ -215,24 +215,27 @@ total_winput<-sum(wells_input_speakers$no_rows)
 
 #mother input:
 wells_mother<-subset(wells_input_speakers, (wells_input_speakers$ROLE=="Mother")) #number of utterances by mothers
-
 # percentage of utterances by mother in total input
-wells_mother$no_rows/total_winput *100 #52.11768
+wells_mother$no_rows/total_winput *100 #52.11768 %
 
 #siblings input:
 wells_siblings<- wells_input_speakers[grep("Sister|Brother|Sibling", wells_input_speakers$ROLE),] 
-sum(wells_siblings$no_rows)/total_winput
+# percentage of utterances by siblings in total input
+sum(wells_siblings$no_rows)/total_winput *100 #35.10517 %
 
 #other children input:
-wells_chi<- wells_input_speakers[grep("Child|Playmate", wells_input_speakers$ROLE),] 
-sum(wells_chi$no_rows)/total_winput
+wells_chi<- wells_input_speakers[grep("Child|Playmate|child", wells_input_speakers$ROLE),] 
+# percentage of utterances by other children in total input
+sum(wells_chi$no_rows)/total_winput *100 #3.52473 %
 
 #other adults input:
-wells_adu<- wells_input_speakers[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father",wells_input_speakers$ROLE),] 
-sum(wells_adu$no_rows)/total_winput
+wells_adu<- wells_input_speakers[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father",wells_input_speakers$ROLE),]
+# percentage of utterances by other adults in total input
+sum(wells_adu$no_rows)/total_winput *100  #6.495168 %
 
 
 #ADRESSEE ANNOTATIONS PART
+
 wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now
 wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
 wells_annotated_value<-as.data.frame(wells_annotated_value)
