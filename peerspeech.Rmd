@@ -253,7 +253,6 @@ wells_input_speakers  #number of utterances per speaker
 
 ## NUMBER OF UTTERANCW BY SPEAKER
 
-
 #number  of total input utterances
 total_wells_input<-sum(wells_input_speakers$no_rows) 
 
@@ -327,33 +326,39 @@ library(ggplot2)
 library(scales)
 library(gridExtra)
 
-#color blind palette
 
-#scatter plot for all input
-MFV <- ggplot(subset(forsourcegraphs,source %in% c("MFV")), aes( 
-   x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-     aes(x=age_mo))   + labs(x="Age in Months", y="Total input speech vocalizations (mins/h)")  +  guides(size=FALSE, color=F) 
 
-children <- ggplot(subset(forsourcegraphs,source %in% c("children")), aes( 
-   x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-     aes(x=age_mo))    +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank()) 
+#bar plot of CDS vs ADS per corpus
+ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
+  geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
+    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
+  guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
 
-adults <- ggplot(subset(forsourcegraphs,source %in% c("adult")), aes( 
+
+MFV <- ggplot(subset(forsourcegraphs,source %in% c("MFV")), aes(
    x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-     aes(x=age_mo))   +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank()) 
+     aes(x=age_mo))   + labs(x="Age in Months", y="Total input speech vocalizations (mins/h)")  +  guides(size=FALSE, color=F)
+
+children <- ggplot(subset(forsourcegraphs,source %in% c("children")), aes(
+   x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
+     aes(x=age_mo))    +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
+
+adults <- ggplot(subset(forsourcegraphs,source %in% c("adult")), aes(
+   x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
+     aes(x=age_mo))   +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
 
 grid.arrange(MFV, children, adults, nrow = 1)
 
 
 overlap_stackplot_OVERALL <- ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) + 
-  guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15)) 
+    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
+  guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
 
 
 overlap_stackplot_CDS <- ggplot(subset(overall_forsourcegraphs, cds %in% T ), aes(fill=source, y=tot, x=agecat)) +
   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) + 
+    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
     guides(fill=FALSE) + theme( axis.title.y=element_blank(), axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10))
 
 
