@@ -185,7 +185,7 @@ adultdirected_questions$no_rows/sum(sentence_type_adult_annotated$no_rows)
 ```
 
 
-```{r wells, eval=TRUE, include=TRUE, message=FALSE}
+```{r wells preparation, eval=TRUE, include=TRUE, message=FALSE}
 
 #load Wells data
 
@@ -233,13 +233,21 @@ wells_adu<- wells_input_speakers[grep("Adult|Uncle|Grandmother|Family_Friend|Vis
 # percentage of utterances by other adults in total input
 sum(wells_adu$no_rows)/total_winput *100  #6.495168 %
 
+``` 
+
+```{r wells directedness, eval=TRUE, include=TRUE, message=FALSE}
+
 
 #ADRESSEE ANNOTATIONS PART
 
-wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now
+wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 2059 rows PLEASE UPDATE as we go !!
+
+# count different types of addressees 
 wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
+#create a data.frame
 wells_annotated_value<-as.data.frame(wells_annotated_value)
-wells_total_annotated_input<-sum(wells_annotated_value$no_rows) #annotated adressees and n of utts  
+#annotated adressees and n of utts 
+wells_total_annotated_input<-sum(wells_annotated_value$no_rows)  
 wells_annotated_value
 
 #target  child directed
