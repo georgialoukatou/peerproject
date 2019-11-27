@@ -246,23 +246,28 @@ wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select 
 wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
 #create a data.frame
 wells_annotated_value<-as.data.frame(wells_annotated_value)
-#annotated adressees and n of utts 
-wells_total_annotated_input<-sum(wells_annotated_value$no_rows)  
+#Number of number  of utts that have annotated adressees
+wells_total_annotated_input<-sum(wells_annotated_value$no_rows)  #2059
 wells_annotated_value
 
-#target  child directed
+# Utterances addressed to the target child  aka CDS
 wells_annotated_CHI<-subset(wells_annotated_input, (wells_annotated_input$DIRECTED=="CHI")) #wells annotated child-directed corpus
-length(wells_annotated_CHI$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)    # n of child-directed utterances
-cddirected_utts<- as.data.frame(wells_annotated_CHI %>%select(UTTERANCE))
-write.table(cddirected_utts, file=paste0( lang,"Wellschilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+# n of child-directed utterances
+length(wells_annotated_CHI$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)  * 100 #45.07042
+#subset all utterances marked as CDS
+cd_directed_utts<- as.data.frame(wells_annotated_CHI %>%select(UTTERANCE))
+#export all CDS utterance into a text file
+write.table(cd_directed_utts, file=paste0( lang,"Wellschilddirected.txt"), row.names=F, col.names=T,  quote=F) 
 
+# Utterances addressed to adults aka ADS
 
-#adult directed 
-adult_directed<-subset(wells_annotated_input, !(wells_annotated_input$DIRECTED=="CHI" |wells_annotated_input$DIRECTED=="0" |wells_annotated_input$DIRECTED=="O" | wells_annotated_input$DIRECTED=="?" | wells_annotated_input$DIRECTED=="SELF"| wells_annotated_input$DIRECTED=="NIC"  | wells_annotated_input$DIRECTED=="TELEPHONE" | wells_annotated_input$DIRECTED=="MIX" | wells_annotated_input$DIRECTED=="LOU" | wells_annotated_input$DIRECTED=="REB" | wells_annotated_input$DIRECTED=="PET"| wells_annotated_input$DIRECTED=="RAC" | wells_annotated_input$DIRECTED=="CHR" | wells_annotated_input$DIRECTED=="NA"))
-addirected_utts<- as.data.frame(adult_directed %>%select(UTTERANCE))
-write.table(addirected_utts, file=paste0(lang, "Wellsadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
+#for this it needed to know the corpus quite well... So I'm assuming that LOU - REB - RAC - CHR - 0 - NIC ARE NOT ADULTS right???
+well_adult_directed<-subset(wells_annotated_input, !(wells_annotated_input$DIRECTED=="CHI" |wells_annotated_input$DIRECTED=="0" |wells_annotated_input$DIRECTED=="O" | wells_annotated_input$DIRECTED=="?" | wells_annotated_input$DIRECTED=="SELF"| wells_annotated_input$DIRECTED=="NIC"  | wells_annotated_input$DIRECTED=="TELEPHONE" | wells_annotated_input$DIRECTED=="MIX" | wells_annotated_input$DIRECTED=="LOU" | wells_annotated_input$DIRECTED=="REB" | wells_annotated_input$DIRECTED=="PET"| wells_annotated_input$DIRECTED=="RAC" | wells_annotated_input$DIRECTED=="CHR" | wells_annotated_input$DIRECTED=="NA"))
+wells_ad_directed_utts<- as.data.frame(well_adult_directed %>%select(UTTERANCE))
+write.table(wells_ad_directed_utts, file=paste0(lang, "Wellsadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
 
-length(addirected_utts$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)    # n of child-directed utterances
+ # n of child-directed utterances
+length(wells_ad_directed_utts$UTTERANCE)/ length(wells_annotated_input$UTTERANCE) * 100 #100
 
 #NA annotations
 wells_annotated_na <- subset(wells_annotated_input,(wells_annotated_input$DIRECTED=="?"|wells_annotated_input$DIRECTED=="NA"|wells_annotated_input$DIRECTED==""|wells_annotated_input$DIRECTED==" "))
