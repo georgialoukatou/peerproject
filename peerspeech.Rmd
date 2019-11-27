@@ -157,49 +157,73 @@ demuth_annotated<-demuth[1:36782,]   #this is 53% annotated is this correct ???
 #Remove all target child aka the one recorded utterances
 demuth_annotated_input<-subset(demuth_annotated, !(demuth_annotated$role_raw=="Target_Child"))
 
+#classify into categories the different speakers 
 demuth_annotated_input$childdirected<-as.factor(demuth_annotated_input$childdirected)
-total_demuth_annotated_input<-length(demuth_annotated_input$utterance_id)
-demuth_annotated_table<- demuth_annotated_input %>% group_by(childdirected) %>% summarise(no_rows = length(childdirected))
+#total utterances 
+total_demuth_annotated_input<-length(demuth_annotated_input$utterance_id) # 21042
+
+##CREATE TABLE of different speakers in the corpus
+demuth_annotated_table<- demuth_annotated_input %>% group_by(childdirected) %>% summarise(no_rows = length(childdirected))#there is a warning message about:  Factor `childdirected` contains implicit NA, consider using `forcats::fct_explicit_na`
+
+#treat the table as a data.frame
 demuth_annotated_table<-as.data.frame(demuth_annotated_table)
+# re order by descending number
 demuth_annotated_table<- demuth_annotated_table %>%   arrange(desc(no_rows))
 demuth_annotated_table
 
 
+# Utterances addressed to the target child  aka CDS
+demuth_child_directed<-subset(demuth_annotated_input, (demuth_annotated_input$childdirected=="1"))
+demuth_cd_directed_utts<- as.data.frame(demuth_child_directed %>%select(utterance))
+#write.table(demuth_cd_directed_utts, file=paste0(lang, "Demuthchilddirected.txt"), row.names=F, col.names=T,  quote=F)  !!!  i slighlty change this so be careful if you use it in CLAN or elsewhere from childdirected.txt to Demuthchilddirected.txt
 
-#target  child directed utts
-child_directed<-subset(demuth_annotated_input, (demuth_annotated_input$childdirected=="1"))
-cddirected_utts<- as.data.frame(child_directed %>%select(utterance))
-#write.table(cddirected_utts, file=paste0("~/Documents/peerproject/peerproject", lang, "childdirected"), row.names=F, col.names=T,  quote=F) 
-length(child_directed$utterance)/total_demuth_annotated_input #percentage of child directed speech vs total annotated
-
-
-#matches addressee with speaker role (especially for non-child directed)
-speaker_info<- as.data.frame(unique(demuth %>%select(speaker_id, role_raw)))
-colnames(speaker_info)[colnames(speaker_info)=="role_raw"] <- "role_adressee"
-annotated_speaker_info<-merge(x=demuth_annotated_input, y=speaker_info, by.x="childdirected", by.y="speaker_id", all.x=TRUE, sort=TRUE)
-
-#adult directed utts
-adult_directed<-subset(annotated_speaker_info, !(annotated_speaker_info$role_adressee=="Playmate"| annotated_speaker_info$role_adressee=="Cousin"|annotated_speaker_info$role_adressee=="?"| annotated_speaker_info$childdirected=="SELF"| annotated_speaker_info$role_adressee=="SELF"| annotated_speaker_info$role_adressee=="Brother"| annotated_speaker_info$childdirected=="NA"| annotated_speaker_info$role_adressee=="Teenager"|annotated_speaker_info$role_adressee=="Sister"|annotated_speaker_info$childdirected=="1"|annotated_speaker_info$childdirected=="0"|annotated_speaker_info$childdirected=="O"))
-addirected_utts<- as.data.frame(adult_directed %>%select(utterance))
-write.table(addirected_utts, file=paste0("Sesothoadultdirected"), row.names=F, col.names=T,  quote=F) 
-length(adult_directed$utterance)/total_demuth_annotated_input #percentage of child directed speech vs total annotated
-
-#na directed
-na_directed<-subset(demuth_annotated_input, (demuth_annotated_input$childdirected=="NA" |demuth_annotated_input$childdirected=="?"  ))
-nadirected_utts<- as.data.frame(na_directed %>%select(utterance))
-#write.table(cddirected_utts, file=paste0("~/Documents/peerproject/peerproject", lang, "childdirected"), row.names=F, col.names=T,  quote=F) 
-length(na_directed$utterance)/total_demuth_annotated_input #percentage of child directed speech vs total annotated
+#percentage of child directed speech vs total annotated
+length(demuth_child_directed$utterance)/total_demuth_annotated_input *100 #85.60498
 
 
+#matches addressee with speaker roles (especially for non-child directed)
+speaker_info_demuth<- as.data.frame(unique(demuth %>%select(speaker_id, role_raw)))
+colnames(speaker_info_demuth)[colnames(speaker_info_demuth)=="role_raw"] <- "role_adressee"
+annotated_speaker_info_demuth<-merge(x=demuth_annotated_input, y=speaker_info_demuth, by.x="childdirected", by.y="speaker_id", all.x=TRUE, sort=TRUE)
 
-#Sentence  type
-sentence_type_child_annotated<- child_directed %>% group_by(sentence_type) %>% summarise(no_rows = length(sentence_type))
-directed_questions<-subset(sentence_type_child_annotated, (sentence_type_child_annotated$sentence_type=="question"))
-directed_questions$no_rows/sum(sentence_type_child_annotated$no_rows)
+# Utterances addressed to adults aka ADS
+demuth_adult_directed<-subset(annotated_speaker_info_demuth, !(annotated_speaker_info_demuth$role_adressee=="Playmate"| annotated_speaker_info_demuth$role_adressee=="Cousin"|annotated_speaker_info_demuth$role_adressee=="?"| annotated_speaker_info_demuth$childdirected=="SELF"| annotated_speaker_info_demuth$role_adressee=="SELF"| annotated_speaker_info_demuth$role_adressee=="Brother"| annotated_speaker_info_demuth$childdirected=="NA"| annotated_speaker_info_demuth$role_adressee=="Teenager"|annotated_speaker_info_demuth$role_adressee=="Sister"|annotated_speaker_info_demuth$childdirected=="1"|annotated_speaker_info_demuth$childdirected=="0"|annotated_speaker_info_demuth$childdirected=="O"))
 
-sentence_type_adult_annotated<- adult_directed %>% group_by(sentence_type) %>% summarise(no_rows = length(sentence_type))
-adultdirected_questions<-subset(sentence_type_adult_annotated, (sentence_type_adult_annotated$sentence_type=="question"))
-adultdirected_questions$no_rows/sum(sentence_type_adult_annotated$no_rows)
+#subset all utterances marked as ADS
+demuth_ad_directed_utts<- as.data.frame(demuth_adult_directed %>%select(utterance))
+#export all ADS utterance into a text file
+write.table(demuth_ad_directed_utts, file=paste0("Sesothoadultdirected"), row.names=F, col.names=T,  quote=F) 
+
+#percentage of adult directed speech vs total annotated
+length(demuth_adult_directed$utterance)/total_demuth_annotated_input *100 #4.148845
+
+#Utterances marked as NO directed speech 
+demuth_na_directed<-subset(demuth_annotated_input, (demuth_annotated_input$childdirected=="NA" |demuth_annotated_input$childdirected=="?"  ))
+demuth_nodirected_utts<- as.data.frame(demuth_na_directed %>%select(utterance))
+#write.table(demuth_nodirected_utts, file=paste0( lang, "Demuth_nodirected"), row.names=F, col.names=T,  quote=F) !!! ALSO NAME CHANGED !!!
+
+#percentage of child directed speech vs total annotated
+length(demuth_na_directed$utterance)/total_demuth_annotated_input *100 #2.917974
+
+``` 
+
+```{r demuth sentence type, eval=TRUE, include=TRUE, message=FALSE}
+
+#Utterances type analysis
+
+#Utterances marked as CDS
+demuth_sentence_type_child_annotated<- demuth_child_directed %>% group_by(sentence_type) %>% summarise(no_rows = length(sentence_type))
+#Utterances marked as questions
+directed_questions<-subset(demuth_sentence_type_child_annotated, (demuth_sentence_type_child_annotated$sentence_type=="question"))
+#percentage marked as questions in CDS annotated corpus 
+directed_questions$no_rows/sum(demuth_sentence_type_child_annotated$no_rows) *100 #40.12102
+
+#Sentences marked as ADS
+demuth_sentence_type_adult_annotated<- demuth_adult_directed %>% group_by(sentence_type) %>% summarise(no_rows = length(sentence_type))
+#Utterances marked as questions
+adultdirected_questions<-subset(demuth_sentence_type_adult_annotated, (demuth_sentence_type_adult_annotated$sentence_type=="question"))
+#percentage marked as questions in ADS annotated corpus 
+adultdirected_questions$no_rows/sum(demuth_sentence_type_adult_annotated$no_rows)*100 #20.38946
 
 
 ```
@@ -256,8 +280,6 @@ sum(wells_adu$no_rows)/total_wells_input *100  #6.495168 %
 ``` 
 
 ```{r wells directedness, eval=TRUE, include=TRUE, message=FALSE}
-
-
 #ADRESSEE ANNOTATIONS PART
 
 wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 2059 rows PLEASE UPDATE as we go !!
@@ -271,19 +293,21 @@ wells_total_annotated_input<-sum(wells_annotated_value$no_rows)  #2059
 wells_annotated_value
 
 # Utterances addressed to the target child  aka CDS
-wells_annotated_CHI<-subset(wells_annotated_input, (wells_annotated_input$DIRECTED=="CHI")) #wells annotated child-directed corpus
+wells_child_directed<-subset(wells_annotated_input, (wells_annotated_input$DIRECTED=="CHI")) #wells annotated child-directed corpus
 # n of child-directed utterances
-length(wells_annotated_CHI$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)  * 100 #45.07042
+length(wells_child_directed$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)  * 100 #45.07042
 #subset all utterances marked as CDS
-cd_directed_utts<- as.data.frame(wells_annotated_CHI %>%select(UTTERANCE))
+wells_cd_directed_utts<- as.data.frame(wells_child_directed %>%select(UTTERANCE))
 #export all CDS utterance into a text file
-write.table(cd_directed_utts, file=paste0( lang,"Wellschilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(wells_cd_directed_utts, file=paste0( lang,"Wellschilddirected.txt"), row.names=F, col.names=T,  quote=F) 
 
 # Utterances addressed to adults aka ADS
 
 #for this it needed to know the corpus quite well... So I'm assuming that LOU - REB - RAC - CHR - 0 - NIC ARE NOT ADULTS right???
 well_adult_directed<-subset(wells_annotated_input, !(wells_annotated_input$DIRECTED=="CHI" |wells_annotated_input$DIRECTED=="0" |wells_annotated_input$DIRECTED=="O" | wells_annotated_input$DIRECTED=="?" | wells_annotated_input$DIRECTED=="SELF"| wells_annotated_input$DIRECTED=="NIC"  | wells_annotated_input$DIRECTED=="TELEPHONE" | wells_annotated_input$DIRECTED=="MIX" | wells_annotated_input$DIRECTED=="LOU" | wells_annotated_input$DIRECTED=="REB" | wells_annotated_input$DIRECTED=="PET"| wells_annotated_input$DIRECTED=="RAC" | wells_annotated_input$DIRECTED=="CHR" | wells_annotated_input$DIRECTED=="NA"))
+#subset all utterances marked as ADS
 wells_ad_directed_utts<- as.data.frame(well_adult_directed %>%select(UTTERANCE))
+#export all ADS utterance into a text file
 write.table(wells_ad_directed_utts, file=paste0(lang, "Wellsadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
 
  # n of adult directed utterances
