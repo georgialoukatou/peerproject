@@ -236,49 +236,50 @@ adultdirected_questions$no_rows/sum(demuth_sentence_type_adult_annotated$no_rows
 lang<-"English"
 wells<-read.csv(file="wells.csv", header=TRUE) #11,866
 
+#mark corpus by keychild cs: I checked twice i someone wants to double check awesome
+wells$keychild <- NA
+wells$keychild [1:2278] <- "benjamin"
+wells$keychild [2279:3400] <- "samantha"
+wells$keychild [3401:3962] <- "debbie"
+wells$keychild [3963:4776] <- "sheila"
+wells$keychild [4777:5601] <- "stella"
+wells$keychild [5602:7224] <- "abigail"
+wells$keychild [7225:9038] <- "geoffrey"
+wells$keychild [9039:10909] <- "harriet"
+wells$keychild [10910:11866] <- "laura"
+
+#add gender
+wells$gender [wells$keychild == "benjamin"] <- "M"
+wells$gender [wells$keychild == "samantha"] <- "F"
+wells$gender [wells$keychild == "debbie"] <- "F"
+wells$gender [wells$keychild == "samantha"] <- "F"
+wells$gender [wells$keychild == "sheila"] <- "F"
+wells$gender [wells$keychild == "stella"] <- "F"
+wells$gender [wells$keychild == "abigail"] <- "F"
+wells$gender [wells$keychild == "geoffrey"] <- "M"
+wells$gender [wells$keychild == "harriet"] <- "F" #assuming girl
+wells$gender [wells$keychild == "laura"] <- "F"
+
+
 #remove target child utts  aka 4,830 entries
 wells_input<- wells[!grepl("Target", wells$ROLE),] 
 
-
-#number of utterances per speaker
-wells_input_speakers<- wells_input %>% group_by(ROLE) %>% summarise(no_rows = length(ROLE))
-
-#order by number of utt
-wells_input_speakers<- wells_input_speakers %>%   arrange(desc(no_rows))
-
-#create a data.frame 
-wells_input_speakers<- as.data.frame(wells_input_speakers)
-wells_input_speakers  #number of utterances per speaker 
+wells_input$speaker[wells_input$ROLE == "Mother"] <- "mother"
+wells_input$speaker[grep("Sister|Brother|Sibling", wells_input$ROLE)]  <- "sibling"
+wells_input$speaker[grep("Child|Playmate|child", wells_input$ROLE)]  <- "peer"
+wells_input$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", wells_input$ROLE)]  <- "adult"
 
 
-## NUMBER OF UTTERANCW BY SPEAKER
+write.table(wells_input, file=paste0("wells_input.txt"), row.names=F, col.names=T,  quote=F) 
 
-#number  of total input utterances
-total_wells_input<-sum(wells_input_speakers$no_rows) 
 
-#mother input:
-wells_mother<-subset(wells_input_speakers, (wells_input_speakers$ROLE=="Mother")) #number of utterances by mothers
-# percentage of utterances by mother in total input
-wells_mother$no_rows/total_wells_input *100 #52.11768 %
-
-#siblings input:
-wells_siblings<- wells_input_speakers[grep("Sister|Brother|Sibling", wells_input_speakers$ROLE),] 
-# percentage of utterances by siblings in total input
-sum(wells_siblings$no_rows)/total_wells_input *100 #35.10517 %
-
-#other children input:
-wells_chi<- wells_input_speakers[grep("Child|Playmate|child", wells_input_speakers$ROLE),] 
-# percentage of utterances by other children in total input
-sum(wells_chi$no_rows)/total_wells_input *100 #3.52473 %
-
-#other adults input:
-wells_adu<- wells_input_speakers[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father",wells_input_speakers$ROLE),]
-# percentage of utterances by other adults in total input
-sum(wells_adu$no_rows)/total_wells_input *100  #6.495168 %
 
 ``` 
 
 ```{r wells directedness, eval=TRUE, include=TRUE, message=FALSE}
+
+read.table("wells_input.txt",header=T)->wells_input
+
 #ADRESSEE ANNOTATIONS PART
 
 wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 2059 rows PLEASE UPDATE as we go !!
@@ -321,6 +322,10 @@ length(wells_annotated_na$UTTERANCE)/ length(wells_annotated_input$UTTERANCE) *1
 ```
 
 ```{r figure making, eval=TRUE, include=TRUE, message=FALSE}
+
+read.table("wells_input_speakers.txt",header=T)->wells_input_speakers
+
+
 #install libraries
 library(ggplot2)
 library(scales)
