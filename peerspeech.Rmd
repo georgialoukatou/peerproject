@@ -276,6 +276,10 @@ write.table(wells, file=paste0("wells_input.txt"), row.names=F, col.names=T,  qu
 
 
 aggregate(wells$UTTERANCE,by=list( wells$speaker, wells$keychild),length )->sum_wells
+
+try<- wells %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) # 21042
+
+
 colnames(sum_wells) <- c("speaker", "keychild", "nb_utt")
 
 ggplot(sum_wells, aes( y=nb_utt, x=keychild, fill=speaker))+
