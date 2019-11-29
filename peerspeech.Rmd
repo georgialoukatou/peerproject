@@ -262,27 +262,34 @@ wells$gender [wells$keychild == "laura"] <- "F"
 
 
 #remove target child utts  aka 4,830 entries
-wells_input<- wells[!grepl("Target", wells$ROLE),] 
-
-wells_input$speaker[wells_input$ROLE == "Mother"] <- "mother"
-wells_input$speaker[grep("Sister|Brother|Sibling", wells_input$ROLE)]  <- "sibling"
-wells_input$speaker[grep("Child|Playmate|child", wells_input$ROLE)]  <- "peer"
-wells_input$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", wells_input$ROLE)]  <- "adult"
-
-
-write.table(wells_input, file=paste0("wells_input.txt"), row.names=F, col.names=T,  quote=F) 
+#wells_input<- wells[!grepl("Target", wells$ROLE),] 
+wells$speaker[wells$ROLE == "Mother"] <- "mother"
+wells$speaker[grep("Sister|Brother|Sibling", wells$ROLE)]  <- "sibling"
+wells$speaker[grep("Child|Playmate|child", wells$ROLE)]  <- "peer"
+wells$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", wells$ROLE)]  <- "adult"
+wells$speaker[grep("Target", wells$ROLE)] <- "Target_Child"
 
 
 
+colnames(wells)<-c("NAME"   ,   "ROLE"   ,   "UTTERANCE", "COMMENT"  , "DIRECTED" , "empty"     ,    "empty2"     ,  "keychild" , "gender"   , "speaker")
+write.table(wells, file=paste0("wells_input.txt"), row.names=F, col.names=T,  quote=F) 
+
+
+aggregate(wells$UTTERANCE,by=list( wells$speaker, wells$keychild),length )->sum_wells
+colnames(sum_wells) <- c("speaker", "keychild", "nb_utt")
+
+ggplot(sum_wells, aes( y=nb_utt, x=keychild, fill=speaker))+
+  geom_bar(stat="identity", position="dodge")
 ``` 
 
 ```{r wells directedness, eval=TRUE, include=TRUE, message=FALSE}
 
-read.table("wells_input.txt",header=T)->wells_input
+
+#NOT WORKING FOR SOME REASON:
+#read.table("wells_input.txt",header=F)->wells_input
 
 #ADRESSEE ANNOTATIONS PART
-
-wells_annotated_input<-subset(wells_input, !(wells_input$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 2059 rows PLEASE UPDATE as we go !!
+wells_annotated_input<-subset(wells, !(wells$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 2059 rows PLEASE UPDATE as we go !!
 
 # count different types of addressees 
 wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
