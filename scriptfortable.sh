@@ -2,7 +2,7 @@
 
 module  load anaconda/3
 source activate wordseg
-pathToText="/scratch2/gloukatou/peer_project/Wells" #path to text we want the stats from:
+pathToText="/scratch2/gloukatou/peer_project/Wells" #path to text we want the descriptive stats from (MLU, MATTR, % questions)
 
 
 
