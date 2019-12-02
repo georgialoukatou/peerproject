@@ -270,30 +270,44 @@ wells$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", 
 wells$speaker[grep("Target", wells$ROLE)] <- "Target_Child"
 
 
-
+#name and save data
 colnames(wells)<-c("NAME"   ,   "ROLE"   ,   "UTTERANCE", "COMMENT"  , "DIRECTED" , "empty"     ,    "empty2"     ,  "keychild" , "gender"   , "speaker")
 write.table(wells, file=paste0("wells_input.txt"), row.names=F, col.names=T,  quote=F) 
 
-
+#Sum the number of utterances per speaker category and keychild
 aggregate(wells$UTTERANCE,by=list( wells$speaker, wells$keychild),length )->sum_wells
-
-try<- wells %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) # 21042
-
-
 colnames(sum_wells) <- c("speaker", "keychild", "nb_utt")
 
-ggplot(sum_wells, aes( y=nb_utt, x=keychild, fill=speaker))+
-  geom_bar(stat="identity", position="dodge")
+
+try<- wells %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) # 11866
+
+#
+
 ``` 
 
 ```{r wells directedness, eval=TRUE, include=TRUE, message=FALSE}
-
 
 #NOT WORKING FOR SOME REASON:
 #read.table("wells_input.txt",header=F)->wells_input
 
 #ADRESSEE ANNOTATIONS PART
-wells_annotated_input<-subset(wells, !(wells$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 2059 rows PLEASE UPDATE as we go !!
+wells_annotated_input<-subset(wells, !(wells$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 3098 rows PLEASE UPDATE as we go !!
+
+#Sum the number of utterances per speaker category and keychild
+aggregate(wells_annotated_input$UTTERANCE,by=list( wells_annotated_input$speaker, wells_annotated_input$keychild),length )->sum_wells_annotated
+colnames(sum_wells_annotated) <- c("speaker", "keychild", "nb_utt")
+
+
+#Sum the number of utterances per speaker category and keychild
+aggregate(wells_annotated_input$UTTERANCE,by=list(wells_annotated_input$DIRECTED,  wells_annotated_input$speaker, wells_annotated_input$keychild),length )->sum_wells_addressee
+colnames(sum_wells_addressee) <- c("addresse", "speaker", "keychild", "nb_utt")
+
+# Utterances addressed to the target child  aka CDS
+wells_child_directed<-subset(wells_annotated_input, (wells_annotated_input$DIRECTED=="CHI"))
+
+aggregate(wells_child_directed$UTTERANCE,by=list(wells_child_directed$speaker, wells_child_directed$keychild),length )->sum_wells_CDS
+colnames(sum_wells_CDS) <- c( "speaker", "keychild", "nb_utt")
+
 
 # count different types of addressees 
 wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
@@ -334,51 +348,103 @@ length(wells_annotated_na$UTTERANCE)/ length(wells_annotated_input$UTTERANCE) *1
 
 ```{r figure making, eval=TRUE, include=TRUE, message=FALSE}
 
-read.table("wells_input_speakers.txt",header=T)->wells_input_speakers
-
-
 #install libraries
 library(ggplot2)
 library(scales)
 library(gridExtra)
 
+#defining multiplot
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
+#not normalized / all corpus
+wells_full <- ggplot(sum_wells, aes( y=nb_utt, x=keychild, fill=speaker))+
+  geom_bar(stat="identity", position="fill")
+#not normalized / all corpus
+wells_annot<- ggplot(sum_wells_annotated, aes( y=nb_utt, x=keychild, fill=speaker))+
+  geom_bar(stat="identity", position="fill")
+
+wells_addresse<- ggplot(sum_wells_addressee, aes( y=nb_utt, x=keychild, fill=addresse))+
+  geom_bar(stat="identity", position="dodge")
+
+wells_CDS<- ggplot(sum_wells_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
+  geom_bar(stat="identity", position="fill")
 
 
-#bar plot of CDS vs ADS per corpus
-ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
-  geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
-  guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
+
+#panel
+ multiplot (wells_full, wells_annot, wells_addresse, wells_CDS, cols=2)
 
 
-MFV <- ggplot(subset(forsourcegraphs,source %in% c("MFV")), aes(
-   x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-     aes(x=age_mo))   + labs(x="Age in Months", y="Total input speech vocalizations (mins/h)")  +  guides(size=FALSE, color=F)
-
-children <- ggplot(subset(forsourcegraphs,source %in% c("children")), aes(
-   x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-     aes(x=age_mo))    +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
-
-adults <- ggplot(subset(forsourcegraphs,source %in% c("adult")), aes(
-   x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-     aes(x=age_mo))   +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
-
-grid.arrange(MFV, children, adults, nrow = 1)
-
-
-overlap_stackplot_OVERALL <- ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
-  geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
-  guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
-
-
-overlap_stackplot_CDS <- ggplot(subset(overall_forsourcegraphs, cds %in% T ), aes(fill=source, y=tot, x=agecat)) +
-  geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-    x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
-    guides(fill=FALSE) + theme( axis.title.y=element_blank(), axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10))
-
-
-grid.arrange(overlap_stackplot_OVERALL, overlap_stackplot_CDS, nrow = 1)
+# 
+# #bar plot of CDS vs ADS per corpus
+# ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
+#   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
+#     x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
+#   guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
+# 
+# 
+# MFV <- ggplot(subset(forsourcegraphs,source %in% c("MFV")), aes(
+#    x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
+#      aes(x=age_mo))   + labs(x="Age in Months", y="Total input speech vocalizations (mins/h)")  +  guides(size=FALSE, color=F)
+# 
+# children <- ggplot(subset(forsourcegraphs,source %in% c("children")), aes(
+#    x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
+#      aes(x=age_mo))    +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
+# 
+# adults <- ggplot(subset(forsourcegraphs,source %in% c("adult")), aes(
+#    x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
+#      aes(x=age_mo))   +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
+# 
+# grid.arrange(MFV, children, adults, nrow = 1)
+# 
+# 
+# overlap_stackplot_OVERALL <- ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
+#   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
+#     x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
+#   guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
+# 
+# 
+# overlap_stackplot_CDS <- ggplot(subset(overall_forsourcegraphs, cds %in% T ), aes(fill=source, y=tot, x=agecat)) +
+#   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
+#     x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
+#     guides(fill=FALSE) + theme( axis.title.y=element_blank(), axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10))
+# 
+# 
+# grid.arrange(overlap_stackplot_OVERALL, overlap_stackplot_CDS, nrow = 1)
 
 
 
