@@ -108,43 +108,38 @@ Total Number of utterances per speaker for CHILDES corpora with peer speech AND 
 lang<-"Sesotho"
 
 #reads demuth corpus and counts utterances per speaker
-demuth<-read.csv(file="sesotho_emilie_CDI.csv", header=TRUE) # memory processing problems, can't load googlesheets library
+demuth<-read.csv(file="sesotho_emilie_CDI.csv", header=TRUE) # memory processing problems, can't load googlesheets 
+
+#mark corpus by keychild cs: I checked twice i someone wants to double check awesome
+demuth$keychild <- NA
+demuth$keychild[demuth$session_id_fk.x %in% c(2414:2458)] <- "Hlobohang"
+demuth$keychild[demuth$session_id_fk.x %in% c(2459:2503)] <- "Litlhare"
+demuth$keychild[demuth$session_id_fk.x %in% c(2504:2542)] <- "Tsebo"
+
+
 #number of utterances per speaker
-sesotho_speakers<- demuth %>% group_by(role_raw) %>% summarise(no_rows = length(role_raw))
-#order by number of utt
-sesotho_speakers<- sesotho_speakers %>%   arrange(desc(no_rows))
-#create data.frame
-sesotho_speakers<-as.data.frame(sesotho_speakers)
-#remove target child utts  
-sesotho_speakers_input<-subset(sesotho_speakers, !(sesotho_speakers$role_raw=="Target_Child"))
-sesotho_speakers_input
 
-## NUMBER OF UTTERANCW BY SPEAKER
+demuth$speaker[demuth$role_raw == "Mother"] <- "mother"
+demuth$speaker[demuth$role_raw == "Investigator"] <- "investigator"
+demuth$speaker[grep("Sister|Brother|Sibling", demuth$role_raw)]  <- "sibling"
+demuth$speaker[grep("Child|Playmate|child|Teenager|Cousin", demuth$role_raw)]  <- "peer"
+demuth$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", demuth$role_raw)]  <- "adult"
+demuth$speaker[grep("Target", demuth$role_raw)] <- "Target_Child"
 
 
+#save changes
+write.table(demuth, file=paste0("demuth_input.txt"), row.names=F, col.names=T,  quote=F) 
+
+#Sum the number of utterances per speaker category and keychild
+aggregate(demuth$utterance_id,by=list( demuth$speaker, demuth$keychild),length )->sum_demuth
+colnames(sum_demuth) <- c("speaker", "keychild", "nb_utt")
+
+#lenght demuth by child
+trybis<- demuth %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) # 11866
+
+#sesotho_speakers<- demuth %>% group_by(role_raw) %>% summarise(no_rows = length(role_raw))
 #number  of total input utterances
-total_demuth_input<-sum(sesotho_speakers_input$no_rows)
-
-#mother input:
-sesotho_mother<-subset(sesotho_speakers_input, (sesotho_speakers_input$role_raw=="Mother"))
-# percentage of utterances by mother in total input
-sesotho_mother$no_rows/total_demuth_input *100 #25.25171
-
-#siblings input:
-sesotho_siblings<-subset(sesotho_speakers_input, (sesotho_speakers_input$role_raw=="Sister" |sesotho_speakers_input$role_raw=="Brother" ))
-# percentage of utterances by siblings in total input
-sum(sesotho_siblings$no_rows/total_demuth_input) *100 #15.22764
-
-#other children input:
-sesotho_peers<-subset(sesotho_speakers_input, (sesotho_speakers_input$role_raw=="Cousin" |sesotho_speakers_input$role_raw=="Playmate" | sesotho_speakers_input$role_raw=="Teenager"))
-# percentage of utterances by peers in total input
-sum(sesotho_peers$no_rows/total_demuth_input) *100 #29.58352
-
-#other adult input:
-sesotho_adults<-subset(sesotho_speakers_input, ( sesotho_speakers_input$role_raw=="Grandmother" | sesotho_speakers_input$role_raw=="Uncle" | sesotho_speakers_input$role_raw=="Adult" |  sesotho_speakers_input$role_raw=="Father"    ))
-# percentage of utterances by other adultsin total input
-sum(sesotho_adults$no_rows/total_demuth_input)* 100 #16.4653
-
+#total_demuth_input<-sum(sesotho_speakers_input$no_rows)
 ```
 
 ```{r demuth directedness, eval=TRUE, include=TRUE, message=FALSE}
@@ -154,6 +149,22 @@ sum(sesotho_adults$no_rows/total_demuth_input)* 100 #16.4653
 #annotated utterances by Emilie
 
 demuth_annotated<-demuth[1:36782,]   #this is 53% annotated is this correct ???
+
+#Sum the number of utterances per speaker category and keychild
+aggregate(demuth_annotated$utterance_id,by=list( demuth_annotated$speaker, demuth_annotated$keychild),length )->sum_demuth_annotated
+colnames(sum_demuth_annotated) <- c("speaker", "keychild", "nb_utt")
+
+
+#Sum the number of utterances per speaker category and keychild and ADDRESSEE
+aggregate(demuth_annotated$utterance_id,by=list(demuth_annotated$childdirected,  demuth_annotated$speaker, demuth_annotated$keychild),length )->sum_demuth_addressee
+colnames(sum_demuth_addressee) <- c("addresse", "speaker", "keychild", "nb_utt")
+
+# Utterances addressed to the target child  aka CDS
+demuth_child_directed<-subset(demuth_annotated, (demuth_annotated$childdirected==1))
+
+aggregate(demuth_child_directed$utterance_id,by=list(demuth_child_directed$speaker, demuth_child_directed$keychild),length )->sum_demuth_CDS
+colnames(sum_demuth_CDS) <- c( "speaker", "keychild", "nb_utt")
+
 #Remove all target child aka the one recorded utterances
 demuth_annotated_input<-subset(demuth_annotated, !(demuth_annotated$role_raw=="Target_Child"))
 
@@ -186,7 +197,7 @@ speaker_info_demuth<- as.data.frame(unique(demuth %>%select(speaker_id, role_raw
 colnames(speaker_info_demuth)[colnames(speaker_info_demuth)=="role_raw"] <- "role_adressee"
 annotated_speaker_info_demuth<-merge(x=demuth_annotated_input, y=speaker_info_demuth, by.x="childdirected", by.y="speaker_id", all.x=TRUE, sort=TRUE)
 
-# Utterances addressed to adults aka ADS
+# Utterances addressed to adults aka ADS (basically anything that is not a known child right?)
 demuth_adult_directed<-subset(annotated_speaker_info_demuth, !(annotated_speaker_info_demuth$role_adressee=="Playmate"| annotated_speaker_info_demuth$role_adressee=="Cousin"|annotated_speaker_info_demuth$role_adressee=="?"| annotated_speaker_info_demuth$childdirected=="SELF"| annotated_speaker_info_demuth$role_adressee=="SELF"| annotated_speaker_info_demuth$role_adressee=="Brother"| annotated_speaker_info_demuth$childdirected=="NA"| annotated_speaker_info_demuth$role_adressee=="Teenager"|annotated_speaker_info_demuth$role_adressee=="Sister"|annotated_speaker_info_demuth$childdirected=="1"|annotated_speaker_info_demuth$childdirected=="0"|annotated_speaker_info_demuth$childdirected=="O"))
 
 #subset all utterances marked as ADS
@@ -298,7 +309,7 @@ aggregate(wells_annotated_input$UTTERANCE,by=list( wells_annotated_input$speaker
 colnames(sum_wells_annotated) <- c("speaker", "keychild", "nb_utt")
 
 
-#Sum the number of utterances per speaker category and keychild
+#Sum the number of utterances per speaker category and keychild and ADDRESSEE
 aggregate(wells_annotated_input$UTTERANCE,by=list(wells_annotated_input$DIRECTED,  wells_annotated_input$speaker, wells_annotated_input$keychild),length )->sum_wells_addressee
 colnames(sum_wells_addressee) <- c("addresse", "speaker", "keychild", "nb_utt")
 
@@ -392,64 +403,34 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 
 #not normalized / all corpus
 wells_full <- ggplot(sum_wells, aes( y=nb_utt, x=keychild, fill=speaker))+
-  geom_bar(stat="identity", position="fill")
+  geom_bar(stat="identity", position="dodge")
+demuth_full <- ggplot(sum_demuth, aes( y=nb_utt, x=keychild, fill=speaker))+
+  geom_bar(stat="identity", position="dodge")
+
 #not normalized / all corpus
 wells_annot<- ggplot(sum_wells_annotated, aes( y=nb_utt, x=keychild, fill=speaker))+
-  geom_bar(stat="identity", position="fill")
+  geom_bar(stat="identity", position="dodge")
+demuth_annot<- ggplot(sum_demuth_annotated, aes( y=nb_utt, x=keychild, fill=speaker))+
+  geom_bar(stat="identity", position="dodge")
+
+
 
 wells_addresse<- ggplot(sum_wells_addressee, aes( y=nb_utt, x=keychild, fill=addresse))+
   geom_bar(stat="identity", position="dodge")
+demuth_addresse<- ggplot(sum_demuth_addressee, aes( y=nb_utt, x=keychild, fill=addresse))+
+  geom_bar(stat="identity", position="dodge")
+
+
+
 
 wells_CDS<- ggplot(sum_wells_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
   geom_bar(stat="identity", position="fill")
-
+demuth_CDS<- ggplot(sum_demuth_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
+  geom_bar(stat="identity", position="fill")
 
 
 #panel
- multiplot (wells_full, wells_annot, wells_addresse, wells_CDS, cols=2)
-
-
-# 
-# #bar plot of CDS vs ADS per corpus
-# ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
-#   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-#     x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
-#   guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
-# 
-# 
-# MFV <- ggplot(subset(forsourcegraphs,source %in% c("MFV")), aes(
-#    x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-#      aes(x=age_mo))   + labs(x="Age in Months", y="Total input speech vocalizations (mins/h)")  +  guides(size=FALSE, color=F)
-# 
-# children <- ggplot(subset(forsourcegraphs,source %in% c("children")), aes(
-#    x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-#      aes(x=age_mo))    +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
-# 
-# adults <- ggplot(subset(forsourcegraphs,source %in% c("adult")), aes(
-#    x=age_mo, y= tot, color=cds, size=min_coded )) +  geom_jitter(
-#      aes(x=age_mo))   +  guides(size=FALSE, color=F) + theme(axis.title.x=element_blank(), axis.title.y=element_blank())
-# 
-# grid.arrange(MFV, children, adults, nrow = 1)
-# 
-# 
-# overlap_stackplot_OVERALL <- ggplot(overlap_incdata, aes( fill=source, y=tot, x=agecat)) +
-#   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-#     x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
-#   guides(fill=FALSE) + theme(axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10), axis.title.y=element_text(size=15))
-# 
-# 
-# overlap_stackplot_CDS <- ggplot(subset(overall_forsourcegraphs, cds %in% T ), aes(fill=source, y=tot, x=agecat)) +
-#   geom_bar(stat="identity", position="fill") + guides(fill=guide_legend(title=NULL))  +  scale_x_discrete(limits=c("<1", "1", "2" , "3", ">4" )) + labs(
-#     x="Age in years", y="Proportion of Linguistic Input") + scale_fill_discrete(labels= c("Adults",  "Children", "Main Female Caregiver")) +
-#     guides(fill=FALSE) + theme( axis.title.y=element_blank(), axis.text.x = element_text(size = 10),  axis.text.y = element_text(size = 10))
-# 
-# 
-# grid.arrange(overlap_stackplot_OVERALL, overlap_stackplot_CDS, nrow = 1)
-
-
-
-
-
-
-
+ multiplot (wells_full, demuth_full, cols=1)
+ multiplot (wells_annot, demuth_annot, cols=1)
+ multiplot (wells_CDS, demuth_CDS, cols=1)
 ```
