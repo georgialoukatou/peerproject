@@ -245,7 +245,7 @@ adultdirected_questions$no_rows/sum(demuth_sentence_type_adult_annotated$no_rows
 #load Wells data
 
 lang<-"English"
-wells<-read.csv(file="wells.csv", header=TRUE) #11,866
+wells<-read.table(file="wells.csv", header=TRUE, sep="\t") #11,866
 
 #mark corpus by keychild cs: I checked twice i someone wants to double check awesome
 wells$keychild <- NA
@@ -432,5 +432,8 @@ demuth_CDS<- ggplot(sum_demuth_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
 #panel
  multiplot (wells_full, demuth_full, cols=1)
  multiplot (wells_annot, demuth_annot, cols=1)
- multiplot (wells_CDS, demuth_CDS, cols=1)
+  
+  
+ multiplot (wells_CDS, demuth_CDS, cols=1) 
+ 
 ```
