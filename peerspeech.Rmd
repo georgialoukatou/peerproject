@@ -200,7 +200,8 @@ annotated_speaker_info_demuth<-merge(x=demuth_annotated_input, y=speaker_info_de
 # Utterances addressed to adults aka ADS (basically anything that is not a known child right?)
 demuth_adult_directed<-subset(annotated_speaker_info_demuth, !(annotated_speaker_info_demuth$role_adressee=="Playmate"| annotated_speaker_info_demuth$role_adressee=="Cousin"|annotated_speaker_info_demuth$role_adressee=="?"| annotated_speaker_info_demuth$childdirected=="SELF"| annotated_speaker_info_demuth$role_adressee=="SELF"| annotated_speaker_info_demuth$role_adressee=="Brother"| annotated_speaker_info_demuth$childdirected=="NA"| annotated_speaker_info_demuth$role_adressee=="Teenager"|annotated_speaker_info_demuth$role_adressee=="Sister"|annotated_speaker_info_demuth$childdirected=="1"|annotated_speaker_info_demuth$childdirected=="0"|annotated_speaker_info_demuth$childdirected=="O"))
 
-
+aggregate(demuth_adult_directed$utterance_id,by=list(demuth_adult_directed$speaker, demuth_adult_directed$keychild),length )->sum_demuth_ADS
+colnames(sum_demuth_ADS) <- c( "speaker", "keychild", "nb_utt")
 
 #subset all utterances marked as ADS
 demuth_ad_directed_utts<- as.data.frame(demuth_adult_directed %>%select(utterance))
@@ -237,6 +238,55 @@ demuth_sentence_type_adult_annotated<- demuth_adult_directed %>% group_by(senten
 adultdirected_questions<-subset(demuth_sentence_type_adult_annotated, (demuth_sentence_type_adult_annotated$sentence_type=="question"))
 #percentage marked as questions in ADS annotated corpus 
 adultdirected_questions$no_rows/sum(demuth_sentence_type_adult_annotated$no_rows)*100 #20.38946
+
+
+```
+
+```{r demuth for figure purposes}
+
+library(reshape2)
+
+#add label of type of input
+sum_demuth_ADS$input <- "ADS"
+sum_demuth_CDS$input <- "CDS"
+
+#remove for CDS the target child utterances in which he is talking to himself
+sum_demuth_CDS<-subset(sum_demuth_CDS, !(sum_demuth_CDS$speaker=="Target_Child"))
+sum_demuth_ADS<-subset(sum_demuth_ADS, !(sum_demuth_ADS$speaker=="Target_Child"))
+
+
+#make sure that all children have the 4 categories ,if not mark as 0
+#CDS
+table(sum_demuth_CDS$keychild,sum_demuth_CDS$speaker) #check
+#create the lines (this should be done via a loop sorry!)
+peer_Hlo <- data.frame("sibling","Hlobohang", "0", "CDS")
+#names the lines
+names(peer_Hlo)<-c("speaker","keychild", "nb_utt","input")
+neww <- rbind(sum_demuth_CDS, peer_Hlo)
+#added to the main data.frame
+sum_demuth_CDS <- rbind(sum_demuth_CDS, peer_Hlo)
+
+
+#ADS
+table(sum_demuth_ADS$keychild,sum_demuth_ADS$speaker) #check
+#create the lines (this should be done via a loop sorry!)
+peer_Hlo <- data.frame("sibling","Hlobohang", "0", "ADS")
+#names the lines
+names(peer_Hlo)<-c("speaker","keychild", "nb_utt","input")
+neww <- rbind(sum_demuth_ADS, peer_Hlo)
+#added to the main data.frame
+sum_demuth_ADS <- rbind(sum_demuth_ADS, peer_Hlo)
+
+demuth_fig <-rbind(sum_demuth_ADS,sum_demuth_CDS)
+
+# trywells <- melt(sum_wells_ADS[,c("child","tot.adults", "tot.children")],id.vars = 1)
+# colnames(dfm) <- c("child", "input", "value")
+# dft <- melt(bigsum_low[,c("child","cds.adults", "cds.children")],id.vars = 1)
+# colnames(dft) <- c("child", "input.cds", "value.cds")
+# cbind(dfm,dft) -> try
+# try[4] <- NULL
+# merge(x=bigsum_low,y = try[ , c("child",  "input", "value", "input.cds", "value.cds"),], all.x=T,all.y=F)->try2
+
 
 
 ```
@@ -353,7 +403,7 @@ write.table(wells_ad_directed_utts, file=paste0(lang, "Wellsadultdirected.txt"),
 
 ```
 
-```{r melt for figure purposes}
+```{r wells for figure purposes}
 
 library(reshape2)
 
@@ -363,7 +413,7 @@ sum_wells_CDS$input <- "CDS"
 
 #remove for CDS the target child utterances in which he is talking to himself
 sum_wells_CDS<-subset(sum_wells_CDS, !(sum_wells_CDS$speaker=="Target_Child"))
-sum_wells_ADS<-subset(sum_wells_CDS, !(sum_wells_ADS$speaker=="Target_Child"))
+sum_wells_ADS<-subset(sum_wells_ADS, !(sum_wells_ADS$speaker=="Target_Child"))
 
 
 #make sure that all children have the 4 categories ,if not mark as 0
@@ -502,7 +552,7 @@ demuth_addresse<- ggplot(sum_demuth_addressee, aes( y=nb_utt, x=keychild, fill=a
 
 wells_CDS<- ggplot(wells_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
   geom_bar(stat="identity", position="fill")
-demuth_CDS<- ggplot(sum_demuth_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
+demuth_CDS<- ggplot(demuth_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
   geom_bar(stat="identity", position="fill")
 
 
@@ -511,6 +561,7 @@ demuth_CDS<- ggplot(sum_demuth_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
  multiplot (wells_annot, demuth_annot, cols=1)
   
   
- multiplot (wells_CDS, demuth_CDS, cols=1) 
+ fill <- multiplot (wells_CDS, demuth_CDS, cols=1) 
+ dodge <- multiplot (wells_CDS, demuth_CDS, cols=1) 
  
 ```
