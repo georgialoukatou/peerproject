@@ -200,6 +200,8 @@ annotated_speaker_info_demuth<-merge(x=demuth_annotated_input, y=speaker_info_de
 # Utterances addressed to adults aka ADS (basically anything that is not a known child right?)
 demuth_adult_directed<-subset(annotated_speaker_info_demuth, !(annotated_speaker_info_demuth$role_adressee=="Playmate"| annotated_speaker_info_demuth$role_adressee=="Cousin"|annotated_speaker_info_demuth$role_adressee=="?"| annotated_speaker_info_demuth$childdirected=="SELF"| annotated_speaker_info_demuth$role_adressee=="SELF"| annotated_speaker_info_demuth$role_adressee=="Brother"| annotated_speaker_info_demuth$childdirected=="NA"| annotated_speaker_info_demuth$role_adressee=="Teenager"|annotated_speaker_info_demuth$role_adressee=="Sister"|annotated_speaker_info_demuth$childdirected=="1"|annotated_speaker_info_demuth$childdirected=="0"|annotated_speaker_info_demuth$childdirected=="O"))
 
+
+
 #subset all utterances marked as ADS
 demuth_ad_directed_utts<- as.data.frame(demuth_adult_directed %>%select(utterance))
 #export all ADS utterance into a text file
@@ -314,13 +316,95 @@ colnames(sum_wells_annotated) <- c("speaker", "keychild", "nb_utt")
 aggregate(wells_annotated_input$UTTERANCE,by=list(wells_annotated_input$DIRECTED,  wells_annotated_input$speaker, wells_annotated_input$keychild),length )->sum_wells_addressee
 colnames(sum_wells_addressee) <- c("addresse", "speaker", "keychild", "nb_utt")
 
-# Utterances addressed to the target child  aka CDS
+# Utterances addressed to the target child  aka CDS 2181*100/6785 = 32%
 wells_child_directed<-subset(wells_annotated_input, (wells_annotated_input$DIRECTED=="CHI"))
 
 aggregate(wells_child_directed$UTTERANCE,by=list(wells_child_directed$speaker, wells_child_directed$keychild),length )->sum_wells_CDS
 colnames(sum_wells_CDS) <- c( "speaker", "keychild", "nb_utt")
 
+#subset all utterances marked as CDS
+wells_child_directed<-subset(wells_child_directed, !(wells_child_directed$speaker=="Target_Child"))
 
+wells_cd_directed_utts<- as.data.frame(wells_child_directed %>%select(UTTERANCE))
+#export all CDS utterance into a text file
+write.table(wells_cd_directed_utts, file=paste0( lang,"Wellschilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+
+
+# Utterances addressed to adults aka ADS
+
+#for this it needed to know the corpus quite well... So I'm assuming that LOU - REB - RAC - CHR - 0 - NIC ARE NOT ADULTS right???
+#group of children that is not target child
+well_adult_directed<-subset(wells_annotated_input, !(wells_annotated_input$DIRECTED=="CHI" |wells_annotated_input$DIRECTED=="0" |wells_annotated_input$DIRECTED=="O" | wells_annotated_input$DIRECTED=="?" | wells_annotated_input$DIRECTED=="SELF"| wells_annotated_input$DIRECTED=="NIC"  | wells_annotated_input$DIRECTED=="TELEPHONE" | wells_annotated_input$DIRECTED=="MIX" | wells_annotated_input$DIRECTED=="LOU" | wells_annotated_input$DIRECTED=="REB" | wells_annotated_input$DIRECTED=="PET"| wells_annotated_input$DIRECTED=="RAC" | wells_annotated_input$DIRECTED=="CHR" | wells_annotated_input$DIRECTED=="NA"))
+
+aggregate(well_adult_directed$UTTERANCE,by=list(well_adult_directed$speaker, well_adult_directed$keychild),length )->sum_wells_ADS
+colnames(sum_wells_ADS) <- c( "speaker", "keychild", "nb_utt")
+
+well_adult_directed<-subset(well_adult_directed, !(well_adult_directed$speaker=="Target_Child"))
+#subset all utterances marked as ADS
+wells_ad_directed_utts<- as.data.frame(well_adult_directed %>%select(UTTERANCE))
+#export all ADS utterance into a text file
+write.table(wells_ad_directed_utts, file=paste0(lang, "Wellsadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
+
+
+
+```
+
+```{r melt for figure purposes}
+
+library(reshape2)
+
+#add label of type of input
+sum_wells_ADS$input <- "ADS"
+sum_wells_CDS$input <- "CDS"
+
+#remove for CDS the target child utterances in which he is talking to himself
+sum_wells_CDS<-subset(sum_wells_CDS, !(sum_wells_CDS$speaker=="Target_Child"))
+
+
+#make sure that all children have the 4 categories ,if not mark as 0
+#CDS
+table(sum_wells_CDS$keychild,sum_wells_CDS$speaker) #check
+#create the lines (this should be done via a loop sorry!)
+peer_abi <- data.frame("peer","abigail", "0", "CDS")
+peer_benji<- data.frame("peer","benjamin", "0", "CDS")
+#names the lines
+names(peer_abi)<-c("speaker","keychild", "nb_utt","input")
+names(peer_benji)<-c("speaker","keychild", "nb_utt","input")
+new <- rbind(peer_abi, peer_benji)
+#added to the main data.frame
+sum_wells_CDS <- rbind(sum_wells_CDS, new)
+
+
+#ADS
+table(sum_wells_ADS$keychild,sum_wells_ADS$speaker) #check
+#create the lines (this should be done via a loop sorry!)
+peer_abi <- data.frame("peer","abigail", "0", "ADS")
+peer_benji<- data.frame("peer","benjamin", "0", "ADS")
+adult_geof <- data.frame("adult","geoffrey", "0", "ADS")
+#names the lines
+names(peer_abi)<-c("speaker","keychild", "nb_utt","input")
+names(peer_benji)<-c("speaker","keychild", "nb_utt","input")
+names(adult_geof)<-c("speaker","keychild", "nb_utt","input")
+
+new <- rbind(peer_abi, peer_benji,adult_geof)
+#added to the main data.frame
+sum_wells_ADS <- rbind(sum_wells_ADS, new)
+
+wells_fig <-rbind(sum_wells_ADS,sum_wells_CDS)
+
+trywells <- melt(sum_wells_ADS[,c("child","tot.adults", "tot.children")],id.vars = 1)
+colnames(dfm) <- c("child", "input", "value")
+dft <- melt(bigsum_low[,c("child","cds.adults", "cds.children")],id.vars = 1)
+colnames(dft) <- c("child", "input.cds", "value.cds")
+cbind(dfm,dft) -> try
+try[4] <- NULL
+merge(x=bigsum_low,y = try[ , c("child",  "input", "value", "input.cds", "value.cds"),], all.x=T,all.y=F)->try2
+
+
+
+```
+
+```{r percentages-wells }
 # count different types of addressees 
 wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
 #create a data.frame
@@ -333,19 +417,6 @@ wells_annotated_value
 wells_child_directed<-subset(wells_annotated_input, (wells_annotated_input$DIRECTED=="CHI")) #wells annotated child-directed corpus
 # n of child-directed utterances
 length(wells_child_directed$UTTERANCE)/ length(wells_annotated_input$UTTERANCE)  * 100 #45.07042
-#subset all utterances marked as CDS
-wells_cd_directed_utts<- as.data.frame(wells_child_directed %>%select(UTTERANCE))
-#export all CDS utterance into a text file
-write.table(wells_cd_directed_utts, file=paste0( lang,"Wellschilddirected.txt"), row.names=F, col.names=T,  quote=F) 
-
-# Utterances addressed to adults aka ADS
-
-#for this it needed to know the corpus quite well... So I'm assuming that LOU - REB - RAC - CHR - 0 - NIC ARE NOT ADULTS right???
-well_adult_directed<-subset(wells_annotated_input, !(wells_annotated_input$DIRECTED=="CHI" |wells_annotated_input$DIRECTED=="0" |wells_annotated_input$DIRECTED=="O" | wells_annotated_input$DIRECTED=="?" | wells_annotated_input$DIRECTED=="SELF"| wells_annotated_input$DIRECTED=="NIC"  | wells_annotated_input$DIRECTED=="TELEPHONE" | wells_annotated_input$DIRECTED=="MIX" | wells_annotated_input$DIRECTED=="LOU" | wells_annotated_input$DIRECTED=="REB" | wells_annotated_input$DIRECTED=="PET"| wells_annotated_input$DIRECTED=="RAC" | wells_annotated_input$DIRECTED=="CHR" | wells_annotated_input$DIRECTED=="NA"))
-#subset all utterances marked as ADS
-wells_ad_directed_utts<- as.data.frame(well_adult_directed %>%select(UTTERANCE))
-#export all ADS utterance into a text file
-write.table(wells_ad_directed_utts, file=paste0(lang, "Wellsadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
 
  # n of adult directed utterances
 length(wells_ad_directed_utts$UTTERANCE)/ length(wells_annotated_input$UTTERANCE) * 100 #22.38951 %
