@@ -186,7 +186,7 @@ demuth_annotated_table
 # Utterances addressed to the target child  aka CDS
 demuth_child_directed<-subset(demuth_annotated_input, (demuth_annotated_input$childdirected=="1"))
 demuth_cd_directed_utts<- as.data.frame(demuth_child_directed %>%select(utterance))
-#write.table(demuth_cd_directed_utts, file=paste0(lang, "Demuthchilddirected.txt"), row.names=F, col.names=T,  quote=F)  !!!  i slighlty change this so be careful if you use it in CLAN or elsewhere from childdirected.txt to Demuthchilddirected.txt
+write.table(demuth_cd_directed_utts, file=paste0(lang, "Demuthchilddirected.txt"), row.names=F, col.names=T,  quote=F)  ##!!!  i slighlty change this so be careful if you use it in CLAN or elsewhere from childdirected.txt to Demuthchilddirected.txt
 
 #percentage of child directed speech vs total annotated
 length(demuth_child_directed$utterance)/total_demuth_annotated_input *100 #85.60498
@@ -283,7 +283,7 @@ wells$speaker[grep("Target", wells$ROLE)] <- "Target_Child"
 
 
 #name and save data
-colnames(wells)<-c("NAME"   ,   "ROLE"   ,   "UTTERANCE", "COMMENT"  , "DIRECTED" , "empty"     ,    "empty2"     ,  "keychild" , "gender"   , "speaker")
+colnames(wells)<-c("NAME"   ,   "ROLE"   ,   "UTTERANCE", "COMMENT"  , "DIRECTED"    ,  "keychild" , "gender"   , "speaker")
 write.table(wells, file=paste0("wells_input.txt"), row.names=F, col.names=T,  quote=F) 
 
 #Sum the number of utterances per speaker category and keychild
@@ -302,7 +302,7 @@ try<- wells %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) # 1
 #NOT WORKING FOR SOME REASON:
 #read.table("wells_input.txt",header=F)->wells_input
 
-#ADRESSEE ANNOTATIONS PART
+#ADRESSEE ANNOTATIONS PART  #6785 ~ 57.2%
 wells_annotated_input<-subset(wells, !(wells$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 3098 rows PLEASE UPDATE as we go !!
 
 #Sum the number of utterances per speaker category and keychild

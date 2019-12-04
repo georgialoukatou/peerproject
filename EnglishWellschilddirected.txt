@@ -1,6 +1,7 @@
 UTTERANCE
 you're nearly five .
 you're desperate ?
+you cant see it yet .
 I'm baking you a birthday cake .
 because its on your Christmas tree (3.) .
 stand up Benjamin (4.) .
@@ -36,6 +37,9 @@ ill be up in two minutes .
 go on .
 mummie will come up with you .
 want a sweet ?
+one yellow one .
+<all_gone now> [>] .
+I'd better save some for Matty and Robert .
 there you are (2.) .
 byebye .
 take it .
@@ -79,6 +83,8 @@ xxx [>] .
 yours is stink bomb .
 yours is stink pot .
 xxx .
+I like big bones (2.) .
+be a doggie (3.) .
 do you want these [= pens] (2.) ?
 what (5.) ?
 I've got all sorts of colors (2.) .
@@ -92,12 +98,368 @@ xxx (3.) .
 xxx (5.) .
 no .
 it wont work (3.) .
+where all the rest of the tops ?
+are you sure ?
+they all had tops when I put them out didn't they ?
+mhm (4.) .
+come on (8.) .
 you like the purple best don't you ?
 you don't have black .
 don't sit on them .
 you told us didn't you ? ?
+parcel on the top ?
+I'm going to blow smoke at you (6.) .
+I just don't like that smoke (4.) .
+xxx do I (7.) ?
+xxx up do I (9.) ?
+see if it's up on the settee .
+<perhaps it's up on> [//] I don't know (3.) .
+there .
 no .
 mustn't touch it must we ?
+you are .
+<aren't> [<] you clever ?
+that [= one of the toy cupboard doors] doesn't go back any further .
+I thought that would go back further than that (3.) .
+you left your ball by the fire .
+and it's got a hump in it now (3.) .
+boom .
+boom (2.) .
+boom .
+boom [>] .
+boom oh .
+I stumbled on xxx sponge (2.) .
+don't eat that pen .
+don't eat that pen please (3.) .
+excuse me .
+I'm tidying out the cupboard (3.) . .
+I'm going to tidy out that shoes cupboard as_well .
+oh dear .
+we must tell Daddy to mend that xylophone mustn't we ?
+I've got the bit xxx (6.) .
+xxx (2.) .
+there .
+they're here .
+our xxx in the xxx .
+I've only got one (2.) .
+one (2.) .
+that's because I don't smoke very much .
+just a little bit .
+yes .
+come on .
+no .
+no (1.) .
+that's mine .
+they burn (1.) .
+those .
+mind hot please .
+do .
+mind .
+it's very hot that one xxx .
+sometimes they get (1.) cold not hot (3.) .
+didn't we ?
+don't let's xxx (4.) .
+close the oven [= cupboard] door first .
+out xxx .
+cupboard doors .
+and I'm doing some for Wendy [= neighbor] (2.) .
+I'm sorry darling .
+not this morning .
+well put it back .
+oh you little horror (1.) .
+you little horror .
+xxx aren't you (2.) ?
+are you a horror (2.) ?
+hey .
+who's a horror (2.) ?
+xxx ?
+no (2.) .
+no Benjamin .
+five eight .
+let's show them shall we ?
+let me show you them (5.) .
+you can't come in (3.) .
+you can't (2.) .
+you can't come in (4.) .
+you can't look in my window .
+because I'm going out (1.) to the shop (4.) .
+you can't look at any (2.) .
+my window (.) my window .
+I'm not going to be there .
+I'd better not get in my house had you ?
+you better not when I'm going out .
+no (2.) .
+no (1.) I said .
+you can't come with me (2.) .
+no (2.) .
+no (4.) .
+no .
+I am going in there in a minute (2.) .
+it's for my baby you gave me last time .
+don't shout at me (2.) .
+there he is .
+hello (1.) he says .
+hello .
+hello .
+hello .
+hello .
+do you want it [= jack+in+the+box] closed ?
+shall I do the button up ?
+I'm going out_of your house then (3.) .
+I'm a very cross lady .
+well I'm sitting down on your settee (3.) .
+<I'm your> [//] I'm in your house (2.) .
+I am in here (2.) .
+I'm in it .
+I am in it (5.) .
+no (3.) .
+&-uh .
+it's all morning now (3.) .
+let me go and make a cup of tea shall I (3.) ?
+xxx (2.) .
+I'll put my dressing gown on (2.) .
+I do feel a bit tired don't you (2.) ?
+good night dear .
+can I come in (2.) ?
+for a cup of tea ?
+did you mean ?
+is that right ?
+I'm going to come in in a minute (3.) .
+I'm tired .
+xxx go out in a minute .
+in the kitchen .
+oh I can't see you .
+because I don't want you in the kitchen .
+because it's too cold (1.) in the kitchen (2.) .
+it is (3.) .
+<I'll put my> [//] (2.) I'm going to get dressed (1.) .
+quickly (4.) .
+come on .
+let's go home .
+here (2.) it is (2.) .
+there's a car (2.) .
+it's like a posh one .
+have you done it ?
+it's your car isn't it ?
+then you left it go didn't you ?
+xxx .
+no .
+xxx (2.) .
+xxx (2.) .
+no .
+no (6.) .
+alright (2.) .
+can you hear that ?
+can you see it ?
+I don't want it like that .
+nasty little beasties (2.) .
+xxx [<] her a lot .
+xxx hit her a lot (3.) ?
+shall I ?
+shall we hit her [= Nicole] a lot ?
+I will won't I Benjamin ?
+chuck them in the dustbin won't I ?
+they're nothing like a horse .
+now go away .
+isn't she Benjamin (2.) ?
+Benjamin [<] .
+put that curtain down .
+you are not [!] having the television on (1.) at the moment .
+<xxx your house> [<] (2.) .
+<I'm> [/] I'm tying it (2.) .
+I'm tying it (4.) .
+is he (3.) .
+I'm going to take this stick home (2.) .
+would you like that ?
+that ow .
+that ow .
+yes (2.) .
+yes (3.) .
+shall we hear you on your microphone tonight ?
+shall we hear you on your microphone ?
+talk .
+talk .
+yes (2.) .
+are you the telephone are you (2.) ?
+can I +...
+not yet .
+Benjamin .
+xxx (2.) .
+that .
+Amanda's going to stay at home isn't she ?
+oh .
+you've got_to go to school .
+haven't you ?
+not tonight you haven't have you ?
+you're not staying in in bed tonight are you ?
+m@l.
+xxx [>] .
+I don't wear any (pa)jamas (3.) .
+do I ?
+I <don't> [>] .
+<I don't> [<] wear (pa)jamas (2.) .
+and good_night (2.) .
+see you tomorrow .
+I don't wear (pa)jamas (2.) .
+I don't want my (pa)jamas (3.) .
+thank (2.) .
+xxx .
+I'd better get in my (1.) house (2.) . .
+good_night (1.) .
+good_night (2.) .
+xxx .
+get off my tent (3.) .
+I can't sit up .
+no Benjamin .
+you're not to take that pedal car outside .
+you are not [!] to bring it outside (1.) .
+bring it in .
+come on (1.) .
+you're not to take it outside .
+it's too wet (5.) .
+anyway it's your breakfast time .
+come on (4.) .
+you're not going to do brumming@c this morning outside .
+no you're not because it's muddy and wet out there .
+you've got_to go to the shop . .
+she does doesn't she ?
+you don't like sugar do you ?
+you don't .
+it's horrible .
+sugar's horrible (1.) .
+isn't it (3.) ?
+if you don't xxx you can drink it .
+you don't want to drink it ?
+I [/] I'm going to ask Mummy .
+don't speak to me like that .
+don't talk to me like that (2.) .
+mhm .
+well hurry up .
+come on (10.) .
+don't be so cheeky .
+did you eat them yet ?
+you're a bully .
+I had that first .
+well you asked for it .
+let Nicola look at the toys with you .
+oh you horrid boy .
+horrid boy .
+mhm yes .
+please Benjamin .
+oh look Benjamin .
+oh all right .
+<just go and look for it> [>] .
+<just go and look for it> [<] .
+and that's for eyes .
+a_lot_of colors .
+haven't you ?
+a_lot_of colors .
+haven't you ?
+is it in xxx ?
+lost what darling ?
+cotton reel ?
+under (6.) .
+let me look at yours .
+xxx raining .
+xxx can't .
+you wash your hands .
+no .
+you're not coming outside .
+it's too wet and muddy .
+you go and do some more painting .
+did you ?
+let me have a little look .
+well you have_to have patience darling (6.) .
+that's better isn't it ?
+look .
+I've got a spare .
+now where's going to get all mucky .
+ugh .
+aren't we mucky (1.) .
+where's my paintbrush ?
+where's my paint (1.) ?
+where's my paint ?
+where's my paintbrush ?
+you had it didn't you (3.) ? ?
+Benjamin will you stop it [= swearing] ?
+yeh .
+I had them for my birthday .
+no .
+yes .
+<I had them> [//] I didn't have .
+Benjamin will you sing to us ?
+stoking .
+we go .
+where are you going ?
+are you ?
+xxx won't you ?
+who are you going to see ?
+and what are you going to say to them when you get there ?
+oh will they ?
+you'll be so lucky .
+are you going to take one to Grandma and Grandpa (1.) ?
+what are you going to take for Grandma ?
+xxx .
+what are you going to take to Grandma when you go to Church Stretton ?
+you can ride .
+but you must close the gate .
+did [//] you move .
+and xxx with the thingie (1.) .
+I'll go that side (8.) .
+xxx (2.) .
+xxx .
+d(o) you want .
+stinky monster (2.) .
+monster .
+it's alright .
+you're not allowed to go outside anyway .
+why have we got a car on the landing (3.) ?
+you wouldn't let me help you .
+wouldn't you ?
+not on there you big fool .
+xxx touch that love .
+it's poisonous .
+no you're not to touch it .
+I'm trying to mend it .
+no .
+I'm trying to mend it .
+four peaches .
+four peaches .
+a pound of apples .
+and a pound of bananas please .
+from just on (2.) .
+what's it [= his treat] taste like ?
+like fruit ?
+xxx oranges (3.) ?
+and .
+is it ?
+xxx didn't you ?
+xxx didn't you ?
+xxx .
+well then .
+let's tip these out .
+half past three .
+what's the time ?
+oh .
+did you know it was ready ?
+see if xxx .
+huh ?
+what have you got there ?
+wasn't it Benjamin ?
+because you had to wait so long (4.) . .
+xxx out .
+<d(o) you> [<] ?
+xxx take xxx .
+xxx (4.) .
+xxx are you doing ?
+xxx .
+xxx .
+mhm .
+xxx think they love it (2.) .
+xxx don't like you treading on them .
+yes xxx (16.) .
+yes .
+why ?
 you can't play with your box .
 sorry Abby .
 but you can't play with your box [= recording box] (3.) .
@@ -821,6 +1183,9 @@ put your hat on .
 keeps your head warm xxx ear .
 &mm ?
 you're called Daddy are you ?
+I don't want my hat on (5.) .
+oh no not my hat on .
+I don't want my hat on (4.) .
 come along Geoffrey .
 come along Geoffrey quickly .
 you can shut the door if she comes out .
@@ -927,3 +1292,891 @@ wait a minute (5.) .
 gone off gone off the boil .
 put them all away Geoffrey will you ?
 I'm going to tickle your tummy (5.) .
+stay here .
+she's not ready yet 0 .
+come in here .
+come in here .
+you say found you when you have (5.) .
+no she'll say ready@q when she's ready.
+wait a minute .
+no no no no no .
+no come in here .
+she'll call out ready@q when she's ready .
+well then don't open the door all the time then (4.) .
+stand by me here .
+hoy@f.
+xxx me (4.) .
+xxx shut the door xxx .
+xxx shut the door (4.) .
+shut the door .
+xxx quickly (2.) .
+xxx shut the door (5.) .
+<I don't> [<] know .
+xxx game .
+Geoffrey you go in <there and you stay there> [>] .
+Geoffrey be quiet .
+no no .
+no [<] .
+no .
+no you xxx .
+no you play with this .
+and keep it in here .
+xxx I got xxx things xxx you ?
+xxx you up ?
+Geoffrey do you want some tea ?
+no need to cry .
+no need to cry .
+xxx .
+don't cry .
+dry your eyes .
+ask Mummy .
+ask [>] Mummy .
+what do you want ?
+well say can you xxx that chair Mummy .
+which chair ?
+don't xxx .
+don't have a kick at me please . .
+I'm not giving you any tea xxx .
+stop that noise .
+stop xxx crying .
+aha &hah come on .
+right (3.) .
+what's that then ?
+now old softie (4.) .
+you're xxx too tired aren't you boy .
+want to sit on my shoulder (3.) .
+would you like ?
+what do you mean you'll have two then ?
+ah ah .
+xxx Mummy first please then you have that (30.) .
+oh yes .
+can go over (1.) pages haven't we ?
+what's that .
+who is that peeping out_of his window ?
+he is &-er Barnaby .
+no .
+yes (4.) .
+and a rainbow ?
+and a rainbow ?
+lots_of rainbows .
+this .
+Harriet ?
+<he's> [<] dropped his saucepan .
+who's this ?
+teddy ?
+who's that ?
+dolly ?
+who's that (1.) Andy Pandy ?
+ah .
+Harriet don't make too much mess my love .
+no not you [>] .
+try not to make too much mess Harriet .
+Harriet don't xxx .
+&mm ?
+&mm ?
+ice ?
+don't give her any .
+no Harriet there's plenty more there look .
+well Richard's got the paper (4.) . .
+Harriet .
+&-um ?
+where's Rosemary ?
+she's gone to the shops (6.) .
+no .
+no Harriet .
+that's Richard's .
+there's plenty on the floor (3.) .
+I've got a +...
+boat .
+a boat xxx .
+no more (1.) (3.) .
+yes .
+you look a mess (3.) .
+all round your face (19.) .
+yes .
+just a minute .
+let me get the washing in . .
+it's raining love (12.) .
+<what's> [<] this (2.) ?
+tree is it ?
+oh yes that's right .
+it's a tree .
+what's that (3.) .
+that's right (2.) .
+what's that ?
+that's balloons yes .
+what's that ?
+dolly is it ?
+what's that (3.) ?
+a man .
+what's that on his head ?
+a what ?
+a hat ?
+say hat then .
+I should think so .
+you're a dopey girl you .
+what (2.) ?
+&mm ?
+again [>] ?
+hey what's that down there (4.) ?
+&mm ?
+oh well done .
+a mouse .
+he's saying boo is he ?
+who's that ?
+&mm [= yes] .
+doggy .
+xxx that .
+stop it .
+give me that hand .
+give me that hand .
+no: [>] .
+give me that hand .
+no it's on in a minute .
+what do you want Harriet ?
+I've switched it on .
+sit down over there then .
+yes (9.) .
+alright .
+do you want butter on it ?
+do you want some butter on it ?
+do you want me to wipe you nose ?
+blow your nose then .
+give a blow .
+oh that's a good blow .
+isn't that a good blow ?
+that's Naomi's nose yes (4.) .
+xxx to get down .
+stay .
+(.) pretty hair (2.) .
+&-um ?
+no good sitting here is it (2.) ?
+&-eh ?
+no good sitting here .
+open your mouth (3.) .
+oh dear .
+his bottom hurts like yours does sometimes .
+&-eh ?
+his bottom hurts .
+what ?
+&-um (3.) ?
+pardon ?
+what my love ?
+<slippers on now> [<] .
+I will .
+I'll put it on .
+no .
+you play with this (10.) .
+have a rest .
+my triangle's stuck .
+let's go have a rest .
+oh .
+go on (14.) .
+ah .
+here .
+get out_of the way .
+go in your place .
+all xxx .
+if we don't have a while [>] I do this .
+all day not have sleep .
+no .
+don't put it under there .
+like that (2.) .
+don't pick up things .
+yes .
+come on (2.) .
+in the zoo .
+you fat tummy .
+you're really too fat with that .
+come on .
+help me !
+go on Harriet .
+&-eh &-eh .
+Harriet put some things in the +... +...
+see what you can find .
+and put it in the (1.) &-um box .
+no not xxx [>] .
+<see what> [<] [>] you can find .
+you can have the shapes can't you ?
+what do you want them for [>] ?
+no no they're in the box .
+<Richard wants them in that box> [>] .
+and you can do that on (1.) your own (3.) .
+xxx open this door .
+now go on [>] (8.) .
+yes you do want to do a wee .
+you haven't done one this morning .
+oh Harriet (4.) .
+yes alright .
+well come on then .
+mind .
+the washing's going to fall down the toilet .
+there's a good girl (5.) .
+now just you listen .
+you're going to get a smack in a minute .
+now just you sit down on that toilet and do a wee .
+Harriet (1.) Harriet .
+you are going to bed regardless . .
+so you might as_well do a wee (6.) .
+&-um ?
+&-um ?
+wee wee ?
+is that what you said ?
+down [= do you want to get down?] ?
+what .
+pardon ?
+bib off ?
+aren't you Harriet &-eh ?
+unless you want to get your <puzzle from the kitchen do you> [>] ?
+want to do your puzzle from the kitchen Harriet ?
+no .
+want a wee ?
+alright ?
+then we'll go and sort the <cupboard out upstairs> [>] .
+mustn't put them down there love . .
+&-um ?
+you're not putting him away . .
+you don't need the door Harriet . .
+xxx I'm coming (4.) .
+here that can be your door [= a cushion] .
+see ?
+and that (1.) end you open .
+then shut (3.) .
+you'll have_to go two ways (3.) .
+now creep in there .
+you'll have_to creep in there (3.) .
+what do you say ?
+thank_you .
+don't you say pick it up please ? ?
+pick it up please .
+come on then (5.) .
+come on (6.) .
+that cup .
+don't cry about it (2.) .
+okay ?
+up (1.) ?
+ring a bell .
+ring a bell .
+up .
+up .
+are you up (3.) ?
+oy get off there you silly girl now +... +...
+can you sing that Harriet ?
+xxx going (1.) .
+xxx sing Ring_a_Ring_a_Roses .
+now stop pushing and being spiteful . .
+oh Harriet no .
+give them to Mummy .
+quickly .
+no they won't +...
+o:h your (1.) squashing them all to bits .
+go and put them away on the +... +...
+go and put them away on the bookcase .
+and leave things alone <Harriet > [>] .
+&-um [<] ?
+&-eh ?
++" lazy little Piggly_Wriggly often stays in bed to snore after Mother pig had called him for he always snored before .
+what's he got under his bed (2.) ?
++" once upon a day young Piggly .
++" stayed in bed an hour too late .
++" while his mother called and called him .
++" breakfast cold upon his plate .
+tut tut lazy isn't he ?
+have a xxx piece .
+harry have a sausage ?
+want a sausage ?
+want a sausage ?
+yes ?
+no ?
+don't .
+oh not ?
+what do you want (3.) ?
+what do you want ?
+nothing then ?
+what ?
+what ?
+<what do> [<] you want ?
+nothing ?
+alright .
+nothing .
+what do you want then ?
+get out_of the way ?
+harry ?
+water ?
+what do you want ?
+doggy ?
+daddy ?
+ah .
+biscuits .
+here don't put it down .
+you get crumbs all over the place . .
+you should be sat up eating a biscuit (2.) .
+what's the matter now ?
+Harriet why are you so neurotic ?
+it's dampish isn't it ?
+no .
+it's Daddy's .
+you can't have that glass .
+Mummy will give you a drink in another cup .
+alright ?
+<you're> [<] not to touch the milk (3.) .
+yes I'm getting you a drink of milk (3.) .
+(.) going to pick them up ?
+here you are then .
+it's time we xxx .
+you are a lucky girl aren't you ?
+&mm (3.) .
+&mm (4.) ?
+<do you> [>] want a wee ?
+come on then .
+quick (4.) .
+&-um xxx .
+pardon ?
+&mm &mm .
+can you manage ?
+that's doggy's bed (3.) .
+blue one (3.) .
+yellow one ?
+are you talking rubbish at me ?
+I think you are .
+wouldn't you like your hat and coat off ?
+you must be a bit hot .
+no ?
+xxx tidy them up nicely .
+then we'll put them upstairs so_that we can take them to Katie .
+alright ?
+we can't take them now .
+what's the matter now ?
+alright .
+xxx &-eh ?
+xxx another day .
+I don't expect he's there (9.) .
+oh he's taken some paper in xxx .
+&mm .
+he's right inside .
+can't see him can we ?
+in there ?
+oh yeh (1.) in there .
+&mm .
+come and help clean the toilet then .
+and make &-um (5.) .
+come and help clean the toilet .
+and then we'll have a cup of coffee .
+do you want to stay outside ?
+well you stay with the hedgehog .
+like to stay and play ?
+do you want to stay and play ?
+&-eh ?
+&-um he's gone to sleep hasn't he ?
+&-eh ?
+gone to sleep ?
+he's gone to sleep .
+pardon ?
+he's still under there .
+xxx getting him to come out .
+what are you going to do then (3.) ?
+what a mess in this garden (4.) .
+&-um [<] ?
+he's just going to sleep ?
+yeh .
+pardon ?
+that's it .
+haha [x 2] Drippy .
+you get a bit carried away after a while don't you ?
+that's right .
+very good .
+no [>] .
+one (1.) two (1.) three (1.) four (1.) five (1.) six (2.) .
+we must go and see Auntie Rosemary in a minute .
+oh dear .
+oh oh (2.) .
+and me what ?
+rosemary .
+alright .
+in a minute .
+we're not stopping though .
+don't think she's in at the moment .
+I don't think she's in at the moment .
+you what love ?
+I don't know what you're saying .
+what about your cup ?
+do you want to take it ?
+oh (7.) .
+&mm ?
+what ?
+what color's that duck ?
+pardon ?
+don't know .
+I think he did didn't he (3.) ?
+which scissors did he use ?
+what ?
+whose scissors ?
+Richard's scissors ?
+whose scissors (3.) ?
+&mm ?
+whose scissors ?
+finished have you ?
+do you want some pudding now ?
+alright then (7.) .
+&mm .
+there you are .
+come on .
+let's have some pudding before the television comes on shall we ?
+shall we (12.) ?
+pardon ?
+is it a tiger ?
+&mm (4.) .
+&mm .
+what is it ?
+funny goat isn't it ?
+&mm (3.) .
+&mm (4.) .
+what are you doing now ?
+pardon ?
+doing what to the man ?
+cutting him ?
+cutting a man ?
+what for ?
+you what ?
+got him ?
+you're talking rubbish .
+I shouldn't (1.) do that .
+we [<] must put this outside because it's got oil all over it .
+what are you doing ?
+drawing [<] a man ?
+oh I see (1.) &mm .
+you're very busy today aren't you (13.) ?
+come on go [>] and get your pottie then .
+no cause that's Naomi's pottie . .
+alright .
+and then Naomi's going to go on it .
+<are you> [<] ready (1.) ?
+&-um ?
+are you going to show me how you go on your pottie ?
+and then you can go on your pottie .
+good girl .
+well you're not doing a poo on Naomi's pottie .
+come on .
+if you want to do a poo you must go on your own [= own pot] .
+why don't you go and put the tea+set on the little table ?
+I thought you'd gone to xxx . .
+I think we'll pull your things up on .
+let's have a look .
+my Mummy says I really got one of mine .
+they're mine .
+&-uh .
+steady .
+go steady .
+&-eh [>] ?
+well let me see .
+oh oh let me see .
+where is it ?
+there .
+oh dear .
+did Mummy wash it yet ?
+no ?
+shall Daddy do it ?
+make it better (1.) &mm ?
+yeh .
+come on then .
+oh dear .
+oh dear .
+never mind it's not too hurt .
+it's not too +...
+what ?
+yes (4.) .
+what love ?
+two ?
+yes .
+and that one's Mummy's . .
+mummie's .
+what ?
+&-um ?
+pardon ?
+&-um ?
+which ?
+well that's not a story is it ?
+it's not a story is it ? ?
+you can wear that tomorrow .
+but darling you (2.) .
+it'll get dirty .
+and I shall have_to wash it .
+you'll have_to wait .
+alright .
+you wear it tomorrow (2.) ?
+where are you going now ?
+we'll find an old pair then .
+no .
+those are your best ones .
+I should wear old ones now because you'll be going to bed in a minute won't you ?
+what love ?
+grandma gave you ?
+did she ?
+xxx she didn't xxx (5.) .
+who ?
+you've got the other ones off have you ?
+<come on then> [>] .
+here you are .
+other foot (3.) .
+(.) what ?
+you're not wiping it off are you ?
+yeh there's some on the step . .
+don't wipe it will you ?
+come on Harriet .
+come on Harriet .
+&-um do you like those mixed vegetables (3.) ?
+no ?
+right .
+gravy ?
+yes .
+nice ?
+more ?
+here we are then .
+well we better put your bib [>] on .
+<or you'll get > [<] [>] +...
+(.) dinner on that thing .
+put your bib on (2.) .
+harry come on then (3.) .
+bib bib bib .
+and they're crowded up in here aren't they ?
+xxx [<] Harriet ?
+yes because look you'll get gravy on that otherwise .
+you pinched mine .
+you did .
+yeh .
+yeh .
+yeh (2.) .
+you did xxx .
+do you want to get down (1.) ?
+stand up then (2.) .
+stand up (3.) .
+now stay there Harriet .
+stay there .
+right then .
+get down then .
+put the pram in the garage .
+oh (3.) .
+see the pigeon .
+you're not far enough back are you (5.) ?
+see it (4.) ?
+come on then (3.) .
+here you are then .
+your toys ?
+yes .
+I'm going to tidy up a bit in here .
+and make some ice cream for your party .
+&mm ?
+yes do you want to go and put it up on top of the television ?
+xxx don't be a baby .
+you've got_to have it on .
+I'll find you a dress now .
+look (2.) .
+you're very bad but I think you need to have a little snooze .
+we're not going to Grandma's .
+you're a misery .
+the man can hear you crying .
+the man .
+now then you have window and see what you an see out_of there for a minute &-eh ?
+see if you can see Naomi .
+perhaps she went to the shops .
+oh you misery .
+oh shut up or I shall xxx +...
+what darling ?
+no I don't think those dollies do stand up really (4.) .
+do they ?
+oh she does .
+good .
+&-um (3.) ?
+is it walking (2.) ?
+I don't know whether she'll stand up on the carpet .
+a bit bumpy .
+isn't it (8.) ?
+alright I'll go up and get the box .
+xxx find some xxx (11.) .
+do you like that (2.) ?
+well because you were born a girl (2.) .
+&-um .
+well because they are .
+eggs .
+eggs .
+what's that ?
+where then ?
+get your feet off the book .
+sheep on the farm .
+pardon ?
+oh no they're on the farm .
+there's no no cars on the farm .
+only the tractor and they wouldn't run the sheep over (4.) .
+no they look all like sheep to me .
+oh there they are (1.) xxx .
+what's that (2.) ?
+there .
+no it's not a bus .
+what is it ?
+no what is it then ?
+a fire engine .
+it's a big cake .
+&mm .
+now what are you going to do ?
+stay down here whilst I go upstairs (2.) ?
+&-um ?
+I'm just going to clean the bath (3.) .
+hurry up then (2.) .
+xxx outside .
+it's nice .
+alright hurry up then .
+please (3.) .
+yes I'm waiting my pet (13.) .
+don't do that .
+&-um (3.) ?
+the freezer ?
+it's up there (1.) .
+no it will go in if Mummy does it .
+because it's just the right way .
+there we are .
+is he oh dear .
+do you want to take it off ?
+we'll sit here quietly shall we you and Mummy ?
+xxx on me again (41.) .
+now let me see (9.) .
+what shall we do now then ?
+yes when the others come .
+will you go up and get your puzzles (2.) ?
+they're upstairs though that's the trouble .
+you can have them later .
+what ?
+they won't pinch them .
+they can play with your puzzles .
+you xxx (3.) .
+a what ?
+a pram <do you mean> [>] .
+you get the pram .
+<it's outside> [<] .
+please .
+what do you want ?
+oh it's your high chair is it (15.) ?
+<you've> [<] [>] got three Fuzzy_Felts haven't you (2.) ?
+Harriet ?
+please may I have a look at xxx (2.) ?
+Mum can I have a go on it ?
+Harriet ?
+&-um ?
+yes I want to try them on Richard can I (3.) ?
+what what what ?
+oh yes .
+this one .
+this one (6.) .
+Harriet open this present ?
+no she doesn't open them yet are you ?
+open them when they're both ready .
+harry you might want a +...
+who brought my doll and paper to wrap it up in (2.) ?
+I'm finished before you (3.) .
+have you told Daddy who came to your party (2.) ?
+who came ?
+who came ?
+what did they bring you ?
+who's a naughty baby (2.) ?
+shh shh .
+<shush > [<] .
+xxx come and clean your teeth .
+what your plaster ?
+well xxx .
+daddy's watching it .
+<shush > [<] .
+<shush > [<] .
+no darling .
+you run upstairs and have a quick wash and clean your teeth xxx .
+yes .
+right up then .
+xxx right up here (6.) .
+oh .
+no (4.) .
+run Laura .
+climb up <xxx higher> [>] now sneezes [>] .
+quick [<] run sneezes [<] .
+run (1.) .
+run (2.) .
+Laura (2.) .
+off .
+off .
+get off .
+yeh .
+get off (1.) .
+xxx now [!] get off (1.) .
+<come on Laura > [>] .
+off there (4.) .
+go on .
+share it .
+(be)cause you are both <little babies> [>] .
+do not touch that please (6.) .
+yyy .
+<get out> [<] .
+quick (5.) .
+step on it .
+xxx on it then xxx (4.) .
+Laura .
+come and step on it .
+please (6.) .
+please step on it Laura (1.) .
+no .
+step on him .
+come on .
+run away (3.) .
+he's a horrible [!] snake (3.) .
+xxx snakes today .
+Laura come in and have your nose done .
+come and have your nose done .
+come in .
+and I'll get the tissues (4.) .
+xxx come in to me .
+there .
+rub it in (3.) .
+oh dear .
+I think you're tired (2.) .
+are you tired ?
+tired ?
+Laura .
+bring that bike in (11.) .
+Laura .
+shall we move that bike (1.) ?
+know what (1.) ?
+no one is doctor (2.) .
+oh I'll be the hospital (1.) .
+everybody got_to be quiet (3.) .
+and [<] you got_to take your shoes off .
+xxx shoes off (2.) .
+not shoes and socks (2.) .
+not your socks okay ?
+quiet (3.) .
+like it [= would you like it] ?
+no she's staying there on her own .
+move over then (4.) .
+alright .
+shall we xxx ?
+yeh .
+they'll have one (4.) .
+no running around .
+go and play then .
+did you see Lee and Dale's cars ?
+I see-ed [: saw] some beautiful little cars in the kitchen .
+when I went out there just now .
+get out that drawer .
+get <out that drawer > [>] .
+you been good girls ?
+there's a nice little dress you've got on .
+pardon ?
+I don't want no more (3.) .
+ow .
+ow (2.) .
+ow ow .
+he could lick +...
+he couldn't lick me (2.) .
+he couldn't lick us (17.) .
+listen .
+listen .
+the baby's asleep (24.) .
+Laura .
+lie down xxx .
+Laura .
+yyy this throughout (1:15.) .
+no (9.) .
+buy her strawberries xxx .
+right ?
+yeh .
+straight down mind .
+yeh .
+happy birthday to you .
+birth (1.) day (6.) .
+who ?
+xxx old podgy face .
+do you know what (.) ?
+do you know what you done last night Laura ?
+come on let's go in the house now (2.) .
+come on (2.) .
+come on .
+play football .
+give Mummy them .
+give Mummy them (1.) please .
+mummie .
+ta .
+look .
+go on over there and play xxx .
+Play School be on in a minute (2.) . .
+alright ?
+&-eh ?
+he won't sit down ?
+come on then Laura .
+help us (2.) .
+there's a good girl .
+you can take that in if you like (4.) .
+Laura ?
+Laura ?
+xxx that great big lump Laura (2.) .
+yeh ?
+yeh Laura .
+want to go wee do you ?
+let me undo it !
+come on .
+ah .
+mummie's little tired girl (34.) .
+Laura (18.) .
+come on .
+let's run about .
+well don't just eat the prunes .
+no .
+cause you're not having any sweeties .
+you didn't finish your dinner (5.) .
+what have you been doing .
+on the top [!] I said .
+yes (1.) .
+you can't reach (1.) .
+don't go on (6.) .
+on [>] the bottom please .
+on the bottom one .
+no .
+ah .
+right now .
+down .
+down .
+you're giving me lots_of kisses aren't you ?
+am I (4.) ?
+did you pass wind ?
+I need to roll it out a bit more (5.) .
+&-um hum [= yes] (11.) .
+just a minute (3.) .
+come on .
+off the chair please .
+you've got it on two legs only (2.) .
+well we'll not be a minute .
+show Sue your new slippers .
+your new slippers .
+show Sue your slippers .
+Laura .
+Laura .
+in there .
+no no no no .
+oh stupid girl .
+that's the same (3.) .
+look what I got .
+it wasn't like you was it (6.) ?
+tickle lickle@wp.
+there's a rabbit in here .
+come on then .
+where's your balloon (2.) ?
+xxx out now .
+where's it to (6.) ?
+oh dear .
+have he ?
+shall I take your Tiny_Tears in here .
+right .
+tell me .
+what ?
+okay (2.) .
+no I'm not wearing that .
+I'm wearing that one .
+you wear that one .
+and you wear that one .
+little girls xxx .
+Laura you have that one (5.) .
+I'm having that one (4.) .
