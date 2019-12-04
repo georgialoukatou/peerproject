@@ -245,7 +245,8 @@ adultdirected_questions$no_rows/sum(demuth_sentence_type_adult_annotated$no_rows
 #load Wells data
 
 lang<-"English"
-wells<-read.table(file="wells.csv", header=TRUE, sep="\t") #11,866
+wells<-read.csv(file="wells.csv", header=T) #11,866
+wells[6]<-NULL
 
 #mark corpus by keychild cs: I checked twice i someone wants to double check awesome
 wells$keychild <- NA
