@@ -19,7 +19,7 @@ output_file2=${RAW_FOLDER}output2.txt
 output_file3=${RAW_FOLDER}output3.txt
 output_file4=${RAW_FOLDER}output4.csv
 
-
+###Attention DEA NEI
 
 for corpus in $(find $RAW_FOLDER -type d);
  do
@@ -59,7 +59,7 @@ fi
 #laura
 if [ $NAME = "laura" ];
 then
-cat $output_file2 | sed 's/^CHI/CHI	Laura Target_Child%/g' | sed 's/^MOT/MOT	Mother%/g'| sed 's/^FAT/FAT	Father%/g' | sed 's/^SAR/SAR	Sarah  Sister%/g' | sed  's/^UNK/UNK	Unidentified%/g' | sed  's/^KER/KER	Kerry  Child%/g' | sed  's/^KEL/KEL	Kelly  Child%/g' |sed  's/^DAL/DAL	Dale  Child%/g' | sed  's/^LEE/LEE	Lee  Child%/g' |  sed  's/^AUN/AUN	Aunt%/g' |sed 's/^INS/INS	Unidentified%/g' |sed 's/^ARL/ARL	Unidentified%/g'| sed 's/^UNC/UNC	Uncle%/g'  > $output_file3 
+cat $output_file2 | sed 's/^CHI/CHI	Laura Target_Child%/g' | sed 's/^MOT/MOT	Mother%/g'| sed 's/^FAT/FAT	Father%/g' | sed 's/^SAR/SAR	Sarah  Sister%/g' | sed  's/^UNK/UNK	Unidentified%/g' | sed  's/^KER/KER	Kerry  Child%/g' | sed  's/^KEL/KEL	Kelly  Child%/g' |sed  's/^DAL/DAL	Dale  Child%/g' | sed  's/^LEE/LEE	Lee  Child%/g' |  sed  's/^AUN/AUN	Aunt%/g' |sed 's/^INS/INS	Unidentified%/g' |sed 's/^ARL/ARL	Unidentified%/g'| sed 's/^UNC/UNC	Uncle%/g' | sed 's/^FRA/Fraser	Brother%/g'  > $output_file3 ! Fraser Brother replaced by father in lines 6831-6879 
 fi
 
 if [ $NAME = "benjamin" ]; #ADU, LOR
