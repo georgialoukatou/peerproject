@@ -321,6 +321,8 @@ wells_child_directed<-subset(wells_annotated_input, (wells_annotated_input$DIREC
 
 aggregate(wells_child_directed$UTTERANCE,by=list(wells_child_directed$speaker, wells_child_directed$keychild),length )->sum_wells_CDS
 colnames(sum_wells_CDS) <- c( "speaker", "keychild", "nb_utt")
+write.table(sum_wells_CDS, file=paste0("sum_wells_CDS.txt"), row.names=F, col.names=T,  quote=F) 
+
 
 #subset all utterances marked as CDS
 wells_child_directed<-subset(wells_child_directed, !(wells_child_directed$speaker=="Target_Child"))
@@ -338,6 +340,8 @@ well_adult_directed<-subset(wells_annotated_input, !(wells_annotated_input$DIREC
 
 aggregate(well_adult_directed$UTTERANCE,by=list(well_adult_directed$speaker, well_adult_directed$keychild),length )->sum_wells_ADS
 colnames(sum_wells_ADS) <- c( "speaker", "keychild", "nb_utt")
+write.table(sum_wells_ADS, file=paste0("sum_wells_ADS.txt"), row.names=F, col.names=T,  quote=F) 
+
 
 well_adult_directed<-subset(well_adult_directed, !(well_adult_directed$speaker=="Target_Child"))
 #subset all utterances marked as ADS
@@ -359,6 +363,7 @@ sum_wells_CDS$input <- "CDS"
 
 #remove for CDS the target child utterances in which he is talking to himself
 sum_wells_CDS<-subset(sum_wells_CDS, !(sum_wells_CDS$speaker=="Target_Child"))
+sum_wells_ADS<-subset(sum_wells_CDS, !(sum_wells_ADS$speaker=="Target_Child"))
 
 
 #make sure that all children have the 4 categories ,if not mark as 0
@@ -392,13 +397,13 @@ sum_wells_ADS <- rbind(sum_wells_ADS, new)
 
 wells_fig <-rbind(sum_wells_ADS,sum_wells_CDS)
 
-trywells <- melt(sum_wells_ADS[,c("child","tot.adults", "tot.children")],id.vars = 1)
-colnames(dfm) <- c("child", "input", "value")
-dft <- melt(bigsum_low[,c("child","cds.adults", "cds.children")],id.vars = 1)
-colnames(dft) <- c("child", "input.cds", "value.cds")
-cbind(dfm,dft) -> try
-try[4] <- NULL
-merge(x=bigsum_low,y = try[ , c("child",  "input", "value", "input.cds", "value.cds"),], all.x=T,all.y=F)->try2
+# trywells <- melt(sum_wells_ADS[,c("child","tot.adults", "tot.children")],id.vars = 1)
+# colnames(dfm) <- c("child", "input", "value")
+# dft <- melt(bigsum_low[,c("child","cds.adults", "cds.children")],id.vars = 1)
+# colnames(dft) <- c("child", "input.cds", "value.cds")
+# cbind(dfm,dft) -> try
+# try[4] <- NULL
+# merge(x=bigsum_low,y = try[ , c("child",  "input", "value", "input.cds", "value.cds"),], all.x=T,all.y=F)->try2
 
 
 
@@ -495,7 +500,7 @@ demuth_addresse<- ggplot(sum_demuth_addressee, aes( y=nb_utt, x=keychild, fill=a
 
 
 
-wells_CDS<- ggplot(sum_wells_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
+wells_CDS<- ggplot(wells_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
   geom_bar(stat="identity", position="fill")
 demuth_CDS<- ggplot(sum_demuth_CDS, aes( y=nb_utt, x=keychild, fill=speaker))+
   geom_bar(stat="identity", position="fill")
