@@ -548,20 +548,27 @@ demuth_addresse<- ggplot(sum_demuth_addressee, aes( y=nb_utt, x=keychild, fill=a
   geom_bar(stat="identity", position="dodge")
 
 
+#remove catherine for plot
+demuth_fig<-subset(demuth_fig, !(demuth_fig$speaker=="investigator"))
 
 
-wells_CDS<- ggplot(wells_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
-  geom_bar(stat="identity", position="fill")
-demuth_CDS<- ggplot(demuth_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
-  geom_bar(stat="identity", position="fill")
+
+#this is the code for the figuresss
+
+wells_ADSCDS<- ggplot(wells_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="Wells Corpus", y="Number of utterances") + scale_fill_discrete(labels= c("Adults", "Mother", "Peers", "Siblings")) + guides(fill=guide_legend(title=NULL))
+demuth_ADSCDS<- ggplot(demuth_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="Demuth Corpus", y="Number of utterances") + scale_fill_discrete(labels= c("Adults", "Mother", "Peers", "Siblings")) + guides(fill=guide_legend(title=NULL))
+
+
 
 
 #panel
- multiplot (wells_full, demuth_full, cols=1)
- multiplot (wells_annot, demuth_annot, cols=1)
+ # multiplot (wells_full, demuth_full, cols=1)
+ # multiplot (wells_annot, demuth_annot, cols=1)
+ #  
   
-  
- fill <- multiplot (wells_CDS, demuth_CDS, cols=1) 
- dodge <- multiplot (wells_CDS, demuth_CDS, cols=1) 
+ #fill <- multiplot (wells_CDS, demuth_CDS, cols=1) 
+ dodge <- multiplot (wells_ADSCDS, demuth_ADSCDS, cols=1) 
  
 ```
