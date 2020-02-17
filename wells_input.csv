@@ -1,3 +1,4 @@
+NAME	ROLE	UTTERANCE	COMMENT	DIRECTED	keychild	gender	speaker
 NIC	Nicola  Sister	0 [=! singing] .			benjamin	M	sibling
 CHI	Benjamin Target_Child	0 .	%com: this is a short sample		benjamin	M	Target_Child
 NIC	Nicola  Sister	you're nearly five .		CHI	benjamin	M	sibling

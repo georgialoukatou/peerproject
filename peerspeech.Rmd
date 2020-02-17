@@ -7,6 +7,7 @@ library(childesr)
 library(dplyr)
 
 
+
 transcripts_ <-get_participants()
 exclude<-c("Biling", "Clinical", "Clinical-MOR")
 d=subset(transcripts_, !(transcripts_$collection_name %in% exclude)) #exclude bilingual and clinical studies
@@ -59,19 +60,36 @@ Number of CHILDES corpora with peer speech: `r length(peerCorpusName)`
 ```{r read_csv, eval=FALSE, echo = TRUE, message=FALSE} 
 # counts number of utterances per speaker for the selected out-of-lab corpora
 #This chunk takes time to compute!
-tablep=data.frame()
+
+
+#for (name in peerCorpusName[1:2]) {   #choosing only first 2 corpora to have it compile faster! 
 
 i=1
-for (name in peerCorpusName[1:2]) {   #choosing only first 2 corpora to have it compile faster! 
-  cp<-get_utterances(corpus=name)
-  tabletmp_<-cp %>% group_by(speaker_role) %>% summarise(no_rows = length(speaker_role))
-  tablep<-rbind(tablep, tabletmp_)
-  i=i+1}
-tablep
+total<-data.frame(speaker_role=unique(cSelect$role))
 
-nuttsSummary<-tablep %>% group_by(speaker_role) %>% summarise(no_rows = sum(no_rows))
-nuttsSummary
+for (name in peerCorpusName) {   #choosing only first 2 corpora to have it compile faster! 
+  i=i+1
+  utts<-get_utterances(corpus=name)
+  ex=data.frame()
+  ex<- utts %>% group_by(speaker_role) %>% tally()
+  ex$n <- as.numeric(as.character(ex$n)) / sum(ex$n)
+  total<- left_join(total, ex )
+  colnames(total)[i]<-name
+}
+total[is.na(total)] <- 0
+total$Rmean <-rowMeans(total[2:3])
+total$Rsd <- apply(total[2:3], 1, sd)
+total$Rmean<- round(total$Rmean, 2)
+total$Rsd<- round(total$Rsd, 2)
+total
 
+total_specific<- total  %>% select(speaker_role, Rmean, Rsd)
+
+total_specific<- subset(total_specific, !(total_specific$Rmean==0))
+
+library(ggplot2)
+p<-ggplot(total_specific, aes(x=speaker_role, y=Rmean, fill=speaker_role)) + geom_bar(stat="identity") + labs(title="Mean input ratio across CHILDES", x="Speaker role", y = "Mean input ratio")
+p
 
 ```
 
@@ -297,7 +315,7 @@ demuth_fig <-rbind(sum_demuth_ADS,sum_demuth_CDS)
 #load Wells data
 
 lang<-"English"
-wells<-read.csv(file="wells.csv", header=T) #11,866
+wells<-read.csv(file="/Users/lscpuser/Documents/peerproject/peerproject/wells.csv", header=T) #11,866
 wells[6]<-NULL
 
 #mark corpus by keychild cs: I checked twice i someone wants to double check awesome
@@ -336,7 +354,10 @@ wells$speaker[grep("Target", wells$ROLE)] <- "Target_Child"
 
 #name and save data
 colnames(wells)<-c("NAME"   ,   "ROLE"   ,   "UTTERANCE", "COMMENT"  , "DIRECTED"    ,  "keychild" , "gender"   , "speaker")
-write.table(wells, file=paste0("wells_input.txt"), row.names=F, col.names=T,  quote=F) 
+
+wells[] <- lapply(wells, gsub, pattern='\t', replacement='')
+
+write.table(wells, file=paste0("wells_input.csv"), row.names=F, col.names=T,  quote=F, sep='\t') 
 
 #Sum the number of utterances per speaker category and keychild
 aggregate(wells$UTTERANCE,by=list( wells$speaker, wells$keychild),length )->sum_wells
@@ -349,10 +370,11 @@ try<- wells %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) # 1
 
 ``` 
 
-```{r wells directedness, eval=TRUE, include=TRUE, message=FALSE}
+```{r wells directedness, include=TRUE, message=FALSE}
 
 #NOT WORKING FOR SOME REASON:
-#read.table("wells_input.txt",header=F)->wells_input
+read.table("wells_input.csv",header=F, sep='\t', fill = TRUE)->wells_input
+colnames(wells_input)<-c("NAME"   ,   "ROLE"   ,   "UTTERANCE", "COMMENT"  , "DIRECTED"    ,  "keychild" , "gender"   , "speaker")
 
 #ADRESSEE ANNOTATIONS PART  #6785 ~ 57.2%
 wells_annotated_input<-subset(wells, !(wells$DIRECTED=="")) #select utterances annotated by Naomi Alex up to now , for now 3098 rows PLEASE UPDATE as we go !!
@@ -393,12 +415,15 @@ colnames(sum_wells_ADS) <- c( "speaker", "keychild", "nb_utt")
 write.table(sum_wells_ADS, file=paste0("sum_wells_ADS.txt"), row.names=F, col.names=T,  quote=F) 
 
 
-well_adult_directed<-subset(well_adult_directed, !(well_adult_directed$speaker=="Target_Child"))
+well_adult_directed<-subset(well_adult_directed,!(well_adult_directed$ROLE=="Target_Child"))
 #subset all utterances marked as ADS
 wells_ad_directed_utts<- as.data.frame(well_adult_directed %>%select(UTTERANCE))
+wells_ad_directed_uttstarget<- as.data.frame(well_adult_directed %>%select(UTTERANCE, keychild))
+
 #export all ADS utterance into a text file
 write.table(wells_ad_directed_utts, file=paste0(lang, "Wellsadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
 
+write.table(well_adult_directed, file=paste0(lang, "Wellsalladultdirected.txt"), row.names=F, col.names=T,  quote=F) 
 
 
 ```
@@ -459,7 +484,7 @@ wells_fig <-rbind(sum_wells_ADS,sum_wells_CDS)
 
 ```
 
-```{r percentages-wells }
+```{r percentages-wells, eval=FALSE }
 # count different types of addressees 
 wells_annotated_value<- wells_annotated_input %>% group_by(DIRECTED) %>% summarise(no_rows = length(DIRECTED))
 #create a data.frame
@@ -553,10 +578,11 @@ demuth_fig<-subset(demuth_fig, !(demuth_fig$speaker=="investigator"))
 
 
 
+
 #this is the code for the figuresss
 
 wells_ADSCDS<- ggplot(wells_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
-  geom_bar(stat="identity", position="dodge") +  labs(x="Wells Corpus", y="Number of utterances") + scale_fill_discrete(labels= c("Adults", "Mother", "Peers", "Siblings")) + guides(fill=guide_legend(title=NULL))
+  geom_bar(stat="identity", position="dodge") +  labs(x="Wells Corpus", y="Number of utterances") + guides(fill=guide_legend(title=NULL))
 demuth_ADSCDS<- ggplot(demuth_fig, aes( y=as.numeric(nb_utt), x=input, fill=speaker))+
   geom_bar(stat="identity", position="dodge") +  labs(x="Demuth Corpus", y="Number of utterances") + scale_fill_discrete(labels= c("Adults", "Mother", "Peers", "Siblings")) + guides(fill=guide_legend(title=NULL))
 
