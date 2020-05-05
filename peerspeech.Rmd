@@ -11,7 +11,7 @@
 lang<-"Sesotho"
 
 #reads demuth corpus and counts utterances per speaker
-demuth<-read.csv(file="/Users/admin/Downloads/sesotho_CDS_complete.csv", header=TRUE) # memory processing problems, can't load googlesheets
+demuth<-read.csv(file="sesotho_CDS_complete.csv", header=TRUE) # memory processing problems, can't load googlesheets
 demuth<-subset(demuth, !(demuth$speaker_role_raw=="Target_Child")) #remove target child utterances
 
 #mark corpus by keychild cs: I checked twice if someone wants to double check awesome
