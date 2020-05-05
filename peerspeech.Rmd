@@ -42,7 +42,7 @@ demuth$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father",
 demuth$speaker[grep("Target", demuth$speaker_role_raw)] <- "Target_Child"
 
 #save changes
-write.table(demuth, file=paste0("/Users/admin/Desktop/demuth_input2.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(demuth, file=paste0("demuth_input.txt"), row.names=F, col.names=T,  quote=F) 
 
 #Sum the number of utterances per speaker category and keychild
 aggregate(demuth$utterance_id,by=list( demuth$speaker, demuth$keychild),length )->sum_demuth
@@ -148,6 +148,7 @@ adultdirected_questions$no_rows/sum(demuth_sentence_type_AD$no_rows)*100 #14.97
 
 ```{r demuth for figure purposes}
 
+######checked up to here -g
 library(reshape2)
 
 #add label of type of input
