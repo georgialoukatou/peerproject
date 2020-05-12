@@ -550,7 +550,8 @@ library(ggpubr)
   geom_bar(stat="identity", position="fill") +  labs(x="Tsebo", y="")  + guides(fill=FALSE)
 
 #scale_fill_discrete(labels= c("Adults", "Mother", "Peers", "Siblings"))
-
+ggplot(sum_demuth_register, aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="", y="")  + guides(fill=guide_legend(title=NULL))
 
 #panel
  # multiplot (wells_full, demuth_full, cols=1)
