@@ -1,0 +1,16 @@
+speaker keychild nb_utt
+adult Hlobohang 4767
+investigator Hlobohang 1454
+mother Hlobohang 1736
+other child Hlobohang 5328
+Target_Child Hlobohang 9479
+adult Litlhare 380
+investigator Litlhare 2754
+mother Litlhare 5635
+other child Litlhare 7504
+Target_Child Litlhare 13482
+adult Tsebo 1558
+investigator Tsebo 1278
+mother Tsebo 2912
+other child Tsebo 5414
+Target_Child Tsebo 5892

@@ -1,0 +1,35 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotation2	annotator_name2	Diff_annotations	keychild	speaker	role_adressee
+873	BRO	Brother	je vais aller voir Omer .	%act BRO a remis son masque de chien	%com Omer est le nom du chien de la famille	%act BRO a remis son masque de chien %com Omer est le nom du chien de la famille	Anae/215.cha	BR1	clara				Anae	other child	Other child
+874	BRO	Brother	je vais aller voir Omer Arthur .			 	Anae/215.cha	BR1	clara				Anae	other child	Other child
+876	BRO	Brother	d'accord ?			 	Anae/215.cha	BR1	clara				Anae	other child	Other child
+3520	BRO	Brother	non elle a fait juste un trou .			 	Anae/2428.cha	BR1	clara				Anae	other child	Other child
+3596	BR1	Brother1	< chut .			 	Anae/2428.cha	BRO	clara				Anae	other child	Other child
+3616	BR1	Brother1	donne lui le couteau suisse .			 	Anae/2428.cha	BRO	clara				Anae	other child	Other child
+3633	BR1	Brother1	< bah oui puisque tu lui as donné .			 	Anae/2428.cha	BRO	clara				Anae	other child	Other child
+4161	BR1	Brother1	tu vas trop vite !			 	Anae/2428.cha	BRO	clara				Anae	other child	Other child
+4201	BR1	Brother1	< et après moi je vais à l'atelier .			 	Anae/2428.cha	BRO	clara				Anae	other child	Other child
+7207	BR1	Brother1	< non parce que là je vais +...	com BRO et BR1 parlent en arrière plan hors champ caméra		com BRO et BR1 parlent en arrière plan hors champ caméra 	Anae/2626.cha	BRO	clara	BRO	Lara		Anae	other child	Other child
+7212	BR1	Brother1	xxx il est déjà rempli .			 	Anae/2626.cha	BRO	clara	BRO	Lara		Anae	other child	Other child
+7219	BR1	Brother1	< xxx déjà rempli .			 	Anae/2626.cha	BRO	clara	BRO	Lara		Anae	other child	Other child
+7228	BRO	Brother	xxx .	com BRO et BR1 continuent de parler en arrière fond hors champ caméra		com BRO et BR1 continuent de parler en arrière fond hors champ caméra 	Anae/2626.cha	BR1	clara	BR1	Lara		Anae	other child	Other child
+7230	BR1	Brother1	non .			 	Anae/2626.cha	BRO	clara	BRO	Lara		Anae	other child	Other child
+7231	BRO	Brother	si .			 	Anae/2626.cha	BR1	clara	BR1	Lara		Anae	other child	Other child
+7232	BR1	Brother1	non c'est mon sac .			 	Anae/2626.cha	BRO	clara	BRO	Lara		Anae	other child	Other child
+7243	BR1	Brother1	mais t(u) en as encore de la place .			 	Anae/2626.cha	BRO	clara	BRO	Lara		Anae	other child	Other child
+8324	BRO	Brother	< elle va remplir le car Arthur hein .			 	Anae/2626.cha	BR1	clara	BR1	Lara		Anae	other child	Other child
+8891	BR1	Brother1	chut .	com BR1 est hors champ caméra mais il est probable que ce soit lui qui dise chut à BRO		com BR1 est hors champ caméra mais il est probable que ce soit lui qui dise chut à BRO 	Anae/284.cha	BR1	clara				Anae	other child	Other child
+12624	BOY	Boy	ça vient de monstre et xxx .			 	Anae/2123.cha	BR1	clara	BR1	Lara		Anae	other child	Other child
+12625	BOY	Boy	c'est ça Arthur ?			 	Anae/2123.cha	BR1	clara	BR1	Lara		Anae	other child	Other child
+12994	BRO	Brother	tiens va dire à Zoum qu'(il) y a son téléphone qui sonne .	add à BRO		add à BRO 	Anae/2123.cha	BRO	clara	BRO	Lara		Anae	other child	Other child
+14871	COU	Anouk Cousin Relative	oui .			 	Anae/317.cha	COU	clara				Anae	other child	Other child
+14958	COU	Anouk Cousin Relative	tiens de l'eau Arthur .	%act CHI tend une tasse à BR1		%act CHI tend une tasse à BR1 	Anae/317.cha	BR1	clara				Anae	other child	Other child
+14959	COU	Anouk Cousin Relative	Arthur de l'eau .			 	Anae/317.cha	BR1	clara				Anae	other child	Other child
+14960	BR1	Brother1	mais j'en veux pas .			 	Anae/317.cha	COU	clara				Anae	other child	Other child
+14961	COU	Anouk Cousin Relative	ben si .			 	Anae/317.cha	BR1	clara				Anae	other child	Other child
+15126	BR1	Brother1	mais non t(u) as déménagé .			 	Anae/317.cha	COU	clara				Anae	other child	Other child
+15349	BR1	Brother1	< mais si .			 	Anae/317.cha	COU	clara				Anae	other child	Other child
+15357	BR1	Brother1	< regarde comme ça et après il y a Anaé qui s(e) met derrière .			 	Anae/317.cha	COU	clara				Anae	other child	Other child
+16066	COU	Anouk Cousin Relative	< hé Arthur yyy euh regarde les Playmobil d' Anaé .	%xpnt show les jeux de l'index mouvement furtif		%xpnt show les jeux de l'index mouvement furtif 	Anae/317.cha	BR1	clara		Lara		Anae	other child	Other child
+16100	COU	Anouk Cousin Relative	< ‹Ar(thur) [/]› Arthur .			 	Anae/317.cha	BR1	clara		Lara		Anae	other child	Other child
+16191	BR1	Brother1	< mais non c'est un pantalon .			 	Anae/317.cha	COU	clara		Lara		Anae	other child	Other child
+16208	COU	Anouk Cousin Relative	non .			 	Anae/317.cha	BRO	clara		Lara		Anae	other child	Other child
