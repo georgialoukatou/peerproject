@@ -1,0 +1,785 @@
+session	speaker	targetchild	register	input	total	ratio	language
+Anae/21122.cha	adult	Anae	ADS	1	473	0.00211416490486258	French
+Anae/21122.cha	mother	Anae	ADS	2	473	0.00422832980972516	French
+Anae/21122.cha	other child	Anae	ADS	5	473	0.0105708245243129	French
+Anae/21122.cha	other child	Anae	CDS	7	473	0.0147991543340381	French
+Anae/21122.cha	mother	Anae	OCDS	11	473	0.0232558139534884	French
+Anae/21122.cha	mother	Anae	CDS	447	473	0.945031712473573	French
+Anae/2123.cha	other child	Anae	ADS	12	791	0.0151706700379267	French
+Anae/2123.cha	mother	Anae	OCDS	21	791	0.0265486725663717	French
+Anae/2123.cha	mother	Anae	ADS	11	791	0.0139064475347661	French
+Anae/2123.cha	adult	Anae	OCDS	3	791	0.00379266750948167	French
+Anae/2123.cha	mother	Anae	CDS	724	791	0.915297092288243	French
+Anae/2123.cha	adult	Anae	ADS	10	791	0.0126422250316056	French
+Anae/2123.cha	adult	Anae	CDS	7	791	0.00884955752212389	French
+Anae/2123.cha	other child	Anae	OCDS	3	791	0.00379266750948167	French
+Anae/215.cha	mother	Anae	ADS	1	728	0.00137362637362637	French
+Anae/215.cha	adult	Anae	ADS	2	728	0.00274725274725275	French
+Anae/215.cha	mother	Anae	CDS	598	728	0.821428571428571	French
+Anae/215.cha	mother	Anae	OCDS	46	728	0.0631868131868132	French
+Anae/215.cha	other child	Anae	OCDS	3	728	0.00412087912087912	French
+Anae/215.cha	other child	Anae	ADS	25	728	0.0343406593406593	French
+Anae/215.cha	other child	Anae	CDS	53	728	0.0728021978021978	French
+Anae/2216.cha	mother	Anae	CDS	584	584	1	French
+Anae/2428.cha	other child	Anae	ADS	72	892	0.0807174887892377	French
+Anae/2428.cha	adult	Anae	ADS	6	892	0.00672645739910314	French
+Anae/2428.cha	mother	Anae	ADS	7	892	0.007847533632287	French
+Anae/2428.cha	other child	Anae	CDS	114	892	0.12780269058296	French
+Anae/2428.cha	other child	Anae	OCDS	6	892	0.00672645739910314	French
+Anae/2428.cha	mother	Anae	CDS	595	892	0.667040358744395	French
+Anae/2428.cha	adult	Anae	OCDS	5	892	0.00560538116591928	French
+Anae/2428.cha	mother	Anae	OCDS	87	892	0.0975336322869955	French
+Anae/2529.cha	mother	Anae	CDS	719	719	1	French
+Anae/2626.cha	adult	Anae	OCDS	1	678	0.00147492625368732	French
+Anae/2626.cha	adult	Anae	ADS	3	678	0.00442477876106195	French
+Anae/2626.cha	mother	Anae	ADS	1	678	0.00147492625368732	French
+Anae/2626.cha	other child	Anae	OCDS	9	678	0.0132743362831858	French
+Anae/2626.cha	mother	Anae	CDS	456	678	0.672566371681416	French
+Anae/2626.cha	mother	Anae	OCDS	48	678	0.0707964601769911	French
+Anae/2626.cha	other child	Anae	CDS	106	678	0.156342182890855	French
+Anae/2626.cha	other child	Anae	ADS	54	678	0.079646017699115	French
+Anae/284.cha	other child	Anae	OCDS	1	799	0.00125156445556946	French
+Anae/284.cha	mother	Anae	ADS	4	799	0.00500625782227785	French
+Anae/284.cha	other child	Anae	ADS	75	799	0.0938673341677096	French
+Anae/284.cha	mother	Anae	OCDS	100	799	0.125156445556946	French
+Anae/284.cha	mother	Anae	CDS	583	799	0.729662077596996	French
+Anae/284.cha	other child	Anae	CDS	36	799	0.0450563204005006	French
+Anae/2923.cha	mother	Anae	CDS	773	773	1	French
+Anae/317.cha	mother	Anae	ADS	5	683	0.00732064421669107	French
+Anae/317.cha	adult	Anae	ADS	5	683	0.00732064421669107	French
+Anae/317.cha	mother	Anae	OCDS	89	683	0.130307467057101	French
+Anae/317.cha	other child	Anae	ADS	91	683	0.133235724743777	French
+Anae/317.cha	adult	Anae	OCDS	7	683	0.0102489019033675	French
+Anae/317.cha	adult	Anae	CDS	4	683	0.00585651537335286	French
+Anae/317.cha	mother	Anae	CDS	291	683	0.42606149341142	French
+Anae/317.cha	other child	Anae	CDS	179	683	0.26207906295754	French
+Anae/317.cha	other child	Anae	OCDS	12	683	0.0175695461200586	French
+Anais/239a.cha	mother	Anais	ADS	3	445	0.00674157303370787	French
+Anais/239a.cha	mother	Anais	OCDS	1	445	0.00224719101123596	French
+Anais/239a.cha	other child	Anais	ADS	2	445	0.00449438202247191	French
+Anais/239a.cha	adult	Anais	ADS	1	445	0.00224719101123596	French
+Anais/239a.cha	mother	Anais	CDS	435	445	0.97752808988764	French
+Anais/239a.cha	adult	Anais	CDS	3	445	0.00674157303370787	French
+Anais/242a.cha	adult	Anais	CDS	743	743	1	French
+Anais/242b.cha	adult	Anais	CDS	662	666	0.993993993993994	French
+Anais/242b.cha	adult	Anais	ADS	4	666	0.00600600600600601	French
+Anais/247a.cha	other child	Anais	CDS	19	531	0.0357815442561205	French
+Anais/247a.cha	mother	Anais	OCDS	65	531	0.12241054613936	French
+Anais/247a.cha	other child	Anais	ADS	54	531	0.101694915254237	French
+Anais/247a.cha	mother	Anais	CDS	393	531	0.740112994350282	French
+Anais/247b.cha	other child	Anais	CDS	28	365	0.0767123287671233	French
+Anais/247b.cha	other child	Anais	ADS	51	365	0.13972602739726	French
+Anais/247b.cha	mother	Anais	OCDS	44	365	0.120547945205479	French
+Anais/247b.cha	mother	Anais	CDS	242	365	0.663013698630137	French
+Anais/2511a.cha	mother	Anais	ADS	5	660	0.00757575757575758	French
+Anais/2511a.cha	mother	Anais	CDS	653	660	0.989393939393939	French
+Anais/2511a.cha	adult	Anais	ADS	2	660	0.00303030303030303	French
+Anais/2511b.cha	mother	Anais	CDS	639	639	1	French
+Anais/2523a.cha	mother	Anais	CDS	676	676	1	French
+Anais/2525a.cha	mother	Anais	ADS	1	535	0.00186915887850467	French
+Anais/2525a.cha	mother	Anais	CDS	534	535	0.998130841121495	French
+Anais/2621a.cha	adult	Anais	CDS	17	476	0.0357142857142857	French
+Anais/2621a.cha	mother	Anais	CDS	431	476	0.90546218487395	French
+Anais/2621a.cha	adult	Anais	ADS	10	476	0.0210084033613445	French
+Anais/2621a.cha	mother	Anais	ADS	18	476	0.0378151260504202	French
+Anais/28a.cha	mother	Anais	OCDS	64	767	0.0834419817470665	French
+Anais/28a.cha	other child	Anais	CDS	58	767	0.075619295958279	French
+Anais/28a.cha	mother	Anais	ADS	2	767	0.00260756192959583	French
+Anais/28a.cha	mother	Anais	CDS	579	767	0.754889178617992	French
+Anais/28a.cha	other child	Anais	OCDS	1	767	0.00130378096479791	French
+Anais/28a.cha	other child	Anais	ADS	63	767	0.0821382007822686	French
+Anais/296b.cha	adult	Anais	CDS	499	499	1	French
+Theotime/2111a.cha	mother	Theotime	CDS	427	427	1	French
+Theotime/2112a.cha	mother	Theotime	CDS	331	338	0.979289940828402	French
+Theotime/2112a.cha	mother	Theotime	OCDS	3	338	0.00887573964497041	French
+Theotime/2112a.cha	other child	Theotime	ADS	1	338	0.0029585798816568	French
+Theotime/2112a.cha	other child	Theotime	CDS	3	338	0.00887573964497041	French
+Theotime/2324a.cha	other child	Theotime	CDS	2	443	0.00451467268623025	French
+Theotime/2324a.cha	other child	Theotime	ADS	20	443	0.0451467268623025	French
+Theotime/2324a.cha	mother	Theotime	OCDS	30	443	0.0677200902934537	French
+Theotime/2324a.cha	mother	Theotime	CDS	391	443	0.882618510158014	French
+Theotime/2324b.cha	other child	Theotime	CDS	8	473	0.0169133192389006	French
+Theotime/2324b.cha	mother	Theotime	OCDS	2	473	0.00422832980972516	French
+Theotime/2324b.cha	mother	Theotime	CDS	463	473	0.978858350951374	French
+Theotime/239b.cha	other child	Theotime	ADS	25	436	0.0573394495412844	French
+Theotime/239b.cha	mother	Theotime	CDS	383	436	0.878440366972477	French
+Theotime/239b.cha	mother	Theotime	OCDS	18	436	0.0412844036697248	French
+Theotime/239b.cha	other child	Theotime	CDS	10	436	0.0229357798165138	French
+Theotime/2422a.cha	mother	Theotime	OCDS	28	518	0.0540540540540541	French
+Theotime/2422a.cha	other child	Theotime	CDS	19	518	0.0366795366795367	French
+Theotime/2422a.cha	mother	Theotime	ADS	2	518	0.00386100386100386	French
+Theotime/2422a.cha	mother	Theotime	CDS	438	518	0.845559845559846	French
+Theotime/2422a.cha	other child	Theotime	ADS	31	518	0.0598455598455598	French
+Theotime/252a.cha	other child	Theotime	CDS	9	460	0.0195652173913043	French
+Theotime/252a.cha	mother	Theotime	OCDS	45	460	0.0978260869565217	French
+Theotime/252a.cha	other child	Theotime	ADS	46	460	0.1	French
+Theotime/252a.cha	mother	Theotime	CDS	360	460	0.782608695652174	French
+Theotime/263a.cha	other child	Theotime	ADS	13	458	0.0283842794759825	French
+Theotime/263a.cha	mother	Theotime	CDS	399	458	0.87117903930131	French
+Theotime/263a.cha	mother	Theotime	OCDS	39	458	0.0851528384279476	French
+Theotime/263a.cha	other child	Theotime	CDS	7	458	0.0152838427947598	French
+Theotime/273a.cha	mother	Theotime	ADS	3	400	0.0075	French
+Theotime/273a.cha	mother	Theotime	CDS	397	400	0.9925	French
+2414	other child	Hlobohang	CDS	5	211	0.023696682464455	Sesotho
+2414	adult	Hlobohang	CDS	31	211	0.146919431279621	Sesotho
+2414	mother	Hlobohang	CDS	175	211	0.829383886255924	Sesotho
+2415	adult	Hlobohang	ADS	3	215	0.013953488372093	Sesotho
+2415	mother	Hlobohang	ADS	2	215	0.00930232558139535	Sesotho
+2415	other child	Hlobohang	ADS	14	215	0.0651162790697674	Sesotho
+2415	other child	Hlobohang	OCDS	6	215	0.027906976744186	Sesotho
+2415	adult	Hlobohang	CDS	152	215	0.706976744186047	Sesotho
+2415	other child	Hlobohang	CDS	22	215	0.102325581395349	Sesotho
+2415	adult	Hlobohang	OCDS	15	215	0.0697674418604651	Sesotho
+2415	mother	Hlobohang	OCDS	1	215	0.00465116279069767	Sesotho
+2416	mother	Hlobohang	CDS	33	203	0.16256157635468	Sesotho
+2416	other child	Hlobohang	CDS	135	203	0.665024630541872	Sesotho
+2416	adult	Hlobohang	CDS	18	203	0.0886699507389163	Sesotho
+2416	other child	Hlobohang	OCDS	13	203	0.0640394088669951	Sesotho
+2416	mother	Hlobohang	OCDS	4	203	0.0197044334975369	Sesotho
+2417	mother	Hlobohang	ADS	1	365	0.00273972602739726	Sesotho
+2417	adult	Hlobohang	ADS	5	365	0.0136986301369863	Sesotho
+2417	other child	Hlobohang	CDS	13	365	0.0356164383561644	Sesotho
+2417	adult	Hlobohang	CDS	305	365	0.835616438356164	Sesotho
+2417	mother	Hlobohang	CDS	20	365	0.0547945205479452	Sesotho
+2417	adult	Hlobohang	OCDS	20	365	0.0547945205479452	Sesotho
+2417	other child	Hlobohang	ADS	1	365	0.00273972602739726	Sesotho
+2418	adult	Hlobohang	CDS	75	367	0.204359673024523	Sesotho
+2418	mother	Hlobohang	ADS	2	367	0.00544959128065395	Sesotho
+2418	other child	Hlobohang	ADS	20	367	0.0544959128065395	Sesotho
+2418	other child	Hlobohang	OCDS	17	367	0.0463215258855586	Sesotho
+2418	adult	Hlobohang	OCDS	35	367	0.0953678474114441	Sesotho
+2418	mother	Hlobohang	OCDS	19	367	0.0517711171662125	Sesotho
+2418	adult	Hlobohang	ADS	13	367	0.0354223433242507	Sesotho
+2418	other child	Hlobohang	CDS	76	367	0.20708446866485	Sesotho
+2418	mother	Hlobohang	CDS	110	367	0.299727520435967	Sesotho
+2419	other child	Hlobohang	ADS	6	75	0.08	Sesotho
+2419	mother	Hlobohang	CDS	13	75	0.173333333333333	Sesotho
+2419	adult	Hlobohang	CDS	10	75	0.133333333333333	Sesotho
+2419	adult	Hlobohang	ADS	3	75	0.04	Sesotho
+2419	mother	Hlobohang	ADS	4	75	0.0533333333333333	Sesotho
+2419	adult	Hlobohang	OCDS	12	75	0.16	Sesotho
+2419	other child	Hlobohang	CDS	27	75	0.36	Sesotho
+2420	other child	Hlobohang	ADS	4	540	0.00740740740740741	Sesotho
+2420	other child	Hlobohang	CDS	172	540	0.318518518518519	Sesotho
+2420	mother	Hlobohang	CDS	56	540	0.103703703703704	Sesotho
+2420	adult	Hlobohang	CDS	301	540	0.557407407407407	Sesotho
+2420	adult	Hlobohang	OCDS	7	540	0.012962962962963	Sesotho
+2421	adult	Hlobohang	CDS	296	428	0.691588785046729	Sesotho
+2421	adult	Hlobohang	ADS	1	428	0.00233644859813084	Sesotho
+2421	other child	Hlobohang	CDS	91	428	0.212616822429907	Sesotho
+2421	mother	Hlobohang	OCDS	2	428	0.00467289719626168	Sesotho
+2421	adult	Hlobohang	OCDS	10	428	0.0233644859813084	Sesotho
+2421	other child	Hlobohang	ADS	7	428	0.0163551401869159	Sesotho
+2421	mother	Hlobohang	ADS	1	428	0.00233644859813084	Sesotho
+2421	mother	Hlobohang	CDS	20	428	0.0467289719626168	Sesotho
+2422	adult	Hlobohang	OCDS	21	472	0.0444915254237288	Sesotho
+2422	other child	Hlobohang	CDS	265	472	0.561440677966102	Sesotho
+2422	adult	Hlobohang	CDS	136	472	0.288135593220339	Sesotho
+2422	other child	Hlobohang	ADS	32	472	0.0677966101694915	Sesotho
+2422	other child	Hlobohang	OCDS	18	472	0.038135593220339	Sesotho
+2423	adult	Hlobohang	CDS	179	385	0.464935064935065	Sesotho
+2423	other child	Hlobohang	CDS	184	385	0.477922077922078	Sesotho
+2423	other child	Hlobohang	ADS	10	385	0.025974025974026	Sesotho
+2423	adult	Hlobohang	OCDS	12	385	0.0311688311688312	Sesotho
+2424	other child	Hlobohang	ADS	6	270	0.0222222222222222	Sesotho
+2424	adult	Hlobohang	CDS	36	270	0.133333333333333	Sesotho
+2424	mother	Hlobohang	CDS	7	270	0.0259259259259259	Sesotho
+2424	adult	Hlobohang	OCDS	12	270	0.0444444444444444	Sesotho
+2424	other child	Hlobohang	OCDS	21	270	0.0777777777777778	Sesotho
+2424	other child	Hlobohang	CDS	187	270	0.692592592592593	Sesotho
+2424	mother	Hlobohang	OCDS	1	270	0.0037037037037037	Sesotho
+2425	other child	Hlobohang	ADS	6	430	0.013953488372093	Sesotho
+2425	mother	Hlobohang	CDS	42	430	0.0976744186046512	Sesotho
+2425	adult	Hlobohang	OCDS	8	430	0.0186046511627907	Sesotho
+2425	other child	Hlobohang	CDS	274	430	0.637209302325581	Sesotho
+2425	mother	Hlobohang	OCDS	9	430	0.0209302325581395	Sesotho
+2425	other child	Hlobohang	OCDS	19	430	0.0441860465116279	Sesotho
+2425	adult	Hlobohang	CDS	72	430	0.167441860465116	Sesotho
+2426	mother	Hlobohang	CDS	3	297	0.0101010101010101	Sesotho
+2426	other child	Hlobohang	ADS	7	297	0.0235690235690236	Sesotho
+2426	mother	Hlobohang	ADS	1	297	0.00336700336700337	Sesotho
+2426	adult	Hlobohang	CDS	215	297	0.723905723905724	Sesotho
+2426	other child	Hlobohang	OCDS	5	297	0.0168350168350168	Sesotho
+2426	mother	Hlobohang	OCDS	1	297	0.00336700336700337	Sesotho
+2426	other child	Hlobohang	CDS	49	297	0.164983164983165	Sesotho
+2426	adult	Hlobohang	OCDS	16	297	0.0538720538720539	Sesotho
+2427	other child	Hlobohang	CDS	190	441	0.430839002267574	Sesotho
+2427	other child	Hlobohang	OCDS	33	441	0.0748299319727891	Sesotho
+2427	adult	Hlobohang	CDS	181	441	0.410430839002268	Sesotho
+2427	adult	Hlobohang	OCDS	13	441	0.0294784580498866	Sesotho
+2427	mother	Hlobohang	CDS	9	441	0.0204081632653061	Sesotho
+2427	other child	Hlobohang	ADS	7	441	0.0158730158730159	Sesotho
+2427	mother	Hlobohang	ADS	2	441	0.00453514739229025	Sesotho
+2427	adult	Hlobohang	ADS	6	441	0.0136054421768707	Sesotho
+2428	other child	Hlobohang	ADS	14	361	0.038781163434903	Sesotho
+2428	adult	Hlobohang	ADS	2	361	0.00554016620498615	Sesotho
+2428	mother	Hlobohang	ADS	1	361	0.00277008310249307	Sesotho
+2428	other child	Hlobohang	CDS	241	361	0.667590027700831	Sesotho
+2428	mother	Hlobohang	OCDS	6	361	0.0166204986149584	Sesotho
+2428	other child	Hlobohang	OCDS	47	361	0.130193905817175	Sesotho
+2428	mother	Hlobohang	CDS	18	361	0.0498614958448753	Sesotho
+2428	adult	Hlobohang	CDS	23	361	0.0637119113573407	Sesotho
+2428	adult	Hlobohang	OCDS	9	361	0.0249307479224377	Sesotho
+2429	adult	Hlobohang	CDS	30	266	0.112781954887218	Sesotho
+2429	adult	Hlobohang	OCDS	1	266	0.0037593984962406	Sesotho
+2429	mother	Hlobohang	OCDS	1	266	0.0037593984962406	Sesotho
+2429	adult	Hlobohang	ADS	1	266	0.0037593984962406	Sesotho
+2429	other child	Hlobohang	ADS	1	266	0.0037593984962406	Sesotho
+2429	other child	Hlobohang	CDS	172	266	0.646616541353383	Sesotho
+2429	other child	Hlobohang	OCDS	41	266	0.154135338345865	Sesotho
+2429	mother	Hlobohang	CDS	19	266	0.0714285714285714	Sesotho
+2430	adult	Hlobohang	ADS	5	568	0.00880281690140845	Sesotho
+2430	other child	Hlobohang	CDS	63	568	0.110915492957746	Sesotho
+2430	mother	Hlobohang	ADS	2	568	0.00352112676056338	Sesotho
+2430	mother	Hlobohang	CDS	16	568	0.028169014084507	Sesotho
+2430	other child	Hlobohang	ADS	3	568	0.00528169014084507	Sesotho
+2430	adult	Hlobohang	CDS	470	568	0.827464788732394	Sesotho
+2430	adult	Hlobohang	OCDS	9	568	0.0158450704225352	Sesotho
+2431	other child	Hlobohang	ADS	11	384	0.0286458333333333	Sesotho
+2431	mother	Hlobohang	OCDS	3	384	0.0078125	Sesotho
+2431	other child	Hlobohang	CDS	80	384	0.208333333333333	Sesotho
+2431	adult	Hlobohang	ADS	1	384	0.00260416666666667	Sesotho
+2431	other child	Hlobohang	OCDS	6	384	0.015625	Sesotho
+2431	adult	Hlobohang	CDS	220	384	0.572916666666667	Sesotho
+2431	adult	Hlobohang	OCDS	21	384	0.0546875	Sesotho
+2431	mother	Hlobohang	CDS	42	384	0.109375	Sesotho
+2432	other child	Hlobohang	OCDS	7	37	0.189189189189189	Sesotho
+2432	other child	Hlobohang	CDS	30	37	0.810810810810811	Sesotho
+2433	mother	Hlobohang	CDS	81	169	0.479289940828402	Sesotho
+2433	mother	Hlobohang	OCDS	5	169	0.029585798816568	Sesotho
+2433	other child	Hlobohang	CDS	76	169	0.449704142011834	Sesotho
+2433	adult	Hlobohang	OCDS	1	169	0.00591715976331361	Sesotho
+2433	adult	Hlobohang	CDS	5	169	0.029585798816568	Sesotho
+2433	other child	Hlobohang	OCDS	1	169	0.00591715976331361	Sesotho
+2434	other child	Hlobohang	ADS	1	227	0.00440528634361234	Sesotho
+2434	other child	Hlobohang	CDS	170	227	0.748898678414097	Sesotho
+2434	adult	Hlobohang	CDS	32	227	0.140969162995595	Sesotho
+2434	mother	Hlobohang	CDS	24	227	0.105726872246696	Sesotho
+2435	other child	Hlobohang	ADS	7	323	0.021671826625387	Sesotho
+2435	mother	Hlobohang	OCDS	3	323	0.00928792569659443	Sesotho
+2435	adult	Hlobohang	CDS	143	323	0.442724458204334	Sesotho
+2435	mother	Hlobohang	CDS	68	323	0.210526315789474	Sesotho
+2435	other child	Hlobohang	CDS	81	323	0.25077399380805	Sesotho
+2435	adult	Hlobohang	OCDS	20	323	0.0619195046439628	Sesotho
+2435	mother	Hlobohang	ADS	1	323	0.00309597523219814	Sesotho
+2436	other child	Hlobohang	CDS	88	270	0.325925925925926	Sesotho
+2436	mother	Hlobohang	CDS	151	270	0.559259259259259	Sesotho
+2436	mother	Hlobohang	OCDS	6	270	0.0222222222222222	Sesotho
+2436	adult	Hlobohang	CDS	24	270	0.0888888888888889	Sesotho
+2436	other child	Hlobohang	ADS	1	270	0.0037037037037037	Sesotho
+2437	other child	Hlobohang	ADS	2	174	0.0114942528735632	Sesotho
+2437	adult	Hlobohang	ADS	3	174	0.0172413793103448	Sesotho
+2437	mother	Hlobohang	ADS	1	174	0.00574712643678161	Sesotho
+2437	mother	Hlobohang	OCDS	6	174	0.0344827586206897	Sesotho
+2437	other child	Hlobohang	OCDS	16	174	0.0919540229885057	Sesotho
+2437	other child	Hlobohang	CDS	84	174	0.482758620689655	Sesotho
+2437	adult	Hlobohang	OCDS	5	174	0.028735632183908	Sesotho
+2437	adult	Hlobohang	CDS	42	174	0.241379310344828	Sesotho
+2437	mother	Hlobohang	CDS	15	174	0.0862068965517241	Sesotho
+2438	other child	Hlobohang	CDS	120	242	0.495867768595041	Sesotho
+2438	mother	Hlobohang	OCDS	17	242	0.0702479338842975	Sesotho
+2438	mother	Hlobohang	CDS	29	242	0.119834710743802	Sesotho
+2438	adult	Hlobohang	OCDS	3	242	0.012396694214876	Sesotho
+2438	other child	Hlobohang	OCDS	13	242	0.0537190082644628	Sesotho
+2438	adult	Hlobohang	CDS	47	242	0.194214876033058	Sesotho
+2438	other child	Hlobohang	ADS	13	242	0.0537190082644628	Sesotho
+2439	mother	Hlobohang	CDS	7	151	0.0463576158940397	Sesotho
+2439	other child	Hlobohang	CDS	137	151	0.907284768211921	Sesotho
+2439	other child	Hlobohang	OCDS	6	151	0.0397350993377483	Sesotho
+2439	mother	Hlobohang	OCDS	1	151	0.00662251655629139	Sesotho
+2440	adult	Hlobohang	OCDS	23	260	0.0884615384615385	Sesotho
+2440	other child	Hlobohang	ADS	14	260	0.0538461538461538	Sesotho
+2440	mother	Hlobohang	CDS	23	260	0.0884615384615385	Sesotho
+2440	mother	Hlobohang	OCDS	3	260	0.0115384615384615	Sesotho
+2440	other child	Hlobohang	CDS	118	260	0.453846153846154	Sesotho
+2440	adult	Hlobohang	ADS	5	260	0.0192307692307692	Sesotho
+2440	mother	Hlobohang	ADS	2	260	0.00769230769230769	Sesotho
+2440	adult	Hlobohang	CDS	72	260	0.276923076923077	Sesotho
+2441	other child	Hlobohang	CDS	66	104	0.634615384615385	Sesotho
+2441	adult	Hlobohang	ADS	1	104	0.00961538461538462	Sesotho
+2441	other child	Hlobohang	ADS	6	104	0.0576923076923077	Sesotho
+2441	other child	Hlobohang	OCDS	4	104	0.0384615384615385	Sesotho
+2441	mother	Hlobohang	CDS	6	104	0.0576923076923077	Sesotho
+2441	adult	Hlobohang	CDS	20	104	0.192307692307692	Sesotho
+2441	adult	Hlobohang	OCDS	1	104	0.00961538461538462	Sesotho
+2442	other child	Hlobohang	ADS	8	334	0.0239520958083832	Sesotho
+2442	other child	Hlobohang	CDS	97	334	0.290419161676647	Sesotho
+2442	mother	Hlobohang	CDS	27	334	0.0808383233532934	Sesotho
+2442	adult	Hlobohang	CDS	186	334	0.55688622754491	Sesotho
+2442	mother	Hlobohang	OCDS	7	334	0.0209580838323353	Sesotho
+2442	adult	Hlobohang	ADS	2	334	0.00598802395209581	Sesotho
+2442	adult	Hlobohang	OCDS	7	334	0.0209580838323353	Sesotho
+2443	other child	Hlobohang	CDS	89	272	0.327205882352941	Sesotho
+2443	adult	Hlobohang	OCDS	14	272	0.0514705882352941	Sesotho
+2443	other child	Hlobohang	ADS	11	272	0.0404411764705882	Sesotho
+2443	adult	Hlobohang	CDS	146	272	0.536764705882353	Sesotho
+2443	mother	Hlobohang	CDS	11	272	0.0404411764705882	Sesotho
+2443	adult	Hlobohang	ADS	1	272	0.00367647058823529	Sesotho
+2444	mother	Hlobohang	CDS	2	188	0.0106382978723404	Sesotho
+2444	other child	Hlobohang	CDS	186	188	0.98936170212766	Sesotho
+2445	other child	Hlobohang	ADS	1	121	0.00826446280991736	Sesotho
+2445	other child	Hlobohang	CDS	91	121	0.752066115702479	Sesotho
+2445	mother	Hlobohang	OCDS	5	121	0.0413223140495868	Sesotho
+2445	adult	Hlobohang	CDS	1	121	0.00826446280991736	Sesotho
+2445	mother	Hlobohang	CDS	6	121	0.0495867768595041	Sesotho
+2445	other child	Hlobohang	OCDS	17	121	0.140495867768595	Sesotho
+2446	other child	Hlobohang	ADS	9	103	0.087378640776699	Sesotho
+2446	mother	Hlobohang	OCDS	2	103	0.0194174757281553	Sesotho
+2446	other child	Hlobohang	CDS	11	103	0.106796116504854	Sesotho
+2446	adult	Hlobohang	OCDS	2	103	0.0194174757281553	Sesotho
+2446	adult	Hlobohang	CDS	45	103	0.436893203883495	Sesotho
+2446	mother	Hlobohang	CDS	34	103	0.330097087378641	Sesotho
+2447	mother	Hlobohang	CDS	101	268	0.376865671641791	Sesotho
+2447	adult	Hlobohang	CDS	94	268	0.350746268656716	Sesotho
+2447	adult	Hlobohang	OCDS	2	268	0.00746268656716418	Sesotho
+2447	other child	Hlobohang	CDS	60	268	0.223880597014925	Sesotho
+2447	other child	Hlobohang	ADS	11	268	0.041044776119403	Sesotho
+2448	other child	Hlobohang	ADS	4	266	0.0150375939849624	Sesotho
+2448	mother	Hlobohang	OCDS	7	266	0.0263157894736842	Sesotho
+2448	other child	Hlobohang	CDS	3	266	0.0112781954887218	Sesotho
+2448	mother	Hlobohang	CDS	252	266	0.947368421052632	Sesotho
+2449	mother	Hlobohang	CDS	54	54	1	Sesotho
+2450	other child	Hlobohang	CDS	45	81	0.555555555555556	Sesotho
+2450	adult	Hlobohang	CDS	36	81	0.444444444444444	Sesotho
+2451	other child	Hlobohang	ADS	2	124	0.0161290322580645	Sesotho
+2451	adult	Hlobohang	CDS	15	124	0.120967741935484	Sesotho
+2451	other child	Hlobohang	CDS	107	124	0.862903225806452	Sesotho
+2452	other child	Hlobohang	CDS	62	133	0.466165413533835	Sesotho
+2452	adult	Hlobohang	CDS	49	133	0.368421052631579	Sesotho
+2452	other child	Hlobohang	ADS	12	133	0.0902255639097744	Sesotho
+2452	adult	Hlobohang	OCDS	10	133	0.075187969924812	Sesotho
+2453	other child	Hlobohang	CDS	144	226	0.63716814159292	Sesotho
+2453	adult	Hlobohang	CDS	60	226	0.265486725663717	Sesotho
+2453	other child	Hlobohang	ADS	10	226	0.0442477876106195	Sesotho
+2453	adult	Hlobohang	OCDS	12	226	0.0530973451327434	Sesotho
+2454	other child	Hlobohang	OCDS	14	69	0.202898550724638	Sesotho
+2454	other child	Hlobohang	CDS	55	69	0.797101449275362	Sesotho
+2455	other child	Hlobohang	CDS	5	215	0.0232558139534884	Sesotho
+2455	adult	Hlobohang	ADS	5	215	0.0232558139534884	Sesotho
+2455	mother	Hlobohang	CDS	21	215	0.0976744186046512	Sesotho
+2455	adult	Hlobohang	CDS	183	215	0.851162790697674	Sesotho
+2455	mother	Hlobohang	OCDS	1	215	0.00465116279069767	Sesotho
+2456	mother	Hlobohang	CDS	16	60	0.266666666666667	Sesotho
+2456	adult	Hlobohang	CDS	26	60	0.433333333333333	Sesotho
+2456	other child	Hlobohang	CDS	18	60	0.3	Sesotho
+2457	other child	Hlobohang	CDS	24	71	0.338028169014085	Sesotho
+2457	mother	Hlobohang	CDS	1	71	0.0140845070422535	Sesotho
+2457	adult	Hlobohang	OCDS	1	71	0.0140845070422535	Sesotho
+2457	adult	Hlobohang	CDS	45	71	0.633802816901408	Sesotho
+2458	other child	Hlobohang	CDS	80	213	0.375586854460094	Sesotho
+2458	other child	Hlobohang	ADS	7	213	0.0328638497652582	Sesotho
+2458	other child	Hlobohang	OCDS	4	213	0.0187793427230047	Sesotho
+2458	mother	Hlobohang	CDS	17	213	0.07981220657277	Sesotho
+2458	adult	Hlobohang	OCDS	5	213	0.0234741784037559	Sesotho
+2458	adult	Hlobohang	CDS	100	213	0.469483568075117	Sesotho
+2459	adult	Litlhare	ADS	19	627	0.0303030303030303	Sesotho
+2459	mother	Litlhare	CDS	181	627	0.288676236044657	Sesotho
+2459	adult	Litlhare	OCDS	11	627	0.0175438596491228	Sesotho
+2459	other child	Litlhare	ADS	15	627	0.0239234449760766	Sesotho
+2459	mother	Litlhare	ADS	8	627	0.0127591706539075	Sesotho
+2459	adult	Litlhare	CDS	28	627	0.0446570972886762	Sesotho
+2459	other child	Litlhare	OCDS	40	627	0.0637958532695375	Sesotho
+2459	other child	Litlhare	CDS	320	627	0.5103668261563	Sesotho
+2459	mother	Litlhare	OCDS	5	627	0.00797448165869218	Sesotho
+2460	other child	Litlhare	OCDS	3	272	0.0110294117647059	Sesotho
+2460	other child	Litlhare	CDS	123	272	0.452205882352941	Sesotho
+2460	other child	Litlhare	ADS	4	272	0.0147058823529412	Sesotho
+2460	mother	Litlhare	CDS	94	272	0.345588235294118	Sesotho
+2460	adult	Litlhare	OCDS	3	272	0.0110294117647059	Sesotho
+2460	mother	Litlhare	ADS	14	272	0.0514705882352941	Sesotho
+2460	mother	Litlhare	OCDS	1	272	0.00367647058823529	Sesotho
+2460	adult	Litlhare	CDS	12	272	0.0441176470588235	Sesotho
+2460	adult	Litlhare	ADS	18	272	0.0661764705882353	Sesotho
+2461	other child	Litlhare	OCDS	3	319	0.00940438871473354	Sesotho
+2461	other child	Litlhare	CDS	111	319	0.347962382445141	Sesotho
+2461	mother	Litlhare	OCDS	1	319	0.00313479623824451	Sesotho
+2461	other child	Litlhare	ADS	2	319	0.00626959247648903	Sesotho
+2461	mother	Litlhare	CDS	202	319	0.633228840125392	Sesotho
+2462	mother	Litlhare	OCDS	24	410	0.0585365853658537	Sesotho
+2462	other child	Litlhare	CDS	28	410	0.0682926829268293	Sesotho
+2462	mother	Litlhare	CDS	339	410	0.826829268292683	Sesotho
+2462	other child	Litlhare	ADS	16	410	0.0390243902439024	Sesotho
+2462	mother	Litlhare	ADS	3	410	0.00731707317073171	Sesotho
+2463	other child	Litlhare	CDS	227	373	0.60857908847185	Sesotho
+2463	mother	Litlhare	OCDS	17	373	0.0455764075067024	Sesotho
+2463	other child	Litlhare	ADS	16	373	0.0428954423592493	Sesotho
+2463	other child	Litlhare	OCDS	17	373	0.0455764075067024	Sesotho
+2463	mother	Litlhare	CDS	96	373	0.257372654155496	Sesotho
+2464	other child	Litlhare	OCDS	30	328	0.0914634146341463	Sesotho
+2464	other child	Litlhare	CDS	245	328	0.746951219512195	Sesotho
+2464	mother	Litlhare	OCDS	5	328	0.0152439024390244	Sesotho
+2464	mother	Litlhare	CDS	48	328	0.146341463414634	Sesotho
+2465	mother	Litlhare	CDS	331	331	1	Sesotho
+2466	other child	Litlhare	ADS	20	330	0.0606060606060606	Sesotho
+2466	adult	Litlhare	CDS	27	330	0.0818181818181818	Sesotho
+2466	mother	Litlhare	OCDS	6	330	0.0181818181818182	Sesotho
+2466	mother	Litlhare	CDS	128	330	0.387878787878788	Sesotho
+2466	other child	Litlhare	OCDS	1	330	0.00303030303030303	Sesotho
+2466	other child	Litlhare	CDS	148	330	0.448484848484848	Sesotho
+2467	other child	Litlhare	OCDS	4	275	0.0145454545454545	Sesotho
+2467	other child	Litlhare	CDS	52	275	0.189090909090909	Sesotho
+2467	other child	Litlhare	ADS	1	275	0.00363636363636364	Sesotho
+2467	mother	Litlhare	OCDS	4	275	0.0145454545454545	Sesotho
+2467	mother	Litlhare	CDS	214	275	0.778181818181818	Sesotho
+2468	other child	Litlhare	CDS	47	131	0.358778625954198	Sesotho
+2468	mother	Litlhare	CDS	80	131	0.610687022900763	Sesotho
+2468	other child	Litlhare	OCDS	3	131	0.0229007633587786	Sesotho
+2468	other child	Litlhare	ADS	1	131	0.00763358778625954	Sesotho
+2469	mother	Litlhare	OCDS	16	371	0.0431266846361186	Sesotho
+2469	other child	Litlhare	ADS	20	371	0.0539083557951483	Sesotho
+2469	other child	Litlhare	CDS	201	371	0.54177897574124	Sesotho
+2469	mother	Litlhare	CDS	134	371	0.361185983827493	Sesotho
+2470	other child	Litlhare	ADS	24	504	0.0476190476190476	Sesotho
+2470	mother	Litlhare	CDS	312	504	0.619047619047619	Sesotho
+2470	other child	Litlhare	OCDS	1	504	0.00198412698412698	Sesotho
+2470	mother	Litlhare	OCDS	43	504	0.0853174603174603	Sesotho
+2470	other child	Litlhare	CDS	124	504	0.246031746031746	Sesotho
+2471	mother	Litlhare	ADS	1	304	0.00328947368421053	Sesotho
+2471	mother	Litlhare	CDS	75	304	0.246710526315789	Sesotho
+2471	other child	Litlhare	OCDS	6	304	0.0197368421052632	Sesotho
+2471	mother	Litlhare	OCDS	12	304	0.0394736842105263	Sesotho
+2471	other child	Litlhare	CDS	199	304	0.654605263157895	Sesotho
+2471	other child	Litlhare	ADS	11	304	0.0361842105263158	Sesotho
+2472	adult	Litlhare	CDS	4	198	0.0202020202020202	Sesotho
+2472	other child	Litlhare	ADS	7	198	0.0353535353535354	Sesotho
+2472	other child	Litlhare	CDS	100	198	0.505050505050505	Sesotho
+2472	other child	Litlhare	OCDS	7	198	0.0353535353535354	Sesotho
+2472	mother	Litlhare	CDS	65	198	0.328282828282828	Sesotho
+2472	mother	Litlhare	OCDS	15	198	0.0757575757575758	Sesotho
+2473	other child	Litlhare	OCDS	14	345	0.0405797101449275	Sesotho
+2473	other child	Litlhare	CDS	331	345	0.959420289855072	Sesotho
+2474	adult	Litlhare	CDS	27	151	0.178807947019868	Sesotho
+2474	adult	Litlhare	OCDS	1	151	0.00662251655629139	Sesotho
+2474	other child	Litlhare	OCDS	7	151	0.0463576158940397	Sesotho
+2474	other child	Litlhare	CDS	114	151	0.754966887417219	Sesotho
+2474	other child	Litlhare	ADS	2	151	0.0132450331125828	Sesotho
+2475	other child	Litlhare	CDS	146	231	0.632034632034632	Sesotho
+2475	other child	Litlhare	OCDS	16	231	0.0692640692640693	Sesotho
+2475	mother	Litlhare	OCDS	9	231	0.038961038961039	Sesotho
+2475	adult	Litlhare	OCDS	9	231	0.038961038961039	Sesotho
+2475	mother	Litlhare	CDS	31	231	0.134199134199134	Sesotho
+2475	adult	Litlhare	CDS	3	231	0.012987012987013	Sesotho
+2475	other child	Litlhare	ADS	17	231	0.0735930735930736	Sesotho
+2476	other child	Litlhare	OCDS	10	238	0.0420168067226891	Sesotho
+2476	adult	Litlhare	OCDS	1	238	0.00420168067226891	Sesotho
+2476	other child	Litlhare	CDS	187	238	0.785714285714286	Sesotho
+2476	adult	Litlhare	CDS	40	238	0.168067226890756	Sesotho
+2477	mother	Litlhare	CDS	110	152	0.723684210526316	Sesotho
+2477	adult	Litlhare	CDS	42	152	0.276315789473684	Sesotho
+2478	mother	Litlhare	CDS	143	155	0.92258064516129	Sesotho
+2478	other child	Litlhare	CDS	1	155	0.00645161290322581	Sesotho
+2478	adult	Litlhare	ADS	1	155	0.00645161290322581	Sesotho
+2478	adult	Litlhare	CDS	10	155	0.0645161290322581	Sesotho
+2479	other child	Litlhare	OCDS	3	81	0.037037037037037	Sesotho
+2479	other child	Litlhare	CDS	72	81	0.888888888888889	Sesotho
+2479	adult	Litlhare	CDS	6	81	0.0740740740740741	Sesotho
+2480	mother	Litlhare	CDS	250	334	0.748502994011976	Sesotho
+2480	mother	Litlhare	OCDS	14	334	0.0419161676646707	Sesotho
+2480	other child	Litlhare	ADS	5	334	0.0149700598802395	Sesotho
+2480	other child	Litlhare	CDS	65	334	0.194610778443114	Sesotho
+2481	mother	Litlhare	CDS	231	441	0.523809523809524	Sesotho
+2481	other child	Litlhare	ADS	18	441	0.0408163265306122	Sesotho
+2481	other child	Litlhare	CDS	162	441	0.36734693877551	Sesotho
+2481	other child	Litlhare	OCDS	2	441	0.00453514739229025	Sesotho
+2481	mother	Litlhare	OCDS	28	441	0.0634920634920635	Sesotho
+2482	other child	Litlhare	ADS	4	224	0.0178571428571429	Sesotho
+2482	other child	Litlhare	CDS	140	224	0.625	Sesotho
+2482	mother	Litlhare	CDS	60	224	0.267857142857143	Sesotho
+2482	mother	Litlhare	OCDS	19	224	0.0848214285714286	Sesotho
+2482	other child	Litlhare	OCDS	1	224	0.00446428571428571	Sesotho
+2483	mother	Litlhare	CDS	388	420	0.923809523809524	Sesotho
+2483	adult	Litlhare	ADS	1	420	0.00238095238095238	Sesotho
+2483	mother	Litlhare	ADS	4	420	0.00952380952380952	Sesotho
+2483	adult	Litlhare	CDS	27	420	0.0642857142857143	Sesotho
+2484	mother	Litlhare	CDS	222	224	0.991071428571429	Sesotho
+2484	other child	Litlhare	CDS	2	224	0.00892857142857143	Sesotho
+2485	mother	Litlhare	CDS	150	336	0.446428571428571	Sesotho
+2485	adult	Litlhare	CDS	1	336	0.00297619047619048	Sesotho
+2485	mother	Litlhare	ADS	1	336	0.00297619047619048	Sesotho
+2485	other child	Litlhare	CDS	144	336	0.428571428571429	Sesotho
+2485	mother	Litlhare	OCDS	28	336	0.0833333333333333	Sesotho
+2485	other child	Litlhare	ADS	12	336	0.0357142857142857	Sesotho
+2486	mother	Litlhare	OCDS	11	253	0.0434782608695652	Sesotho
+2486	other child	Litlhare	ADS	5	253	0.0197628458498024	Sesotho
+2486	mother	Litlhare	CDS	182	253	0.719367588932806	Sesotho
+2486	other child	Litlhare	OCDS	1	253	0.00395256916996047	Sesotho
+2486	mother	Litlhare	ADS	1	253	0.00395256916996047	Sesotho
+2486	other child	Litlhare	CDS	53	253	0.209486166007905	Sesotho
+2487	mother	Litlhare	CDS	26	26	1	Sesotho
+2488	mother	Litlhare	OCDS	2	131	0.0152671755725191	Sesotho
+2488	mother	Litlhare	CDS	4	131	0.0305343511450382	Sesotho
+2488	other child	Litlhare	CDS	123	131	0.938931297709924	Sesotho
+2488	other child	Litlhare	ADS	2	131	0.0152671755725191	Sesotho
+2489	other child	Litlhare	CDS	263	264	0.996212121212121	Sesotho
+2489	other child	Litlhare	OCDS	1	264	0.00378787878787879	Sesotho
+2490	other child	Litlhare	CDS	166	166	1	Sesotho
+2491	adult	Litlhare	CDS	2	166	0.0120481927710843	Sesotho
+2491	other child	Litlhare	CDS	164	166	0.987951807228916	Sesotho
+2492	other child	Litlhare	ADS	5	188	0.0265957446808511	Sesotho
+2492	other child	Litlhare	CDS	155	188	0.824468085106383	Sesotho
+2492	mother	Litlhare	OCDS	4	188	0.0212765957446809	Sesotho
+2492	mother	Litlhare	CDS	24	188	0.127659574468085	Sesotho
+2493	mother	Litlhare	CDS	221	429	0.515151515151515	Sesotho
+2493	other child	Litlhare	ADS	11	429	0.0256410256410256	Sesotho
+2493	other child	Litlhare	OCDS	12	429	0.027972027972028	Sesotho
+2493	mother	Litlhare	OCDS	10	429	0.0233100233100233	Sesotho
+2493	mother	Litlhare	ADS	4	429	0.00932400932400932	Sesotho
+2493	other child	Litlhare	CDS	171	429	0.398601398601399	Sesotho
+2494	other child	Litlhare	CDS	20	20	1	Sesotho
+2495	mother	Litlhare	CDS	37	37	1	Sesotho
+2496	other child	Litlhare	OCDS	10	364	0.0274725274725275	Sesotho
+2496	other child	Litlhare	CDS	343	364	0.942307692307692	Sesotho
+2496	adult	Litlhare	CDS	11	364	0.0302197802197802	Sesotho
+2497	other child	Litlhare	OCDS	10	384	0.0260416666666667	Sesotho
+2497	other child	Litlhare	CDS	374	384	0.973958333333333	Sesotho
+2498	other child	Litlhare	CDS	118	122	0.967213114754098	Sesotho
+2498	other child	Litlhare	OCDS	4	122	0.0327868852459016	Sesotho
+2499	other child	Litlhare	OCDS	34	237	0.143459915611814	Sesotho
+2499	other child	Litlhare	CDS	203	237	0.856540084388186	Sesotho
+2500	other child	Litlhare	CDS	101	409	0.246943765281174	Sesotho
+2500	adult	Litlhare	ADS	1	409	0.00244498777506112	Sesotho
+2500	other child	Litlhare	OCDS	1	409	0.00244498777506112	Sesotho
+2500	adult	Litlhare	OCDS	2	409	0.00488997555012225	Sesotho
+2500	mother	Litlhare	CDS	265	409	0.647921760391198	Sesotho
+2500	mother	Litlhare	ADS	1	409	0.00244498777506112	Sesotho
+2500	mother	Litlhare	OCDS	4	409	0.0097799511002445	Sesotho
+2500	adult	Litlhare	CDS	8	409	0.019559902200489	Sesotho
+2500	other child	Litlhare	ADS	26	409	0.0635696821515892	Sesotho
+2501	mother	Litlhare	OCDS	14	379	0.0369393139841689	Sesotho
+2501	adult	Litlhare	ADS	4	379	0.0105540897097625	Sesotho
+2501	other child	Litlhare	OCDS	22	379	0.0580474934036939	Sesotho
+2501	mother	Litlhare	ADS	8	379	0.0211081794195251	Sesotho
+2501	mother	Litlhare	CDS	124	379	0.327176781002639	Sesotho
+2501	other child	Litlhare	ADS	43	379	0.113456464379947	Sesotho
+2501	adult	Litlhare	CDS	2	379	0.00527704485488127	Sesotho
+2501	other child	Litlhare	CDS	162	379	0.427440633245383	Sesotho
+2502	other child	Litlhare	ADS	17	388	0.0438144329896907	Sesotho
+2502	mother	Litlhare	OCDS	13	388	0.0335051546391753	Sesotho
+2502	mother	Litlhare	ADS	1	388	0.00257731958762887	Sesotho
+2502	other child	Litlhare	OCDS	16	388	0.0412371134020619	Sesotho
+2502	other child	Litlhare	CDS	169	388	0.435567010309278	Sesotho
+2502	mother	Litlhare	CDS	167	388	0.430412371134021	Sesotho
+2502	adult	Litlhare	OCDS	2	388	0.00515463917525773	Sesotho
+2502	adult	Litlhare	CDS	3	388	0.0077319587628866	Sesotho
+2503	other child	Litlhare	CDS	193	348	0.554597701149425	Sesotho
+2503	mother	Litlhare	CDS	145	348	0.416666666666667	Sesotho
+2503	mother	Litlhare	OCDS	4	348	0.0114942528735632	Sesotho
+2503	mother	Litlhare	ADS	2	348	0.00574712643678161	Sesotho
+2503	other child	Litlhare	OCDS	4	348	0.0114942528735632	Sesotho
+2504	mother	Tsebo	CDS	9	46	0.195652173913043	Sesotho
+2504	adult	Tsebo	CDS	37	46	0.804347826086957	Sesotho
+2505	mother	Tsebo	CDS	7	212	0.0330188679245283	Sesotho
+2505	adult	Tsebo	OCDS	60	212	0.283018867924528	Sesotho
+2505	other child	Tsebo	CDS	18	212	0.0849056603773585	Sesotho
+2505	other child	Tsebo	ADS	45	212	0.212264150943396	Sesotho
+2505	adult	Tsebo	CDS	79	212	0.372641509433962	Sesotho
+2505	other child	Tsebo	OCDS	3	212	0.0141509433962264	Sesotho
+2506	other child	Tsebo	CDS	38	82	0.463414634146341	Sesotho
+2506	mother	Tsebo	CDS	19	82	0.231707317073171	Sesotho
+2506	mother	Tsebo	OCDS	19	82	0.231707317073171	Sesotho
+2506	adult	Tsebo	CDS	2	82	0.024390243902439	Sesotho
+2506	other child	Tsebo	ADS	1	82	0.0121951219512195	Sesotho
+2506	other child	Tsebo	OCDS	3	82	0.0365853658536585	Sesotho
+2507	mother	Tsebo	CDS	35	101	0.346534653465347	Sesotho
+2507	mother	Tsebo	OCDS	1	101	0.0099009900990099	Sesotho
+2507	other child	Tsebo	ADS	3	101	0.0297029702970297	Sesotho
+2507	other child	Tsebo	CDS	48	101	0.475247524752475	Sesotho
+2507	adult	Tsebo	CDS	14	101	0.138613861386139	Sesotho
+2508	other child	Tsebo	CDS	33	97	0.34020618556701	Sesotho
+2508	adult	Tsebo	CDS	3	97	0.0309278350515464	Sesotho
+2508	mother	Tsebo	OCDS	1	97	0.0103092783505155	Sesotho
+2508	mother	Tsebo	CDS	60	97	0.618556701030928	Sesotho
+2509	adult	Tsebo	OCDS	7	75	0.0933333333333333	Sesotho
+2509	mother	Tsebo	OCDS	2	75	0.0266666666666667	Sesotho
+2509	mother	Tsebo	CDS	19	75	0.253333333333333	Sesotho
+2509	other child	Tsebo	OCDS	21	75	0.28	Sesotho
+2509	other child	Tsebo	ADS	4	75	0.0533333333333333	Sesotho
+2509	other child	Tsebo	CDS	13	75	0.173333333333333	Sesotho
+2509	adult	Tsebo	CDS	9	75	0.12	Sesotho
+2510	other child	Tsebo	ADS	9	286	0.0314685314685315	Sesotho
+2510	mother	Tsebo	CDS	26	286	0.0909090909090909	Sesotho
+2510	other child	Tsebo	OCDS	40	286	0.13986013986014	Sesotho
+2510	mother	Tsebo	OCDS	21	286	0.0734265734265734	Sesotho
+2510	other child	Tsebo	CDS	190	286	0.664335664335664	Sesotho
+2511	mother	Tsebo	ADS	1	68	0.0147058823529412	Sesotho
+2511	mother	Tsebo	CDS	59	68	0.867647058823529	Sesotho
+2511	mother	Tsebo	OCDS	2	68	0.0294117647058824	Sesotho
+2511	other child	Tsebo	CDS	1	68	0.0147058823529412	Sesotho
+2511	adult	Tsebo	CDS	5	68	0.0735294117647059	Sesotho
+2512	mother	Tsebo	OCDS	2	204	0.00980392156862745	Sesotho
+2512	other child	Tsebo	CDS	2	204	0.00980392156862745	Sesotho
+2512	mother	Tsebo	CDS	200	204	0.980392156862745	Sesotho
+2513	mother	Tsebo	CDS	167	170	0.982352941176471	Sesotho
+2513	adult	Tsebo	CDS	3	170	0.0176470588235294	Sesotho
+2514	mother	Tsebo	ADS	9	202	0.0445544554455446	Sesotho
+2514	mother	Tsebo	CDS	165	202	0.816831683168317	Sesotho
+2514	adult	Tsebo	ADS	9	202	0.0445544554455446	Sesotho
+2514	adult	Tsebo	CDS	14	202	0.0693069306930693	Sesotho
+2514	other child	Tsebo	CDS	5	202	0.0247524752475248	Sesotho
+2515	other child	Tsebo	OCDS	19	452	0.0420353982300885	Sesotho
+2515	mother	Tsebo	CDS	4	452	0.00884955752212389	Sesotho
+2515	adult	Tsebo	OCDS	127	452	0.280973451327434	Sesotho
+2515	adult	Tsebo	ADS	1	452	0.00221238938053097	Sesotho
+2515	other child	Tsebo	ADS	88	452	0.194690265486726	Sesotho
+2515	adult	Tsebo	CDS	179	452	0.396017699115044	Sesotho
+2515	other child	Tsebo	CDS	34	452	0.0752212389380531	Sesotho
+2516	mother	Tsebo	CDS	5	588	0.00850340136054422	Sesotho
+2516	other child	Tsebo	ADS	187	588	0.318027210884354	Sesotho
+2516	other child	Tsebo	OCDS	7	588	0.0119047619047619	Sesotho
+2516	adult	Tsebo	CDS	82	588	0.139455782312925	Sesotho
+2516	adult	Tsebo	OCDS	212	588	0.360544217687075	Sesotho
+2516	adult	Tsebo	ADS	5	588	0.00850340136054422	Sesotho
+2516	other child	Tsebo	CDS	90	588	0.153061224489796	Sesotho
+2517	mother	Tsebo	CDS	25	314	0.0796178343949045	Sesotho
+2517	other child	Tsebo	OCDS	2	314	0.00636942675159236	Sesotho
+2517	other child	Tsebo	ADS	15	314	0.0477707006369427	Sesotho
+2517	other child	Tsebo	CDS	235	314	0.748407643312102	Sesotho
+2517	adult	Tsebo	CDS	13	314	0.0414012738853503	Sesotho
+2517	adult	Tsebo	OCDS	7	314	0.0222929936305732	Sesotho
+2517	mother	Tsebo	OCDS	17	314	0.054140127388535	Sesotho
+2518	adult	Tsebo	CDS	1	467	0.00214132762312634	Sesotho
+2518	other child	Tsebo	CDS	94	467	0.201284796573876	Sesotho
+2518	mother	Tsebo	OCDS	3	467	0.00642398286937901	Sesotho
+2518	other child	Tsebo	ADS	3	467	0.00642398286937901	Sesotho
+2518	other child	Tsebo	OCDS	343	467	0.734475374732334	Sesotho
+2518	mother	Tsebo	CDS	23	467	0.0492505353319058	Sesotho
+2519	other child	Tsebo	CDS	145	313	0.463258785942492	Sesotho
+2519	mother	Tsebo	CDS	7	313	0.0223642172523962	Sesotho
+2519	other child	Tsebo	ADS	4	313	0.012779552715655	Sesotho
+2519	other child	Tsebo	OCDS	147	313	0.469648562300319	Sesotho
+2519	mother	Tsebo	OCDS	10	313	0.0319488817891374	Sesotho
+2520	mother	Tsebo	OCDS	15	360	0.0416666666666667	Sesotho
+2520	other child	Tsebo	ADS	10	360	0.0277777777777778	Sesotho
+2520	other child	Tsebo	CDS	69	360	0.191666666666667	Sesotho
+2520	mother	Tsebo	CDS	162	360	0.45	Sesotho
+2520	other child	Tsebo	OCDS	104	360	0.288888888888889	Sesotho
+2521	other child	Tsebo	CDS	32	373	0.0857908847184987	Sesotho
+2521	mother	Tsebo	OCDS	95	373	0.254691689008043	Sesotho
+2521	other child	Tsebo	ADS	72	373	0.193029490616622	Sesotho
+2521	adult	Tsebo	CDS	5	373	0.0134048257372654	Sesotho
+2521	mother	Tsebo	CDS	167	373	0.447721179624665	Sesotho
+2521	mother	Tsebo	ADS	1	373	0.00268096514745308	Sesotho
+2521	adult	Tsebo	ADS	1	373	0.00268096514745308	Sesotho
+2522	other child	Tsebo	CDS	56	364	0.153846153846154	Sesotho
+2522	adult	Tsebo	CDS	3	364	0.00824175824175824	Sesotho
+2522	mother	Tsebo	ADS	1	364	0.00274725274725275	Sesotho
+2522	mother	Tsebo	OCDS	66	364	0.181318681318681	Sesotho
+2522	mother	Tsebo	CDS	153	364	0.42032967032967	Sesotho
+2522	other child	Tsebo	ADS	85	364	0.233516483516484	Sesotho
+2523	adult	Tsebo	CDS	2	200	0.01	Sesotho
+2523	mother	Tsebo	CDS	89	200	0.445	Sesotho
+2523	mother	Tsebo	ADS	2	200	0.01	Sesotho
+2523	other child	Tsebo	OCDS	4	200	0.02	Sesotho
+2523	other child	Tsebo	CDS	54	200	0.27	Sesotho
+2523	other child	Tsebo	ADS	23	200	0.115	Sesotho
+2523	mother	Tsebo	OCDS	26	200	0.13	Sesotho
+2524	other child	Tsebo	ADS	1	111	0.00900900900900901	Sesotho
+2524	mother	Tsebo	CDS	1	111	0.00900900900900901	Sesotho
+2524	other child	Tsebo	OCDS	3	111	0.027027027027027	Sesotho
+2524	other child	Tsebo	CDS	105	111	0.945945945945946	Sesotho
+2524	mother	Tsebo	OCDS	1	111	0.00900900900900901	Sesotho
+2525	other child	Tsebo	CDS	96	113	0.849557522123894	Sesotho
+2525	other child	Tsebo	OCDS	17	113	0.150442477876106	Sesotho
+2526	other child	Tsebo	OCDS	15	137	0.109489051094891	Sesotho
+2526	mother	Tsebo	CDS	32	137	0.233576642335766	Sesotho
+2526	mother	Tsebo	OCDS	27	137	0.197080291970803	Sesotho
+2526	other child	Tsebo	CDS	58	137	0.423357664233577	Sesotho
+2526	other child	Tsebo	ADS	5	137	0.0364963503649635	Sesotho
+2527	other child	Tsebo	CDS	82	265	0.309433962264151	Sesotho
+2527	adult	Tsebo	OCDS	8	265	0.030188679245283	Sesotho
+2527	other child	Tsebo	OCDS	82	265	0.309433962264151	Sesotho
+2527	mother	Tsebo	CDS	37	265	0.139622641509434	Sesotho
+2527	other child	Tsebo	ADS	29	265	0.109433962264151	Sesotho
+2527	mother	Tsebo	OCDS	27	265	0.10188679245283	Sesotho
+2528	adult	Tsebo	ADS	1	348	0.0028735632183908	Sesotho
+2528	other child	Tsebo	OCDS	21	348	0.0603448275862069	Sesotho
+2528	mother	Tsebo	ADS	1	348	0.0028735632183908	Sesotho
+2528	mother	Tsebo	OCDS	33	348	0.0948275862068965	Sesotho
+2528	adult	Tsebo	OCDS	62	348	0.17816091954023	Sesotho
+2528	adult	Tsebo	CDS	42	348	0.120689655172414	Sesotho
+2528	mother	Tsebo	CDS	74	348	0.21264367816092	Sesotho
+2528	other child	Tsebo	ADS	55	348	0.158045977011494	Sesotho
+2528	other child	Tsebo	CDS	59	348	0.169540229885057	Sesotho
+2529	other child	Tsebo	ADS	42	271	0.154981549815498	Sesotho
+2529	other child	Tsebo	OCDS	31	271	0.114391143911439	Sesotho
+2529	other child	Tsebo	CDS	72	271	0.265682656826568	Sesotho
+2529	adult	Tsebo	OCDS	72	271	0.265682656826568	Sesotho
+2529	adult	Tsebo	CDS	54	271	0.199261992619926	Sesotho
+2530	other child	Tsebo	CDS	23	174	0.132183908045977	Sesotho
+2530	adult	Tsebo	OCDS	67	174	0.385057471264368	Sesotho
+2530	other child	Tsebo	ADS	24	174	0.137931034482759	Sesotho
+2530	adult	Tsebo	CDS	59	174	0.339080459770115	Sesotho
+2530	other child	Tsebo	OCDS	1	174	0.00574712643678161	Sesotho
+2531	mother	Tsebo	OCDS	81	185	0.437837837837838	Sesotho
+2531	other child	Tsebo	CDS	12	185	0.0648648648648649	Sesotho
+2531	other child	Tsebo	ADS	65	185	0.351351351351351	Sesotho
+2531	other child	Tsebo	OCDS	8	185	0.0432432432432432	Sesotho
+2531	mother	Tsebo	CDS	19	185	0.102702702702703	Sesotho
+2532	mother	Tsebo	ADS	2	167	0.0119760479041916	Sesotho
+2532	mother	Tsebo	CDS	6	167	0.0359281437125748	Sesotho
+2532	other child	Tsebo	ADS	56	167	0.335329341317365	Sesotho
+2532	other child	Tsebo	OCDS	28	167	0.167664670658683	Sesotho
+2532	other child	Tsebo	CDS	18	167	0.107784431137725	Sesotho
+2532	mother	Tsebo	OCDS	56	167	0.335329341317365	Sesotho
+2532	adult	Tsebo	OCDS	1	167	0.00598802395209581	Sesotho
+2533	other child	Tsebo	OCDS	1	143	0.00699300699300699	Sesotho
+2533	other child	Tsebo	ADS	12	143	0.0839160839160839	Sesotho
+2533	mother	Tsebo	CDS	51	143	0.356643356643357	Sesotho
+2533	mother	Tsebo	OCDS	20	143	0.13986013986014	Sesotho
+2533	mother	Tsebo	ADS	2	143	0.013986013986014	Sesotho
+2533	other child	Tsebo	CDS	57	143	0.398601398601399	Sesotho
+2534	other child	Tsebo	ADS	5	125	0.04	Sesotho
+2534	mother	Tsebo	OCDS	9	125	0.072	Sesotho
+2534	other child	Tsebo	OCDS	17	125	0.136	Sesotho
+2534	adult	Tsebo	CDS	1	125	0.008	Sesotho
+2534	other child	Tsebo	CDS	84	125	0.672	Sesotho
+2534	adult	Tsebo	OCDS	9	125	0.072	Sesotho
+2535	mother	Tsebo	OCDS	37	199	0.185929648241206	Sesotho
+2535	other child	Tsebo	CDS	105	199	0.527638190954774	Sesotho
+2535	other child	Tsebo	OCDS	18	199	0.0904522613065327	Sesotho
+2535	mother	Tsebo	CDS	20	199	0.100502512562814	Sesotho
+2535	other child	Tsebo	ADS	12	199	0.0603015075376884	Sesotho
+2535	adult	Tsebo	CDS	4	199	0.0201005025125628	Sesotho
+2535	adult	Tsebo	OCDS	3	199	0.0150753768844221	Sesotho
+2536	adult	Tsebo	OCDS	19	162	0.117283950617284	Sesotho
+2536	mother	Tsebo	CDS	3	162	0.0185185185185185	Sesotho
+2536	other child	Tsebo	OCDS	35	162	0.216049382716049	Sesotho
+2536	mother	Tsebo	OCDS	6	162	0.037037037037037	Sesotho
+2536	other child	Tsebo	ADS	12	162	0.0740740740740741	Sesotho
+2536	other child	Tsebo	CDS	75	162	0.462962962962963	Sesotho
+2536	adult	Tsebo	CDS	12	162	0.0740740740740741	Sesotho
+2537	mother	Tsebo	OCDS	3	60	0.05	Sesotho
+2537	other child	Tsebo	CDS	43	60	0.716666666666667	Sesotho
+2537	other child	Tsebo	ADS	6	60	0.1	Sesotho
+2537	other child	Tsebo	OCDS	4	60	0.0666666666666667	Sesotho
+2537	adult	Tsebo	OCDS	4	60	0.0666666666666667	Sesotho
+2538	mother	Tsebo	OCDS	26	79	0.329113924050633	Sesotho
+2538	other child	Tsebo	CDS	25	79	0.316455696202532	Sesotho
+2538	other child	Tsebo	OCDS	5	79	0.0632911392405063	Sesotho
+2538	other child	Tsebo	ADS	6	79	0.0759493670886076	Sesotho
+2538	mother	Tsebo	CDS	9	79	0.113924050632911	Sesotho
+2538	adult	Tsebo	OCDS	8	79	0.10126582278481	Sesotho
+2539	other child	Tsebo	OCDS	8	85	0.0941176470588235	Sesotho
+2539	mother	Tsebo	OCDS	32	85	0.376470588235294	Sesotho
+2539	mother	Tsebo	CDS	10	85	0.117647058823529	Sesotho
+2539	other child	Tsebo	ADS	19	85	0.223529411764706	Sesotho
+2539	adult	Tsebo	OCDS	4	85	0.0470588235294118	Sesotho
+2539	other child	Tsebo	CDS	12	85	0.141176470588235	Sesotho
+2540	other child	Tsebo	ADS	13	114	0.114035087719298	Sesotho
+2540	mother	Tsebo	OCDS	27	114	0.236842105263158	Sesotho
+2540	other child	Tsebo	CDS	43	114	0.37719298245614	Sesotho
+2540	other child	Tsebo	OCDS	28	114	0.245614035087719	Sesotho
+2540	mother	Tsebo	CDS	3	114	0.0263157894736842	Sesotho
+2541	mother	Tsebo	CDS	2	104	0.0192307692307692	Sesotho
+2541	other child	Tsebo	OCDS	42	104	0.403846153846154	Sesotho
+2541	other child	Tsebo	CDS	36	104	0.346153846153846	Sesotho
+2541	adult	Tsebo	OCDS	1	104	0.00961538461538462	Sesotho
+2541	mother	Tsebo	OCDS	8	104	0.0769230769230769	Sesotho
+2541	other child	Tsebo	ADS	15	104	0.144230769230769	Sesotho
+2542	other child	Tsebo	CDS	37	120	0.308333333333333	Sesotho
+2542	mother	Tsebo	OCDS	26	120	0.216666666666667	Sesotho
+2542	mother	Tsebo	CDS	12	120	0.1	Sesotho
+2542	other child	Tsebo	OCDS	22	120	0.183333333333333	Sesotho
+2542	other child	Tsebo	ADS	15	120	0.125	Sesotho
+2542	adult	Tsebo	CDS	7	120	0.0583333333333333	Sesotho
+2542	adult	Tsebo	OCDS	1	120	0.00833333333333333	Sesotho

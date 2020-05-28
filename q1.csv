@@ -1,0 +1,371 @@
+session	speaker	targetchild	input	total	ratio	language
+Anae/21122.cha	adult	Anae	2	520	0.00384615384615385	French
+Anae/21122.cha	mother	Anae	505	520	0.971153846153846	French
+Anae/21122.cha	other child	Anae	13	520	0.025	French
+Anae/2123.cha	adult	Anae	22	825	0.0266666666666667	French
+Anae/2123.cha	mother	Anae	788	825	0.955151515151515	French
+Anae/2123.cha	other child	Anae	15	825	0.0181818181818182	French
+Anae/215.cha	adult	Anae	2	738	0.002710027100271	French
+Anae/215.cha	mother	Anae	651	738	0.882113821138211	French
+Anae/215.cha	other child	Anae	85	738	0.115176151761518	French
+Anae/2216.cha	mother	Anae	613	613	1	French
+Anae/2428.cha	adult	Anae	11	981	0.0112130479102956	French
+Anae/2428.cha	mother	Anae	724	981	0.738022426095821	French
+Anae/2428.cha	other child	Anae	246	981	0.250764525993884	French
+Anae/2529.cha	mother	Anae	753	753	1	French
+Anae/2626.cha	adult	Anae	5	718	0.00696378830083565	French
+Anae/2626.cha	mother	Anae	516	718	0.71866295264624	French
+Anae/2626.cha	other child	Anae	197	718	0.274373259052925	French
+Anae/284.cha	mother	Anae	773	915	0.844808743169399	French
+Anae/284.cha	other child	Anae	142	915	0.155191256830601	French
+Anae/2923.cha	mother	Anae	785	785	1	French
+Anae/317.cha	adult	Anae	25	774	0.0322997416020672	French
+Anae/317.cha	mother	Anae	409	774	0.528423772609819	French
+Anae/317.cha	other child	Anae	340	774	0.439276485788114	French
+Anais/239a.cha	adult	Anais	4	476	0.00840336134453781	French
+Anais/239a.cha	mother	Anais	470	476	0.987394957983193	French
+Anais/239a.cha	other child	Anais	2	476	0.00420168067226891	French
+Anais/242a.cha	adult	Anais	776	776	1	French
+Anais/242b.cha	adult	Anais	667	667	1	French
+Anais/247a.cha	mother	Anais	461	534	0.863295880149813	French
+Anais/247a.cha	other child	Anais	73	534	0.136704119850187	French
+Anais/247b.cha	mother	Anais	287	367	0.782016348773842	French
+Anais/247b.cha	other child	Anais	80	367	0.217983651226158	French
+Anais/2511a.cha	adult	Anais	2	661	0.00302571860816944	French
+Anais/2511a.cha	mother	Anais	659	661	0.996974281391831	French
+Anais/2511b.cha	mother	Anais	639	639	1	French
+Anais/2523a.cha	mother	Anais	684	684	1	French
+Anais/2525a.cha	mother	Anais	543	543	1	French
+Anais/2621a.cha	adult	Anais	27	478	0.0564853556485356	French
+Anais/2621a.cha	mother	Anais	451	478	0.943514644351464	French
+Anais/28a.cha	mother	Anais	649	772	0.840673575129534	French
+Anais/28a.cha	other child	Anais	123	772	0.159326424870466	French
+Anais/296b.cha	adult	Anais	508	508	1	French
+Theotime/2111a.cha	mother	Theotime	436	436	1	French
+Theotime/2112a.cha	mother	Theotime	335	339	0.988200589970501	French
+Theotime/2112a.cha	other child	Theotime	4	339	0.0117994100294985	French
+Theotime/2324a.cha	mother	Theotime	428	450	0.951111111111111	French
+Theotime/2324a.cha	other child	Theotime	22	450	0.0488888888888889	French
+Theotime/2324b.cha	mother	Theotime	466	474	0.983122362869198	French
+Theotime/2324b.cha	other child	Theotime	8	474	0.0168776371308017	French
+Theotime/239b.cha	mother	Theotime	407	442	0.920814479638009	French
+Theotime/239b.cha	other child	Theotime	35	442	0.0791855203619909	French
+Theotime/2422a.cha	mother	Theotime	471	521	0.904030710172745	French
+Theotime/2422a.cha	other child	Theotime	50	521	0.0959692898272553	French
+Theotime/252a.cha	mother	Theotime	408	479	0.851774530271399	French
+Theotime/252a.cha	other child	Theotime	71	479	0.148225469728601	French
+Theotime/263a.cha	mother	Theotime	443	466	0.950643776824034	French
+Theotime/263a.cha	other child	Theotime	23	466	0.0493562231759657	French
+Theotime/273a.cha	mother	Theotime	400	400	1	French
+2414	adult	Hlobohang	32	212	0.150943396226415	Sesotho
+2414	mother	Hlobohang	175	212	0.825471698113208	Sesotho
+2414	other child	Hlobohang	5	212	0.0235849056603774	Sesotho
+2415	adult	Hlobohang	189	237	0.79746835443038	Sesotho
+2415	mother	Hlobohang	3	237	0.0126582278481013	Sesotho
+2415	other child	Hlobohang	45	237	0.189873417721519	Sesotho
+2416	adult	Hlobohang	18	209	0.0861244019138756	Sesotho
+2416	mother	Hlobohang	37	209	0.177033492822967	Sesotho
+2416	other child	Hlobohang	154	209	0.736842105263158	Sesotho
+2417	adult	Hlobohang	330	365	0.904109589041096	Sesotho
+2417	mother	Hlobohang	21	365	0.0575342465753425	Sesotho
+2417	other child	Hlobohang	14	365	0.0383561643835616	Sesotho
+2418	adult	Hlobohang	123	377	0.326259946949602	Sesotho
+2418	mother	Hlobohang	131	377	0.347480106100796	Sesotho
+2418	other child	Hlobohang	123	377	0.326259946949602	Sesotho
+2419	adult	Hlobohang	28	80	0.35	Sesotho
+2419	mother	Hlobohang	19	80	0.2375	Sesotho
+2419	other child	Hlobohang	33	80	0.4125	Sesotho
+2420	adult	Hlobohang	308	542	0.568265682656827	Sesotho
+2420	mother	Hlobohang	56	542	0.103321033210332	Sesotho
+2420	other child	Hlobohang	178	542	0.328413284132841	Sesotho
+2421	adult	Hlobohang	315	440	0.715909090909091	Sesotho
+2421	mother	Hlobohang	23	440	0.0522727272727273	Sesotho
+2421	other child	Hlobohang	102	440	0.231818181818182	Sesotho
+2422	adult	Hlobohang	166	482	0.344398340248963	Sesotho
+2422	other child	Hlobohang	316	482	0.655601659751037	Sesotho
+2423	adult	Hlobohang	193	387	0.498708010335917	Sesotho
+2423	other child	Hlobohang	194	387	0.501291989664083	Sesotho
+2424	adult	Hlobohang	48	282	0.170212765957447	Sesotho
+2424	mother	Hlobohang	11	282	0.0390070921985816	Sesotho
+2424	other child	Hlobohang	223	282	0.790780141843972	Sesotho
+2425	adult	Hlobohang	80	430	0.186046511627907	Sesotho
+2425	mother	Hlobohang	51	430	0.118604651162791	Sesotho
+2425	other child	Hlobohang	299	430	0.695348837209302	Sesotho
+2426	adult	Hlobohang	233	300	0.776666666666667	Sesotho
+2426	mother	Hlobohang	5	300	0.0166666666666667	Sesotho
+2426	other child	Hlobohang	62	300	0.206666666666667	Sesotho
+2427	adult	Hlobohang	201	443	0.45372460496614	Sesotho
+2427	mother	Hlobohang	11	443	0.0248306997742664	Sesotho
+2427	other child	Hlobohang	231	443	0.521444695259594	Sesotho
+2428	adult	Hlobohang	34	361	0.0941828254847645	Sesotho
+2428	mother	Hlobohang	25	361	0.0692520775623269	Sesotho
+2428	other child	Hlobohang	302	361	0.836565096952909	Sesotho
+2429	adult	Hlobohang	32	267	0.119850187265918	Sesotho
+2429	mother	Hlobohang	20	267	0.0749063670411985	Sesotho
+2429	other child	Hlobohang	215	267	0.805243445692884	Sesotho
+2430	adult	Hlobohang	486	572	0.84965034965035	Sesotho
+2430	mother	Hlobohang	19	572	0.0332167832167832	Sesotho
+2430	other child	Hlobohang	67	572	0.117132867132867	Sesotho
+2431	adult	Hlobohang	244	386	0.632124352331606	Sesotho
+2431	mother	Hlobohang	45	386	0.116580310880829	Sesotho
+2431	other child	Hlobohang	97	386	0.251295336787565	Sesotho
+2432	other child	Hlobohang	37	37	1	Sesotho
+2433	adult	Hlobohang	6	172	0.0348837209302326	Sesotho
+2433	mother	Hlobohang	86	172	0.5	Sesotho
+2433	other child	Hlobohang	80	172	0.465116279069767	Sesotho
+2434	adult	Hlobohang	32	233	0.137339055793991	Sesotho
+2434	mother	Hlobohang	24	233	0.103004291845494	Sesotho
+2434	other child	Hlobohang	177	233	0.759656652360515	Sesotho
+2435	adult	Hlobohang	163	323	0.504643962848297	Sesotho
+2435	mother	Hlobohang	72	323	0.222910216718266	Sesotho
+2435	other child	Hlobohang	88	323	0.272445820433437	Sesotho
+2436	adult	Hlobohang	24	270	0.0888888888888889	Sesotho
+2436	mother	Hlobohang	157	270	0.581481481481481	Sesotho
+2436	other child	Hlobohang	89	270	0.32962962962963	Sesotho
+2437	adult	Hlobohang	52	176	0.295454545454545	Sesotho
+2437	mother	Hlobohang	22	176	0.125	Sesotho
+2437	other child	Hlobohang	102	176	0.579545454545455	Sesotho
+2438	adult	Hlobohang	50	244	0.204918032786885	Sesotho
+2438	mother	Hlobohang	46	244	0.188524590163934	Sesotho
+2438	other child	Hlobohang	148	244	0.60655737704918	Sesotho
+2439	mother	Hlobohang	8	152	0.0526315789473684	Sesotho
+2439	other child	Hlobohang	144	152	0.947368421052632	Sesotho
+2440	adult	Hlobohang	104	268	0.388059701492537	Sesotho
+2440	mother	Hlobohang	29	268	0.108208955223881	Sesotho
+2440	other child	Hlobohang	135	268	0.503731343283582	Sesotho
+2441	adult	Hlobohang	22	109	0.201834862385321	Sesotho
+2441	mother	Hlobohang	6	109	0.055045871559633	Sesotho
+2441	other child	Hlobohang	81	109	0.743119266055046	Sesotho
+2442	adult	Hlobohang	195	339	0.575221238938053	Sesotho
+2442	mother	Hlobohang	35	339	0.103244837758112	Sesotho
+2442	other child	Hlobohang	109	339	0.321533923303835	Sesotho
+2443	adult	Hlobohang	162	274	0.591240875912409	Sesotho
+2443	mother	Hlobohang	11	274	0.0401459854014599	Sesotho
+2443	other child	Hlobohang	101	274	0.368613138686131	Sesotho
+2444	mother	Hlobohang	3	203	0.0147783251231527	Sesotho
+2444	other child	Hlobohang	200	203	0.985221674876847	Sesotho
+2445	adult	Hlobohang	1	138	0.0072463768115942	Sesotho
+2445	mother	Hlobohang	11	138	0.0797101449275362	Sesotho
+2445	other child	Hlobohang	126	138	0.91304347826087	Sesotho
+2446	adult	Hlobohang	47	108	0.435185185185185	Sesotho
+2446	mother	Hlobohang	36	108	0.333333333333333	Sesotho
+2446	other child	Hlobohang	25	108	0.231481481481481	Sesotho
+2447	adult	Hlobohang	96	271	0.354243542435424	Sesotho
+2447	mother	Hlobohang	101	271	0.372693726937269	Sesotho
+2447	other child	Hlobohang	74	271	0.273062730627306	Sesotho
+2448	mother	Hlobohang	261	268	0.973880597014925	Sesotho
+2448	other child	Hlobohang	7	268	0.0261194029850746	Sesotho
+2449	mother	Hlobohang	54	54	1	Sesotho
+2450	adult	Hlobohang	36	87	0.413793103448276	Sesotho
+2450	other child	Hlobohang	51	87	0.586206896551724	Sesotho
+2451	adult	Hlobohang	15	135	0.111111111111111	Sesotho
+2451	other child	Hlobohang	120	135	0.888888888888889	Sesotho
+2452	adult	Hlobohang	60	135	0.444444444444444	Sesotho
+2452	other child	Hlobohang	75	135	0.555555555555556	Sesotho
+2453	adult	Hlobohang	72	234	0.307692307692308	Sesotho
+2453	other child	Hlobohang	162	234	0.692307692307692	Sesotho
+2454	other child	Hlobohang	73	73	1	Sesotho
+2455	adult	Hlobohang	191	218	0.876146788990826	Sesotho
+2455	mother	Hlobohang	22	218	0.100917431192661	Sesotho
+2455	other child	Hlobohang	5	218	0.0229357798165138	Sesotho
+2456	adult	Hlobohang	26	61	0.426229508196721	Sesotho
+2456	mother	Hlobohang	16	61	0.262295081967213	Sesotho
+2456	other child	Hlobohang	19	61	0.311475409836066	Sesotho
+2457	adult	Hlobohang	46	71	0.647887323943662	Sesotho
+2457	mother	Hlobohang	1	71	0.0140845070422535	Sesotho
+2457	other child	Hlobohang	24	71	0.338028169014085	Sesotho
+2458	adult	Hlobohang	108	216	0.5	Sesotho
+2458	mother	Hlobohang	17	216	0.0787037037037037	Sesotho
+2458	other child	Hlobohang	91	216	0.421296296296296	Sesotho
+2459	adult	Litlhare	64	647	0.0989180834621329	Sesotho
+2459	mother	Litlhare	197	647	0.304482225656878	Sesotho
+2459	other child	Litlhare	386	647	0.596599690880989	Sesotho
+2460	adult	Litlhare	33	283	0.11660777385159	Sesotho
+2460	mother	Litlhare	116	283	0.409893992932862	Sesotho
+2460	other child	Litlhare	134	283	0.473498233215548	Sesotho
+2461	mother	Litlhare	205	321	0.638629283489097	Sesotho
+2461	other child	Litlhare	116	321	0.361370716510903	Sesotho
+2462	mother	Litlhare	368	413	0.891041162227603	Sesotho
+2462	other child	Litlhare	45	413	0.108958837772397	Sesotho
+2463	mother	Litlhare	113	373	0.302949061662198	Sesotho
+2463	other child	Litlhare	260	373	0.697050938337802	Sesotho
+2464	mother	Litlhare	53	334	0.158682634730539	Sesotho
+2464	other child	Litlhare	281	334	0.841317365269461	Sesotho
+2465	mother	Litlhare	331	331	1	Sesotho
+2466	adult	Litlhare	27	332	0.0813253012048193	Sesotho
+2466	mother	Litlhare	135	332	0.406626506024096	Sesotho
+2466	other child	Litlhare	170	332	0.512048192771084	Sesotho
+2467	mother	Litlhare	219	276	0.793478260869565	Sesotho
+2467	other child	Litlhare	57	276	0.206521739130435	Sesotho
+2468	mother	Litlhare	81	134	0.604477611940298	Sesotho
+2468	other child	Litlhare	53	134	0.395522388059701	Sesotho
+2469	mother	Litlhare	150	377	0.397877984084881	Sesotho
+2469	other child	Litlhare	227	377	0.602122015915119	Sesotho
+2470	mother	Litlhare	358	511	0.700587084148728	Sesotho
+2470	other child	Litlhare	153	511	0.299412915851272	Sesotho
+2471	mother	Litlhare	92	314	0.292993630573248	Sesotho
+2471	other child	Litlhare	222	314	0.707006369426752	Sesotho
+2472	adult	Litlhare	4	200	0.02	Sesotho
+2472	mother	Litlhare	82	200	0.41	Sesotho
+2472	other child	Litlhare	114	200	0.57	Sesotho
+2473	other child	Litlhare	349	349	1	Sesotho
+2474	adult	Litlhare	28	151	0.185430463576159	Sesotho
+2474	other child	Litlhare	123	151	0.814569536423841	Sesotho
+2475	adult	Litlhare	20	250	0.08	Sesotho
+2475	mother	Litlhare	43	250	0.172	Sesotho
+2475	other child	Litlhare	187	250	0.748	Sesotho
+2476	adult	Litlhare	41	241	0.170124481327801	Sesotho
+2476	other child	Litlhare	200	241	0.829875518672199	Sesotho
+2477	adult	Litlhare	42	153	0.274509803921569	Sesotho
+2477	mother	Litlhare	111	153	0.725490196078431	Sesotho
+2478	adult	Litlhare	11	156	0.0705128205128205	Sesotho
+2478	mother	Litlhare	144	156	0.923076923076923	Sesotho
+2478	other child	Litlhare	1	156	0.00641025641025641	Sesotho
+2479	adult	Litlhare	6	81	0.0740740740740741	Sesotho
+2479	other child	Litlhare	75	81	0.925925925925926	Sesotho
+2480	mother	Litlhare	265	336	0.788690476190476	Sesotho
+2480	other child	Litlhare	71	336	0.211309523809524	Sesotho
+2481	mother	Litlhare	263	447	0.588366890380313	Sesotho
+2481	other child	Litlhare	184	447	0.411633109619687	Sesotho
+2482	mother	Litlhare	80	225	0.355555555555556	Sesotho
+2482	other child	Litlhare	145	225	0.644444444444444	Sesotho
+2483	adult	Litlhare	28	421	0.0665083135391924	Sesotho
+2483	mother	Litlhare	393	421	0.933491686460808	Sesotho
+2484	mother	Litlhare	222	224	0.991071428571429	Sesotho
+2484	other child	Litlhare	2	224	0.00892857142857143	Sesotho
+2485	adult	Litlhare	1	337	0.0029673590504451	Sesotho
+2485	mother	Litlhare	179	337	0.531157270029674	Sesotho
+2485	other child	Litlhare	157	337	0.465875370919881	Sesotho
+2486	mother	Litlhare	194	255	0.76078431372549	Sesotho
+2486	other child	Litlhare	61	255	0.23921568627451	Sesotho
+2487	mother	Litlhare	27	27	1	Sesotho
+2488	mother	Litlhare	7	135	0.0518518518518519	Sesotho
+2488	other child	Litlhare	128	135	0.948148148148148	Sesotho
+2489	other child	Litlhare	285	285	1	Sesotho
+2490	other child	Litlhare	178	178	1	Sesotho
+2491	adult	Litlhare	2	170	0.0117647058823529	Sesotho
+2491	other child	Litlhare	168	170	0.988235294117647	Sesotho
+2492	mother	Litlhare	28	198	0.141414141414141	Sesotho
+2492	other child	Litlhare	170	198	0.858585858585859	Sesotho
+2493	mother	Litlhare	242	440	0.55	Sesotho
+2493	other child	Litlhare	198	440	0.45	Sesotho
+2494	other child	Litlhare	25	25	1	Sesotho
+2495	mother	Litlhare	38	38	1	Sesotho
+2496	adult	Litlhare	11	376	0.0292553191489362	Sesotho
+2496	other child	Litlhare	365	376	0.970744680851064	Sesotho
+2497	other child	Litlhare	388	388	1	Sesotho
+2498	other child	Litlhare	127	127	1	Sesotho
+2499	other child	Litlhare	246	246	1	Sesotho
+2500	adult	Litlhare	11	414	0.0265700483091787	Sesotho
+2500	mother	Litlhare	270	414	0.652173913043478	Sesotho
+2500	other child	Litlhare	133	414	0.321256038647343	Sesotho
+2501	adult	Litlhare	6	406	0.0147783251231527	Sesotho
+2501	mother	Litlhare	157	406	0.386699507389163	Sesotho
+2501	other child	Litlhare	243	406	0.598522167487685	Sesotho
+2502	adult	Litlhare	5	395	0.0126582278481013	Sesotho
+2502	mother	Litlhare	185	395	0.468354430379747	Sesotho
+2502	other child	Litlhare	205	395	0.518987341772152	Sesotho
+2503	mother	Litlhare	153	355	0.430985915492958	Sesotho
+2503	other child	Litlhare	202	355	0.569014084507042	Sesotho
+2504	adult	Tsebo	37	46	0.804347826086957	Sesotho
+2504	mother	Tsebo	9	46	0.195652173913043	Sesotho
+2505	adult	Tsebo	151	229	0.65938864628821	Sesotho
+2505	mother	Tsebo	7	229	0.0305676855895196	Sesotho
+2505	other child	Tsebo	71	229	0.310043668122271	Sesotho
+2506	adult	Tsebo	2	94	0.0212765957446809	Sesotho
+2506	mother	Tsebo	38	94	0.404255319148936	Sesotho
+2506	other child	Tsebo	54	94	0.574468085106383	Sesotho
+2507	adult	Tsebo	14	105	0.133333333333333	Sesotho
+2507	mother	Tsebo	38	105	0.361904761904762	Sesotho
+2507	other child	Tsebo	53	105	0.504761904761905	Sesotho
+2508	adult	Tsebo	3	111	0.027027027027027	Sesotho
+2508	mother	Tsebo	61	111	0.54954954954955	Sesotho
+2508	other child	Tsebo	47	111	0.423423423423423	Sesotho
+2509	adult	Tsebo	16	76	0.210526315789474	Sesotho
+2509	mother	Tsebo	21	76	0.276315789473684	Sesotho
+2509	other child	Tsebo	39	76	0.513157894736842	Sesotho
+2510	mother	Tsebo	47	299	0.157190635451505	Sesotho
+2510	other child	Tsebo	252	299	0.842809364548495	Sesotho
+2511	adult	Tsebo	7	71	0.0985915492957746	Sesotho
+2511	mother	Tsebo	62	71	0.873239436619718	Sesotho
+2511	other child	Tsebo	2	71	0.028169014084507	Sesotho
+2512	mother	Tsebo	204	206	0.990291262135922	Sesotho
+2512	other child	Tsebo	2	206	0.00970873786407767	Sesotho
+2513	adult	Tsebo	3	173	0.0173410404624277	Sesotho
+2513	mother	Tsebo	170	173	0.982658959537572	Sesotho
+2514	adult	Tsebo	23	206	0.111650485436893	Sesotho
+2514	mother	Tsebo	174	206	0.844660194174757	Sesotho
+2514	other child	Tsebo	9	206	0.0436893203883495	Sesotho
+2515	adult	Tsebo	311	456	0.682017543859649	Sesotho
+2515	mother	Tsebo	4	456	0.0087719298245614	Sesotho
+2515	other child	Tsebo	141	456	0.309210526315789	Sesotho
+2516	adult	Tsebo	301	590	0.510169491525424	Sesotho
+2516	mother	Tsebo	5	590	0.00847457627118644	Sesotho
+2516	other child	Tsebo	284	590	0.48135593220339	Sesotho
+2517	adult	Tsebo	20	336	0.0595238095238095	Sesotho
+2517	mother	Tsebo	43	336	0.12797619047619	Sesotho
+2517	other child	Tsebo	273	336	0.8125	Sesotho
+2518	adult	Tsebo	1	556	0.00179856115107914	Sesotho
+2518	mother	Tsebo	27	556	0.0485611510791367	Sesotho
+2518	other child	Tsebo	528	556	0.949640287769784	Sesotho
+2519	mother	Tsebo	17	322	0.0527950310559006	Sesotho
+2519	other child	Tsebo	305	322	0.947204968944099	Sesotho
+2520	mother	Tsebo	188	380	0.494736842105263	Sesotho
+2520	other child	Tsebo	192	380	0.505263157894737	Sesotho
+2521	adult	Tsebo	6	377	0.0159151193633952	Sesotho
+2521	mother	Tsebo	265	377	0.702917771883289	Sesotho
+2521	other child	Tsebo	106	377	0.281167108753316	Sesotho
+2522	adult	Tsebo	3	367	0.00817438692098093	Sesotho
+2522	mother	Tsebo	220	367	0.599455040871935	Sesotho
+2522	other child	Tsebo	144	367	0.392370572207084	Sesotho
+2523	adult	Tsebo	2	256	0.0078125	Sesotho
+2523	mother	Tsebo	150	256	0.5859375	Sesotho
+2523	other child	Tsebo	104	256	0.40625	Sesotho
+2524	mother	Tsebo	2	118	0.0169491525423729	Sesotho
+2524	other child	Tsebo	116	118	0.983050847457627	Sesotho
+2525	other child	Tsebo	129	129	1	Sesotho
+2526	mother	Tsebo	64	148	0.432432432432432	Sesotho
+2526	other child	Tsebo	84	148	0.567567567567568	Sesotho
+2527	adult	Tsebo	16	360	0.0444444444444444	Sesotho
+2527	mother	Tsebo	64	360	0.177777777777778	Sesotho
+2527	other child	Tsebo	280	360	0.777777777777778	Sesotho
+2528	adult	Tsebo	113	391	0.289002557544757	Sesotho
+2528	mother	Tsebo	137	391	0.350383631713555	Sesotho
+2528	other child	Tsebo	141	391	0.360613810741688	Sesotho
+2529	adult	Tsebo	133	294	0.452380952380952	Sesotho
+2529	other child	Tsebo	161	294	0.547619047619048	Sesotho
+2530	adult	Tsebo	131	197	0.66497461928934	Sesotho
+2530	other child	Tsebo	66	197	0.33502538071066	Sesotho
+2531	mother	Tsebo	106	198	0.535353535353535	Sesotho
+2531	other child	Tsebo	92	198	0.464646464646465	Sesotho
+2532	adult	Tsebo	1	176	0.00568181818181818	Sesotho
+2532	mother	Tsebo	69	176	0.392045454545455	Sesotho
+2532	other child	Tsebo	106	176	0.602272727272727	Sesotho
+2533	mother	Tsebo	74	156	0.474358974358974	Sesotho
+2533	other child	Tsebo	82	156	0.525641025641026	Sesotho
+2534	adult	Tsebo	11	147	0.0748299319727891	Sesotho
+2534	mother	Tsebo	9	147	0.0612244897959184	Sesotho
+2534	other child	Tsebo	127	147	0.863945578231292	Sesotho
+2535	adult	Tsebo	11	223	0.0493273542600897	Sesotho
+2535	mother	Tsebo	59	223	0.26457399103139	Sesotho
+2535	other child	Tsebo	153	223	0.68609865470852	Sesotho
+2536	adult	Tsebo	35	196	0.178571428571429	Sesotho
+2536	mother	Tsebo	9	196	0.0459183673469388	Sesotho
+2536	other child	Tsebo	152	196	0.775510204081633	Sesotho
+2537	adult	Tsebo	6	83	0.072289156626506	Sesotho
+2537	mother	Tsebo	3	83	0.036144578313253	Sesotho
+2537	other child	Tsebo	74	83	0.891566265060241	Sesotho
+2538	adult	Tsebo	8	98	0.0816326530612245	Sesotho
+2538	mother	Tsebo	38	98	0.387755102040816	Sesotho
+2538	other child	Tsebo	52	98	0.530612244897959	Sesotho
+2539	adult	Tsebo	4	110	0.0363636363636364	Sesotho
+2539	mother	Tsebo	57	110	0.518181818181818	Sesotho
+2539	other child	Tsebo	49	110	0.445454545454545	Sesotho
+2540	mother	Tsebo	36	157	0.229299363057325	Sesotho
+2540	other child	Tsebo	121	157	0.770700636942675	Sesotho
+2541	adult	Tsebo	1	125	0.008	Sesotho
+2541	mother	Tsebo	17	125	0.136	Sesotho
+2541	other child	Tsebo	107	125	0.856	Sesotho
+2542	adult	Tsebo	8	129	0.062015503875969	Sesotho
+2542	mother	Tsebo	46	129	0.356589147286822	Sesotho
+2542	other child	Tsebo	75	129	0.581395348837209	Sesotho
