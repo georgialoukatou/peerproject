@@ -1,0 +1,127 @@
+---
+title: "Figures_peers"
+author: "Camila Scaff"
+date: "5/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(scales)
+library(gridExtra)
+library(ggpubr)
+library(reshape2)
+library(dplyr)
+
+#read the right tables
+read.csv("demuth_speakers.txt", sep = "") -> sum_demuth_tot #contains unclassified speech and investigator
+read.delim("results_Rmd/french_speakers.txt", sep = "") -> sum_french_tot #contains unclassified speech and investigator
+read.delim("results_Rmd/french_register.txt", sep = "") -> tot_sum_french_register # contains unclassified speech but only agreement between coders
+read.delim("results_Rmd/demuth_register.txt", sep = "") -> tot_sum_demuth_register# contains unclassified speech but only agreement between coders
+
+#choose to remove Investigator // this is important for calculating percentages
+#Remove investigator, unclassified speech
+sum_demuth_register<-subset(tot_sum_demuth_register, !(tot_sum_demuth_register$speaker=="investigator"))
+sum_demuth_register<-subset(sum_demuth_register, !(sum_demuth_register$input=="unclassified"))
+sum_demuth_register<-subset(sum_demuth_register, !(sum_demuth_register$input=="Investigator"))
+
+sum_french_register<-subset(tot_sum_french_register, !(tot_sum_french_register$speaker=="investigator"))
+sum_french_register<-subset(sum_french_register, !(sum_french_register$input=="unclassified"))
+sum_french_register<-subset(sum_french_register, !(sum_french_register$input=="Investigator"))
+
+
+
+
+
+```
+
+```{r multiplot}
+#defining multiplot
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+  numPlots = length(plots)
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                     ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+  if (numPlots==1) {
+    print(plots[[1]])
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+```
+
+```{r figure making, eval=TRUE, include=TRUE, message=FALSE}
+
+#not normalized / all corpus
+
+
+ggplot(sum_demuth, aes( y=nb_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Keychild", y="Number of utterances")
+ggplot(sum_french, aes( y=nb_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Keychild", y="Number of utterances")
+
+
+
+ggplot(sum_demuth_register, aes( y=nb_utt, x=keychild, fill=input))+ geom_bar(stat="identity", position="dodge")
+
+Hlobohang <- ggplot(subset(sum_demuth_register_fig, keychild %in% c("Hlobohang") ), aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="Hlobohang", y="")  + guides(fill=FALSE)
+
+Litlhare <- ggplot(subset(sum_demuth_register_fig, keychild %in% c("Litlhare") ), aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="Litlhare", y="Number of utterances")  + guides(fill=guide_legend(title=NULL))
+
+Tsebo <- ggplot(subset(sum_demuth_register_fig, keychild %in% c("Tsebo") ), aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="Tsebo", y="")  + guides(fill=FALSE)
+
+
+Hlobohang_stack<- ggplot(subset(sum_demuth_register, keychild %in% c("Hlobohang") ), aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="fill") +  labs(x="Hlobohang", y="")  + guides(fill=guide_legend(title=NULL))
+
+Litlhare_stack<- ggplot(subset(sum_demuth_register, keychild %in% c("Litlhare") ), aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="fill") +  labs(x="Litlhare", y="Number of utterances")  + guides(fill=guide_legend(title=NULL))
+
+Tsebo_stack <- ggplot(subset(sum_demuth_register, keychild %in% c("Tsebo") ), aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="fill") +  labs(x="Tsebo", y="")  + guides(fill=FALSE)
+#scale_fill_discrete(labels= c("Adults", "Mother", "Peers", "Siblings"))
+
+#this plot for abstract
+Sesothofig<-ggplot(sum_demuth_register_fig, aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="", y="")  + guides(fill=FALSE) + ggtitle("Sesotho")
+Frenchfig<-ggplot(sum_french_register_fig, aes( y=nb_utt, x=input, fill=speaker))+
+  geom_bar(stat="identity", position="dodge") +  labs(x="", y="")  + guides(fill=guide_legend(title=NULL)) + ggtitle("French")
+
+png(filename="/Users/admin/Desktop/name.png", res=100, width=500)
+ggarrange(Sesothofig, Frenchfig, ncol=1, nrow=2, common.legend = TRUE, legend="bottom")
+dev.off()
+
+
+#this
+ggarrange(Hlobohang, Litlhare,Tsebo, ncol=1, nrow=3, common.legend = TRUE, legend="bottom")
+ggarrange(Hlobohang_stack, Litlhare_stack,Tsebo_stack, ncol=1, nrow=3, common.legend = TRUE, legend="bottom")
+
+
+#panel
+# multiplot (wells_full, demuth_full, cols=1)
+# multiplot (wells_annot, demuth_annot, cols=1)
+#  
+
+#fill <- multiplot (wells_CDS, demuth_CDS, cols=1) 
+#dodge <- multiplot (Hlobohang, Litlhare,Tsebo, cols=1) 
+```
