@@ -198,7 +198,7 @@ colnames(sum_demuth_ADS) <- c( "speaker", "keychild", "nb_utt")
 demuth_otherchild_directed<-subset(merged_speaker_info_demuth, (merged_speaker_info_demuth$role_adressee=="Brother"| merged_speaker_info_demuth$role_adressee=="Other child"|merged_speaker_info_demuth$role_adressee=="Cousin"|merged_speaker_info_demuth$annotation1=="Playmate"| merged_speaker_info_demuth$annotation1=="Sister"| merged_speaker_info_demuth$role_adressee=="Teenager"))
 
 aggregate(demuth_otherchild_directed$utterance_id,by=list(demuth_otherchild_directed$speaker, demuth_otherchild_directed$keychild),length )->sum_demuth_OCDS
-colnames(sum_demuth_ADS) <- c( "speaker", "keychild", "nb_utt")
+colnames(sum_demuth_OCDS) <- c( "speaker", "keychild", "nb_utt")
 
 
 
@@ -355,7 +355,7 @@ colnames(sum_french_ADS) <- c( "speaker", "keychild", "nb_utt")
 # Utterances addressed to others children
 french_otherchild_directed<-subset(merged_speaker_info_french, (merged_speaker_info_french$role_adressee=="Other child"))
 aggregate(french_otherchild_directed$utterance_id,by=list(french_otherchild_directed$speaker, french_otherchild_directed$keychild),length )->sum_french_OCDS
-colnames(sum_french_ADS) <- c( "speaker", "keychild", "nb_utt")
+colnames(sum_french_OCDS) <- c( "speaker", "keychild", "nb_utt")
 
 ##UNCLASSIFIED ####
 # Utterances addressed to unclassified
