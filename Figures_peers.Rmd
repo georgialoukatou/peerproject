@@ -7,7 +7,6 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(plyr)
 library(ggplot2)
 library(scales)
 library(gridExtra)
@@ -89,6 +88,42 @@ data_summary <- function(data, varname, groupnames){
                   varname)
   data_sum <- rename(data_sum, c("mean" = varname))
  return(data_sum)
+}
+
+summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
+                      conf.interval=.95, .drop=TRUE) {
+    library(plyr)
+
+    # New version of length which can handle NA's: if na.rm==T, don't count them
+    length2 <- function (x, na.rm=FALSE) {
+        if (na.rm) sum(!is.na(x))
+        else       length(x)
+    }
+
+    # This does the summary. For each group's data frame, return a vector with
+    # N, mean, and sd
+    datac <- ddply(data, groupvars, .drop=.drop,
+      .fun = function(xx, col) {
+        c(N    = length2(xx[[col]], na.rm=na.rm),
+          mean = mean   (xx[[col]], na.rm=na.rm),
+          sd   = sd     (xx[[col]], na.rm=na.rm)
+        )
+      },
+      measurevar
+    )
+
+    # Rename the "mean" column    
+    datac <- rename(datac, c("mean" = measurevar))
+
+    datac$se <- datac$sd / sqrt(datac$N)  # Calculate standard error of the mean
+
+    # Confidence interval multiplier for standard error
+    # Calculate t-statistic for confidence interval: 
+    # e.g., if conf.interval is .95, use .975 (above/below), and use df=N-1
+    ciMult <- qt(conf.interval/2 + .5, datac$N-1)
+    datac$ci <- datac$se * ciMult
+
+    return(datac)
 }
 ```
 
@@ -210,8 +245,8 @@ kch_demuth <- ggplot(d_speaker_prop, aes( y=nb_utt, x=keychild, fill=speaker))+g
 
 ggarrange(kch_demuth, kch_french, ncol=2, nrow=1, common.legend = TRUE, legend="right", labels = c("Sesotho", "French"))
 
-kchprop_french <- ggplot(fr_speaker_prop, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances")
-kchprop_demuth <- ggplot(d_speaker_prop, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances")+ guides(fill=FALSE)
+kchprop_french <- ggplot(fr_speaker_prop, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances") + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
+kchprop_demuth <- ggplot(d_speaker_prop, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances")+ guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
 
 ggarrange(kchprop_demuth, kchprop_french, ncol=2, nrow=1, common.legend = TRUE, legend="right", labels = c("Sesotho", "French"))
 
@@ -255,7 +290,7 @@ tmp4 <- data.frame(
   tot_nb_utt=c(anae2,anais2,th2))
 sum_french_register <- merge(sum_french_register,tmp4) 
 
-#creating a nb_utt controlled by total lenght by child
+#creating a nb_utt controlled by total lenght by child and speaker only
 #demuth
 aggregate(sum_demuth_register$nb_utt,by=list(sum_demuth_register$keychild, sum_demuth_register$speaker,sum_demuth_register$tot_nb_utt),sum)->d_speaker_prop_clean
 colnames(d_speaker_prop_clean) <- c("keychild", "speaker", "tot_nb_utt", "nb_utt")
@@ -268,6 +303,22 @@ colnames(fr_speaker_prop_clean) <- c("keychild", "speaker", "tot_nb_utt", "nb_ut
 
 fr_speaker_prop_clean$prop_utt <- fr_speaker_prop_clean$nb_utt *100 / fr_speaker_prop_clean$tot_nb_utt
 
+#creating a nb_utt controlled by total lenght by child and speaker and input type
+#demuth
+aggregate(sum_demuth_register$nb_utt,by=list(sum_demuth_register$keychild, sum_demuth_register$input, sum_demuth_register$speaker,sum_demuth_register$tot_nb_utt),sum)->d_speaker_prop_clean_1
+colnames(d_speaker_prop_clean_1) <- c("keychild", "input","speaker", "tot_nb_utt", "nb_utt")
+
+d_speaker_prop_clean_1$prop_utt <- d_speaker_prop_clean_1$nb_utt *100 / d_speaker_prop_clean_1$tot_nb_utt
+
+sum_demuth_register <- merge(sum_demuth_register,d_speaker_prop_clean_1) 
+
+#french
+aggregate(sum_french_register$nb_utt,by=list(sum_french_register$keychild, sum_french_register$input, sum_french_register$speaker,sum_french_register$tot_nb_utt),sum)->fr_speaker_prop_clean_1
+colnames(fr_speaker_prop_clean_1) <-c("keychild", "input","speaker", "tot_nb_utt", "nb_utt")
+
+fr_speaker_prop_clean_1$prop_utt <- fr_speaker_prop_clean_1$nb_utt *100 / fr_speaker_prop_clean_1$tot_nb_utt
+
+sum_french_register <- merge(sum_french_register,fr_speaker_prop_clean_1) 
 
 ```
 
@@ -291,27 +342,97 @@ kch_demuth <- ggplot(d_speaker_prop_clean, aes( y=nb_utt, x=keychild, fill=speak
 
 ggarrange(kch_demuth, kch_french, ncol=2, nrow=1, common.legend = TRUE, legend="right", labels = c("Sesotho", "French"))
 
-kchprop_french <- ggplot(fr_speaker_prop_clean, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances")
-kchprop_demuth <- ggplot(d_speaker_prop_clean, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances")+ guides(fill=FALSE)
+kchprop_french <- ggplot(fr_speaker_prop_clean, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances") + scale_fill_discrete(labels= c("Adults", "Mother", "Other children")) + blank_theme
+kchprop_demuth <- ggplot(d_speaker_prop_clean, aes( y=prop_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Keychild", y="Number of utterances")+ guides(fill=FALSE)+ scale_fill_discrete(labels= c("Adults", "Mother", "Other children")) + blank_theme
 
 ggarrange(kchprop_demuth, kchprop_french, ncol=2, nrow=1, common.legend = TRUE, legend="right", labels = c("Sesotho", "French"))
 ```
 
+```{r cds and ocds, echo=F, message=FALSE}
+#combine input ADS+OCDS
+#demuth
+sum_demuth_register$type_speech[ sum_demuth_register$input %in% c("ADS","OCDS") ] <- "Overheard" 
+sum_demuth_register$type_speech[ sum_demuth_register$input %in% c("CDS") ] <- "Directed"
 
+#french
+sum_french_register$type_speech[ sum_french_register$input %in% c("ADS","OCDS") ] <- "Overheard" 
+sum_french_register$type_speech[ sum_french_register$input %in% c("CDS") ] <- "Directed"
 
-
-
-```{r error bars}
-#for error bars
-simpled_tot <- tot_sum_demuth_register[, c(2, 3,4)]
-simplef_tot <- tot_sum_french_register[, c(2, 4)]
-
-simpled <- tot_sum_demuth_register[, c(1, 3)]
-simplef<- tot_sum_french_register[, c(1, 3)]
-
+summary_d<- summarySE(sum_demuth_register, measurevar="prop_utt", 
+                    groupvars=c("speaker", "type_speech"))
+summary_f<- summarySE(sum_french_register, measurevar="prop_utt", 
+                    groupvars=c("speaker", "type_speech"))
 ```
 
 
+```{r fig3, echo=F,message=FALSE, results='hide'}
+goodgraph_sesotho<- ggplot(summary_d, aes(x=type_speech, y=prop_utt, fill=speaker)) + 
+    geom_bar(position=position_dodge(), stat="identity",
+             colour="black", size=0.3) +      # Thinner lines
+    geom_errorbar(aes(ymin=prop_utt-se, ymax=prop_utt+se),
+                  size=.3,    # Thinner lines
+                  width=.2,
+                  position=position_dodge(.9)) +
+    xlab("Sesotho") +
+    ylab("Proportion of mean utterance count") +
+    scale_fill_hue(name="Speaker", # Legend label, use darker colors
+                   breaks=c("adult", "mother", "other child"),
+                   labels=c("Adults", "Mother", "Other children")) + scale_y_continuous(breaks=0:80*5) + ylim(0, 90)
+    theme_bw()
+
+goodgraph_french<- ggplot(summary_f, aes(x=type_speech, y=prop_utt, fill=speaker)) + 
+    geom_bar(position=position_dodge(), stat="identity",
+             colour="black", size=0.3) +      # Thinner lines
+    geom_errorbar(aes(ymin=prop_utt-se, ymax=prop_utt+se),
+                  size=.3,    # Thinner lines
+                  width=.2,
+                  position=position_dodge(.9)) +
+    xlab("French") +
+    ylab("") +
+    scale_fill_hue(name="Speaker", # Legend label, use darker colors
+                   breaks=c("adult", "mother", "other child"),
+                   labels=c("Adults", "Mother", "Other children")) +  scale_y_continuous(breaks=0:80*5) + ylim(0, 90)
+    theme_bw()
+
+forBU <- ggarrange(goodgraph_sesotho, goodgraph_french, ncol=2, nrow=1, common.legend = TRUE, legend="right")
+forBU
+ggsave("forBU.png")
+
+## If you want other color palette
+
+goodgraph_sesotho<- ggplot(summary_d, aes(x=type_speech, y=prop_utt, fill=speaker)) + 
+    geom_bar(position=position_dodge(), stat="identity",
+             colour="black") +      # Thinner lines
+    geom_errorbar(aes(ymin=prop_utt-se, ymax=prop_utt+se),
+                  size=.3,    # Thinner lines
+                  width=.2,
+                  position=position_dodge(.9)) +
+    xlab("Sesotho") +
+    ylab("Proportion of mean utterance count") +
+    scale_fill_manual(name="Speaker", # Legend label, use darker colors
+                   breaks=c("adult", "mother", "other child"),
+                   labels=c("Adults", "Mother", "Other children"), values=c("#caf2f1", "#6abac3","#beb9bd")) + scale_y_continuous(breaks=0:80*5) + ylim(0, 90)
+    theme_bw()
+
+goodgraph_french<- ggplot(summary_f, aes(x=type_speech, y=prop_utt, fill=speaker)) + 
+    geom_bar(position=position_dodge(), stat="identity",
+             colour="black") +      # Thinner lines
+    geom_errorbar(aes(ymin=prop_utt-se, ymax=prop_utt+se),
+                  size=.3,    # Thinner lines
+                  width=.2,
+                  position=position_dodge(.9)) +
+    xlab("French") +
+    ylab("") +
+    scale_fill_manual(name="Speaker", # Legend label, use darker colors
+                   breaks=c("adult", "mother", "other child"),
+                   labels=c("Adults", "Mother", "Other children"), values=c("#caf2f1", "#6abac3","#beb9bd")) +  scale_y_continuous(breaks=0:80*5) + ylim(0, 90)
+    theme_bw()
+
+ggarrange(goodgraph_sesotho, goodgraph_french, ncol=2, nrow=1, common.legend = TRUE, legend="right")
+
+
+
+```
 
 
 ```{r demuth for figure purposes, echo=F}
@@ -359,7 +480,7 @@ library(reshape2)
 ```
 
 
-```{r figure making, eval=TRUE, include=TRUE, message=FALSE}
+```{r figure making, echo=F, eval=F, include=TRUE, message=FALSE}
 # 
 # #not normalized / all corpus
 # 
