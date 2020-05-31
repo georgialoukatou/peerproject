@@ -16,7 +16,7 @@ library(reshape2)
 library(dplyr)
 
 #read the right tables
-read.csv("demuth_speakers.txt", sep = "") -> sum_demuth_tot #contains unclassified speech and investigator
+read.csv("results_Rmd/demuth_speakers.txt", sep = "") -> sum_demuth_tot #contains unclassified speech and investigator
 read.delim("results_Rmd/french_speakers.txt", sep = "") -> sum_french_tot #contains unclassified speech and investigator
 read.delim("results_Rmd/french_register.txt", sep = "") -> tot_sum_french_register # contains unclassified speech but only agreement between coders
 read.delim("results_Rmd/demuth_register.txt", sep = "") -> tot_sum_demuth_register# contains unclassified speech but only agreement between coders
@@ -107,22 +107,18 @@ m_speaker_demuth*100/total_demuth -> d_perc_M #14.8%
 m_speaker_french<-sum(sum_french_tot$nb_utt[sum_french_tot$speaker== "mother"]) # 15706
 m_speaker_french*100/total_french -> fr_perc_M #41%
 
-peer_speaker_demuth<-sum(sum_demuth_tot$nb_utt[sum_demuth_tot$speaker== "peer"]) #12047
-peer_speaker_demuth*100/total_demuth -> d_perc_PEER #17.3%
+peer_speaker_demuth<-sum(sum_demuth_tot$nb_utt[sum_demuth_tot$speaker== "other child"]) #18246
+peer_speaker_demuth*100/total_demuth -> d_perc_PEER #26.2%
 
-peer_speaker_french<-sum(sum_french_tot$nb_utt[sum_french_tot$speaker== "other child"]) #6199
+peer_speaker_french<-sum(sum_french_tot$nb_utt[sum_french_tot$speaker== "other child"]) #1833
 peer_speaker_french*100/total_french -> fr_perc_PEER #4.8%
-
-sib_speaker_demuth<-sum(sum_demuth_tot$nb_utt[sum_demuth_tot$speaker== "sibling"]) #28853
-sib_speaker_demuth*100/total_demuth -> d_perc_SIB #9%
-
 
 #SNAPSHOT
 wholeset <- data.frame(
-  corpus=c("Sesotho", "French","Sesotho", "French","Sesotho", "French","Sesotho", "French","Sesotho","French","Sesotho"), 
-  production=c("Target Child","Target Child", "Adults","Adults", "Mother", "Mother", "Investigator", "Investigator","Other Children","Other Children","Siblings"), 
-  utt=c(tot_speaker_demuth, tot_speaker_french, a_speaker_demuth, a_speaker_french, m_speaker_demuth,m_speaker_french, inv_speaker_demuth, inv_speaker_french, peer_speaker_demuth, peer_speaker_french, sib_speaker_demuth),
-  value= c(d_perc_TC, fr_perc_TC,d_perc_A,fr_perc_A,d_perc_M,fr_perc_M,d_perc_INV,fr_perc_INV,d_perc_PEER,fr_perc_PEER,d_perc_SIB))
+  corpus=c("Sesotho", "French","Sesotho", "French","Sesotho", "French","Sesotho", "French","Sesotho","French"), 
+  production=c("Target Child","Target Child", "Adults","Adults", "Mother", "Mother", "Investigator", "Investigator","Other Children","Other Children"), 
+  utt=c(tot_speaker_demuth, tot_speaker_french, a_speaker_demuth, a_speaker_french, m_speaker_demuth,m_speaker_french, inv_speaker_demuth, inv_speaker_french, peer_speaker_demuth, peer_speaker_french),
+  value= c(d_perc_TC, fr_perc_TC,d_perc_A,fr_perc_A,d_perc_M,fr_perc_M,d_perc_INV,fr_perc_INV,d_perc_PEER,fr_perc_PEER))
 
 
 Sesotho <- ggplot(subset(wholeset, corpus %in% c("Sesotho")), aes (x="", y = value, fill = production)) + geom_col(position = 'stack', width = 1,color="white") +geom_text(aes(label = paste(round(value,1), "%"), x = 1.3),position = position_stack(vjust = 0.5)) + theme_classic() +theme(plot.title = element_text(hjust=0.5),axis.line = element_blank(),axis.text = element_blank(),axis.ticks = element_blank()) + labs(fill = "Speaker", x = NULL,y = NULL,title = "Sesotho") + coord_polar("y")
@@ -148,7 +144,7 @@ sum_french_register<-subset(sum_french_register, !(sum_french_register$input=="I
 
 ##SNAPSHOT WITHOUT Target child  and merging peer + sibling in demuth
 ````{r fig1, echo=F}
-ggfillsesotho <-  ggplot(tot_sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme + geom_text(aes(label = nb_utt), position = position_stack(vjust = 0.5), size = 2)
+ggfillsesotho <-  ggplot(tot_sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme + geom_text(aes(label = paste0(nb_utt,'%')),colour = 'white', position=position_stack(vjust=0.5)) 
 
 ggfillfrench <- ggplot(tot_sum_french_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
 
@@ -169,20 +165,20 @@ ggarrange(kch_demuth, kch_french, ncol=2, nrow=1, common.legend = TRUE, legend="
 
 Without investigator
 ```{r fig2}
-gg2fillsesotho <-  ggplot(sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
+gg2fillsesotho <-  ggplot(sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Mother", "Other children")) + blank_theme
 
-gg2fillfrench <- ggplot(sum_french_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
+gg2fillfrench <- ggplot(sum_french_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Mother", "Other children")) + blank_theme
 
 ggarrange(gg2fillsesotho, gg2fillfrench, ncol=2, nrow=1, common.legend = TRUE, legend="right",  labels = c("Sesotho", "French"))
 
-gg2rawsesotho <-  ggplot(sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
+gg2rawsesotho <-  ggplot(sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults","Mother", "Other children")) + blank_theme
 
-gg2rawfrench <- ggplot(sum_french_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
+gg2rawfrench <- ggplot(sum_french_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Mother", "Other children")) + blank_theme
 
 ggarrange(gg2rawsesotho, gg2rawfrench, ncol=2, nrow=1, common.legend = TRUE, legend="right",  labels = c("Sesotho", "French"))
 
-kch_french <- ggplot(sum_french_register, aes( y=nb_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Keychild", y="Number of utterances")  + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
-kch_demuth <- ggplot(sum_demuth_register, aes( y=nb_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Keychild", y="Number of utterances")+ guides(fill=FALSE)  + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
+kch_french <- ggplot(sum_french_register, aes( y=nb_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Keychild", y="Number of utterances")  + scale_fill_discrete(labels= c("Adults", "Mother", "Other children")) + blank_theme
+kch_demuth <- ggplot(sum_demuth_register, aes( y=nb_utt, x=keychild, fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Keychild", y="Number of utterances")+ guides(fill=FALSE)  + scale_fill_discrete(labels= c("Adults", "Mother", "Other children")) + blank_theme
 
 ggarrange(kch_demuth, kch_french, ncol=2, nrow=1, common.legend = TRUE, legend="right", labels = c("Sesotho", "French"))
 

@@ -36,7 +36,7 @@ write.table(data, file=paste0(path, "demuth_input.txt"), row.names=F, col.names=
 #Sum the number of utterances per speaker category and keychild
 aggregate(data$utterance_id,by=list( data$speaker, data$keychild),length )->sum_demuth
 colnames(sum_demuth) <- c("speaker", "keychild", "nb_utt")
-write.table(sum_demuth, file=paste0(path, "demuth_speakers.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_demuth, file=paste0(path, "demuth_speakers.txt"), sep="") 
 demuth <- data # keep the original file before subsetting
 #lenght demuth by child
 length_keychild<- demuth %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) 
