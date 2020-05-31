@@ -73,6 +73,18 @@ blank_theme <- theme_minimal()+
   axis.ticks = element_blank(),
   plot.title=element_text(size=14, face="bold")
   )
+
+data_summary <- function(data, varname, groupnames){
+  require(plyr)
+  summary_func <- function(x, col){
+    c(mean = mean(x[[col]], na.rm=TRUE),
+      sd = sd(x[[col]], na.rm=TRUE))
+  }
+  data_sum<-ddply(data, groupnames, .fun=summary_func,
+                  varname)
+  data_sum <- rename(data_sum, c("mean" = varname))
+ return(data_sum)
+}
 ```
 
 
@@ -131,6 +143,25 @@ ggarrange(Sesotho, French, ncol=2, nrow=1, common.legend = TRUE, legend="right")
 
 ## Distribution of speaker by corpus and keychild 
 ```{r screening, echo=F}
+dtot <- sum(tot_sum_demuth_register$nb_utt)#37843
+h <- sum(tot_sum_demuth_register$nb_utt[tot_sum_demuth_register$keychild=="Hlobohang"]) #12634 
+ts <- sum(tot_sum_demuth_register$nb_utt[tot_sum_demuth_register$keychild=="Tsebo"]) #9883
+l <- sum(tot_sum_demuth_register$nb_utt[tot_sum_demuth_register$keychild=="Litlhare"])# 15326
+
+
+ftot <-sum(tot_sum_french_register$nb_utt) #20917
+anae <- sum(tot_sum_french_register$nb_utt[tot_sum_french_register$keychild=="Anae"]) #9677
+anais <- sum(tot_sum_french_register$nb_utt[tot_sum_french_register$keychild=="Anais"])# 7212
+th<- sum(tot_sum_french_register$nb_utt[tot_sum_french_register$keychild=="Theotime"]) 4028
+
+
+
+
+
+#for error bars
+simpled_tot <- tot_sum_demuth_register[, c(2, 3,4)]
+simplef_tot <- tot_sum_french_register[, c(2, 4)]
+
 #choose to remove Investigator // this is important for calculating percentages
 #Remove investigator, unclassified speech
 sum_demuth_register<-subset(tot_sum_demuth_register, !(tot_sum_demuth_register$speaker=="investigator"))
@@ -140,17 +171,26 @@ sum_demuth_register<-subset(sum_demuth_register, !(sum_demuth_register$input=="I
 sum_french_register<-subset(tot_sum_french_register, !(tot_sum_french_register$speaker=="investigator"))
 sum_french_register<-subset(sum_french_register, !(sum_french_register$input=="unclassified"))
 sum_french_register<-subset(sum_french_register, !(sum_french_register$input=="Investigator"))
+
+simpled <- tot_sum_demuth_register[, c(1, 3)]
+simplef<- tot_sum_french_register[, c(1, 3)]
+
+
 ```
+
 
 ##SNAPSHOT WITHOUT Target child  and merging peer + sibling in demuth
 ````{r fig1, echo=F}
-ggfillsesotho <-  ggplot(tot_sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme + geom_text(aes(label = paste0(nb_utt,'%')),colour = 'white', position=position_stack(vjust=0.5)) 
-
+ggfillsesotho <-  ggplot(tot_sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme                                                                      
 ggfillfrench <- ggplot(tot_sum_french_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
 
 ggarrange(ggfillsesotho, ggfillfrench, ncol=2, nrow=1, common.legend = TRUE, legend="right",  labels = c("Sesotho", "French"))
 
-ggrawsesotho <-  ggplot(tot_sum_demuth_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
+dsummaryspeaker_tot<- data_summary(simpled_tot, varname="nb_utt", 
+                    groupnames=c("speaker", "keychild"))
+
+
+ggrawsesotho <-  ggplot(dsummaryspeaker_tot, aes( y=as.numeric(nb_utt), x="", fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme 
 
 ggrawfrench <- ggplot(tot_sum_french_register, aes( y=nb_utt, x="", fill=speaker))+geom_bar(stat="identity", position="dodge")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
 
