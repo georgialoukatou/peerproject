@@ -223,7 +223,7 @@ fr_speaker_prop$prop_utt <- fr_speaker_prop$nb_utt *100 / fr_speaker_prop$tot_nb
 
 
 ```
-##SNAPSHOT WITHOUT Target child 
+## SNAPSHOT WITHOUT Target child 
 ````{r fig1, echo=F}
 ggfillsesotho <-  ggplot(d_speaker_prop, aes( y=prop_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances") + guides(fill=FALSE) + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme                                                                      
 ggfillfrench <- ggplot(fr_speaker_prop, aes( y=prop_utt, x="", fill=speaker))+geom_bar(stat="identity", position="fill")+  labs(x="Sesotho", y="Number of utterances")   + scale_fill_discrete(labels= c("Adults", "Investigator", "Mother", "Other children")) + blank_theme
@@ -362,7 +362,35 @@ summary_d<- summarySE(sum_demuth_register, measurevar="prop_utt",
                     groupvars=c("speaker", "type_speech"))
 summary_f<- summarySE(sum_french_register, measurevar="prop_utt", 
                     groupvars=c("speaker", "type_speech"))
+
 ```
+
+## Input composition
+```{r percentages, echo=F, message=F, results='hide'}
+
+sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed"]) /3 #91.6%
+sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed"]) /3 #79.6%
+
+sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed" & sum_french_register$speaker =="mother"]) /3 #79.1%
+sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed" & sum_demuth_register$speaker =="mother"]) /3 #25.3%
+
+sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed" & sum_french_register$speaker =="other child"]) /3 #3.3%
+sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed" & sum_demuth_register$speaker =="other child"]) /3 #38.5%
+
+sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed" & sum_french_register$speaker =="adult"]) /3 #9.2%
+sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed" & sum_demuth_register$speaker =="adult"]) /3 #15.8%
+
+```
+CDS is `r round(sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed"]) /3,1) `% for French and `r round(sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed"]) /3,1) `% for Sesotho.
+
+
+In terms of CDS input composition:
+
+- For French
+It is on average `r round(sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed" & sum_french_register$speaker =="mother"]) /3,1)`% from the mother; `r round(sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed" & sum_french_register$speaker =="adult"]) /3,1)`% from adults and `r round(sum(sum_french_register$prop_utt[sum_french_register$type_speech=="Directed" & sum_french_register$speaker =="other child"]) /3,1)`% from other children.
+
+
+- For Sesotho: It is on average `r round(sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed" & sum_demuth_register$speaker =="mother"]) /3,1)`% from the mother; `r round(sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed" & sum_demuth_register$speaker =="adult"]) /3,1)`% from adults and `r round(sum(sum_demuth_register$prop_utt[sum_demuth_register$type_speech=="Directed" & sum_demuth_register$speaker =="other child"]) /3,1)`% from other children.
 
 
 ```{r fig3, echo=F,message=FALSE, results='hide'}
