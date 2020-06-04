@@ -363,6 +363,12 @@ summary_d<- summarySE(sum_demuth_register, measurevar="prop_utt",
 summary_f<- summarySE(sum_french_register, measurevar="prop_utt", 
                     groupvars=c("speaker", "type_speech"))
 
+summary_d_lara <-summary_d<- summarySE(sum_demuth_register, measurevar="prop_utt", 
+                    groupvars=c("speaker", "input"))
+summary_f_lara<- summarySE(sum_french_register, measurevar="prop_utt", 
+                    groupvars=c("speaker", "input"))
+
+
 ```
 
 ## Input composition
