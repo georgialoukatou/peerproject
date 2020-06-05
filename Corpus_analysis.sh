@@ -1,227 +1,111 @@
 #!/bin/bash
 
-#pathToText="/Users/admin/Documents/peerSpeech/" #path to text we want the descriptive stats from (MLU, MATTR, % questions)
-#lang="EnglishWells" # "SesothoDemuth"
-#corpus="${pathToText}${lang}"
-
-pathToText="/Users/admin/Desktop/corpora/" 
-pathToText1="/Users/admin/Desktop/processedcorpora/" 
-
-for speaker in  "adult" "mother" "otherchild"; 
-  	do
-  	for addressee in  "CDS" "OCDS" "ADS" ;
-  		do 
-  		for targetchild in "Hlobohang" "Litlhare" "Tsebo" ;
-  			do
-  			echo "${pathToText}${targetchild}${speaker}${addressee}.csv"
-  			
-				#tr '[:upper:]' '[:lower:]'< "${pathToText}${targetchild}${speaker}${addressee}.csv" > "${pathToText1}${targetchild}${speaker}${addressee}1.csv"  && mv "${pathToText1}${targetchild}${speaker}${addressee}1.csv" "${pathToText1}${targetchild}${speaker}${addressee}.csv"
-    #          cut -f19 < "${pathToText1}${targetchild}${speaker}${addressee}.csv" > "${pathToText1}utterance_${targetchild}${speaker}${addressee}.csv"
-#				cut -f10 < "${pathToText1}${targetchild}${speaker}${addressee}.csv" > "${pathToText1}question_${targetchild}${speaker}${addressee}.csv"
-# # 				cut -f25 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}morphology${targetchild}_${speaker}_${addressee}.csv"
-#			cut -f11 < "${pathToText1}${targetchild}${speaker}${addressee}.csv" > "${pathToText1}question_${targetchild}${speaker}${addressee}3.csv"
-# 
-  		done
-  	    for targetchild in "Anae" "Anais" "Theotime" ;
-  			do
-  			echo "${pathToText}${targetchild}${speaker}${addressee}.csv"
-  			
-				#tr '[:upper:]' '[:lower:]'< "${pathToText}${targetchild}${speaker}${addressee}.csv" > "${pathToText1}${targetchild}${speaker}${addressee}1.csv"  && mv "${pathToText1}${targetchild}${speaker}${addressee}1.csv" "${pathToText1}${targetchild}${speaker}${addressee}.csv"
-       #    cut -f4 < "${pathToText1}${targetchild}${speaker}${addressee}.csv" > "${pathToText1}utterance_${targetchild}${speaker}${addressee}.csv"
-#					sed -e 's/< //g' -e 's/xxx //g' -e 's/xxx//g' -e 's/\[\/\]//g' -e 's/\<//g' -e 's/\>//g'  -e 's/!//g' -e 's/\(\.\)//g' -e 's/ \.//g' -e 's/\[\=\!.*\]//g' -e 's/\[.*]//g'  -e '/^$/d' -e '/^xxx$/d'  -e 's/www//g' -e 's/://g' -e 's/+//g' -e 's/\///g' -e 's/(//g'  -e 's/)//g' -e 's/›//g' -e 's/‹//g' -e 's/\...//g' -e 's/\..//g'  -e 's/  / /g' -e 's/ ?/?/g' "${pathToText1}utterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}cleanutterance_${targetchild}${speaker}${addressee}.csv"
-# # 				cut -f10 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}question${targetchild}_${speaker}_${addressee}.csv"
-# # 				cut -f25 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}morphology${targetchild}_${speaker}_${addressee}.csv"
-# #				cut -f11 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}question${targetchild}_${speaker}_${addressee}3.csv"
-# 
-  		done	
-  		# 
-  	done
-  done
+path_="/Users/admin/Documents/peerspeech_03.06.2020/"
+pathToText="/Users/admin/Documents/peerspeech_03.06.2020/utterances/Sesotho/" 
+pathToText1="/Users/admin/Documents/peerspeech_03.06.2020/utterances/Sesotho_processed/" 
+pathToTextwordseg="/Users/admin/Documents/peerspeech_03.06.2020/utterances/Sesotho_wordseg/" 
+pathToTextf="/Users/admin/Documents/peerspeech_03.06.2020/utterances/French/" 
+pathToTextf1="/Users/admin/Documents/peerspeech_03.06.2020/utterances/French_processed/" 
+pathToTextfwordseg="/Users/admin/Documents/peerspeech_03.06.2020/utterances/French_wordseg/" 
 
 
 
+#declare -a listSesotho=("2414" "2415" "2416" "2417" "2418" "2419" "2420" "2421" "2422" "2423" "2424" "2425" "2426" "2427" "2428" "2429" "2430" "2431" "2432" "2433" "2434" "2435" "2436" "2437" "2438" "2439" "2440" "2441" "2442" "2443" "2444" "2445" "2446" "2447" "2448" "2449" "2450" "2451" "2452" "2453" "2454" "2455" "2456" "2457" "2458" "2459" "2460" "2461" "2462" "2463" "2464" "2465" "2466" "2467" "2468" "2469" "2470" "2471" "2472" "2473" "2474" "2475" "2476" "2477" "2478" "2479" "2480" "2481" "2482" "2483" "2484" "2485" "2486" "2487" "2488" "2489" "2490" "2491" "2492" "2493" "2494" "2495" "2496" "2497" "2498" "2499" "2500" "2501" "2502" "2503" "2504" "2505" "2506" "2507" "2508" "2509" "2510" "2511" "2512" "2513" "2514" "2515" "2516" "2517" "2518" "2519" "2520" "2521" "2522" "2523" "2524" "2525" "2526" "2527" "2528" "2529" "2530" "2531" "2532" "2533" "2534" "2535" "2536" "2537" "2538" "2539" "2540" "2541" "2542")
+#declare -a listFrench=("Anae_215.cha" "Anae_2216.cha" "Anae_2428.cha" "Anae_2529.cha" "Anae_2626.cha" "Anae_284.cha" "Anae_2923.cha" "Anae_2123.cha" "Anae_21122.cha"     "Anae_317.cha"       "Anais_239a.cha"     "Anais_247a.cha"     "Anais_247b.cha"     "Anais_242a.cha"     "Anais_242b.cha"     "Anais_2511a.cha"    "Anais_2511b.cha"    "Anais_2523a.cha"   "Anais_2525a.cha"    "Anais_2621a.cha"    "Anais_28a.cha"      "Anais_296b.cha"     "Theotime_2111a.cha" "Theotime_239b.cha" "Theotime_2324a.cha" "Theotime_2324b.cha" "Theotime_2422a.cha" "Theotime_252a.cha"  "Theotime_263a.cha"  "Theotime_273a.cha" "Theotime_2112a.cha")
 
 
-#awk 'FNR>1'  ${pathToText}HlobohangAdultCDS.csv ${pathToText}HlobohangFatherCDS.csv ${pathToText}HlobohangGrandmotherCDS.csv ${pathToText}HlobohangInvestigatorCDS.csv ${pathToText}HlobohangMotherCDS.csv ${pathToText}HlobohangUncleCDS.csv  > ${pathToText}Hlobohang_A_CDS.csv
-#awk 'FNR>1'  ${pathToText}HlobohangFatherADS.csv ${pathToText}HlobohangGrandmotherADS.csv ${pathToText}HlobohangInvestigatorADS.csv ${pathToText}HlobohangMotherADS.csv ${pathToText}HlobohangUncleADS.csv  > ${pathToText}Hlobohang_A_ADS.csv
-#awk 'FNR>1'  ${pathToText}HlobohangAdultOCDS.csv ${pathToText}HlobohangFatherOCDS.csv ${pathToText}HlobohangGrandmotherOCDS.csv ${pathToText}HlobohangInvestigatorOCDS.csv ${pathToText}HlobohangMotherOCDS.csv ${pathToText}HlobohangUncleOCDS.csv  > ${pathToText}Hlobohang_A_OCDS.csv
-# awk 'FNR>1'  ${pathToText}HlobohangTeenagerCDS.csv ${pathToText}HlobohangSisterCDS.csv ${pathToText}HlobohangPlaymateCDS.csv ${pathToText}HlobohangCousinCDS.csv ${pathToText}HlobohangBrotherCDS.csv  > ${pathToText}Hlobohang_C_CDS.csv
-# awk 'FNR>1'  ${pathToText}HlobohangTeenagerADS.csv ${pathToText}HlobohangSisterADS.csv ${pathToText}HlobohangPlaymateADS.csv ${pathToText}HlobohangCousinADS.csv ${pathToText}HlobohangBrotherADS.csv  > ${pathToText}Hlobohang_C_ADS.csv
-# awk 'FNR>1'  ${pathToText}HlobohangTeenagerOCDS.csv ${pathToText}HlobohangSisterOCDS.csv ${pathToText}HlobohangPlaymateOCDS.csv ${pathToText}HlobohangCousinOCDS.csv ${pathToText}HlobohangBrotherOCDS.csv  > ${pathToText}Hlobohang_C_OCDS.csv
-# awk 'FNR>1'  ${pathToText}LitlhareAdultCDS.csv ${pathToText}LitlhareFatherCDS.csv ${pathToText}LitlhareGrandmotherCDS.csv ${pathToText}LitlhareInvestigatorCDS.csv ${pathToText}LitlhareMotherCDS.csv ${pathToText}LitlhareUncleCDS.csv  > ${pathToText}Litlhare_A_CDS.csv
-# awk 'FNR>1'  ${pathToText}LitlhareAdultADS.csv ${pathToText}LitlhareFatherADS.csv ${pathToText}LitlhareGrandmotherADS.csv ${pathToText}LitlhareInvestigatorADS.csv ${pathToText}LitlhareMotherADS.csv ${pathToText}LitlhareUncleADS.csv  > ${pathToText}Litlhare_A_ADS.csv
-# awk 'FNR>1'  ${pathToText}LitlhareAdultOCDS.csv ${pathToText}LitlhareFatherOCDS.csv ${pathToText}LitlhareGrandmotherOCDS.csv ${pathToText}LitlhareInvestigatorOCDS.csv ${pathToText}LitlhareMotherOCDS.csv ${pathToText}LitlhareUncleOCDS.csv  > ${pathToText}Litlhare_A_OCDS.csv
-# awk 'FNR>1'  ${pathToText}LitlhareTeenagerCDS.csv ${pathToText}LitlhareSisterCDS.csv ${pathToText}LitlharePlaymateCDS.csv ${pathToText}LitlhareCousinCDS.csv ${pathToText}LitlhareBrotherCDS.csv  > ${pathToText}Litlhare_C_CDS.csv
-# awk 'FNR>1'  ${pathToText}LitlhareTeenagerADS.csv ${pathToText}LitlhareSisterADS.csv ${pathToText}LitlharePlaymateADS.csv ${pathToText}LitlhareCousinADS.csv ${pathToText}LitlhareBrotherADS.csv  > ${pathToText}Litlhare_C_ADS.csv
-# awk 'FNR>1'  ${pathToText}LitlhareTeenagerOCDS.csv ${pathToText}LitlhareSisterOCDS.csv ${pathToText}LitlharePlaymateOCDS.csv ${pathToText}LitlhareCousinOCDS.csv ${pathToText}LitlhareBrotherOCDS.csv  > ${pathToText}Litlhare_C_OCDS.csv
-# awk 'FNR>1'  ${pathToText}TseboAdultADS.csv ${pathToText}TseboFatherADS.csv ${pathToText}TseboGrandmotherADS.csv ${pathToText}TseboInvestigatorADS.csv ${pathToText}TseboMotherADS.csv ${pathToText}TseboUncleADS.csv  > ${pathToText}Tsebo_A_ADS.csv
-# awk 'FNR>1'  ${pathToText}TseboAdultCDS.csv ${pathToText}TseboFatherCDS.csv ${pathToText}TseboGrandmotherCDS.csv ${pathToText}TseboInvestigatorCDS.csv ${pathToText}TseboMotherCDS.csv ${pathToText}TseboUncleCDS.csv  > ${pathToText}Tsebo_A_CDS.csv
-# awk 'FNR>1'  ${pathToText}TseboAdultOCDS.csv ${pathToText}TseboFatheOCDS.csv ${pathToText}TseboGrandmotherOCDS.csv ${pathToText}TseboInvestigatorOCDS.csv ${pathToText}TseboMotherOCDS.csv ${pathToText}TseboUncleOCDS.csv  > ${pathToText}Tsebo_A_OCDS.csv
-# awk 'FNR>1'  ${pathToText}TseboTeenagerCDS.csv ${pathToText}TseboSisterCDS.csv ${pathToText}TseboPlaymateCDS.csv ${pathToText}TseboCousinCDS.csv ${pathToText}TseboBrotherCDS.csv  > ${pathToText}Tsebo_C_CDS.csv
-# awk 'FNR>1'  ${pathToText}TseboTeenagerADS.csv ${pathToText}TseboSisterADS.csv ${pathToText}TseboPlaymateADS.csv ${pathToText}TseboCousinADS.csv ${pathToText}TseboBrotherADS.csv  > ${pathToText}Tsebo_C_ADS.csv
-# awk 'FNR>1'  ${pathToText}TseboTeenagerOCDS.csv ${pathToText}TseboSisterOCDS.csv ${pathToText}TseboPlaymateOCDS.csv ${pathToText}TseboCousinOCDS.csv ${pathToText}TseboBrotherOCDS.csv  > ${pathToText}Tsebo_C_OCDS.csv
+ for speaker in  "adult" "mother" "child"; 
+   	do
+   	for addressee in  "CDS" "OCDS" "ADS" ;
+   		do 
+    		for targetchild in "Hlobohang" "Litlhare" "Tsebo" ;
+    			do
+   			if [ $targetchild == "Hlobohang" ]; then
+   		       declare -a listSesotho=("2414" "2415" "2416" "2417" "2418" "2419" "2420" "2421" "2422" "2423" "2424" "2425" "2426" "2427" "2428" "2429" "2430" "2431" "2432" "2433" "2434" "2435" "2436" "2437" "2438" "2439" "2440" "2441" "2442" "2443" "2444" "2445" "2446" "2447" "2448" "2449" "2450" "2451" "2452" "2453" "2454" "2455" "2456" "2457" "2458")
+ 				fi
+ 			if [ $targetchild == "Litlhare" ]; then
+   		       declare -a listSesotho=("2459" "2460" "2461" "2462" "2463" "2464" "2465" "2466" "2467" "2468" "2469" "2470" "2471" "2472" "2473" "2474" "2475" "2476" "2477" "2478" "2479" "2480" "2481" "2482" "2483" "2484" "2485" "2486" "2487" "2488" "2489" "2490" "2491" "2492" "2493" "2494" "2495" "2496" "2497" "2498" "2499" "2500" "2501" "2502" "2503")
+ 				fi	
+ 			if [ $targetchild == "Tsebo" ]; then
+   		       declare -a listSesotho=("2504" "2505" "2506" "2507" "2508" "2509" "2510" "2511" "2512" "2513" "2514" "2515" "2516" "2517" "2518" "2519" "2520" "2521" "2522" "2523" "2524" "2525" "2526" "2527" "2528" "2529" "2530" "2531" "2532" "2533" "2534" "2535" "2536" "2537" "2538" "2539" "2540" "2541" "2542")
+ 				fi					
+   			  for session in ${listSesotho[@]} ;
+   			  do
+  			echo "${pathToText}${targetchild}${speaker}${session}${addressee}.csv"
+    			
+#  			cut -f19 < "${pathToText}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}.csv"
+#        	tr '[:upper:]' '[:lower:]'< "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}1.csv" "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}.csv"
+#             awk 'FNR>1'  "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}.csv"  > "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}1.csv" "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}.csv"
+#     		cut -f25 < "${pathToText}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"
+#             awk 'FNR>1'  "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"  > "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}1.csv" "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"
+# 			cut -f11 < "${pathToText}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText1}question${targetchild}${speaker}${session}${addressee}.csv"
+#             awk 'FNR>1'  "${pathToText1}question${targetchild}${speaker}${session}${addressee}.csv"  > "${pathToText1}question${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToText1}question${targetchild}${speaker}${session}${addressee}1.csv" "${pathToText1}question${targetchild}${speaker}${session}${addressee}.csv"
+#            sed -e 's/\.//g'  -e 's/!//g'  -e 's/\_//g' -e 's/\&//g' -e 's/-//g' -e 's/\?//g'  -e 's/\[.*\]//g' -e 's/([^)]*)//g' -e  's/<.*>//g' -e '/xxx/d'  -e 's/+\///g' -e "s/\'//g" -e 's/  / /g' -e 's/^ //g' -e '/^\s$/d' -e 's/[0-0]//g' -e '/^$/g' -e 's/\://g' -e '/^  $/d' -e '/^</d' -e '/^$/d' < "${pathToText1}utterance${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextwordseg}cleanutterance${targetchild}${speaker}${session}${addressee}.csv"
+#           	sed -e  's/ $//g' -e 's/ / ;eword /g' -e 's/$/ ;eword/g' < "${pathToTextwordseg}cleanutterance${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextwordseg}cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv" #wordseg format
+#            wordseg-stats  "${pathToTextwordseg}cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv"
 
-
-# for speaker in  "A" "C" ; 
-#  	do
-#  	for addressee in  "CDS" "OCDS" "ADS" ;
-#  		do 
-#  		for targetchild in "Hlobohang" "Litlhare" "Tsebo";
-#  			do
-# # 				tr '[:upper:]' '[:lower:]'< "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}${targetchild}_${speaker}_${addressee}1.csv"  && mv "${pathToText}${targetchild}_${speaker}_${addressee}1.csv" "${pathToText}${targetchild}_${speaker}_${addressee}.csv"
-# #                 cut -f19 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}utterance_${targetchild}_${speaker}_${addressee}.csv"
-# # 				cut -f10 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}question${targetchild}_${speaker}_${addressee}.csv"
-# # 				cut -f25 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}morphology${targetchild}_${speaker}_${addressee}.csv"
-# #				cut -f11 < "${pathToText}${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}question${targetchild}_${speaker}_${addressee}3.csv"
-# 
-#  		done
-#  	done
-#  done
-
-# for speaker in  "Father" "Mother" "Grandmother" "Uncle" "Investigator" "Adult" "Brother" "Cousin" "Playmate" "Sister" "Teenager" ; 
-# 	do
-# 	for addressee in  "CDS" "OCDS" "ADS" ;
-# 		do 
-# 		for targetchild in "Hlobohang" "Litlhare" "Tsebo";
-# 			do
-# 		#		tr '[:upper:]' '[:lower:]'< "${pathToText}${targetchild}${speaker}${addressee}.csv" > "${pathToText}${targetchild}${speaker}${addressee}1.csv"  && mv "${pathToText}${targetchild}${speaker}${addressee}1.csv" "${pathToText}${targetchild}${speaker}${addressee}.csv"
-#          #       cut -f19 < "${pathToText}${targetchild}${speaker}${addressee}.csv" > "${pathToText}utterance${targetchild}${speaker}${addressee}.csv"
-#  		#		cut -f10 < "${pathToText}${targetchild}${speaker}${addressee}.csv" > "${pathToText}question${targetchild}_${speaker}${addressee}.csv"
-#  		#		cut -f25 < "${pathToText}${targetchild}${speaker}${addressee}.csv" > "${pathToText}morphology${targetchild}${speaker}${addressee}.csv"
-# 				cut -f11 < "${pathToText}${targetchild}${speaker}${addressee}.csv" > "${pathToText}question${targetchild}_${speaker}${addressee}3.csv"
-# 
-#  		done
-#  	done
-#  done
-# 
-for speaker in  "adult" "mother" "otherchild"; 
-  	do
-  	for addressee in  "CDS" "OCDS" "ADS" ;
-  		do 
-  		for targetchild in "Hlobohang" "Litlhare" "Tsebo" ;
-  			do
-  			echo "${pathToText1}${targetchild}${speaker}${addressee}.csv"
-#  			do
-#	 sed -e 's/\.//g'  -e 's/!//g'  -e 's/\_//g' -e 's/\&//g' -e 's/-//g' -e 's/\?//g'  -e 's/\[.*\]//g' -e 's/([^)]*)//g' -e  's/<.*>//g' -e '/xxx/d'  -e 's/+\///g' -e "s/\'//g" -e 's/  / /g' -e 's/^ //g' -e '/^\s$/d' -e 's/[0-0]//g' -e '/^$/g' -e 's/\://g' -e '/^  $/d' -e '/^</d' -e '/^$/d' < "${pathToText1}utterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}cleanutterance_${targetchild}${speaker}${addressee}.csv"
-#	tail -n +2  < "${pathToText1}cleanutterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}clean1utterance_${targetchild}${speaker}${addressee}.csv" #uncomment this line if column title!
-#    tail -n +2  < "${pathToText1}question_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}question1_${targetchild}${speaker}${addressee}.csv" #uncomment this line if column title!
-####      #   tail -n +2  < "${pathToText}morphology${targetchild}_${speaker}_${addressee}.csv" > "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv" #uncomment this line if column title!
-#	sed -e  's/ $//g' -e 's/ / ;eword /g' -e 's/$/ ;eword/g' < "${pathToText1}clean1utterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}clean2utterance_${targetchild}${speaker}${addressee}.csv" #wordseg format
-#   wordseg-stats  "${pathToText1}clean2utterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt"
-  		numberoflines=`sed  '1q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'` 		
- 		numberofwords=`sed  '5q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-  		numberofuttsinglewords=`sed  '2q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-   		numberofhapaxes=`sed  '7q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-        mattr=`sed  '3q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt"  | awk '{printf $3}' | tr -d '\n'`
-        mlu=`echo "scale=3; $numberofwords / $numberoflines" | bc`		
-
- 		nquestion=`grep question -o "${pathToText1}question1_${targetchild}${speaker}${addressee}.csv"| wc -l`  #count questions
- 		percquest=`echo "scale=3; $nquestion / $numberoflines" | bc`
-
-# 	
-#  	    nverb=`grep "\-v\|v-\|^v\| v" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l`  #count questions
-#  	    nnoun0=`grep  "\-n \|-n-\| n-\|^n-\| n \|^n \|^n$" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l`  #count questions
-#         nnoun1=`grep  " n$" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l`  #count questions
-#         nnoun2=`grep  "\-n$" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l` 
-#         nnoun=$(($nnoun0 +  $nnoun1  + $nnoun2)) 
-#  	    ratioverb=`echo "scale=3; $nverb / $numberofwords" | bc `
-#  	    rationoun=`echo "scale=3; $nnoun / $numberofwords" | bc `
-#  	    
-#	    echo "${targetchild},${speaker},${addressee},${numberoflines},${numberofwords},${mlu},${mattr},${numberofuttsinglewords},${numberofhapaxes},${percquest}" >> ${pathToText1}shortoutputSesotho.csv
-# 
-
-#,${rationoun},${ratioverb}	
-# #'-v-\| v-\|^v-\|^v '
-# #"\-n \|-n-\|-n$\| n-\|^n-\| n \| n$\|^n \|^n$
-
-done 
-  		for targetchild in "Anae" "Anais" "Theotime" ;
-  			do
-  			echo "${pathToText1}${targetchild}${speaker}${addressee}.csv"
-             #	tail -n +2  < "${pathToText1}cleanutterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}clean1utterance_${targetchild}${speaker}${addressee}.csv" #uncomment this line if column title!
- 	         nquestion=`grep ? -o "${pathToText1}clean1utterance_${targetchild}${speaker}${addressee}.csv"| wc -l`  #count questions
- 	     #    sed 's/\?//g' "${pathToText1}clean1utterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}clean2utterance_${targetchild}${speaker}${addressee}.csv"
-    	  #   sed -e  's/ $//g' -e 's/ / ;eword /g' -e 's/$/ ;eword/g' < "${pathToText1}clean2utterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}clean3utterance_${targetchild}${speaker}${addressee}.csv" #wordseg format
-    	   #  wordseg-stats  "${pathToText1}clean3utterance_${targetchild}${speaker}${addressee}.csv" > "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt"		 
-    		
-  		    numberoflines=`sed  '1q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'` 		
- 		    numberofwords=`sed  '5q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-  		    numberofuttsinglewords=`sed  '2q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-   		    numberofhapaxes=`sed  '7q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-            mattr=`sed  '3q;d' "${pathToText1}stats_utterance${targetchild}${speaker}${addressee}.txt"  | awk '{printf $3}' | tr -d '\n'`
-            mlu=`echo "scale=3; $numberofwords / $numberoflines" | bc`		
-    		percquest=`echo "scale=3; $nquestion / $numberoflines" | bc` 
-
-
-	    echo "${targetchild},${speaker},${addressee},${numberoflines},${numberofwords},${mlu},${mattr},${numberofuttsinglewords},${numberofhapaxes},${percquest}" >> ${pathToText1}shortoutputFrench.csv
-
-done
- done
- done
-
-
- # for speaker in  "Father" "Mother" "Grandmother" "Uncle" "Investigator" "Adult" "Brother" "Cousin" "Playmate" "Sister" "Teenager" ; 
-#  	do
-#  	for addressee in  "CDS" "OCDS" "ADS" ;
-#  		do 
-#  		for targetchild in "Hlobohang" "Litlhare" "Tsebo";
-#         do
-# # 		#sed -e 's/\.//g'  -e 's/!//g'  -e 's/\_//g' -e 's/\&//g' -e 's/-//g' -e 's/\?//g'  -e 's/\[.*\]//g' -e 's/([^)]*)//g' -e  's/<.*>//g' -e '/xxx/d'  -e 's/+\///g' -e "s/\'//g" -e 's/  / /g' -e 's/^ //g' -e '/^\s$/d' -e 's/[0-0]//g' -e '/^$/g' -e 's/\://g' -e '/^  $/d' -e '/^</d' -e '/^$/d' < "utterance${targetchild}${speaker}${addressee}.csv" > "utterance_${targetchild}_${speaker}_${addressee}_clean.csv"
-# #  		#tail -n +2  < "utterance_${targetchild}_${speaker}_${addressee}_clean.csv" > "utterance_${targetchild}_${speaker}_${addressee}_clean1.csv" #uncomment this line if column title!
-# #         tail -n +2  < "question${targetchild}_${speaker}${addressee}.csv" > "question${targetchild}_${speaker}_${addressee}_clean.csv" #uncomment this line if column title!
-# #         tail -n +2  < "${pathToText}morphology${targetchild}${speaker}${addressee}.csv" > "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv" #uncomment this line if column title!
-# #  # 		sed -e  's/ $//g' -e 's/ / ;eword /g' -e 's/$/ ;eword/g' < "utterance_${targetchild}_${speaker}_${addressee}_clean1.csv" > "utterance_${targetchild}_${speaker}_${addressee}_clean2.csv" #wordseg format
-# # 	    wordseg-stats  "utterance_${targetchild}_${speaker}_${addressee}_clean2.csv" > "stats_utterance_${targetchild}_${speaker}_${addressee}.txt"
-#   		numberoflines=`sed  '1q;d' "${pathToText}stats_utterance_${targetchild}_${speaker}_${addressee}.txt" | awk '{printf $3}' | tr -d '\n'` 		
-# 
-#  	 	numberofwords=`sed  '5q;d' "${pathToText}stats_utterance_${targetchild}_${speaker}_${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-#  	 	
-#  	 	numberoftypes=`sed  '6q;d' "${pathToText}stats_utterance_${targetchild}_${speaker}_${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-# 
-#    		numberofuttsinglewords=`sed  '2q;d' "${pathToText}stats_utterance_${targetchild}_${speaker}_${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-#      	
-#      	numberofhapaxes=`sed  '7q;d' "${pathToText}stats_utterance_${targetchild}_${speaker}_${addressee}.txt" | awk '{printf $3}' | tr -d '\n'`
-#         
-#         mattr=`sed  '3q;d' "${pathToText}stats_utterance_${targetchild}_${speaker}_${addressee}.txt"  | awk '{printf $3}' | tr -d '\n'`
-#         
-#         mlu=`echo "scale=3; $numberofwords / $numberoflines" | bc`		
-# # #  
-#  		nquestion=`grep question -o "${pathToText}question${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l`  #count questions
-#   		
+#    		numberoflines=`sed  '1q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'` 		
+#   		numberofwords=`sed  '5q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+#    		numberofuttsinglewords=`sed  '2q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+#     	    numberofhapaxes=`sed  '7q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+#           mattr=`sed  '3q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv"  | awk '{printf $3}' | tr -d '\n'`
+#           mlu=`echo "scale=3; $numberofwords / $numberoflines" | bc`		
+#  
+#   		nquestion=`grep question -o "${pathToText1}question${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
 #   		percquest=`echo "scale=3; $nquestion / $numberoflines" | bc`
-#   		
-#   		ratiohapax=`echo "scale=3; $numberofhapaxes / $numberofwords" | bc`
-# 
-#   	    nverb=`grep "\-v\|v-\|^v\| v" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l`  #count questions
-#   	    
-#   	    nnoun0=`grep  "\-n \|-n-\| n-\|^n-\| n \|^n \|^n$" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l`  #count questions
-#         
-#         nnoun1=`grep  " n$" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l`  #count questions
-#         
-#         nnoun2=`grep  "\-n$" -o "${pathToText}morphology${targetchild}_${speaker}_${addressee}_clean.csv"| wc -l` 
-#         
-#         ratiouttsinglewords=`echo "scale=3; $numberofuttsinglewords / $numberoflines" | bc `
-#         
-#         nnoun=$(($nnoun0 +  $nnoun1  + $nnoun2)) 
-#   	    
-#   	    ratioverb=`echo "scale=3; $nverb / $numberofwords" | bc `
-#   	    
-#   	    rationoun=`echo "scale=3; $nnoun / $numberofwords" | bc `
-#   	    
-#   	    numberofphonemes=`cat "${pathToText}utterance_${targetchild}_${speaker}_${addressee}_clean2.csv" |  sed 's/;eword//g'  | tr -d '[:space:]'   | wc -c `
-#   	    
-#         echo $"utterance_${targetchild}_${speaker}_${addressee}_clean2.csv"  	   
-#   	    echo ${numberofphonemes}
-#   	    
-#   	    mwl=`echo "scale=3; $numberofphonemes / $numberofwords" | bc `
-# #  	    
-#  	    echo "${targetchild},${speaker},${addressee},${numberoflines},${numberofwords},${mlu},${mwl},${mattr},${ratiouttsinglewords},${ratiohapax},${percquest},${rationoun},${ratioverb}" >> ${pathToText}longoutput.csv
-# # 	
-# 
-# 
-# 
-# 
-# done
-# done
-# done
-# 
+#  
+#  	
+#   	    nverb=`grep "\-v\|v-\|^v\| v" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
+#   	    nnoun0=`grep  "\-n \|-n-\| n-\|^n-\| n \|^n \|^n$" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
+#           nnoun1=`grep  " n$" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
+#           nnoun2=`grep  "\-n$" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l` 
+#           nnoun=$(($nnoun0 +  $nnoun1  + $nnoun2)) 
+#  	        ratioverb=`echo "scale=3; $nverb / $numberofwords" | bc `
+#   	    rationoun=`echo "scale=3; $nnoun / $numberofwords" | bc ` 	    
+# 	    echo "${targetchild},${speaker},${addressee},${session},${numberoflines},${numberofwords},${mlu},${mattr},${numberofuttsinglewords},${numberofhapaxes},${percquest}" >> ${path_}shortoutputSesotho.csv
+# #
+
+   	      done
+          done
+    
+         for targetchild in "Anae" "Anais" "Theotime" ;
+    		do
+    		if [ $targetchild == "Anae" ]; then
+     		declare -a listFrench=("Anae_215.cha" "Anae_2216.cha" "Anae_2428.cha" "Anae_2529.cha" "Anae_2626.cha" "Anae_284.cha" "Anae_2923.cha" "Anae_2123.cha" "Anae_21122.cha" "Anae_317.cha"  )
+   		    fi
+  			if [ $targetchild == "Anais" ]; then
+    		declare -a listFrench=("Anais_239a.cha"     "Anais_247a.cha"     "Anais_247b.cha"     "Anais_242a.cha"     "Anais_242b.cha"     "Anais_2511a.cha"    "Anais_2511b.cha"    "Anais_2523a.cha"   "Anais_2525a.cha"    "Anais_2621a.cha"    "Anais_28a.cha"      "Anais_296b.cha"  )
+  			fi	
+  			if [ $targetchild == "Theotime" ]; then
+  			declare -a listFrench=("Theotime_2111a.cha" "Theotime_239b.cha" "Theotime_2324a.cha" "Theotime_2324b.cha" "Theotime_2422a.cha" "Theotime_252a.cha"  "Theotime_263a.cha"  "Theotime_273a.cha" "Theotime_2112a.cha")
+   			fi						 
+    		for session in ${listFrench[@]} ;
+   			do
+    		echo "${pathToTextf}${targetchild}${speaker}${session}${addressee}.csv"
+#    	   cut -f4 < "${pathToTextf}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf1}utterance${targetchild}${speaker}${session}${addressee}.csv"
+          awk 'FNR>1'  "${pathToTextf1}utterance${targetchild}${speaker}${session}${addressee}.csv"  > "${pathToTextf1}utterance${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToTextf1}utterance${targetchild}${speaker}${session}${addressee}1.csv" "${pathToTextf1}utterance${targetchild}${speaker}${session}${addressee}.csv"
+  		   sed -e 's/< //g' -e 's/xxx //g' -e 's/xxx//g' -e 's/\[\/\]//g' -e 's/\<//g' -e 's/\>//g'  -e 's/!//g' -e 's/\(\.\)//g' -e 's/ \.//g' -e 's/\[\=\!.*\]//g' -e 's/\[.*]//g'  -e '/^$/d' -e '/^xxx$/d'  -e 's/www//g' -e 's/://g' -e 's/+//g' -e 's/\///g' -e 's/(//g'  -e 's/)//g' -e 's/›//g' -e 's/‹//g' -e 's/\...//g' -e 's/\..//g'  -e 's/  / /g' -e 's/ ?/?/g' "${pathToTextf1}utterance${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf1}cleanutterance${targetchild}${speaker}${session}${addressee}.csv"
+          tr '[:upper:]' '[:lower:]'< "${pathToTextf1}cleanutterance${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf1}cleanutterance${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToTextf1}cleanutterance${targetchild}${speaker}${session}${addressee}1.csv" "${pathToTextf1}cleanutterance${targetchild}${speaker}${session}${addressee}.csv"
+	  	   nquestionf=`grep ? -o  "${pathToTextf1}cleanutterance${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
+          sed -e 's/\?//g' -e 's/^ //g' "${pathToTextf1}cleanutterance${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf1}cleanutterance1${targetchild}${speaker}${session}${addressee}.csv"
+          sed -e  's/ $//g' -e 's/ / ;eword /g' -e 's/$/ ;eword/g' < "${pathToTextf1}cleanutterance1${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextfwordseg}cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv" #wordseg format
+           wordseg-stats  "${pathToTextfwordseg}cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${session}${addressee}.csv"
+       		
+   		   numberoflinesf=`sed  '1q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'` 		
+  		   numberofwordsf=`sed  '5q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+   		   numberofuttsinglewordsf=`sed  '2q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+    	   numberofhapaxesf=`sed  '7q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+           mattrf=`sed  '3q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${session}${addressee}.csv"  | awk '{printf $3}' | tr -d '\n'`
+             mluf=`echo "scale=3; $numberofwordsf / $numberoflinesf" | bc`		
+     		percquestf=`echo "scale=3; $nquestionf / $numberoflinesf" | bc` 
+ 
+ 
+ 	    echo "${targetchild},${speaker},${addressee},${session},${numberoflinesf},${numberofwordsf},${mluf},${mattrf},${numberofuttsinglewordsf},${numberofhapaxesf},${percquestf}" >> ${path_}shortoutputFrench.csv
+
+ 
+            done 
+            done 
+  done
+  done	
+
+
