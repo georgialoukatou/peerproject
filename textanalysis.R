@@ -13,9 +13,46 @@ frenchlongstats$language<-"French"
 stats<-rbind(demuthlongstats, frenchlongstats)
 
 stats<-stats[!is.na(stats$numberoflines), ]
+stats$ratiohapaxes<-stats$numberofhapaxes/stats$numberofwords
+stats$ratiouttsinglewords<-stats$numberofuttsinglewords/stats$numberoflines
 
-#demuthlongstatsnainv$rationounverb <- demuthlongstatsnainv$rationoun + demuthlongstatsnainv$ratioverb
+averagemlu<-aggregate(stats$mlu, by=list(stats$targetchild, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
+names(averagemlu)<-c("keychild", "register", "speaker", "averagemlu")
+averagesinglewordutts<-aggregate(stats$ratiouttsinglewords, by=list(stats$targetchild, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
+names(averagesinglewordutts)<-c("keychild", "register", "speaker", "averagesinglewordutts")
+morphosynt<-merge(x=averagemlu, y=averagesinglewordutts, by.x=c("keychild", "register", "speaker"), by.y=c("keychild", "register", "speaker"), all.x=TRUE, sort=TRUE)
+colnames(morphosynt)<- c("keychild", "register", "speaker", "mlumean", "singleworduttmean")
 
+#####TABLE-MORPHOSYNTAX
+write.table(morphosynt, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/morphosyntax.txt"), row.names = FALSE, col.names = TRUE)
+
+
+averagequestion<-aggregate(stats$percquest, by=list(stats$targetchild, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
+names(averagequestion)<-c("keychild", "register", "speaker", "averagequestion")
+averageconvturn<-aggregate(stats$ratioturn, by=list(stats$targetchild, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
+names(averageconvturn)<-c("keychild", "register", "speaker", "averageconvturn")
+speechelicitation<-merge(x=averagequestion, y=averageconvturn, by.x=c("keychild", "register", "speaker"), by.y=c("keychild", "register", "speaker"), all.x=TRUE, sort=TRUE)
+colnames(speechelicitation)<- c("keychild", "register", "speaker", "questionmean", "convturnmean")
+
+#####TABLE-SPEECHELICITATION
+write.table(speechelicitation, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/speechelicitation.txt"), row.names = FALSE, col.names = TRUE)
+
+
+averagettr<-aggregate(stats$mattr, by=list(stats$targetchild, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
+names(averagettr)<-c("keychild", "register", "speaker", "averagettr")
+averagenvratio<-aggregate(stats$nounverbratio, by=list(stats$targetchild, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
+names(averagenvratio)<-c("keychild", "register", "speaker", "averagenvratio")
+lexicaldiversity<-merge(x=averagettr, y=averagenvratio, by.x=c("keychild", "register", "speaker"), by.y=c("keychild", "register", "speaker"), all.x=TRUE, sort=TRUE)
+colnames(lexicaldiversity)<- c("keychild", "register", "speaker", "ttrmean", "nvratiomean")
+
+#####TABLE-LEXICALDIVERSITY
+write.table(lexicaldiversity, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/lexicaldiversity.txt"), row.names = FALSE, col.names = TRUE)
+
+
+
+                          
+                          
+####figure                           
 get_legend<-function(myggplot){
   tmp <- ggplot_gtable(ggplot_build(myggplot))
   leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")
