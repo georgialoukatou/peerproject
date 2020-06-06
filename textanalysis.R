@@ -1,3 +1,5 @@
+#Georgia Loukatou
+
 library(ggplot2)
 library(gridtext)
 library(grid)
