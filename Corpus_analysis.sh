@@ -74,7 +74,7 @@ sed -e "s/\"//g" -e 's/\n//g'  "${path_}demuthturns.txt"> "${path_}demuthturns1.
         ntotal=`grep "${speaker_}', '${session_}', '${addressee_}', " -o "${path_}demuthturns.txt"|wc -l`            
         ratioturn=`echo "scale=3; $ntotalturns / $ntotal" | bc `
 
- 	echo "${targetchild},${speaker},${addressee},${session},${numberoflines},${numberofwords},${mlu},${mattr},${numberofuttsinglewords},${numberofhapaxes},${percquest},${ratioturn}" >> ${path_}shortoutputSesotho.csv
+ 	echo "${targetchild},${speaker},${addressee},${session},${numberoflines},${numberofwords},${mlu},${mattr},${numberofuttsinglewords},${numberofhapaxes},${percquest},${ratioturn}, ${rationv}" >> ${path_}shortoutputSesotho.csv
 
 
 
@@ -131,7 +131,7 @@ sed -e "s/\"//g" -e 's/\n//g'  "${path_}demuthturns.txt"> "${path_}demuthturns1.
              ratioturnf=`echo "scale=3; $ntotalturnsf / $ntotalf" | bc `
 
 
-  	    echo "${targetchild},${speaker},${addressee},${session},${numberoflinesf},${numberofwordsf},${mluf},${mattrf},${numberofuttsinglewordsf},${numberofhapaxesf},${percquestf},${ratioturnf}" >> ${path_}shortoutputFrench.csv
+  	    echo "${targetchild},${speaker},${addressee},${session},${numberoflinesf},${numberofwordsf},${mluf},${mattrf},${numberofuttsinglewordsf},${numberofhapaxesf},${percquestf},${ratioturnf} ,${rationvf}" >> ${path_}shortoutputFrench.csv
  
 # 
              done 
