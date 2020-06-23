@@ -1,16 +1,11 @@
 ---
   title             : "Peer speech project"
   author            : "Georgia Loukatou"
-  date              : 06/06/2020
+  date              : 13/06/2020
   output            : html_document
 ---
-
-  
-  
   
    ```{r demuth preparation, eval=TRUE, include=TRUE, message=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
 library(dplyr)
 library(tidyr)
 ###########Sesotho analysis starts here
@@ -18,7 +13,10 @@ lang<-"Sesotho"
 langf<-"French"
 path="/Users/admin/Desktop/resultsRmd/"
 #reads demuth corpus and counts utterances per speaker
-demuth<-read.csv(file="/Users/admin/Downloads/sesotho_CDS_complete.csv", header=TRUE) # memory processing problems, can't load googlesheets
+#demuth<-read.csv(file="/Users/admin/Downloads/sesotho_CDS_complete.csv", header=TRUE) # memory processing problems, can't load googlesheets
+demuth<-read.csv(file="/Users/admin/Downloads/sesotho_sessions.csv", header=TRUE) # memory processing problems, can't load googlesheets
+
+demuth$session <- paste(demuth$keychild,demuth$session_CHILDES, sep="-")
 #demuthwithkeychild<-demuth
 demuth<-subset(demuth, !(demuth$speaker_role_raw=="Target_Child")) #remove target child utterances
 
@@ -45,12 +43,12 @@ demuth$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father",
 demuth$speaker[grep("Target", demuth$speaker_role_raw)] <- "Target_Child"
 
 #save changes
-write.table(demuth, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/demuth_input_1.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(demuth, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/demuth_input_1.txt"), row.names=F, col.names=T,  quote=F) 
 
 #Sum the number of utterances per speaker category and keychild
-aggregate(demuth$utterance_id,by=list( demuth$speaker, demuth$keychild, demuth$session_id),length )->sum_demuth
+aggregate(demuth$utterance_id,by=list( demuth$speaker, demuth$keychild, demuth$session),length )->sum_demuth
 colnames(sum_demuth) <- c("speaker", "keychild", "session", "nb_utt")
-write.table(sum_demuth, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/demuth_speakers.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_demuth, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/demuth_speakers.txt"), row.names=F, col.names=T,  quote=F) 
 
 
 total<-aggregate( sum_demuth$nb_utt, by=list(sum_demuth$session), FUN=sum)
@@ -71,7 +69,7 @@ table1<-table1 %>% unite("mean_sd", mean:sd, )
 wide_table1 <- table1 %>% spread(speaker, mean_sd)
 
 #####TABLE1-SESOTHO
-write.table(wide_table1, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/demuth_table1.txt"), row.names = FALSE, col.names = TRUE)
+write.table(wide_table1, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/demuth_table1.txt"), row.names = FALSE, col.names = TRUE)
 demuth_backup <- demuth # keep the original file before subsetting
 #lenght demuth by child
 ```
@@ -147,7 +145,7 @@ nrow(demuth) #69573 this is including keychild vocs
 demuth<-subset(demuth, !(demuth$annotation1=="?")) # 69573 - 17159 (NAs) - 3289 (?) = 49125
 #demuth <- subset(demuth, is.na(demuth$Diff_annotations)) #THIS DOES NOT ADD UP!! #48403
 nrow(demuth) #38565
-aggregate(demuth$utterance_id,by=list(demuth$annotation1,  demuth$speaker, demuth$keychild,  demuth$session_id),FUN=length )->sum_demuth_addressee
+aggregate(demuth$utterance_id,by=list(demuth$annotation1,  demuth$speaker, demuth$keychild,  demuth$session),FUN=length )->sum_demuth_addressee
 colnames(sum_demuth_addressee) <- c("addresse", "speaker", "keychild", "session", "nb_utt")
 
 # Utterances addressed to the target child  aka CDS
@@ -185,7 +183,7 @@ merged_speaker_info_demuth$register[grep("Adult|Uncle|Grandmother|Father|Mother"
 merged_speaker_info_demuth$register[grep("Keychild", merged_speaker_info_demuth$role_adressee)] <- "CDS"
 merged_speaker_info_demuth$register[grep("Animals|Mix|Unknown|Self", merged_speaker_info_demuth$role_adressee)]  <- "unclassified"
 #Aggregate by register
-aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session_id),FUN=length )->sum_demuth_register
+aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session),FUN=length )->sum_demuth_register
 colnames(sum_demuth_register) <- c("register", "keychild","session", "nb_utt")
 
 
@@ -212,9 +210,9 @@ demuth_oc_directed_utts<- as.data.frame(demuth_otherchild_directed %>%select(utt
 demuth_c_directed_utts<- as.data.frame(demuth_keychild_directed %>%select(utterance))
 
 #export all ADS utterance into a text file
-write.table(demuth_ad_directed_utts, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/Sesothoadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
-write.table(demuth_oc_directed_utts, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/Sesothootherchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
-write.table(demuth_c_directed_utts, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/Sesothochilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(demuth_ad_directed_utts, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/Sesothoadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(demuth_oc_directed_utts, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/Sesothootherchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(demuth_c_directed_utts, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/Sesothochilddirected.txt"), row.names=F, col.names=T,  quote=F) 
 
 #percentage of adult directed speech vs total annotated
 length(demuth_adult_directed$utterance)/total_demuth *100 #5.3
@@ -239,9 +237,9 @@ wide_table2 <- table2 %>% spread(register, mean_sd)
 
 
 #####TABLE2-SESOTHO
-write.table(wide_table2, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/demuth_table2.txt"), row.names = FALSE, col.names = TRUE)
+write.table(wide_table2, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/demuth_table2.txt"), row.names = FALSE, col.names = TRUE)
 
-aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$speaker, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session_id),FUN=length )->sum_demuth_register_speakers
+aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$speaker, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session),FUN=length )->sum_demuth_register_speakers
 colnames(sum_demuth_register_speakers) <- c("register", "speakers", "keychild","session", "nb_utt")
 sum_demuth_register_speakers<-merge(x=total_reg, y=sum_demuth_register_speakers, by.x="session", by.y="session", all.x=TRUE, sort=TRUE)
 sum_demuth_register_speakers$percentage<-NA
@@ -257,7 +255,7 @@ colnames(table2.2)<- c("mean", "sd", "keychild", "register", "speaker")
 table2.2<-table2.2 %>% unite("mean_sd", mean:sd, )
 
 #####TABLE2.2-SESOTHO
-write.table(table2.2, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/demuth_table2.2.txt"), row.names = FALSE, col.names = TRUE)
+write.table(table2.2, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/demuth_table2.2.txt"), row.names = FALSE, col.names = TRUE)
 
 
 
@@ -371,48 +369,65 @@ write.table(table2.2f, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020
 
 
 ######for conversational turns 
-write.table(merged_speaker_info_demuth, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/demuth.txt"), row.names = FALSE, col.names = TRUE)
+write.table(merged_speaker_info_demuth, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/demuth.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
 write.table(merged_speaker_info_french, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/french.txt"), row.names = FALSE, col.names = TRUE)
 
 
 
 
-keychildren <- c("Litlhare")
+keychildren <- c("Hlobohang")
 # "Litlhare", "Tsebo" Hlobohang
 speakers <- c("mother", "child", "adult")
-sessions<- as.vector(unique(demuth$session_id))
-sessionsHlobohang<-sessions[1:45]
-sessionsLitlhare<-sessions[46:90]
-sessionsTsebo<-sessions[91:129]
+sessions<- as.vector(unique(demuth$session))
+sessionsHlobohang<-sessions[1:23]
+sessionsLitlhare<-sessions[24:46]
+sessionsTsebo<-sessions[47:69]
 
 #Save for corpus analysis
 for (sp in speakers){
   for (child in keychildren){
-    for (sess in sessionsLitlhare){
-    demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session_id==sess), ]
-    write.table(demuth_keychild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+    for (sess in sessionsHlobohang){
+    demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
+    write.table(demuth_keychild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+    demuth_otherchild_directed_sp_child_sess<-demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
+    write.table(demuth_otherchild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+    demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
+    write.table(demuth_adult_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+    
   }
  }
 }
 
+keychildren <- c("Litlhare")
 for (sp in speakers){
   for (child in keychildren){
     for (sess in sessionsLitlhare){
-      demuth_otherchild_directed_sp_child_sess<-  demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session_id==sess), ]
-      write.table(demuth_otherchild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
+      write.table(demuth_keychild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      demuth_otherchild_directed_sp_child_sess<-  demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
+      write.table(demuth_otherchild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
+      write.table(demuth_adult_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      
     }
   }
 }
 
-
+keychildren <- c("Tsebo")
 for (sp in speakers){
   for (child in keychildren){
-    for (sess in sessionsLitlhare){
-      demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session_id==sess), ]
-      write.table(demuth_adult_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+    for (sess in sessionsTsebo){
+      demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
+      write.table(demuth_keychild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      demuth_otherchild_directed_sp_child_sess<-  demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
+      write.table(demuth_otherchild_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
+      write.table(demuth_adult_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      
     }
   }
 }
+
 
 
 
@@ -450,7 +465,7 @@ for (sp in speakers){
 for (sp in speakers){
   for (child in keychildren){
     for (sess in sessionsAnais){
-      french_adult_directed_sp_child_sess<-  french_adult_directed[(french_adult_directed$speaker==sp) & (french_adult_directed$keychild==child)& ( french_adult_directed$session_id==sess), ]
+      french_adult_directed_sp_child_sess<-  french_adult_directed[(french_adult_directed$speaker==sp) & ( french_adult_directed$keychild==child)& ( french_adult_directed$session_id==sess), ]
       sess<-gsub("/", "_", sess)
    write.table(french_adult_directed_sp_child_sess, file=paste0("/Users/admin/Documents/peerspeech_03.06.2020/utterances/French/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
     }
