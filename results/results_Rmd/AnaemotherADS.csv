@@ -1,0 +1,27 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotation2	annotator_name2	Diff_annotations	keychild	speaker	role_adressee	register
+1023	MOT	mother	tu vas où ?	add à FAT		add à FAT 	Anae/215.cha	FAT	clara				Anae	mother	Adult	ADS
+3170	MOT	mother	tu reviens pour cinq heures hein pour Arthur .			 	Anae/2428.cha	FAT	clara				Anae	mother	Adult	ADS
+3172	MOT	mother	ou alors tu l'emmènes avec toi .			 	Anae/2428.cha	FAT	clara				Anae	mother	Adult	ADS
+4189	MOT	mother	< euh oui ça serait bien !	add à FAT		add à FAT 	Anae/2428.cha	FAT	clara				Anae	mother	Adult	ADS
+4206	MOT	mother	non .			 	Anae/2428.cha	FAT	clara				Anae	mother	Adult	ADS
+4217	MOT	mother	bah oui peut-être que tu ramènes la voiture .			 	Anae/2428.cha	FAT	clara				Anae	mother	Adult	ADS
+4969	MOT	mother	bah tu l'as déposé avant l'heure ?	add à FAT	%act MOT prend CHI dans ses bras 	add à FAT %act MOT prend CHI dans ses bras 	Anae/2428.cha	FAT	clara				Anae	mother	Adult	ADS
+7399	MOT	mother	euh dans la poche peut-être .	add à FAT	%act MOT se lève et quitte la pièce	add à FAT %act MOT se lève et quitte la pièce	Anae/2626.cha	FAT	clara	FAT	Lara		Anae	mother	Adult	ADS
+11744	MOT	mother	ouais .	add à FAT		add à FAT 	Anae/2123.cha	FAT	clara				Anae	mother	Adult	ADS
+11746	MOT	mother	< tu [/] t(u) as un [/] un truc à aller chercher à la poste .	add à FAT		add à FAT 	Anae/2123.cha	FAT	clara				Anae	mother	Adult	ADS
+11748	MOT	mother	< euh (.) demain .			 	Anae/2123.cha	FAT	clara				Anae	mother	Adult	ADS
+11750	MOT	mother	< xxx .	add à FAT		add à FAT 	Anae/2123.cha	FAT	clara				Anae	mother	Adult	ADS
+11830	MOT	mother	xxx un ptit peu				Anae/2123.cha	FRI	c				Anae	mother	Adult	ADS
+11832	MOT	mother	xxx internet alors				Anae/2123.cha	FRI	c				Anae	mother	Adult	ADS
+11835	MOT	mother	ta [/] ta filleule qui fait un gâteau .			 	Anae/2123.cha	FRI	clara				Anae	mother	Adult	ADS
+12019	MOT	mother	qu'est-ce tu veux ?	add à FAT qui est à l'extérieur	%act MOT ferme la porte	add à FAT qui est à l'extérieur %act MOT ferme la porte	Anae/2123.cha	FAT	clara	FAT	Lara		Anae	mother	Adult	ADS
+12021	MOT	mother	si il te plaît .	add à FAT		add à FAT 	Anae/2123.cha	FAT	clara	FAT	Lara		Anae	mother	Adult	ADS
+13156	MOT	mother	< bah non [=! signe non de la tête] .	add à FAT		add à FAT 	Anae/2123.cha	FAT	clara	FAT	Lara		Anae	mother	Adult	ADS
+13157	MOT	mother	j'irai le chercher .			 	Anae/2123.cha	FAT	clara	FAT	Lara		Anae	mother	Adult	ADS
+13533	MOT	mother	ah je vais aller répondre .			 	Anae/21122.cha	FAT	clara				Anae	mother	Adult	ADS
+14725	MOT	mother	< xxx .	add à FAT	%act MOT quitte la pièce	add à FAT %act MOT quitte la pièce	Anae/21122.cha	FAT	clara				Anae	mother	Adult	ADS
+16073	MOT	mother	ha ha .	%act MOT revient dans le jardin suivie de FAT		%act MOT revient dans le jardin suivie de FAT 	Anae/317.cha	FAT	clara		Lara		Anae	mother	Adult	ADS
+16074	MOT	mother	il range pas xxx .			 	Anae/317.cha	FAT	clara		Lara		Anae	mother	Adult	ADS
+16311	MOT	mother	la piscine ?			 	Anae/317.cha	UNC	clara		Lara		Anae	mother	Adult	ADS
+16313	MOT	mother	xxx .			 	Anae/317.cha	UNC	clara		Lara		Anae	mother	Adult	ADS
+16374	MOT	mother	il est remonté ranger j'en sais rien .			 	Anae/317.cha	FAT	clara		Lara		Anae	mother	Adult	ADS
