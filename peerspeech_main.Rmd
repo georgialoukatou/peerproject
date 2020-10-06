@@ -1,7 +1,7 @@
 ---
   title             : "Peer speech project"
 author            : "Georgia Loukatou"
-date              : 13/06/2020, 05/10/2020
+date              : 13/06/2020
 output            : html_document
 ---
   
@@ -14,7 +14,7 @@ langf<-"French"
 path="/Users/admin/Desktop/resultsRmd/"
 #reads demuth corpus and counts utterances per speaker
 #demuth<-read.csv(file="/Users/admin/Downloads/sesotho_CDS_complete.csv", header=TRUE) # memory processing problems, can't load googlesheets
-demuth<-read.csv(file="/Users/lscpuser/Downloads/sesotho_CDS_FIXED_NEUOE.csv", header=TRUE) # memory processing problems, can't load googlesheets
+demuth<-read.csv(file="/Users/lscpuser/Downloads/sesotho_CDS_oldandfixed.csv", header=TRUE) # memory processing problems, can't load googlesheets
 demuth$keychild <- NA
 demuth$keychild[demuth$session_id %in% c(2414:2458)] <- "Hlobohang"
 demuth$keychild[demuth$session_id %in% c(2459:2503)] <- "Litlhare"
@@ -22,34 +22,34 @@ demuth$keychild[demuth$session_id %in% c(2504:2542)] <- "Neuoe"
 
 demuth$session <- paste(demuth$keychild,demuth$session_CHILDES, sep="-")
 #demuthwithkeychild<-demuth
-demuth<-subset(demuth, !(demuth$speaker_role_raw_FIXED=="Target_Child")) #remove target child utterances
+demuth<-subset(demuth, !(demuth$speaker_role_raw=="Target_Child")) #remove target child utterances
 
 #mark corpus by keychild cs: I checked twice if someone wants to double check awesome
 
 
 #verify annotations
-demuthSecondAnnotations<-subset(demuth, !(demuth$annotation2_FIXED==""))
+demuthSecondAnnotations<-subset(demuth, !(demuth$annotation2==""))
 length(which(demuthSecondAnnotations$Diff_annotations=="DIFFER"))/nrow(demuthSecondAnnotations)
 differing<-subset(demuthSecondAnnotations, (demuthSecondAnnotations$Diff_annotations=="DIFFER"))
-nquestions<-nrow(subset(differing, differing$annotation1_FIXED=="?"))+ nrow(subset(differing, differing$annotation2_FIXED=="?"))
+nquestions<-nrow(subset(differing, differing$annotation1=="?"))+ nrow(subset(differing, differing$annotation2=="?"))
 nquestions/nrow(differing)
 
 #number of utterances per speaker
 demuth$speaker <- NA
-demuth$speaker[demuth$speaker_role_raw_FIXED == "Mother"] <- "mother"
-demuth$speaker[demuth$speaker_role_raw_FIXED == "Investigator"] <- "investigator"
-demuth$speaker[grep("Sister|Brother|Sibling|Child|Playmate|child|Teenager|Cousin", demuth$speaker_role_raw_FIXED)]  <- "child"
+demuth$speaker[demuth$speaker_role_raw == "Mother"] <- "mother"
+demuth$speaker[demuth$speaker_role_raw == "Investigator"] <- "investigator"
+demuth$speaker[grep("Sister|Brother|Sibling|Child|Playmate|child|Teenager|Cousin", demuth$speaker_role_raw)]  <- "child"
 #demuth$speaker[grep("Child|Playmate|child|Teenager|Cousin", demuth$speaker_role_raw)]  <- "peer"
-demuth$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", demuth$speaker_role_raw_FIXED)]  <- "adult"
-demuth$speaker[grep("Target", demuth$speaker_role_raw_FIXED)] <- "Target_Child"
+demuth$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", demuth$speaker_role_raw)]  <- "adult"
+demuth$speaker[grep("Target", demuth$speaker_role_raw)] <- "Target_Child"
 
 #save changes
-write.table(demuth, file=paste0("/Users/lscpuser/Downloads/demuth_input_FIXED.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(demuth, file=paste0("/Users/lscpuser/Downloads/demuth_input_2.txt"), row.names=F, col.names=T,  quote=F) 
 
 #Sum the number of utterances per speaker category and keychild
 aggregate(demuth$utterance_id,by=list( demuth$speaker, demuth$keychild, demuth$session),length )->sum_demuth
 colnames(sum_demuth) <- c("speaker", "keychild", "session", "nb_utt")
-write.table(sum_demuth, file=paste0("/Users/lscpuser/Downloads/demuth_speakers_FIXED.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_demuth, file=paste0("/Users/lscpuser/Downloads/demuth_speakers.txt"), row.names=F, col.names=T,  quote=F) 
 
 
 total<-aggregate( sum_demuth$nb_utt, by=list(sum_demuth$session), FUN=sum)
@@ -70,7 +70,7 @@ table1<-table1 %>% unite("mean_sd", mean:sd, )
 wide_table1 <- table1 %>% spread(speaker, mean_sd)
 
 #####TABLE1-SESOTHO
-write.table(wide_table1, file=paste0("/Users/lscpuser/Downloads/demuth_input_demuth_table1.txt"), row.names = FALSE, col.names = TRUE)
+write.table(wide_table1, file=paste0("/Users/lscpuser/Downloads/demuth_input_demuth_table2.txt"), row.names = FALSE, col.names = TRUE)
 demuth_backup <- demuth # keep the original file before subsetting
 #lenght demuth by child
 ```
@@ -143,46 +143,46 @@ nrow(demuth) #69573 this is including keychild vocs
 #annotation_NAs <- subset(data, is.na(data$annotation1)) # 17159 
 #summary(annotation_NAs$speaker_role_raw) to see detail of the speakers labels missing
 #remove the rows with conflict (disagrement or unkown)
-demuth<-subset(demuth, !(demuth$annotation1_FIXED=="?")) # 69573 - 17159 (NAs) - 3289 (?) = 49125
+demuth<-subset(demuth, !(demuth$annotation1=="?")) # 69573 - 17159 (NAs) - 3289 (?) = 49125
 #demuth <- subset(demuth, is.na(demuth$Diff_annotations)) #THIS DOES NOT ADD UP!! #48403
 nrow(demuth) #38565
-aggregate(demuth$utterance_id,by=list(demuth$annotation1_FIXED,  demuth$speaker, demuth$keychild,  demuth$session),FUN=length )->sum_demuth_addressee
+aggregate(demuth$utterance_id,by=list(demuth$annotation1,  demuth$speaker, demuth$keychild,  demuth$session),FUN=length )->sum_demuth_addressee
 colnames(sum_demuth_addressee) <- c("addresse", "speaker", "keychild", "session", "nb_utt")
 
 # Utterances addressed to the target child  aka CDS
 
 #matches addressee with speaker roles (especially for non-child directed)
-speaker_info_demuth<- as.data.frame(unique(demuth %>%select(uniquespeaker_id_fk, speaker_role_raw_FIXED)))
-colnames(speaker_info_demuth)[colnames(speaker_info_demuth)=="speaker_role_raw_FIXED"] <- "role_adressee_FIXED"
-merged_speaker_info_demuth<-merge(x=demuth, y=speaker_info_demuth, by.x="annotation1_FIXED", by.y="uniquespeaker_id_fk", all.x=TRUE, sort=TRUE)
+speaker_info_demuth<- as.data.frame(unique(demuth %>%select(uniquespeaker_id_fk, speaker_role_raw)))
+colnames(speaker_info_demuth)[colnames(speaker_info_demuth)=="speaker_role_raw"] <- "role_adressee"
+merged_speaker_info_demuth<-merge(x=demuth, y=speaker_info_demuth, by.x="annotation1", by.y="uniquespeaker_id_fk", all.x=TRUE, sort=TRUE)
 #classify as unknown the roleless adressees
-merged_speaker_info_demuth$annotation1_FIXED<- as.character(merged_speaker_info_demuth$annotation1_FIXED)
-merged_speaker_info_demuth$role_adressee_FIXED <- as.character(merged_speaker_info_demuth$role_adressee_FIXED)
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c ("Bakwena","Chalowena","Chelwane","Denetu","Lekhabe","Likhapa","Likhapa\n","Likhapha","Linono\n","Makhotoko","Malibata","Masepenya","Masethulo","Matule","Matumo","Ndate","Nkeletseng","Ntate","NTSOAKI!","Patric","Patrick","Sentsowa","Tsanapu","Tsenepu","Tsenethu","Tsenethu\n", "NTSOAKI !")] <- "Unknown" # this is for all the addresses with names with dont know what they are
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("C","N","83","88", "94","97","?","?1","0","96")] <- "Unknown" # these are probably typos
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("16413","16896")] <- "Mother" # these are probably typos
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("16901")] <- "Investigator" # these are probably typos
+merged_speaker_info_demuth$annotation1<- as.character(merged_speaker_info_demuth$annotation1)
+merged_speaker_info_demuth$role_adressee <- as.character(merged_speaker_info_demuth$role_adressee)
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c ("Bakwena","Chalowena","Chelwane","Denetu","Lekhabe","Likhapa","Likhapa\n","Likhapha","Linono\n","Makhotoko","Malibata","Masepenya","Masethulo","Matule","Matumo","Ndate","Nkeletseng","Ntate","NTSOAKI!","Patric","Patrick","Sentsowa","Tsanapu","Tsenepu","Tsenethu","Tsenethu\n", "NTSOAKI !")] <- "Unknown" # this is for all the addresses with names with dont know what they are
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("C","N","83","88", "94","97","?","?1","0","96")] <- "Unknown" # these are probably typos
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("16413","16896")] <- "Mother" # these are probably typos
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("16901")] <- "Investigator" # these are probably typos
 
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("C","N")] <- "Unknown" # these letters idk what they mean
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("C","N")] <- "Unknown" # these letters idk what they mean
 #classify other weird stuff
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("O", "957")] <- "Other child"
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("DOG", "PET")] <- "Animals"
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("SELF")] <- "Self"
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("MIX")] <- "Mix"
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("A")] <- "Adult"
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("O", "957")] <- "Other child"
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("DOG", "PET")] <- "Animals"
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("SELF")] <- "Self"
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("MIX")] <- "Mix"
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("A")] <- "Adult"
 #utterances addressed to keychild
-merged_speaker_info_demuth$role_adressee_FIXED[merged_speaker_info_demuth$annotation1_FIXED %in% c("1", "882")] <- "Keychild"
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("1", "882")] <- "Keychild"
 #CHECK THAT ALL ADRESSEES ARE CLASSIFIED (no NAs)
-summary(as.factor(merged_speaker_info_demuth$role_adressee_FIXED))
+summary(as.factor(merged_speaker_info_demuth$role_adressee))
 
 
 #Regsiter column
 merged_speaker_info_demuth$register <- NA
-merged_speaker_info_demuth$register[merged_speaker_info_demuth$role_adressee_FIXED == "Investigator"] <- "Investigator"
-merged_speaker_info_demuth$register[grep("Sister|Brother|Sibling|Playmate|Teenager|Cousin|Other child", merged_speaker_info_demuth$role_adressee_FIXED)]  <- "OCDS"
-merged_speaker_info_demuth$register[grep("Adult|Uncle|Grandmother|Father|Mother", merged_speaker_info_demuth$role_adressee_FIXED)]  <- "ADS"
-merged_speaker_info_demuth$register[grep("Keychild", merged_speaker_info_demuth$role_adressee_FIXED)] <- "CDS"
-merged_speaker_info_demuth$register[grep("Animals|Mix|Unknown|Self", merged_speaker_info_demuth$role_adressee_FIXED)]  <- "unclassified"
+merged_speaker_info_demuth$register[merged_speaker_info_demuth$role_adressee == "Investigator"] <- "Investigator"
+merged_speaker_info_demuth$register[grep("Sister|Brother|Sibling|Playmate|Teenager|Cousin|Other child", merged_speaker_info_demuth$role_adressee)]  <- "OCDS"
+merged_speaker_info_demuth$register[grep("Adult|Uncle|Grandmother|Father|Mother", merged_speaker_info_demuth$role_adressee)]  <- "ADS"
+merged_speaker_info_demuth$register[grep("Keychild", merged_speaker_info_demuth$role_adressee)] <- "CDS"
+merged_speaker_info_demuth$register[grep("Animals|Mix|Unknown|Self", merged_speaker_info_demuth$role_adressee)]  <- "unclassified"
 #Aggregate by register
 aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session),FUN=length )->sum_demuth_register
 colnames(sum_demuth_register) <- c("register", "keychild","session", "nb_utt")
@@ -238,7 +238,7 @@ wide_table2 <- table2 %>% spread(register, mean_sd)
 
 
 #####TABLE2-SESOTHO
-write.table(wide_table2, file=paste0("/Users/lscpuser/Documents/demuth_table2_fixed.txt"), row.names = FALSE, col.names = TRUE)
+write.table(wide_table2, file=paste0("/Users/lscpuser/Documents/demuth_table2.txt"), row.names = FALSE, col.names = TRUE)
 
 aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$speaker, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session),FUN=length )->sum_demuth_register_speakers
 colnames(sum_demuth_register_speakers) <- c("register", "speakers", "keychild","session", "nb_utt")
