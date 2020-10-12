@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+import re
+import spacy
+nlp = spacy.load("fr_core_news_lg")
+
 path_="/Users/admin/Documents/peerspeech_13.06.2020/"
 pathToText="/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho/" 
 pathToText1="/Users/admin/Documents/peerspeech_13.06.2020/utterances/Sesotho_processed/" 
@@ -114,7 +119,30 @@ sed -e "s/\"//g" -e 's/\n//g'  "/Users/admin/Documents/peerspeech_13.06.2020/dem
  #           mattrf=`sed  '3q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${session}${addressee}.csv"  | awk '{printf $3}' | tr -d '\n'`
  #           mluf=`echo "scale=3; $numberofwordsf / $numberoflinesf" | bc`		
  #   	    percquestf=`echo "scale=3; $nquestionf / $numberoflinesf" | bc` 
-             
+
+
+
+#textall=["attention ramasse ce-que ta maman a fait tomber. Le petit chat est mort le chat", "le jour de son tour", "je le fais maintenant"]
+file1=open("${pathToTextf1}cleanutterance1${targetchild}${speaker}${session}${addressee}.csv", 'r')
+textall=file1.readlines()
+
+text_file=open("${pathToTextf1}adjnoun${targetchild}${speaker}${session}${addressee}.csv", "w")
+
+L=[]
+for s in textall:
+ s1=""
+ doc=nlp(s)
+ for token in doc:
+  s1+=(str(token)+" ")
+  print(token.pos_) 
+  if token.pos_=="DET":
+#   if doc[token.i + 1].pos_ == "ADJ" or doc[token.i + 1].pos_ == "NOUN" :
+   s1=s1.replace((str(token) + " "), str(token))
+ print(s1)
+ output=str(s1) 
+ text_file.write(output)
+
+
 
 #####Treetagger
   #          /Users/admin/Documents/tree-tagger-MacOSX-3.2.2/cmd/tree-tagger-French "${pathToTextf1}cleanutterance1${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf1}partofspeech${targetchild}${speaker}${session}${addressee}.csv"
