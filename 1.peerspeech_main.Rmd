@@ -187,6 +187,8 @@ write.table(wide_table2, file=paste0(path, "demuth_table2.txt"), row.names = FAL
 
 
 aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$speaker, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session),FUN=length )->sum_demuth_register_speakers
+write.table(sum_demuth_register_speakers, file=paste0(path, "demuth_register.txt"), row.names = FALSE, col.names = TRUE)
+
 colnames(sum_demuth_register_speakers) <- c("register", "speakers", "keychild","session", "nb_utt")
 sum_demuth_register_speakers<-merge(x=total_reg, y=sum_demuth_register_speakers, by.x="session", by.y="session", all.x=TRUE, sort=TRUE)
 sum_demuth_register_speakers$percentage<-NA
