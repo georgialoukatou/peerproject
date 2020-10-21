@@ -52,6 +52,7 @@ write.table(demuth, file=paste0(path, "demuth_input_1.txt"), row.names=F, col.na
 #Sum the number of utterances per speaker category and keychild
 aggregate(demuth$utterance_id,by=list( demuth$speaker, demuth$keychild, demuth$session),length )->sum_demuth
 colnames(sum_demuth) <- c("speaker", "keychild", "session", "nb_uttpersession")
+write.table(sum_demuth, file=paste0(path, "sesotho_speakers.txt"), row.names=F, col.names=T,  quote=F) 
 
 #measure percentage per speaker
 total<-aggregate( sum_demuth$nb_uttpersession, by=list(sum_demuth$session), FUN=sum)
