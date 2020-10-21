@@ -371,6 +371,8 @@ write.table(wide_table2f, file=paste0(path, "french_table2.txt"), row.names = FA
 
 aggregate(merged_speaker_info_french$utterance_id,by=list(merged_speaker_info_french$register, merged_speaker_info_french$speaker, merged_speaker_info_french$keychild, merged_speaker_info_french$session_id),FUN=length )->sum_french_register_speakers
 colnames(sum_french_register_speakers) <- c("register", "speakers", "keychild","session", "nb_utt")
+write.table(sum_french_register_speakers, file=paste0(path, "french_register.txt"), row.names = FALSE, col.names = TRUE)
+
 sum_french_register_speakers<-merge(x=total_reg, y=sum_french_register_speakers, by.x="session", by.y="session", all.x=TRUE, sort=TRUE)
 sum_french_register_speakers$percentage<-NA
 sum_french_register_speakers$percentage<-sum_french_register_speakers$nb_utt/sum_french_register_speakers$total*100
