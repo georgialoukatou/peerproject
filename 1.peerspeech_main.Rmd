@@ -46,13 +46,14 @@ demuth$speaker[demuth$speaker_role_raw == "Investigator"] <- "investigator"
 demuth$speaker[grep("Sister|Brother|Sibling|Child|Playmate|child|Teenager|Cousin", demuth$speaker_role_raw)]  <- "child"
 demuth$speaker[grep("Adult|Uncle|Grandmother|Family_Friend|Visitor|Aunt|Father", demuth$speaker_role_raw)]  <- "adult"
 demuth$speaker[grep("Target", demuth$speaker_role_raw)] <- "Target_Child"
-write.table(demuth, file=paste0(path, "demuth_input_1.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(demuth, file=paste0(path, "demuth_input_1.txt"), row.names=F, col.names=T,  quote=F) 
 
 
 #Sum the number of utterances per speaker category and keychild
 aggregate(demuth$utterance_id,by=list( demuth$speaker, demuth$keychild, demuth$session),length )->sum_demuth
 colnames(sum_demuth) <- c("speaker", "keychild", "session", "nb_uttpersession")
-write.table(sum_demuth, file=paste0(path, "sesotho_speakers.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(sum_demuth, file=paste0(path, "sesotho_speakers.txt"), row.names=F, col.names=T,  quote=F) 
+demuth<-subset(demuth, !(demuth$speaker=="investigator")) #remove inv utterances
 
 #measure percentage per speaker
 total<-aggregate( sum_demuth$nb_uttpersession, by=list(sum_demuth$session), FUN=sum)
@@ -71,7 +72,7 @@ names(sumspeaker)<-c("keychild", "speaker", "sumperSpeakerChild")
 sum_demuth<-merge(x=average, y=sum_demuth, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_demuth<-merge(x=sumspeaker, y=sum_demuth, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_demuth$percentageperSpeakerChild<-sum_demuth$sumperSpeakerChild/sum_demuth$largetotalperchild*100
-write.table(sum_demuth, file=paste0(path, "sum_demuth.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(sum_demuth, file=paste0(path, "sum_demuth.txt"), row.names=F, col.names=T,  quote=F) 
 
 #Create table with speaker average across sessions 
 #colnames(sum_demuth)[3] <- "mean"
@@ -79,12 +80,12 @@ table1<-unique(data.frame(sum_demuth$averagepersession, sum_demuth$keychild, sum
 colnames(table1)<- c("mean", "sd", "keychild", "speaker")
 table1<-table1 %>% unite("mean_sd", mean:sd, )
 wide_table1 <- table1 %>% spread(speaker, mean_sd)
-write.table(wide_table1, file=paste0(path, "demuth_input_3.txt"), row.names = FALSE, col.names = TRUE)
+#write.table(wide_table1, file=paste0(path, "demuth_input_3.txt"), row.names = FALSE, col.names = TRUE)
 
 #Create table with speaker percentage overall
 table2<-unique(data.frame(sum_demuth$percentageperSpeakerChild, sum_demuth$keychild, sum_demuth$speaker))
 colnames(table2)<- c("percentage", "keychild", "speaker")
-write.table(table2, file=paste0(path, "demuth_input_4.txt"), row.names = FALSE, col.names = TRUE)
+#write.table(table2, file=paste0(path, "demuth_input_4.txt"), row.names = FALSE, col.names = TRUE)
 
 
 demuth_backup <- demuth # keep the original file before subsetting
@@ -93,8 +94,12 @@ demuth_backup <- demuth # keep the original file before subsetting
 ```{r demuth directedness, eval=TRUE, include=TRUE, message=FALSE}
 
 #ADDRESSEE part
+
+demuth<-subset(demuth, !(demuth$speaker=="Investigator")) #remove target child utterances
+
+
 nrow(demuth) #69573 including keychild vocs
-demuth<-subset(demuth, !(demuth$annotation1=="?")) # 69573 - 17159 (NAs) - 3289 (?) = 49125
+#demuth<-subset(demuth, !(demuth$annotation1=="?")) # 69573 - 17159 (NAs) - 3289 (?) = 49125
 totaldemuth<-nrow(demuth) #38565
 aggregate(demuth$utterance_id,by=list(demuth$annotation1,  demuth$speaker, demuth$keychild,  demuth$session),FUN=length )->sum_demuth_addressee
 colnames(sum_demuth_addressee) <- c("addresse", "speaker", "keychild", "session", "nb_utt")
@@ -111,7 +116,7 @@ merged_speaker_info_demuth$role_adressee <- as.character(merged_speaker_info_dem
 merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c ("Bakwena","Chalowena","Chelwane","Denetu","Lekhabe","Likhapa","Likhapa\n","Likhapha","Linono\n","Makhotoko","Malibata","Masepenya","Masethulo","Matule","Matumo","Ndate","Nkeletseng","Ntate","NTSOAKI!","Patric","Patrick","Sentsowa","Tsanapu","Tsenepu","Tsenethu","Tsenethu\n", "NTSOAKI !")] <- "Unknown" # this is for all the addresses with names with dont know what they are
 merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("C","N","83","88", "94","97","?","?1","0","96")] <- "Unknown" # these are probably typos
 merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("16413","16896")] <- "Mother" # these are probably typos
-merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("16901")] <- "Investigator" # these are probably typos
+merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("16901", '883')] <- "Investigator" # these are probably typos
 merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("C","N")] <- "Unknown" # these letters idk what they mean
 #classify other weird stuff
 merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 %in% c("O", "957")] <- "Other child"
@@ -125,6 +130,12 @@ merged_speaker_info_demuth$role_adressee[merged_speaker_info_demuth$annotation1 
 #CHECK THAT ALL ADRESSEES ARE CLASSIFIED (no NAs)
 summary(as.factor(merged_speaker_info_demuth$role_adressee))
 
+
+merged_speaker_info_demuth<-subset(merged_speaker_info_demuth, !(merged_speaker_info_demuth$role_adressee=="Investigator"))
+merged_speaker_info_demuth<-subset(merged_speaker_info_demuth, !(merged_speaker_info_demuth$role_adressee=="Unknown"))
+
+
+
 #create register column
 merged_speaker_info_demuth$register <- NA
 merged_speaker_info_demuth$register[merged_speaker_info_demuth$role_adressee == "Investigator"] <- "Investigator"
@@ -133,8 +144,12 @@ merged_speaker_info_demuth$register[grep("Adult|Uncle|Grandmother|Father|Mother"
 merged_speaker_info_demuth$register[grep("Keychild", merged_speaker_info_demuth$role_adressee)] <- "CDS"
 merged_speaker_info_demuth$register[grep("Animals|Mix|Unknown|Self", merged_speaker_info_demuth$role_adressee)]  <- "unclassified"
 
+
 #Aggregate by register
+
 aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session),FUN=length )->sum_demuth_register
+
+
 colnames(sum_demuth_register) <- c("register", "keychild","session", "nb_utt")
 demuth_adult_directed<-subset(merged_speaker_info_demuth, (merged_speaker_info_demuth$register=="ADS"))
 demuth_otherchild_directed<-subset(merged_speaker_info_demuth, (merged_speaker_info_demuth$register=="OCDS"))
@@ -151,9 +166,9 @@ demuth_ad_directed_utts<- as.data.frame(demuth_adult_directed %>%select(utteranc
 demuth_oc_directed_utts<- as.data.frame(demuth_otherchild_directed %>%select(utterance))
 demuth_c_directed_utts<- as.data.frame(demuth_keychild_directed %>%select(utterance))
 #export all ADS utterance into a text file
-write.table(demuth_ad_directed_utts, file=paste0(path, "Sesothoadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
-write.table(demuth_oc_directed_utts, file=paste0(path, "Sesothootherchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
-write.table(demuth_c_directed_utts, file=paste0(path, "/Sesothochilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(demuth_ad_directed_utts, file=paste0(path, "Sesothoadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(demuth_oc_directed_utts, file=paste0(path, "Sesothootherchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(demuth_c_directed_utts, file=paste0(path, "/Sesothochilddirected.txt"), row.names=F, col.names=T,  quote=F) 
 #percentage of adult directed speech vs total annotated
 length(demuth_adult_directed$utterance)/totaldemuth *100 #5.3
 length(demuth_otherchild_directed$utterance)/totaldemuth *100 #11.9
@@ -170,26 +185,34 @@ sum_demuth_register$percentageperSessionRegisterChild<-NA
 sum_demuth_register$percentageperSessionRegisterChild<-sum_demuth_register$nb_utt/sum_demuth_register$total*100
 average<-aggregate(sum_demuth_register$percentageperSessionRegisterChild, by=list(sum_demuth_register$keychild, sum_demuth_register$register), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
 names(average)<-c("keychild", "register", "averagepersession")
-sum_demuth_register<-merge(x=average, y=sum_demuth_register, by.x=c("keychild", "register"), by.y=c("keychild", "register"), all.x=TRUE, sort=TRUE)
+#sum_demuth_register<-merge(x=average, y=sum_demuth_register, by.x=c("keychild", "register"), by.y=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 
 sumregister<-aggregate(sum_demuth_register$nb_utt, by=list(sum_demuth_register$keychild, sum_demuth_register$register), function(x) sum(x))
 names(sumregister)<-c("keychild", "register", "sumperRegisterChild")
 sum_demuth_register<-merge(x=sumregister, y=sum_demuth_register, by.x=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 sum_demuth_register$percentageperRegisterChild<-sum_demuth_register$sumperRegisterChild/sum_demuth_register$largetotalperchild*100
-write.table(sum_demuth_register, file=paste0(path, "sum_demuth_register.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_demuth_register, file=paste0(path, "sum_demuth_register_noinv.txt"), row.names=F, col.names=T,  quote=F) 
 
 #colnames(sum_demuth_register)[3] <- "mean"
 table2<-unique(data.frame(sum_demuth_register$averagepersession, sum_demuth_register$keychild, sum_demuth_register$register))
 colnames(table2)<- c("mean", "sd", "keychild", "register")
 table2<-table2 %>% unite("mean_sd", mean:sd, )
 wide_table2 <- table2 %>% spread(register, mean_sd)
-write.table(wide_table2, file=paste0(path, "demuth_table2.txt"), row.names = FALSE, col.names = TRUE)
+#write.table(wide_table2, file=paste0(path, "demuth_table2.txt"), row.names = FALSE, col.names = TRUE)
 
 
 aggregate(merged_speaker_info_demuth$utterance_id,by=list(merged_speaker_info_demuth$register, merged_speaker_info_demuth$speaker, merged_speaker_info_demuth$keychild, merged_speaker_info_demuth$session),FUN=length )->sum_demuth_register_speakers
+colnames(sum_demuth_register_speakers) <- c("register", "speakers", "keychild","session", "nb_utt")
 write.table(sum_demuth_register_speakers, file=paste0(path, "demuth_register.txt"), row.names = FALSE, col.names = TRUE)
 
-colnames(sum_demuth_register_speakers) <- c("register", "speakers", "keychild","session", "nb_utt")
+total_reg<-aggregate(sum_demuth_register_speakers$nb_utt, by=list(sum_demuth_register_speakers$session), FUN=sum)
+names(total_reg)<-c("session", "total")
+sum_demuth_register_speakers<-merge(x=total_reg, y=sum_demuth_register_speakers, by.x="session",by.y="session", all.x=TRUE, sort=TRUE)
+largetotal_reg<-aggregate( sum_demuth_register_speakers$nb_utt, by=list(sum_demuth_register_speakers$keychild), FUN=sum)
+names(largetotal_reg)<-c("keychild", "largetotalperchildkey")
+sum_demuth_register_speakers<-merge(x=largetotal_reg, y=sum_demuth_register_speakers, by.x="keychild", by.y="keychild", all.x=TRUE, sort=TRUE)
+
+
 sum_demuth_register_speakers<-merge(x=total_reg, y=sum_demuth_register_speakers, by.x="session", by.y="session", all.x=TRUE, sort=TRUE)
 sum_demuth_register_speakers$percentage<-NA
 sum_demuth_register_speakers$percentage<-sum_demuth_register_speakers$nb_utt/sum_demuth_register_speakers$total*100
@@ -202,15 +225,15 @@ sumspeakerregister<-aggregate(sum_demuth_register_speakers$nb_utt, by=list(sum_d
 names(sumspeakerregister)<-c("keychild", "speakers", "sumperSpeakerChild")
 sum_demuth_register_speakers<-merge(x=sumspeakerregister, y=sum_demuth_register_speakers, by.x=c("keychild", "speakers"), by.y=c("keychild", "speakers"), all.x=TRUE, sort=TRUE)
 largetotalregsp<-aggregate( sum_demuth_register_speakers$nb_utt, by=list(sum_demuth_register_speakers$keychild,sum_demuth_register_speakers$register,sum_demuth_register_speakers$speakers), FUN=sum)
-names(largetotalregsp)<-c("keychild", "register", "speakers", "largetotalperchild")
+names(largetotalregsp)<-c("keychild", "register", "speakers", "largetotalperchildreg")
 sum_demuth_register_speakers<-merge(x=largetotalregsp, y=sum_demuth_register_speakers, by.x=c("keychild", "register", "speakers"), by.y=c("keychild", "register", "speakers"), all.x=TRUE, sort=TRUE)
-sum_demuth_register_speakers$percentageperSpeakerRegisterChild<-sum_demuth_register_speakers$sumperSpeakerChild/sum_demuth_register_speakers$largetotalperchild*100
-write.table(sum_demuth_register_speakers, file=paste0(path, "sum_demuth_register_speakers.txt"), row.names=F, col.names=T,  quote=F) 
+sum_demuth_register_speakers$percentageperSpeakerRegisterChild<-sum_demuth_register_speakers$largetotalperchildreg.x/sum_demuth_register_speakers$largetotalperchildkey*100
+write.table(sum_demuth_register_speakers, file=paste0(path, "sum_demuth_register_speakers_noinv.txt"), row.names=F, col.names=T,  quote=F) 
 
 table2.2<-unique(data.frame(sum_demuth_register_speakers$average, sum_demuth_register_speakers$keychild, sum_demuth_register_speakers$register, sum_demuth_register_speakers$speakers))
 colnames(table2.2)<- c("mean", "sd", "keychild", "register", "speaker")
 table2.2<-table2.2 %>% unite("mean_sd", mean:sd, )
-write.table(table2.2, file=paste0(path, "demuth_table2.2.txt"), row.names = FALSE, col.names = TRUE)
+#write.table(table2.2, file=paste0(path, "demuth_table2.2.txt"), row.names = FALSE, col.names = TRUE)
 ```
 
 ################################# french corpus
@@ -231,7 +254,7 @@ dataf$speaker[grep("sister|Brother1|.*Brother.*|Brother|Boy|Anouk", dataf$speake
 dataf$speaker[grep("father|Aunt Relative|Uncle Relative|Zoom Friend|.*Zoom Friend.*", dataf$speaker_role_raw)] <- "adult"
 dataf$speaker[grep('target_child', dataf$speaker_role_raw)] <- "Target_Child"
 dataf<-dataf[!grepl("@UTF8", dataf$speaker_id),]
-write.table(dataf, file=paste0(path,"dataf.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(dataf, file=paste0(path,"dataf.txt"), row.names=F, col.names=T,  quote=F) 
 
 
 
@@ -247,9 +270,12 @@ nquestions/nrow(differing)
 #Sum the number of utterances per speaker category and keychild
 aggregate(dataf$utterance_id,by=list( dataf$speaker, dataf$keychild, dataf$session),length )->sum_french
 colnames(sum_french) <- c("speaker", "keychild", "session", "nb_uttpersession")
-write.table(sum_french, file=paste0(path, "french_speakers.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(sum_french, file=paste0(path, "french_speakers.txt"), row.names=F, col.names=T,  quote=F) 
 french<-dataf
 length_keychildf<- french %>% group_by(keychild) %>% summarise(no_rows = length(keychild)) 
+
+french<-subset(french, !(french$speaker=="investigator")) #remove inv utterances
+
 
 #measure percentage per speaker
 total<-aggregate( sum_french$nb_uttpersession, by=list(sum_french$session), FUN=sum)
@@ -267,14 +293,14 @@ names(sumspeaker)<-c("keychild", "speaker", "sumperSpeakerChild")
 sum_french<-merge(x=average, y=sum_french, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_french<-merge(x=sumspeaker, y=sum_french, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_french$percentageperSpeakerChild<-sum_french$sumperSpeakerChild/sum_french$largetotalperchild*100
-write.table(sum_french, file=paste0(path, "sum_french.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(sum_french, file=paste0(path, "sum_french.txt"), row.names=F, col.names=T,  quote=F) 
 
 table1<-unique(data.frame(sum_french$averagepersession, sum_french$keychild, sum_french$speaker))
 colnames(table1)<- c("mean", "sd", "keychild", "speaker")
 table1<-table1 %>% unite("mean_sd", mean:sd, )
 wide_table1 <- table1 %>% spread(speaker, mean_sd)
 #####TABLE1-FRENCH
-write.table(wide_table1, file=paste0(path, "french_input_3.txt"), row.names = FALSE, col.names = TRUE)
+#write.table(wide_table1, file=paste0(path, "french_input_3.txt"), row.names = FALSE, col.names = TRUE)
 french_backup <- french 
 ```
 
@@ -282,6 +308,8 @@ french_backup <- french
 
 
 ```{r french directedness, eval=TRUE, include=TRUE, message=FALSE}
+dataf<-subset(dataf, !(dataf$speaker=="investigator")) #remove target child utterances
+
 nrow(dataf)  
 french<-dataf
 annotations_unknownfrench<-subset(dataf, (dataf$annotation1=="?")) # 532
@@ -308,6 +336,14 @@ merged_speaker_info_french$role_adressee[merged_speaker_info_french$annotation1 
 merged_speaker_info_french$role_adressee[merged_speaker_info_french$annotation1 %in% c("BOY", "COU", "SIS", "BR1", "BRO","O","O " )] <- "Other child"
 merged_speaker_info_french$role_adressee[merged_speaker_info_french$annotation1 %in% c("TOINE", "COLLIN", "N", "", "? ")] <- "unidentified"
 summary(as.factor(merged_speaker_info_french$role_adressee))
+
+
+merged_speaker_info_french<-subset(merged_speaker_info_french, !(merged_speaker_info_french$role_adressee=="Investigator"))
+merged_speaker_info_french<-subset(merged_speaker_info_french, !(merged_speaker_info_french$role_adressee=="Unknown"))
+
+
+
+
 french_adult_directed<-subset(merged_speaker_info_french, (merged_speaker_info_french$role_adressee=="Adult"|merged_speaker_info_french$annotation1=="Mother"))
 # Utterances addressed to others - children
 french_otherchild_directed<-subset(merged_speaker_info_french, (merged_speaker_info_french$role_adressee=="Other child"))
@@ -327,14 +363,15 @@ merged_speaker_info_french$register[grep("Animals|Mix|Unknown|Self|Telephone|Toy
 #Aggregate by register
 aggregate(merged_speaker_info_french$utterance_id,by=list(merged_speaker_info_french$register,  merged_speaker_info_french$keychild, merged_speaker_info_french$session_id),FUN=length )->sum_french_register
 colnames(sum_french_register) <- c("register", "keychild", "session", "nb_utt")
+
 #subset all utterances marked as ADS & OCDS
 french_ad_directed_utts<- as.data.frame(french_adult_directed %>%select(utterance))
 french_oc_directed_utts<- as.data.frame(french_otherchild_directed %>%select(utterance))
 french_c_directed_utts<- as.data.frame(french_keychild_directed %>%select(utterance))
 #export all ADS utterance into a text file
-write.table(french_ad_directed_utts, file=paste0(path,"Frenchadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
-write.table(french_oc_directed_utts, file=paste0(path,"Frenchotherchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
-write.table(french_c_directed_utts, file=paste0(path,"Frenchchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(french_ad_directed_utts, file=paste0(path,"Frenchadultdirected.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(french_oc_directed_utts, file=paste0(path,"Frenchotherchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
+#write.table(french_c_directed_utts, file=paste0(path,"Frenchchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
 length(french_adult_directed$utterance)/total_french *100 #0.45
 length(french_otherchild_directed$utterance)/total_french *100 #4.6
 
@@ -360,34 +397,45 @@ sumregister<-aggregate(sum_french_register$nb_utt, by=list(sum_french_register$k
 names(sumregister)<-c("keychild", "register", "sumperRegisterChild")
 sum_french_register<-merge(x=sumregister, y=sum_french_register, by.x=c("keychild", "register"),by.y=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 sum_french_register$percentageperRegisterChild<-sum_french_register$sumperRegisterChild/sum_french_register$largetotalperchild*100
-write.table(sum_french_register, file=paste0(path, "sum_french_register.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_french_register, file=paste0(path, "sum_french_register_noinv.txt"), row.names=F, col.names=T,  quote=F) 
 
 
 table2f<-unique(data.frame(sum_french_register$averagepersession, sum_french_register$keychild, sum_french_register$register))
 colnames(table2f)<- c("mean", "sd", "keychild", "register")
 table2f<-table2f %>% unite("mean_sd", mean:sd, )
 wide_table2f <- table2f %>% spread(register, mean_sd)
-write.table(wide_table2f, file=paste0(path, "french_table2.txt"), row.names = FALSE, col.names = TRUE)
+#write.table(wide_table2f, file=paste0(path, "french_table2.txt"), row.names = FALSE, col.names = TRUE)
 
 aggregate(merged_speaker_info_french$utterance_id,by=list(merged_speaker_info_french$register, merged_speaker_info_french$speaker, merged_speaker_info_french$keychild, merged_speaker_info_french$session_id),FUN=length )->sum_french_register_speakers
 colnames(sum_french_register_speakers) <- c("register", "speakers", "keychild","session", "nb_utt")
-write.table(sum_french_register_speakers, file=paste0(path, "french_register.txt"), row.names = FALSE, col.names = TRUE)
+write.table(sum_french_register_speakers, file=paste0(path, "french_register_noinv.txt"), row.names = FALSE, col.names = TRUE)
 
-sum_french_register_speakers<-merge(x=total_reg, y=sum_french_register_speakers, by.x="session", by.y="session", all.x=TRUE, sort=TRUE)
+total_reg<-aggregate(sum_french_register_speakers$nb_utt, by=list(sum_french_register_speakers$session), FUN=sum)
+names(total_reg)<-c("session", "total")
+sum_french_register_speakers<-merge(x=total_reg, y=sum_french_register_speakers, by.x="session",by.y="session", all.x=TRUE, sort=TRUE)
+largetotalkey<-aggregate( sum_french_register_speakers$nb_utt, by=list(sum_french_register_speakers$keychild), FUN=sum)
+names(largetotalkey)<-c("keychild", "largetotalperchild")
+sum_french_register_speakers<-merge(x=largetotalkey, y=sum_french_register_speakers, by.x="keychild", by.y="keychild", all.x=TRUE, sort=TRUE)
+
+
 sum_french_register_speakers$percentage<-NA
 sum_french_register_speakers$percentage<-sum_french_register_speakers$nb_utt/sum_french_register_speakers$total*100
 average<-aggregate(sum_french_register_speakers$percentage, by=list(sum_french_register_speakers$keychild, sum_french_register_speakers$register, sum_french_register_speakers$speakers), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
 names(average)<-c("keychild", "register", "speakers", "average")
 sum_french_register_speakers<-merge(x=average, y=sum_french_register_speakers, by.x=c("keychild", "register", "speakers"), by.y=c("keychild", "register", "speakers"), all.x=TRUE, sort=TRUE)
 
+sumspeakerr<-aggregate(sum_french_register_speakers$nb_utt, by=list(sum_french_register_speakers$keychild,sum_french_register_speakers$register), function(x) sum(x))
+names(sumspeakerr)<-c("keychild", "register", "largetotalperchildregister")
+sum_french_register_speakers<-merge(x=sumspeakerr, y=sum_french_register_speakers, by.x=c("keychild", "register"), by.y=c("keychild", "register"), all.x=TRUE, sort=TRUE)
+
 sumspeakerregister<-aggregate(sum_french_register_speakers$nb_utt, by=list(sum_french_register_speakers$keychild, sum_french_register_speakers$speakers), function(x) sum(x))
 names(sumspeakerregister)<-c("keychild", "speakers", "sumperSpeakerChild")
 sum_french_register_speakers<-merge(x=sumspeakerregister, y=sum_french_register_speakers, by.x=c("keychild", "speakers"), by.y=c("keychild", "speakers"), all.x=TRUE, sort=TRUE)
 largetotalregsp<-aggregate( sum_french_register_speakers$nb_utt, by=list(sum_french_register_speakers$keychild,sum_french_register_speakers$register,sum_french_register_speakers$speakers), FUN=sum)
-names(largetotalregsp)<-c("keychild", "register", "speakers", "largetotalperchild")
+names(largetotalregsp)<-c("keychild", "register", "speakers", "largetotalperchildspeakerreg")
 sum_french_register_speakers<-merge(x=largetotalregsp, y=sum_french_register_speakers, by.x=c("keychild", "register", "speakers"), by.y=c("keychild", "register", "speakers"), all.x=TRUE, sort=TRUE)
-sum_french_register_speakers$percentageperSpeakerRegisterChild<-sum_french_register_speakers$sumperSpeakerChild/sum_french_register_speakers$largetotalperchild*100
-write.table(sum_french_register_speakers, file=paste0(path, "sum_french_register_speakers.txt"), row.names=F, col.names=T,  quote=F) 
+sum_french_register_speakers$percentageperSpeakerRegisterChild<-sum_french_register_speakers$largetotalperchildspeakerreg/sum_french_register_speakers$largetotalperchild*100
+write.table(sum_french_register_speakers, file=paste0(path, "sum_french_register_speakers_noinv.txt"), row.names=F, col.names=T,  quote=F) 
 
 
 
@@ -395,10 +443,10 @@ write.table(sum_french_register_speakers, file=paste0(path, "sum_french_register
 table2.2f<-unique(data.frame(sum_french_register_speakers$average, sum_french_register_speakers$keychild, sum_french_register_speakers$register, sum_french_register_speakers$speakers))
 colnames(table2.2f)<- c("mean", "sd", "keychild", "register", "speaker")
 table2.2f<-table2.2f %>% unite("mean_sd", mean:sd, )
-write.table(table2.2f, file=paste0(path, "french_table2.2.txt"), row.names = FALSE, col.names = TRUE)
+#write.table(table2.2f, file=paste0(path, "french_table2.2.txt"), row.names = FALSE, col.names = TRUE)
 
-write.table(merged_speaker_info_demuth, file=paste0(path, "demuth.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
-write.table(merged_speaker_info_french, file=paste0(path, "french.txt"), row.names = FALSE, col.names = TRUE)
+write.table(merged_speaker_info_demuth, file=paste0(path, "demuth1.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
+write.table(merged_speaker_info_french, file=paste0(path, "french1.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
 
 
 ######for text analysis
@@ -414,11 +462,11 @@ for (sp in speakers){
   for (child in keychildren){
     for (sess in sessionsHlobohang){
       demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
-      write.table(demuth_keychild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+     # write.table(demuth_keychild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       demuth_otherchild_directed_sp_child_sess<-demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
-      write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      #write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
-      write.table(demuth_adult_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      #write.table(demuth_adult_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       
     }
   }
@@ -428,11 +476,11 @@ for (sp in speakers){
   for (child in keychildren){
     for (sess in sessionsLitlhare){
       demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
-      write.table(demuth_keychild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      #write.table(demuth_keychild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       demuth_otherchild_directed_sp_child_sess<-  demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
-      write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      #write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
-      write.table(demuth_adult_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      #write.table(demuth_adult_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       
     }
   }
@@ -453,18 +501,20 @@ for (sp in speakers){
 }
 ``` 
 
-keychildren <- c("Anais")
+keychildren <- c("Anae")
 #"Anae", "Anais", "Theotime"
 sessions<- as.vector(unique(french$session_id))
 
-sessionsAnae<-sessions[1:10]
-sessionsAnais<-sessions[11:22]
-sessionsTheotime<-sessions[23:31]
+sessionsAnae<-sessions[1:11]
+sessionsAnais<-sessions[12:23]
+sessionsTheotime<-sessions[24:32]
+
+speakers <- c("mother", "child", "adult")
 
 
 for (sp in speakers){
   for (child in keychildren){
-    for (sess in sessionsAnais){
+    for (sess in sessionsAnae){
       french_keychild_directed_sp_child_sess<-  french_keychild_directed[(french_keychild_directed$speaker==sp) & (french_keychild_directed$keychild==child)& (french_keychild_directed$session_id==sess), ]
       sess<-gsub("/", "_", sess)
       write.table(french_keychild_directed_sp_child_sess, file=paste0(path, "utterances/French/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
@@ -474,7 +524,7 @@ for (sp in speakers){
 
 for (sp in speakers){
   for (child in keychildren){
-    for (sess in sessionsAnais){
+    for (sess in sessionsAnae){
       french_otherchild_directed_sp_child_sess<-  french_otherchild_directed[(french_otherchild_directed$speaker==sp) & ( french_otherchild_directed$keychild==child)& ( french_otherchild_directed$session_id==sess), ]
       sess<-gsub("/", "_", sess)
       write.table(french_otherchild_directed_sp_child_sess, file=paste0(path, "utterances/French/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
@@ -484,7 +534,7 @@ for (sp in speakers){
 
 for (sp in speakers){
   for (child in keychildren){
-    for (sess in sessionsAnais){
+    for (sess in sessionsAnae){
       french_adult_directed_sp_child_sess<-  french_adult_directed[(french_adult_directed$speaker==sp) & ( french_adult_directed$keychild==child)& ( french_adult_directed$session_id==sess), ]
       sess<-gsub("/", "_", sess)
       write.table(french_adult_directed_sp_child_sess, file=paste0(path, "utterances/French/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
