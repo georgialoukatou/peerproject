@@ -104,11 +104,11 @@ french="/Users/admin/Desktop/resultspeerspeech/french.txt"
             mluf=`echo "scale=3; $numberofwordsf / $numberoflinesf" | bc`		
    	        percquestf=`echo "scale=3; $nquestionf / $numberoflinesf" | bc` 
           
-              ntotalturnsf=`grep "${speaker_}', '${session_}', '${addressee_}', '_match" -o "${path_}frenchturns.txt"|wc -l`
+              ntotalturnsf=`grep "${speaker_}', '${session_}', '${addressee_}', '_match" -o "${pathToTextf1}frenchturns.txt"|wc -l`
               ntotalf=`grep "${speaker_}', '${session_}', '${addressee_}', " -o "${path_}frenchturns.txt"|wc -l`       
               ratioturnf=`echo "scale=3; $ntotalturnsf / $ntotalf" | bc `
  
-  	    echo "${targetchild},${speaker},${addressee},${session},${numberoflinesf},${numberofwordsf},${mluf},${mattrf},${numberofuttsinglewordsf},${numberofhapaxesf},${percquestf},${ratioturnf}" >> "${pathToTextf1}shortoutputFrench.csv" 
+  	    echo "${targetchild},${speaker},${addressee},${session},${numberoflinesf},${numberofwordsf},${mluf},${mattrf},${numberofuttsinglewordsf},${numberofhapaxesf},${percquestf},${ratioturnf}" >> "${path_}shortoutputFrench1.csv" 
  
  
 
