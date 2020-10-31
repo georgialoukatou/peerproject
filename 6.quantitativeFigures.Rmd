@@ -1,6 +1,6 @@
 ---
 title: "Figures_peers"
-author: "Camila Scaff, "
+author: "Camila Scaff"
 date: "5/29/2020"
 output: html_document
 ---
