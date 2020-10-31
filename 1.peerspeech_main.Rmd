@@ -95,7 +95,7 @@ demuth_backup <- demuth # keep the original file before subsetting
 
 #ADDRESSEE part
 
-demuth<-subset(demuth, !(demuth$speaker=="Investigator")) #remove target child utterances
+demuth<-subset(demuth, !(demuth$speaker=="Investigator")) #remove investigator utterances
 
 
 nrow(demuth) #69573 including keychild vocs
@@ -191,7 +191,7 @@ sumregister<-aggregate(sum_demuth_register$nb_utt, by=list(sum_demuth_register$k
 names(sumregister)<-c("keychild", "register", "sumperRegisterChild")
 sum_demuth_register<-merge(x=sumregister, y=sum_demuth_register, by.x=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 sum_demuth_register$percentageperRegisterChild<-sum_demuth_register$sumperRegisterChild/sum_demuth_register$largetotalperchild*100
-write.table(sum_demuth_register, file=paste0(path, "sum_demuth_register_noinv.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_demuth_register, file=paste0(path, "sum_demuth_register_noinv.txt"), row.names=F, col.names=T,  quote=F)  #MANUSCRIPT TABLE 1
 
 #colnames(sum_demuth_register)[3] <- "mean"
 table2<-unique(data.frame(sum_demuth_register$averagepersession, sum_demuth_register$keychild, sum_demuth_register$register))
