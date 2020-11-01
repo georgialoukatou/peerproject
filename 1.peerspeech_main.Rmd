@@ -63,6 +63,7 @@ names(largetotal)<-c("keychild", "largetotalperchild")
 sum_demuth<-merge(x=total, y=sum_demuth, by.x="session", by.y="session", all.x=TRUE, sort=TRUE)
 sum_demuth<-merge(x=largetotal, y=sum_demuth, by.x="keychild", by.y="keychild", all.x=TRUE, sort=TRUE)
 
+#SAVE INFO OF SPEAKERS IN FILE, TABLE 1 IN MANUSCRIPT
 sum_demuth$percentageperSessionSpeakerChild<-NA
 sum_demuth$percentageperSessionSpeakerChild<-sum_demuth$nb_uttpersession/sum_demuth$totalofsession*100
 average<-aggregate(sum_demuth$percentageperSessionSpeakerChild, by=list(sum_demuth$keychild, sum_demuth$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
@@ -72,7 +73,7 @@ names(sumspeaker)<-c("keychild", "speaker", "sumperSpeakerChild")
 sum_demuth<-merge(x=average, y=sum_demuth, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_demuth<-merge(x=sumspeaker, y=sum_demuth, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_demuth$percentageperSpeakerChild<-sum_demuth$sumperSpeakerChild/sum_demuth$largetotalperchild*100
-#write.table(sum_demuth, file=paste0(path, "sum_demuth.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_demuth, file=paste0(path, "sum_demuth.txt"), row.names=F, col.names=T,  quote=F) 
 
 #Create table with speaker average across sessions 
 #colnames(sum_demuth)[3] <- "mean"
@@ -187,6 +188,7 @@ average<-aggregate(sum_demuth_register$percentageperSessionRegisterChild, by=lis
 names(average)<-c("keychild", "register", "averagepersession")
 #sum_demuth_register<-merge(x=average, y=sum_demuth_register, by.x=c("keychild", "register"), by.y=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 
+#SAVE INFO OF REGISTERS IN FILE, TABLE 2 IN MANUSCRIPT
 sumregister<-aggregate(sum_demuth_register$nb_utt, by=list(sum_demuth_register$keychild, sum_demuth_register$register), function(x) sum(x))
 names(sumregister)<-c("keychild", "register", "sumperRegisterChild")
 sum_demuth_register<-merge(x=sumregister, y=sum_demuth_register, by.x=c("keychild", "register"), all.x=TRUE, sort=TRUE)
@@ -221,6 +223,7 @@ names(average)<-c("keychild", "register", "speakers", "average")
 sum_demuth_register_speakers<-merge(x=average, y=sum_demuth_register_speakers, by.x=c("keychild", "register", "speakers"), by.y=c("keychild", "register", "speakers"), all.x=TRUE, sort=TRUE)
 #colnames(sum_demuth_register_speakers)[4] <- "mean"
 
+#SAVE INFO OF SPEAKERS PER REGISTER IN FILE, TABLE 3 IN MANUSCRIPT
 sumspeakerregister<-aggregate(sum_demuth_register_speakers$nb_utt, by=list(sum_demuth_register_speakers$keychild, sum_demuth_register_speakers$speakers), function(x) sum(x))
 names(sumspeakerregister)<-c("keychild", "speakers", "sumperSpeakerChild")
 sum_demuth_register_speakers<-merge(x=sumspeakerregister, y=sum_demuth_register_speakers, by.x=c("keychild", "speakers"), by.y=c("keychild", "speakers"), all.x=TRUE, sort=TRUE)
@@ -276,7 +279,7 @@ length_keychildf<- french %>% group_by(keychild) %>% summarise(no_rows = length(
 
 french<-subset(french, !(french$speaker=="investigator")) #remove inv utterances
 
-
+#SAVE INFO OF SPEAKERS IN FILE, TABLE 1 IN MANUSCRIPT
 #measure percentage per speaker
 total<-aggregate( sum_french$nb_uttpersession, by=list(sum_french$session), FUN=sum)
 names(total)<-c("session", "totalofsession")
@@ -293,7 +296,7 @@ names(sumspeaker)<-c("keychild", "speaker", "sumperSpeakerChild")
 sum_french<-merge(x=average, y=sum_french, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_french<-merge(x=sumspeaker, y=sum_french, by.x=c("keychild", "speaker"), by.y=c("keychild", "speaker"), all.x=TRUE, sort=TRUE)
 sum_french$percentageperSpeakerChild<-sum_french$sumperSpeakerChild/sum_french$largetotalperchild*100
-#write.table(sum_french, file=paste0(path, "sum_french.txt"), row.names=F, col.names=T,  quote=F) 
+write.table(sum_french, file=paste0(path, "sum_french.txt"), row.names=F, col.names=T,  quote=F) 
 
 table1<-unique(data.frame(sum_french$averagepersession, sum_french$keychild, sum_french$speaker))
 colnames(table1)<- c("mean", "sd", "keychild", "speaker")
@@ -386,7 +389,7 @@ names(largetotal_reg)<-c("keychild", "largetotalperchild")
 sum_french_register<-merge(x=largetotal_reg, y=sum_french_register, by.x="keychild", by.y="keychild", all.x=TRUE, sort=TRUE)
 
 
-
+#SAVE INFO OF REGISTERS IN FILE, TABLE 2 IN MANUSCRIPT
 sum_french_register$percentageperSessionRegisterChild<-NA
 sum_french_register$percentageperSessionRegisterChild<-sum_french_register$nb_utt/sum_french_register$total*100
 average<-aggregate(sum_french_register$percentageperSessionRegisterChild, by=list(sum_french_register$keychild, sum_french_register$register), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
@@ -428,6 +431,7 @@ sumspeakerr<-aggregate(sum_french_register_speakers$nb_utt, by=list(sum_french_r
 names(sumspeakerr)<-c("keychild", "register", "largetotalperchildregister")
 sum_french_register_speakers<-merge(x=sumspeakerr, y=sum_french_register_speakers, by.x=c("keychild", "register"), by.y=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 
+#SAVE INFO OF SPEAKERS PER REGISTER IN FILE, TABLE 3 IN MANUSCRIPT
 sumspeakerregister<-aggregate(sum_french_register_speakers$nb_utt, by=list(sum_french_register_speakers$keychild, sum_french_register_speakers$speakers), function(x) sum(x))
 names(sumspeakerregister)<-c("keychild", "speakers", "sumperSpeakerChild")
 sum_french_register_speakers<-merge(x=sumspeakerregister, y=sum_french_register_speakers, by.x=c("keychild", "speakers"), by.y=c("keychild", "speakers"), all.x=TRUE, sort=TRUE)
@@ -449,7 +453,7 @@ write.table(merged_speaker_info_demuth, file=paste0(path, "demuth1.txt"), row.na
 write.table(merged_speaker_info_french, file=paste0(path, "french1.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
 
 
-######for text analysis
+######SAVE ACTUAL UTTERANCES for text analysis
 keychildren <- c("Hlobohang")
 # "Litlhare", "Neuoe" Hlobohang
 speakers <- c("mother", "child", "adult")
