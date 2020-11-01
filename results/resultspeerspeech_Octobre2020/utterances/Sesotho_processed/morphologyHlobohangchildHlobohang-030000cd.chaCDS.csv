@@ -1,0 +1,104 @@
+cp 14-night(14)
+ij
+cp 14-night(14) 2s
+ij a_name
+9 pocket(9,10) 9 14-pants(14) 14
+cp 10-pocket(9,10)
+cj 1s sm1-om9-tear/t^pf-m^in
+cj 1s sm1s-om9-tear/t^pf-m^in
+cj 1s sm1s-om9-tear/t^pf-m^in
+sm1s-t^p-refuse-m^in
+sm2s-t^p_say-m^in cp 10-rickets(9,10)
+14-14-aj 14-copper_wire(14,6)
+ij ij a_name
+10-rickets(9,10) sm1s-om1-leave_behind-t^pf-m^in loc 2s
+ps/home a_name
+a_name cp a_name
+a_name sm2s-t^p_cut-m^in 14-copper_wire(14,6) 14 2-person(1,2)
+2s 2s a_name
+sm1s/t^np-om9-turn_over-m^in tape_recorder(9,10)
+a_name
+brother(1a,2a) 1a-2s cp wh
+cp 2s
+cp1 wh brother(1a,2a) 1a-2s
+cp1 wh
+7-school(7,8)-lc sm17-t^p_say-p-m^in-wh 7-school(7,8)-lc
+listen-m^i sm1s-t^p.om2s-tell-m^s sm17-t^p_say-p-m^in-wh 7-school(7,8)-lc
+cd sm17-sing-p-t^pf/m^pt sm17-t^p_say-p-m^in-wh
+sm17-t^p_say-p-m^in elephant(9,10) sm9-t^p_be-m^in cj wh
+cd sm17-sing-p-t^pf/m^pt
+sm17-t^p_say-p-m^in elephant(9,10) sm9-t^p_be-m^in cj wh
+elephant(9,10) cj nose(9,10) ij
+sm9-t^p_take-m^in cj 3-lizard(3,4) av
+sm17-t^p_say-p-m^in-wh
+ij sm17-t^p_say-p-m^in-wh
+sm2s-t^p-hear-m^in ij
+sm2s-t^p-hear-m^in a_name sm1-t^p_know-m^pt if-pass-m^pt 2s
+sm17-t^p_say-p-m^in-wh
+ng sm1s-t^f1-om2s-give-m^x tape_recorder(9,10)
+ij sm17-become_fine-t^pf-m^in sm2s-t^f1-om9-take-m^pt
+sing-m^i sm1s-t^p_hear-m^s
+cp9 tape_recorder(9,10) 9
+cp 9-2s
+sm2s-t^p_refuse-m^in if-sing-m^pt elephant(9,10) cj nose(9,10) cp9 aj
+sm2s-t^f2-hear-m^s 17
+1 sm1-t^p-om10-know-m^in 1
+sm17-t^p_say-p-m^in-wh
+???
+ng sm10-t^p.om2s-be_equal-m^x
+a_name a_name ij see-m^i
+ij sm1s-t^p_see-m^s
+av
+2s take_off-m^i 8-shoe(7,8) 8-1s
+cp nm
+cp 9-aj thing(9,10) 9 2s
+ij sm9-take-p-t^pf/m^in
+sm9-t^f1-leave-m^in av
+sm2s-t^p-hear-m^in av
+sm1s-t^p-refuse-m^in
+ij
+sm1s-t^p.om9-beat-m^in car(9,10) 9
+9-1s sm9-t^p.om9-hit-m^in
+sm9-t^f1-om9-hit-m^in
+sm9-run-t^pf-m^in ij
+sm9/t^np-run-m^in av
+sm9/t^np-om9-leave_behind-m^in ij
+9 cp 9-1s 9
+ij sm9-t^p.om9-tear-ap-m^in loc 9 a_name
+ij
+ij step-m^i pr 5-foot(5,6)/dim
+a_name sm1-om9-step-m^in pr 5-foot(5,6)
+cp 6
+car(9,10) cp 9
+car(9,10)
+car(9,10) cp 9 sm9-come-m^in
+car(9,10) cp 9
+ht sm1p-t^p_race-m^s
+sm9-t^f1-leave_behind-m^in
+ij ij ij cp 9-1s
+sm9-t^p_impede/p-m^in cp 8-shoe(7,8)
+sm2s-t^p-see-m^in ij cp basin(9,10)
+cj 8-shoe(7,8) 8
+sm1s-t^p_take-m^in 9-1s 1s
+sm9-t^ne-sm9-t^p_do-t^pf-m^in 3-line(3,4) sm10-cp aj 10-nm
+9-aj sm9-stand-m^in loc
+9-1s sm9-run-t^pf-m^in
+9-1s sm9-t^p_say-m^s ???
+cd 2s sm2s-t^p_extinguish-m^in thing(9,10) 9-1s
+2s
+sm2p-shine-c-t^pf-m^in cp 6
+dig-m^i ???
+dig-m^i 3-hole(3,4)
+dig-m^i hawk(9,10)
+ij hawk(9,10)
+sm1s-say/t^pf-m^in ???
+dig-m^i ???
+dig-m^i ??? ??? a_name
+smear-m^i jersey(9,10) 9
+om9-t^p_smear-m^s
+om9-t^p_smear-m^s
+a_name 1 sm1-say/t^pf-m^in sm2s-t^p_want-m^pt pr 5-milk(5,6) a_name
+a_name cj sm2p-tear/t^pf-m^pt car(9,10) 9
+leave-m^i if-om9-take-m^pt
+ij
+spoon(9,10) 9 pr 5-milk(5,6)

@@ -1,0 +1,115 @@
+cp wh 17
+cp wh thing(9,10) 9
+cp wh thing(9,10) 9
+cp 9 wh
+cp 9 mother(1a,2a) wh
+cp 9 wh
+wh
+cp 9 wh tape_recorder(9,10)
+wh
+cp 9 mother(1a,2a) wh
+cp 9 mother(1a,2a) wh
+ij
+thing(9,10) 9
+om9-ask-m^i
+???
+ij ij
+ij
+cp wh 1 father(1a,2a)
+cp wh
+cp wh
+cp a_name
+sm1-t^p_come_from-m^in wh
+sm1-t^p_come_from-m^in wh a_name
+ij sm2s-t^p.om1-ask-m^s cm q sm1-t^p_come_from-m^pt wh
+ij cd sm9-t^se-sm9-cp wh
+ng cj
+sm2p-t^p-om1s-cut-ap-m^in
+seek-m^ip ball(9,10)
+cp9 wh ball(9,10)
+cp9 wh ball(9,10)
+pr wh
+pr wh
+pr suitcase(9,10)-lc
+ij ij sm1s-t^f1-take-m^in 7-chair(7,8)
+wh
+ij sm1s-t^f1-om2p-give-m^in
+play-m^ip
+ij ij play-m^ip
+om1-throw-m^i sm2s-t^p_say-m^pt
+catch-m^i
+cp2s aj ij
+sm2p-take-t^pf-m^in-wh a_name
+wh
+a_name
+ij 2s
+ng sm2s-t^p_speak-m^x cp wh
+ng sm2s-t^p_speak-m^x cp wh
+a_name
+a_name ij
+father(1a,2a)
+father(1a,2a)
+ij
+ij
+ij
+cp car(9,10) 9 wh
+cp car(9,10) 9 wh father(1a,2a)
+cp car(9,10) 9 wh
+cp car(9,10) 9 wh
+ng sm1s-t^p_know-m^x
+cp9 wh
+cp9 wh child(1irg) 1/home
+wh
+cp9 wh
+cp 10 sm10-hook-rc-t^pf/m^in
+cp 2a-wh 2
+cp 2a-wh
+cp 2a-wh 2 2 car(9,10)
+ij
+speak-m^i ij so_and_so(1a,2a)
+sm9-t^p-leave-m^in
+av
+ij
+ij
+ij
+see-m^i sm9-t^p-leave-m^in sm9-hook-rc-t^pf/m^pt
+sm9-t^p_do-m^in-wh
+cp car(9,10) 9 wh
+cp car(9,10) 9 wh
+cp wh
+cp grandmother(1a,2a) wh 1
+cp grandmother(1a,2a) wh 1
+cp grandmother(1a,2a) wh 1
+wh
+2s ng sm2s-t^p_speak-m^x
+ij
+a_name ij
+sm2s-t^p_want-m^in-wh 1-chief(1,2)
+sm2s-t^p_want-m^in-wh
+tea(9,10) cp 8-food(7,8)
+8 wh
+cp 8-food(7,8) 8 wh
+wh
+2s
+cp 8-food(7,8) 8 wh
+ij sm2s-t^pp-sm2s-hear-m^pt
+ij sm2s-t^p.om1s-tell-m^s
+q sm2s-t^ps-sm2s-tell-m^pt a_name cm q cp2s child(1irg) 1 wh
+sm2s-t^ps-sm2s-say-m^pt cp2s child(1irg) wh
+cp2s child(1irg) 1 mother(1a,2a) a_name
+sm2s-t^ps-sm2s-say-m^pt father(1a,2a) 1a-2s cp wh
+father(1a,2a) a_name
+sm2s-t^ps-sm2s-say-m^pt aunt(1a,2a) 1a-2s cp wh
+aunt(1a,2a) a_name
+sm2s/t^np-say-m^in grandmother(1a,2a) 1a-2s cp wh
+cp grandmother(1a,2a) wh
+look-m^i
+om1s-tell-m^i
+sm2s-t^ps-sm2s-say-m^pt grandmother(1a,2a) 1a-2s cp wh
+cp grandmother(1a,2a) a_name
+sm2s-t^ps-sm2s-say-m^pt sister(1a,2a) 1a-2s cp wh
+sm2s-t^ps-sm2s-say-m^pt sister(1a,2a) 1a-2s cp wh
+sister(1a,2a) a_name
+come/m^I
+come/m^i om1s-tell-m^i
+cp wh thing(9,10) 9 sm2s-t^p.om9-eat-m^pt-rl

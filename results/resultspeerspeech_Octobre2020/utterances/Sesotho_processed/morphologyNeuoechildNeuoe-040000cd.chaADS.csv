@@ -1,0 +1,156 @@
+10-1s
+cp 10-1s 10-thing(9,10) 10
+1p
+a_name
+1s bottle(9,10) 9-1s cp9 flower(9,10) mother(1a,2a)
+mother(1a,2a) q thing(9,10) 9 cp paint(9,10)
+sm1s-appear-t^pf-m^in pr loc
+sm1s-t^p-om9-smash-m^in
+om1s-lend-m^i loc mother(1a,2a) mother(1a,2a)
+a_name sm1-t^ne-sm1-om9-steal-m^pt
+sm1s-t^p_take-m^in bottle(9,10) 9-1s
+sm1s-t^p_take-m^in
+sm1s-t^p_take-m^in thing(9,10)
+sm1s-t^p_take-m^in trumpet(9,10) 9-1s
+9-wh
+cp 9-1s
+mother(1a,2a) a_name sm1-take-t^pf-m^in bottle(9,10) 9-1s
+mother(1a,2a) sm2-take-t^pf-m^in bottle(9,10) 9-1s
+mother(1a,2a) cp9 wh orange(9,10) 9
+mother(1a,2a) 1a a_name ij
+mother(1a,2a) a_name sm1-take-t^pf-m^in orange(9,10) 9 child(1irg)
+mother(1a,2a) a_name sm1-t^pp-sm1-beg-m^pt child(1irg)
+mother(1a,2a) a_name sm1-t^p_say-m^in a_name sm1-t^p.om1-pour-ap-m^s
+ij
+mother(1a,2a)
+ij
+ng sm2s-t^p_see-m^x sm9-t^pp-sm9-abandon-m^pt
+ij
+sm9-t^p-jump-m^in corn(9,10) 9
+ij
+sm1p-t^f1-om9-gather-m^in
+mother(1a,2a) sm2s-t^p_know-m^in sm17-t^p_thresh-nt-m^pt 9
+mother(1a,2a) q sm2s-t^f2-cook-m^in 10-legumes(9,10)
+av sm2s-t^p-know-m^in ng cp 1s
+cp9 aj
+ij
+ij
+ij
+mother(1a,2a) look-m^i
+sm1s-t^se-sm1s-take-t^pf-m^pt 7-1s
+mother(1a,2a) q sm2s-t^ne-sm2s-om1-buy-ap/t^pf-m^pt 8-shoe(7,8)
+ij
+mother(1a,2a) q 8 cp pr a_name sm1-cp 1-aj
+sm1-t^f1-om1s-give-m^in 8
+ij 8 8-aj
+sr8-t^p_be_alike-m^pt-rl cj 8 8-1
+sm1-t^p.om1s-come-ap-m^s cj 10-tape_recorder(9,10) av
+cj 3-skirt(3,4)
+mother(1a,2a) see-m^i sm1-t^se-t^be/pf-sm1s-t^f2-finish-m^pt
+mother(1a,2a) 10-corn(9,10) cp 10 a_name sm1-om10-take-t^pf-m^in
+cp 10
+mother(1a,2a) av sm1s-t^f1-thresh-m^in pr 7-cob_of_maize(7,8)
+sm1s-t^p_take-m^s 7
+7
+mother(1a,2a) take-m^i sm2s-t^p.om1s-begin-ap-m^s line(9,10)
+ij sm1s-t^ne-sm1s-say-m^pt sm2s-t^p.om1s-begin-ap-m^s line(9,10) av
+sm1/t^np-stand-m^in sm1-t^sa-rf-grab-ap-cl-m^x
+sm1s-t^p_come-m^s cj 8
+8-2s
+mother(1a,2a) sm1s-t^p_come-m^s cj 8 8 a_name 8-8-aj
+mother(1a,2a) sm1s-t^p_come-m^s cj 8-8-aj
+8 a_name
+sm1-t^f2-om8-see-m^pt
+mother(1a,2a) sm1s-t^p_say-m^in q sm1s-t^p_come-m^s cj 8
+sm1-t^po-om8-see-m^pt
+mother(1a,2a) sm1s-t^p_come-m^s cj 8 a_name
+sm1-t^f2-om8-see-m^pt
+take-m^i sm2s-t^p.om1s-begin-ap-m^s line(9,10) av
+sm2s-om9-lose-t^pf-m^in
+ij
+ij
+ng sm17-t^p_be-m^x 5-something(5,6)
+1
+cp9 14-sharpness(14)
+om1s-begin-ap-m^i line(9,10)
+mother(1a,2a) q sm2s-t^f1-thresh-m^in 9
+sm2s-t^ne-sm2s-take-m^pt 9 9
+sm2s-t^p.om1s-begin-ap/t^pf-m^in line(9,10) av
+mother(1a,2a) sm2s-t^p_know-m^s cp 9 9 sm1s-t^p_say-m^pt-rl
+9-aj cp 9
+mother(1a,2a) ij sm2s-t^p_see-m^s lr sm1s-thresh/t^pf-m^pt-rl
+cj loc
+mother(1a,2a) sm2s-t^p-see-m^in 3-hair(3,4) 3-1s sm3-t^f1-grow-m^pt
+sister(1a,2a) a_name sm1-t^f1-know-m^s if-weave-m^pt
+sm1-ng-om1s-tie-rv-m^i
+mother(1a,2a) ij sm2s-t^p_see-m^s lr sm1s-thresh/t^pf-m^pt-rl
+ij 17-wh
+see-m^i
+sm1s-t^ne-sm1s-go_out-m^pt 6-blood(5,6)
+ij sm9-om1s-scrape/t^pf-m^in
+ng sm2s-t^p_see-m^x 6-blood(5,6) 6
+cp 6
+ij
+ij cp 6-blood(5,6) thing(9,10) 9
+mother(1a,2a) q sm2s-t^f1-come-m^in cj corn(9,10) 9-aj
+sm2s-t^f2-do-m^in 10-legumes(9,10)
+cj 7 7-7-aj
+cj 7-7-aj sm1s-om7-come-rv/c-t^pf-m^in loc
+ng sm17-t^p_be-m^x 5-something(5,6)
+ij
+mother(1a,2a) see-m^i
+ng sm1s-t^p_know-m^x
+ij
+sm1s-t^p_want-m^in cm sm9-t^p_become_dry-m^s
+cd sm9-t^p.om1s-scrape-m^in
+9 pr loc ng sm9/t^np-om1s-scrape-m^x
+ng sm9-t^p.om1s-scrape-m^x pr loc
+sm1s-grab/t^pf-m^in pr aj
+corn(9,10) 9
+ij
+see-m^i sm17-t^p_go_out-m^pt 6-blood(5,6)
+loc
+ht sm6-t^p_become_dry-m^s
+9 cp9 aj cj 9
+mother(1a,2a) cp9 aj cj 9
+om1s-begin-ap-m^i line(9,10)
+ij
+ij 9 sm1s-t^f1-om9-finish-m^in 9
+ij
+ij
+sm1s-t^p.om9-thresh-m^in
+ij
+ng sm2s-t^p_see-m^x loc
+sm1-t^p_want-m^in sm1p-t^p.om1-give-m^s corn(9,10)
+take-m^i
+child(1irg) 1 cj 1
+see-m^i
+sm1s-t^se-sm1s-t^be/pf-sm1s-finish-t^pf-m^pt
+mother(1a,2a) ij sm2s-t^p_see-m^s 9-aj sm9-t^se-sm9-t^be/pf-sm9-cp 9
+sm1s-t^se-sm1s-thresh-m^pt 9-aj
+cp9 aj cj 9 9
+9 cp9 aj
+ij
+mother(1a,2a) ij sm2s-t^p_feel-m^s
+loc cp17 aj
+mother(1a,2a) cd sm9-cp aj sm1s-rf-t^p_make_fire-ap-m^s
+sm1s-t^f1-rf-make_fire-ap-m^s
+sm2s-t^p_do-m^in-wh
+mother(1a,2a) sm1s-t^p.om1-leave-m^s
+sm1-t^p.om9-take-m^s
+sm1s-t^p-om1-take_away_from-m^in
+sm1s-t^f1-take-m^in 9
+take-m^i 7
+ij sm2s-t^p.om1s-come-ap-m^s cj 7-cob_of_maize(7,8) loc
+7 7-1s sm2s-om7-do-m^in-wh
+sm1s-t^p-take-m^in 7
+take-m^i ij
+mother(1a,2a) see-m^i thing(9,10) sm9-t^p_disperse-m^pt
+sm1s-t^p_say-m^in sm1s-t^p_want-m^pt 9 9 sm1s-t^p.om9-finish-m^s
+om1s-attack-ap-m^i line(9,10)
+wh
+om9-take-m^i head(9,10)-lc 9-2s loc
+sm1s-t^p.om1-give-m^s
+ij sm2s-t^p.om1s-begin-ap-m^in 9
+sm2s-t^p.om1s-begin-ap-m^in 9 4-line(3,4)
+sr9-t^p_thresh-nt-m^pt-rl

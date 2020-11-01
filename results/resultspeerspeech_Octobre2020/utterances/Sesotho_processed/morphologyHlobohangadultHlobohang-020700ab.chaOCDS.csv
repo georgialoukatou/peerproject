@@ -1,0 +1,24 @@
+look-m^i ij
+1s sm1s-say/t^pf-m^in sm2p-t^p.om1-give-m^s flashlight(9,10) sm1-t^p_play-m^s
+give-m^i child(1irg)
+ij a_name sm2s-t^p_go-m^in wh
+return-m^i
+ij 5-2s cp 5
+come/m^i loc a_name
+cp9 aj jersey(9,10) 9-2s
+ij ng undress-m^ip sm17-t^p-be_cold-m^pt
+sm2p-put_on/t^pf-m^in 10-jersey(9,10) sr10-t^p_ooze-m^pt-rl
+sm2p-t^p-hear-m^in
+sm2p-t^p_go-m^in wh loc
+loc sm2p-t^p_go-m^in wh a_name
+return-m^ip loc
+sm1s-say/t^pf-m^in sm2p-ng-sm2p-go-m^i loc a_name
+sm1s-t^f1-thrash-m^in 2s
+sm1s-say/t^pf-m^in sm2p-ng-sm2p-go-m^i loc a_name
+sm2p-t^f4-seek-m^in-wh loc
+leave-m^i if-fetch-m^pt 6-batteries(5,6) 6 sm2s-t^p_return-m^s 2s
+ng sm2p-do-m^ip av
+sm2p-t^f1-take_out-rc-m^in 10-injury(9,10)
+cp wh sr1-t^p_go/c-p-m^pt-rl doctor(9,10)-lc
+sm2s-t^p_begin-m^in if-see-m^pt wh cm sm2s-wear/t^pf-m^pt 7-t_shirt(7,8) 7-aj
+rubbish_heap(9,10)-lc loc

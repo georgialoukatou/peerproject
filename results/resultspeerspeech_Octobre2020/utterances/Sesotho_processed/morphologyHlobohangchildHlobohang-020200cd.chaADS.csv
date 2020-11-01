@@ -1,0 +1,42 @@
+ij
+sm1-t^ne-sm1-want-m^pt 9
+6-fatcakes(5,6)
+pr pocket(9,10)-lc
+ij
+cp sister(1a,2a) a_name
+cp9 pr 10-pocket(9,10)-lc
+pr pocket(9,10)-lc 9-1s
+ij
+ps/home 1p
+ps/home 1p a_name
+ps/home 1p pr a_name
+biscuit(9,10)
+cj 10-candy(9,10)
+cj 6-fatcakes(5,6) cj 6-milk(5,6)
+cp10 loc
+10-orange(9,10)
+sm1s-t^f1-come-m^in
+sm1s-t^f1-come-m^in cj 10
+cj 10-peach(9,10)
+ij
+ij
+???
+ij
+sr9-t^p_be_alike-m^pt-rl cj 9 home(9,10)-lc
+ij
+9-2s
+a_name
+ij
+ij
+a_name 1 sm1s-t^f1-om1-ride-c-m^in
+a_name 1 sm1-t^f1-ride-m^in a_name
+sm1s-t^p-om1-hurt_eye-m^in
+sm9-go/t^pf-m^in ps/home 9 loc
+7-soda(7,8)
+a_name sm1/t^np-steal-m^in 10-peach(9,10)
+a_name a_name a_name a_name
+sm1-t^p_say-m^in ng sm1-t^p_want-m^x sm1s-t^p_put_on-m^pt a_name
+loc blanket(9,10)-lc
+ball(9,10) 9 a_name
+sm1p-t^f2-kick-m^in ball(9,10)
+sm1-t^p-kick-m^in

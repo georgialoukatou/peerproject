@@ -1,0 +1,36 @@
+handkerchief(9,10) cp 9 ij sm2s-t^p_wipe-m^s 6-mucus(5,6) a_name
+ij a_name ng attack-m^i a_name
+2-woman(1,2) sm2p-t^pp-sm2p-do-m^pt-wh cd sm2p-t^p_disperse-m^in loc av
+ij ij sm1s-t^f1-om2s-thrash-m^in
+sm1s-say/t^pf-m^pt ng do-m^i av
+ij
+sm1s-t^f1-om2s-slap-m^in
+sm1s-t^f1-om2s-thrash-m^in av
+sm2s-t^be-sm2s-cry-m^pt
+sm1s-t^p-be_convinced-m^in sm2s-t^p_say-m^in cj ng cp av
+sm1s-t^f1-om2s-slap-m^in
+ij 2s a_name
+sm1s-t^f1-om2s-slap-m^in sm2s-t^p_cry-m^in
+cp2s 7-naughty_person(7,8) av
+stand-m^i sm1s-t^f2-om2s-put_on-c-m^in blanket(9,10)
+become_silent-m^i child(1irg) 1-boy(1,2)
+sm2s-ng-do-m^i
+sm1s-t^f1-om2s-thrash-m^in
+sm2s-t^p-hear-m^in father(1a,2a)
+ij cd sm2s-t^p_do-m^in av
+sm1s-t^f1-om2s-thrash-m^in
+om9-leave-m^i
+sm1s-t^f1-om2s-thrash-m^in av
+cp2s 7-naughty_person(7,8) av
+ij sit-m^ip loc ij
+sm2p-t^p_go-m^in wh av
+ng cd sm2s-t^pp-sm2s-put_on-m^pt 10 loc av
+ij ascend-m^ip
+om1-abandon-ap-m^i om1-lend-m^i
+sm2s-om8-exchange-c-t^pf-m^in
+take_up-m^i thing(9,10)
+take_up-m^i handkerchief(9,10) cp 9 loc a_name
+ng pin-m^x a_name
+sm2s-t^p-om1s-deceive-m^in 2s
+sm1-t^pp-sm1-om2s-deceive-m^in
+return-m^i

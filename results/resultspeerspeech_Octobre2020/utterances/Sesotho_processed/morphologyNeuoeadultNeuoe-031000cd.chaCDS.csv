@@ -1,0 +1,95 @@
+sm2s-t^p_play-m^in-wh
+8-dish(7,8)
+cp8 wh
+cp8 wh
+ij sm2s-t^p_come-c-m^s sm1p-t^p.om8-see-m^s
+become_silent-m^i
+ij om1-give-m^i sm1-t^p_become_silent-m^s
+om1-give-m^i
+ij om1-give-m^i
+ij cp wh 5-name(5,6) 5-1 girl(1irg)
+cp wh a_name
+ij ij
+mother(1a,2a) 1-1 q cp wh
+cp2s wh 2s
+cp2s mother(1a,2a)
+cp2s mother(1a,2a) wh
+cp2s mother(1a,2a) wh
+cp2s mother(1a,2a) a_name
+sm2s-t^p_go-m^in wh a_name
+sm2s-t^p_go-m^in wh pr blanket(9,10)
+3-type(3,4) 3 ng cp 3-type(3,4) sm2s-t^p_sit-m^pt-rl side(9,10) sm9-cp nm
+leave-m^i if-om1-sleep/c-m^pt 5-hide(5,6)-lc
+rain(9,10) sm9-t^p-rain-m^in
+leave-m^i
+ij sm2s-t^p_sleep-m^s cj 1
+return-ap-m^i loc
+return-ap-m^i loc
+return-ap-m^i loc cj child(1irg) 1-2s
+cj sm2p-t^f1-waken-m^in wh
+child(1irg) cp1 wh
+cp1 wh
+sm2s-sleep/t^pf-m^in cj 1
+wh
+ij
+a_name 2s sm2p-t^p_do-m^in wh
+sm2p-t^p-rf-wash-m^in
+sm2p-rf-t^p_wash-m^in 17-wh
+sm2p-rf-t^p_wash-m^in wh
+10-river(9,10)-dim-lc
+sm2s-rf-t^p_wash-m^in wh
+cd sm2s-t^f4-rf-wash-m^in sm2s-t^p_do-m^pt wh
+sm1s-t^p_say-m^in a_name q sm1-t^p_do-m^pt wh 1
+sm2s-t^p_do-m^in-wh a_name
+sm2s-t^p-rf-clean_with_stone-m^in
+sm2s-rf-t^p_clean_with_stone-m^in wh
+sm2s-rf-t^p_clean_with_stone-m^in wh
+wh
+leave-m^ip
+leave-m^ip sm2p-t^p_go-m^s if-sleep-m^pt cj child(1irg) loc
+leave-m^ip sm2p-t^p_go-m^sp loc
+sm2p-t^p_go-m^s if-sleep-m^pt cj child(1irg) loc
+om1-spread-ap-m^i
+ij spread-ap-m^i child(1irg) sm1-t^p_sleep-m^s
+spread-ap-m^i child(1irg)
+ij
+hat(9,10) cp9 wh
+sm2s-hide-t^pf-m^in-wh
+child(1irg) cp1 wh
+ij ng cp1 loc
+q sm2s-t^p_say-m^in cp1 loc
+sm2s-t^p_go-m^in wh 2s
+hat(9,10) leave-m^i if-fetch-m^pt hat(9,10)
+sm2s-om9-hide-t^pf-m^in wh
+sm2s-fall-ap/t^pf-m^in
+sm2s-fall-ap/t^pf-m^in wh
+av loc
+ng sm1p-t^p-see-m^x cp wh
+ij
+sm1s-t^f1-om5-give-m^in 10-peach(9,10) cd sm2p-t^p_finish-m^pt if-play-m^pt
+leave-m^i if-sleep/c-m^pt child(1irg)
+sm1s-t^hla/pf-sm1s-t^f2
+sm1s-t^f2-om2p-give-m^in 10-peach(9,10) av av av
+ij sm1s-t^f1-give-m^in sr2-t^p_play-m^pt-rl 10-peach(9,10)
+ij
+leave-m^i
+sm1s-t^f2-om2p-give-m^in 10-peach(9,10)
+ij 10-aj av sm2s-t^p-know-m^in ij
+7-tree(7,8) 7-1s sm9-cp 7
+loc pr loc ij
+sm1s-t^f2-give-rc-m^in pr 10-peach(9,10) av av
+wh
+sm1s-t^f2-give-m^in 2-child(1,2) 10-peach(9,10) sr2-t^p_play-m^pt-rl
+a_name sm1s-t^p.om2p-give-m^s 10-peach(9,10)
+ij cd sm2p-t^p_play-m^in
+sm1s-t^f1-om2p-give-m^in 10-peach(9,10)
+ij sr2-t^p_refuse-m^pt-rl
+sm1s-t^po/ng-sm1s-om2-give-m^pt
+a_name ng sm2s-t^p_be_thankful-m^x cp wh
+sm1s-t^p-be_thankful-m^in grandmother(1a,2a)
+ij
+ij
+ij ij sm1s-t^p_pass-m^s
+sm1s-t^p-be_thankful-m^in
+2 sm2-t^p-go_out-m^in
+sm2p-t^se-sm2p-go_out-t^pf-m^pt av

@@ -1,0 +1,13 @@
+corpus nutts 8
+corpus nutts_single_word 2
+corpus mattr 0.953846153846
+corpus entropy 0.22556555892
+words tokens 23
+words types 21
+words hapaxes 19
+syllables tokens 23
+syllables types 21
+syllables hapaxes 19
+phones tokens 23
+phones types 21
+phones hapaxes 19

@@ -1,0 +1,17 @@
+a_name see-m^i tape_recorder(9,10) cp 9
+sm2s-t^p-om9-see-m^in
+a_name
+a_name leave-m^i sm2s-t^p_go-m^s if-take-m^pt bedclothes(9,10) 9 child(1irg) cp 9
+sm2s-sulk-t^pf-m^in q so_and_so(1a,2a)
+sm2s-sulk-t^pf-m^in
+leave-m^i sm2s-t^p_take-m^s bedclothes(9,10) 9 child(1irg)
+take-m^i sm2s-t^p_put-m^s hat(9,10) 9-1s bed(9,10)-lc
+leave-m^i sm2s-t^p_put-m^s bed(9,10)-lc
+leave-m^i child(1irg)
+put-m^i loc loc 3-pillow(3,4) 3 child(1irg)
+om1-give-m^i
+ng sm1s-t^p_see-m^x sm1-t^p_run_away-m^pt
+sm2s-t^p-run_away-m^in
+sm1-sulk-t^pf-m^in av
+ij
+ij

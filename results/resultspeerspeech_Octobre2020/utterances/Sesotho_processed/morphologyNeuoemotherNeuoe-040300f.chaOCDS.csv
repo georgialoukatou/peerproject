@@ -1,0 +1,47 @@
+sm1-t^p_open-ap-m^in-wh
+sm1-t^p-become_crazy-m^in 1
+sm2s-t^p_do-m^in-wh
+grab-m^i child(1irg) a_name
+sm2s-t^pp-sm2s-do-m^pt-wh av
+pr loc 2s cp wh 2s
+sm1-t^ne-sm1-om6-lend-t^pf/m^pt wh
+a_name cp 1-wh
+ij sm2s-t^p_close-m^s a_name
+sm2s-t^p_pass-ap-m^s wh av
+sm2s-t^pp-sm2s-do-m^pt-wh av
+ij sm2s-t^pp-sm2s-om1-scold-m^pt wh av
+ng sm1s-t^p_know-m^x cm q sm2s-t^p_speak-m^pt cj wh
+ij sm1p-t^p_sit-m^in av loc pr loc
+ij sm1p-move_shadow-ap-m^in 2-child(1 2) 3-fire(3 4)-lc
+cp if-be_cold-m^in 17 cp17 loc pr loc
+av 7-tree(7 8) 7 cp7 aj
+sm7-t^p_do-m^in 3-smoke(3 4)
+cp1 wh ij a_name
+ij cp17 av
+cj cp time(9 10) 9 loc
+ng sm1-t^p_cook-m^x 5-porridge(5 6)
+sm1-t^p_say-m^in av sm1-t^ps-sm1-t^f1-fetch-m^pt blanket(9 10) cd sm1s-go/t^pf-m^pt river(9 10)-dim-lc
+sm1s-t^pp-sm1s-rf-ask-m^pt cm q sm1-go/t^pf-m^pt wh
+ij cp17 aj cd sm2-t^pp-sm2-om2p-take-m^pt pr car(9 10)
+ij cp17 aj av my_child(1irg)
+ng 1-person(1 2) 1-1-aj sm1-t^f1-om2s-leave_behind-m^in cj 6-reason(5 6)
+cp17 aj 1-person(1 2) sm1-t^p.om2s-tell-m^s 6-reason(5 6)
+ij sm1s-t^p-understand-m^in av cd 1-person(1 2) sm1-t^po-cp loc pr 4-day(3 4)
+sm2s-t^p_know-m^s sm1-sit/t^pf-m^pt loc sm1-om1-carry_on_back-t^pf-m^pt
+sm2s-t^p_know-m^s sm1s-t^p_say-m^pt sm1-t^p_carry_on_back-m^s 1/cp 1-aj
+sm1-refuse/t^pf-m^in
+sm1-t^p_say-m^in cp1 aj
+sm1/t^np-sit-m^in loc
+sm1/t^np-sleep-m^in
+sm1/t^np-waken-m^in
+ng sm17-t^sa-cp aj av
+cp cd sm2-cp 2-aj
+10-plate(9 10) cd sm10-t^p_go_out-m^in sm2s-t^f1 sm1s-t^p.om2s-find-m^s 17-aj-dim
+sm2s-om9-be_greedy-ap/t^pf-m^in
+om9-cut-ap-rc-m^i cj a_name
+om1-give-m^i a_name
+a_name
+sm1-t^p-om9-refuse-m^in
+cd sm1-be_greedy-t^pf-m^in av
+av 7-tree(7 8) 2a-a.name sm7-t^p-om2-be_alike-ap-m^in
+ij cp2 2-aj 2-child(1 2) 2-av sr2-ng-visit-m^x-rl cd sm17-t^p_be_cold-m^pt

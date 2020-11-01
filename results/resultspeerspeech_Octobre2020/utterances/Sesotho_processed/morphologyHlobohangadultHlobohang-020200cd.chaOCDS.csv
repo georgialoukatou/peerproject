@@ -1,0 +1,33 @@
+ij ij q 7-carrot(7,8) 7 sm7-t^f1-eat-p-m^in
+sm2p-t^p_go-m^in wh a_name
+give-m^i child(1irg) ij
+ng cry-c-m^i child(1irg) 2s
+sm1s-say/t^pf-m^in sm2p-t^p_sit-ap-m^s loc
+sm2p-t^p_play-m^s cj child(1irg)
+sm1s-t^sa-om2p-cook-ap-m^in 14-bread(14)
+sm2p-t^p-hear-m^in
+ij sm2p-t^p_sit-m^s loc
+sit-m^ip loc sm2p-t^f5-play-m^pt pr 10-car(9,10) 10 2p
+a_name om1-give-m^i 9-aj
+ij ij a_name
+become_silent-m^i cj 2s sm1-t^p_speak-m^s
+ij ij cj 2s a_name
+become_silent-m^i
+ij sm2s-t^p_leave-m^s 2-child(1,2)
+sit-ap-m^i pr loc pr loc
+10 wh
+ij leave-m^i 2-child(1,2) sm2-t^p_chat-m^pt 3-talk(3,4) 3 2
+a_name sm2s-t^p-annoy-m^in cj 9
+become_silent-m^i sm1-t^p_hear-m^s q sm1-t^p-say-m^in-wh
+ij a_name ng cry-c-m^i child(1irg) ij
+sm9-cp 2a-wh
+a_name sm1-ride-t^pf/m^in van(9,10) cj 2s
+ij my_child(1irg)
+sit-ap-m^i loc ij a_name
+2s sm2s-t^p_speak-m^in av
+child(1irg) ng sm1-t^ny-speak-m^x
+sm2s-t^se-sm2s-speak-t^pf-m^pt 10-aj 10-aj
+leave-m^i if-om1-put_on/c-m^pt 10-boot(9,10) sm1-sit/t^pf-m^pt 3-fire(3,4)-loc cp17-ng lr sm1-t^p_go-m^pt-rl
+leave-m^i if-om1s-give-m^pt whip(9,10) loc a_name
+ij a_name om9-come-m^i cj 10-boot(9,10) 10-1
+ij a_name ij

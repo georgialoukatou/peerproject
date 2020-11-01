@@ -1,0 +1,13 @@
+om1-frighten-m^i loc 6-foot(5,6)-lc
+ij 2p
+cp wh 1 sr1-t^pp-rl-sm1-frighten-m^pt child(1irg) 1
+sm1s-t^f1-om1-kick-m^in 1 sr1-rf-grab/t^pf-m^in-rl av ij
+impede-m^i cp loc
+ij ij sm2p-t^p_leave-m^sp a_name 2p
+ij sm9-om1-cling_to/t^pf-m^in
+ij sm9-om1-cling_to/t^pf-m^in cj 7-chest(7,8)
+sm1s-t^p-om9-come-rv/c-m^in
+sm1s-t^f2-om1-carry_on_back-c-m^in
+ij sm2-t^p.om1-carry_on_back-c-m^in
+sister(1a,2a) a_name 1p sm1p-t^p-om2s-leave_behind-m^in sm1p-t^p_go-m^in river(9,10)-dim-lc
+sm1-t^p_say-m^s cj 2s

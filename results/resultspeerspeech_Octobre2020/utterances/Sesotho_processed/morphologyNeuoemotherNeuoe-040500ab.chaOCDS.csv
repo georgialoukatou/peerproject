@@ -1,0 +1,52 @@
+sm1-t^p.om5-take-m^s sm1-t^p_do-m^s wh
+take-m^i 6-egg(5 6) 6 6 10-chicken(9 10) sm2s-t^p.om6-go/c-m^s loc
+sm2s-t^pp-sm2s-putter_around-m^pt sm2s-t^p_do-m^pt-wh cd sm1s-t^p.om2s-send-m^pt ij
+take-m^i 7-dish(7 8) sm2s-t^p-om6-put-m^s
+10-chicken(9 10) 10 sm10-t^p_want-m^in if-give-p-m^pt 10-thing(9 10) 10
+sm2s-om6-take-t^pf-m^in av
+ij
+sm2s-t^pp-sm2s-do-m^pt-wh
+ij ng do-m^i av
+sm2s-t^p.om1-laugh-m^in cj wh
+10-candy(9 10) 10
+eat-m^i 10-candy(9 10) 10
+ht sm2s-t^p.om1-break-ap-m^s
+ng sm2p-om1-cry-c-m^ip ij
+mother(1a 2a) a_name 1 ng sm1/t^np-om1-give-m^x candy(9 10)
+5-safety_pin(5 6) 5-1 cp5 wh
+a_name a_name sm2s-t^p_work-m^in-wh pr house(9 10|6)/lc pr loc a_name
+sm2s-t^p_do-m^in-wh
+leave-m^i sm2p-t^p_go-m^s if-sit-m^pt loc
+leave-m^ip
+a_name sm1s-t^ne-sm1s-say/t^pf-m^pt sm2p-t^p_go-m^s
+do-m^i av sm2s-t^p_go_out-m^s pr loc child(1irg) 1 sm1-t^p-enter-m^pt
+ij av leave-m^i if-put-m^pt loc
+a_name sm1-t^pp-sm1-do-m^pt-wh ij a_name
+nurse-m^i
+ij refuse-m^i
+sm2p-t^pp-sm2p-do-m^pt-wh sm2p-t^po-play-m^pt av
+sm2s-t^p_go-m^in wh av a_name
+av sm2s-cp/ng 8-shoe(7 8)
+sm2s-t^p_eat-m^in-wh
+9 sm2s-t^p.om9-take-m^in-wh wh
+cp wh
+put-m^i 8-shoe(7 8) 8 pr house(9 10|6)/lc
+10-candy(9 10) 10 sm2s-t^p-om10-like-m^in av sm2s-t^p-run_away-m^pt
+ij om1-call_to-m^i a_name
+take-m^i a_name
+cp2s wh cp2p 17-wh 2p
+sm5-t^ne-sm5-t^f4-do-m^pt-wh av
+ng cp17 assistance(9 10) 9 if-om2p-give-m^in cj cd sm1-t^p_finish-m^pt if-om2p-give-m^pt sr5-t^f1-leave-m^pt
+ij child(1irg) 1-God(1 2) av sm1s-t^f1-om2s-thrash-m^in pr aj
+om9-do-m^i
+om9-come-c-m^i
+om9-undress-m^i blanket(9 10)
+ij
+sm2s-t^p-know-m^in if-om9-pin/rv-m^pt ij
+ng sm1-t^p_say-m^x sm2p-t^p_leave-m^s sm1-t^p_say-m^in cd sm2p-t^p_leave-m^in sm1-t^f1-om2p-give-m^pt
+come/m^i om1s-give-m^i 7-dish(7 8) 7 7 pr loc 7
+sm1s-t^p_say-m^in sm2s-t^p.om1s-give-m^s 7-dish(7 8) 7 pr loc 7 7
+7 7 sm2s-t^ne-sm2s-say-m^pt cp7 aj av av
+ng sm17-t^p_be-m^x ball(9 10) 2s pr loc
+5-safety_pin(5 6) cp5 wh
+sm1s-t^f1-om2s-mock-m^in

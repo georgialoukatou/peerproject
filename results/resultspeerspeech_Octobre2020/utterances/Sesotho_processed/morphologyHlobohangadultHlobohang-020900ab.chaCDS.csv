@@ -1,0 +1,51 @@
+sm2s-t^p_come_from-m^in wh
+sm2s-t^ts-ride-m^in horse(9,10)
+9 wh
+cp horse(9,10) 9 wh
+cp 9 brother(1a,2a) a_name
+sm2s-t^p_go-m^in wh pr 9
+ng sm2s-t^p_know-m^x lr sm2s-t^p_go-m^pt-rl
+sm2s-t^p_go-m^in ps/home
+ps/home wh
+ps/home a_place
+ij cp wh sr1-ride-t^pf/m^pt-rl horse(9,10) 9 brother(1a,2a) a_name
+a_name
+ij sm1-om9-ride-t^pf/m^in
+cp 9 cp tape_recorder(9,10)
+cp9 wh
+leave-m^i if-om9-grab-m^pt sm1s-t^p_see-m^s
+om9-grab-m^i sm1s-t^p_see-m^s
+grab-m^i tape_recorder(9,10)
+sm1s-t^p_see-m^s cp9 wh
+grab-m^i sm1s-t^p_see-m^s
+om9-grab-m^i sm1s-t^p_see-m^s
+om9-grab-m^i
+om1s-leave-m^i
+sm2s-t^p.om1s-go/c-m^in wh
+pass-ap-m^in pr loc sm1s-t^p_hear-m^s 10-matter(9,10) 10 cp 10-1s speak-m^i sm1s-t^p_hear-m^s
+sm2s-t^p_say-m^in sm2s-t^p_go-m^pt wh
+sm2s-t^p_go-m^in pr ball(9,10)-lc
+sm2s-t^f4-do-m^in-wh
+sm2s-t^f4-kick-m^in ball(9,10)
+cp2s thing(9,10) 9 if-kick-m^in ball(9,10) 2s
+sm2s-t^f4-do-m^in-wh ball(9,10)-lc
+sm2s-t^f4-om9-kick-m^in cj wh
+cj 1s
+cp2s aj ij
+cp wh sr1-t^p_say-m^pt-rl sm1s-t^p_play-m^pt cj 2-boy(1,2) 1s
+av sm2p-t^p_go-m^in wh
+a_name cp1 wh father(1a,2a) a_name
+sm1-t^pp-sm1-do-m^pt-wh
+meat(9,10) ng sm2s/t^np-om9-eat-m^x ij a_name
+av cp wh cd sm2s-t^p_say-m^in ng sm2s/t^np-om9-eat-m^x sm2s-t^p_eat-t^pf-m^pt 14-bread(14) av
+cp 5 wh
+5 a_name
+sm2s-t^pp-sm2s-do-m^pt-wh q so_and_so(1a,2a) wh
+sm2s-become_silent-ap/pf-m^in-wh
+sm2-t^p_read-m^in-wh ij 2-boy(1,2)
+ij sm2p-become_silent/t^pf-m^in
+sm2p-say/t^pf-m^in id^be_silent
+sm2p-become_silent-ap/t^pf-m^in-wh
+ng sm2p-t^p_want-m^x if-play-m^pt
+av cp wh cd sm2p-become_silent/t^pf-m^in
+sm2s-t^p_want-m^in if-do-m^pt wh home(9,10)-lc

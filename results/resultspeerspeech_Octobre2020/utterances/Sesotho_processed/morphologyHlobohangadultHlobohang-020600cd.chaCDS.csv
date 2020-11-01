@@ -1,0 +1,47 @@
+sm1s-t^f1-om9-drink-m^in av
+sm2s-om9-drink-ap-m^in-wh av
+sugar(9,10) sm9-finish-t^pf-m^in-wh loc
+wh
+ij cp 17 lr sm9-t^p_take-p-m^in-wh loc
+ij av sm2s-t^f1-om9-take-m^in wh
+cp9 loc 17 father(1a,2a) a_name loc
+ng cp9 loc pr father(1a,2a) a_name loc
+ng cp9 loc
+av sm2s-t^f1-om9-take-m^in wh
+loc home(9,10)-lc
+ij loc home(9,10)-lc
+sm9-lose-nt-t^pf-m^in av
+sm9-lose-nt-t^pf-m^in cp17 wh
+sm9-lose-nt-t^pf-m^in wh
+pr wh
+sm2s-om9-lose-t^pf-m^in pr loc pr loc sm2s-om9-buy-t^pf-m^in-wh
+sm9-buy-p-t^pf/m^pt wh
+sm2s-t^p.om9-buy-m^in pr loc cafe(9,10)-lc pr loc
+pr wh
+???
+cp pr wh av loc
+pr cafe(9,10)-lc
+ij ij ng sm1s-om9-know-t^pf/m^in cafe(9,10) 9 a_name a_name
+ij
+sm2s-t^p_do-m^in-wh pr plate(9,10) 9-1s
+ij a_name cp 1 sm2s-t^f1-come-m^in if-om2s-slap-m^in
+cp wh
+a_name
+cp wh
+sm2s-cry-ap-m^in-wh
+ij om1s-tell-m^i aunt(1a,2a) 1a-2s cp wh
+aunt(1a,2a) a_name
+ij om1s-tell-m^i cm q mother(1a,2a) 1a 2s cp wh
+ij sm1s-t^p-om9-eat-m^in
+leave_behind-m^i plate(9,10) 9 9-1s
+car(9,10) 9-2s sm9-t^p_do-m^in wh
+ij a_name
+ij ng sm2s-t^p-do-m^in 5-noise(5,6) speak-m^i av
+speak-m^ip pr 10-car(9,10)
+a_name ij
+om1-give-m^i a_name sm1-t^p_come-c-m^c 9
+come/m^i sm1s-t^f2 ???
+6-shoelace(5,6) 6 cp6 8-shoe(7,8) sm6-t^f1-om2s-cause_to_fall-m^in
+cp9 aj cj sm9-t^p_cook-p-m^in
+cp meat(9,10) 9 wh
+9 sheep(9,10)

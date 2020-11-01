@@ -1,0 +1,333 @@
+cp wh a_name thing(9,10) 9
+sm1s-t^p_say-m^in 9 cp9 loc 5-stone(5,6)
+come/m^i see-m^i 5-safety_pin(5,6) cp 5
+5-safety_pin(5,6) 5 a_name cp 5
+ht sm1s-t^p_see-m^s
+come/m^i loc
+take-m^i
+a_name sm9-appear-t^pf-m^in
+sm9-appear-t^pf-m^in a_name
+sm9-appear-t^pf-m^in
+cp3 wh
+ht sm1s-t^p_see-m^s
+ng sm9/t^np-appear-m^x
+cp 9
+see-m^i
+cp9 wh
+cp9 loc
+ij a_name sm2s-put_on/t^pf-m^in watch(9,10)
+sm2s-put_on/t^pf-m^in watch(9,10)
+cp ??? ??? wh a_name
+cp 9 wh a_name
+a_name ij a_name ij
+cp 9 wh
+sister(1a,2a) a_name sm1-om1s-give-t^pf-m^in 9
+wh
+thing(9,10) 9 wh
+cp9 aj
+wh
+9-aj cp wh
+ng cp 7-2s 7-safetypin(7,8) 7
+cp 7 sister(1a,2a) a_name
+ng cp7 loc sm2s-om7-lose-t^pf-m^in
+a_name cp ??? ??? ??? ??? ??? ??? ??? ??? ??? ??? ??? ??? ???
+a_name a_name cp1 wh
+cp1 loc wh
+ij a_name ij
+leave-m^i if-throw_away-m^pt loc
+leave-m^i if-om5-throw_away-m^pt
+cp ??? 9 wh
+leave-m^i
+leave-m^i sm2s-t^p.om5-lose-m^s
+leave-m^i
+2s sm2s-t^p-fall_down/c-m^in
+q sm2s-om5-throw_away-t^pf-m^in loc
+sm2s-t^f1-om1s-tire-m^in
+mother(1a,2a) a_name cp1 wh
+9-aj stick(9,10)
+cp tape_recorder(9,10) sm9-t^p-say-m^in
+ht sm1p-t^p_go-m^sp ij
+sm2s-t^p_laugh-m^in-wh a_name
+sm2s-t^p_laugh-m^in-wh
+sit-m^i loc
+horse(9,10) 9-aj
+a_name horse(9,10) 9-aj cp9 wh
+horse(9,10) 9-aj
+child(1irg) cp 1 pr 6-eye(5,6) 6-6-aj
+sm1s-t^p-om2s-touch-m^in
+cp child(1irg)
+cp 2-child(1,2) 2-2s
+5-name(5,6) 5-1 cp wh
+cp 2-child(1,2) 2-2s 2-2-nm
+cp a_name
+cp a_name
+cp 2-child(1,2) 2-2s 2-2-nm
+ij sm2s-t^p-om1p-amuse-m^in
+sm2s-t^p_be-m^in cj 2-child(1,2) 2-2-nm
+cp wh cj wh
+cp ??? ??? ???
+say-m^i ??? ??? ??? ??? ??? ???
+sm1-t^p_sit-m^s loc q
+car(9,10) 9 9-aj 9-aj 9 a_name cp9 wh
+om1-nurse/c-m^i child(1irg) 1-2s cp 1
+sm9-t^p_become_fine-c-m^in 10-road(9,10)
+sm1-suck-t^pf-m^in
+om1-suck-c-m^i a_name
+child(1irg) 1 ng sm1-t^ny-fill_belly-m^x
+a_name come-c-m^i cj 1s sm1s-t^p.om1-suck-c-m^s
+take-m^i sm2s-t^p.om1-suck-c-m^s
+cp child(1irg) 1 2s 7-shoe(7,8) 7
+a_name come-c-m^i sm1s-t^p.om1-suck-c-m^s
+a_name sm2p-t^f1-go-m^in clinic(9,10)-lc pr 2-child(1,2) 2
+ht sm1s-om1-bend-rv-m^s
+sm1s-t^p-om1-bend-m^in
+1s sm1s-t^p-om1-bend-rv-m^in
+ht sm1s-t^p.om1-bend-m^s
+sm1s-t^f1-om7-tear-m^in
+cp wh
+sm14-t^f1-om2s-word
+sm9-t^f1-om2s-bite-m^in 3-finger(3,4) 3 a_name
+take-m^i child(1irg) 1 1-2s sm2s-t^p.om1-suck-c-m^s
+sm1-t^f1-om2s-word
+2 sm1s-t^p_come_from-m^in-wh
+see-m^i
+sm2p-scratch-t^pf-m^in
+cp 2s sm2s-om1s-scratch-t^pf-m^in
+see-m^i
+sm1s-t^p-om2s-bite-m^in
+sm1s-t^f1-see-m^in cm q 5-hand(5,6) sm2s-t^f1-om5-take-m^pt wh
+come-c-m^i
+sm1s-t^p-refuse-m^in
+om9-grab-m^i
+ht sm1s-t^p.om5-grab-m^s
+a_name om1s-give-ap-c-m^i metal(9,10) 9
+sm2s-t^p.om1s-leave_behind-ap-m^in-wh
+sit-m^i loc
+sm1s-t^f1-om2s-carry_on_back-c-m^in a_name
+come/m^i ... sm1s-t^p.om2s-carry_on_back-c-m^s
+sit-m^i loc
+come/m^i sm1s-t^p.om2s-carry_on_back-c-m^s
+a_name sm2p-t^p_go-m^in wh
+sm2p-t^p_go-m^in clinic(9,10)-lc
+go_out-m^ip pr loc pr 5-wall(5,6)-lc
+a_name av child(1irg) sm2s-om1-bring_down-ap/t^pf-m^in-wh
+sm2s-om1-bring_down-ap/t^pf-m^in-wh
+sm2s-t^p-om1-cause_to_fall-m^in child(1irg) 1
+om1-suck-c-m^i a_name
+child(1irg) sm1-t^p_fill_belly-m^s
+ij om1-suck-c-m^i
+sm2s-t^p.om1-carry_on_back-m^s
+sm1-t^p_go-m^s clinic(9,10)-lc
+ng sm1-t^p_be-m^x car(9,10)
+a_name 2s sm2s-t^po-take-m^in cp2 av
+take-m^i 3-2s cp 3 my_child(1irg)
+a_name sm1s-t^p.om2s-carry_on_back-c-m^s
+come/m^i sm1s-t^p.om2s-carry_on_back-c-m^s
+sm2s-t^po-t^ba-sm2s-know-m^pt q sm2s-t^p_cry-ap-m^pt-wh
+ij ng beat-m^i child(1irg) 2-person(1,2)
+sm2s-t^p_be-m^in cj wh 2s
+sm1s-t^p.om1-throw_away-m^s
+sm1s-t^f1-om2s-bite-m^in
+come/m^i sm1s-t^p.om2s-hide-m^s
+come-m^i sm1s-t^p_see-m^s sm2s-hurt_eye-p-t^pf/m^in wh
+sm1s-om2s-grab-t^pf/m^in pr nose(9,10) cj 2s
+cp 9
+a_name see-m^i thing(9,10) 9 9 av cp 9
+a_name
+ij sm2s-t^p_go_out-m^s loc
+cp 10-louse(9,10) head(9,10)-lc 9 9-2s a_name
+cp 10-louse(9,10) 10-aj
+cp 9
+take-m^i louse(9,10) 9-2s cp 9 a_name
+louse(9,10) 9-2s 9-aj
+come-m^i sm1s-om2s-t^p_pour-ap-m^s louse(9,10) cj 2s
+louse(9,10) 9-2s cp 9 sm1s-om9-pour/t^pf-m^in
+a_name ij sm2s-t^p_wipe-m^s 6-mucus(5,6)
+a_name sm2s-t^f1-fall-ap-m^in pr head(9,10)
+a_name om1s-give-m^i ht sm1s-t^p_see-m^s
+a_name 3-neck(3,4) 3-2s 3-3-aj sm1s-t^po-om3-surround-m^in
+ij ij
+a_name a_name sm2s-t^p-om1-know-m^in a_name
+cp child(1irg) wh
+1 wh
+1 wh
+ng sm1s-t^p_hear-m^x
+sister(1a,2a) 1a wh
+sister(1a,2a) a_name
+a_name
+a_name
+child(1irg) 1 sister(1a,2a) a_name cp a_name
+a_name sm2s-t^p_say-m^in a_name cp child(1irg) 1 sister(1a,2a) a_name
+sm2p-t^ne-sm2p-om1-see-m^pt wh a_name
+a_name sm2s-t^ne-sm2s-om1-see-m^pt wh cj a_name a_name
+av 5 a_name a_name
+a_name ht sm1s-t^p.om2s-grease-m^s pr thing(9,10) 9-aj
+see-m^i cp 9 9-aj
+a_name speak-m^i louse(9,10) cp 9 louse(9,10) 9 a_name
+cp9 aj
+a_name
+cp1 ps/home
+pr mother(1a,2a) a_name
+ij ij
+ij pr mother(1a,2a) a_name
+ij ij
+sm1-t^p_come_from-m^in pr mother(1a,2a) a_name
+wh
+1s 1s
+mother(1a,2a) a_name
+cp1 camp(9,10)-lc mother(1a,2a) a_name
+camp(9,10)-lc
+ij
+camp(9,10)-lc camp(9,10)-lc pr father(1a,2a) a_name
+camp(9,10)-lc 2s sm2s-t^p-om1s-deceive-m^in sm1-t^pp-sm1-say-m^pt ghost(9,10)
+ng sm17-t^p_be-m^x ghost(9,10) loc
+ghost(9,10) sm9-t^p_sit-m^in cj 2-person(1,2) 14-night(14)
+ng sm1p-t^p.om2s-bite-m^x
+sm2s-om1s-bite-t^pf/m^in sm1s-burn-t^pf-m^pt ij
+a_name 7-back_of_head(7,8) 7-2s cp7 3-hole(3,4)
+sm2s-go_out-t^pf-m^in 6-blood(5,6)
+5-foot(5,6)-lc
+5-foot(5,6)-lc 5 bedclothes(9,10)
+ij 2s sm2s-t^p_become_silent-m^s
+a_name cp2s 1-aj cj a_name
+a_name cp1 wh
+a_name cp2s child(1irg) wh
+sm1s/t^np-om1-tear-m^in pr slap(9,10) 9-aj
+sm2s-t^p-hear-m^in
+a_name ht sm1p-t^p_greet-c-m^sp pr 6-hand(5,6)
+ij
+ij ij ij ij 1-member_crocodile_clan(1,2)
+a_name cp2s wh
+cp2s wh
+cp2s 1-member_crocodile_clan(1,2)
+1-member_crocodile_clan(1,2)
+cp2s 1-member_crocodile_clan(1,2)
+1-member_crocodile_clan(1,2) 1-member_crocodile_clan(1,2) cp wh cp wh pr home(9,10)-lc
+1-member_crocodile_clan(1,2)
+ij
+sm2s-t^p_live-m^in wh
+sm2p-t^p_live-m^in wh
+om1s-greet-c-m^i a_name
+om1s-greet-c-m^i
+say-m^i ij
+ij
+sm2p-waken-t^pf-m^in wh
+sm2p-waken-t^pf-m^in av
+sm1p-waken-t^pf-m^in cj 2s sm2s-t^pp-sm2s-sleep/t^pf-m^pt
+sm2s-waken-t^pf-m^in wh
+ij say-m^i ij
+a_name
+sm2s-t^p_live-m^in wh
+say-m^i cd sm2s-t^p.om1s-see-m^x cm sm1s-t^p-live-m^pt cj sm1s-t^pp-sm1s-look-t^pf-m^pt
+say-m^i cd sm2s-t^p.om1s-see-m^x sm1s-t^p-live-m^pt sm1s-t^pp-sm1s-look-t^pf-m^pt sm1s-t^p_play-m^pt cp 2-2-aj
+2-2-aj sm1s-t^p_play-m^in cp 2-2-aj
+a_name cp 10-waterfall(9,10) 10 wh
+say-m^i sm1s-t^p-live-m^pt
+a_name ht sm1s-t^p_see-m^s 10-chapping_on_feet(9,10)
+a_name see-m^i 6-blood(5,6)
+6-blood(5,6) cp 6
+ij 6-blood(5,6)
+cj sm17-say/t^pf-p-m^in sm1p-ng-sm1p-do-m^i 5-noise(5,6) cj sm1p-t^se-sm1p-om5-do-m^pt
+a_name
+a_name sm2s-t^p_go-m^in wh
+a_name sm1-t^p-leave-m^in
+a_name sm1-t^p-elope-m^in
+a_name come/m^i loc sm2p-t^f2-chat-m^pt 10 2-man(1,2) 2 1p
+2-child(1,2) 2
+om1-give-m^i
+cp wh a_name
+a_name om1-give-m^i
+cp wh
+sm2s-t^p_do-m^in-wh pr 10-slap(9,10)
+ij 2-child(1,2) 2/home
+say-m^i ij 2-child(1,2)
+say-m^i chicken(9,10) a_name
+9-aj
+sm1s-t^p.om2s-leave-m^s 2s
+a_name sm2s-t^p.om1s-split-m^in 3-mouth(3,4)
+father(1a,2a) a_name cp 9 sm1-t^p_come-m^in cj 10-apple(9,10)
+sm1-t^f1-appear-m^in pr camp(9,10)-lc pr loc
+ij
+sm2p-t^p_live-m^in wh
+ng sm2p-t^p_know-m^x 1s
+sm1s-t^p-live-m^in
+child(1irg) 1a-2s cp1 wh
+sm1-go/t^pf-m^in wh
+sm2s-t^f4-do-m^in-wh
+wh
+sm1-go/t^pf-m^in clinic(9,10)-lc
+clinic(9,10)-lc pr mother(1a,2a) a_name
+sm1-t^f4-give-p-m^in 6-milk(5,6)
+cj fish_oil(9,10)
+cj 3-bulgar_wheat(3,4)
+ij a_name
+father(1a,2a) a_name sm1s-t^p.om2s-tell-m^s sm2-say/t^pf-m^pt ij a_name
+father(1a,2a) a_name sm1-say/t^pf-m^in sm1-t^f1-come-m^pt sm1-t^p_fetch-m^pt pr horse(9,10)
+av sm1p-t^p_leave-m^s sm1p-t^p_go-m^s camp(9,10)-lc
+sm2s-be_thirsty/t^pf-m^in
+sm2s-t^p_want-m^in-wh
+sm2s-be_thirsty/t^pf-m^in
+sm2s-t^ne-sm2s-say-m^pt if-be_thirsty-m^pt cp if-do-m^pt wh
+a_name sm2s-ng-om1p-wear-m^i sm1p-cp 3-skirt(3,4) 3-2s a_name
+ng cry-m^i my_child(1irg)
+a_name sm1/t^np-open_the_mouth-m^in sm1-t^p_say-m^pt sm1-t^f1-enter-m^pt louse(9,10) 2s a_name
+a_name ht sm1s-t^p_count-m^s teeth(6irg) 6-6-wh
+sm2s-ng-om1s-bite-m^i cd sm2s-t^p_embrace-m^in
+??? ... ??? ??? ???
+a_name cp2s ??? ij a_name
+say-m^i cp a_name
+sm1s-t^p_take-m^in louse(9,10) 9 a_name sm1s-t^f2-om2s-eat-c-m^pt 9
+sm2s-t^ps-sm2s-say-m^in ij ij ij
+count-m^i av if-arrive-ap-m^pt pr ???
+sm2s-t^p_come_from-m^in wh a_name pr loc pr house(9,10|6)/lc
+??? ???
+ij sm2s-t^p_say-m^in ??? ??? ??? ???
+ht sm1p-t^p_do-m^s 6-four_sided_tin(5,6)
+ij a_name
+mother(1a,2a) a_name cp1 wh
+cp1 loc wh
+sm1-t^p-come-m^in
+av
+see-m^i sister(1a,2a) a_name sm1-put_on/t^pf-m^in watch(9,10) a_name
+cp 9 sm1-om9-put_on/t^pf-m^in watch(9,10)
+sm1-put_on/t^pf-m^in watch(9,10)
+a_name see-m^i sister(1a,2a) a_name cp wh
+look-m^i loc look-m^i sister(1a,2a) a_name
+see-m^i sm1-put_on/t^pf-m^in watch(9,10)
+sm2s-t^p-om9-see-m^in watch(9,10)
+cp 9 watch(9,10)
+3 sister(1a,2a) a_name
+wh
+sm2s-t^f1-press-m^in 5-eye(5,6) sm2s-t^f1-press-m^pt 5-eye(5,6) 5
+sm2p-t^p_do-m^in-wh
+hopscotch(9,10)
+sm1s-t^p_wipe-m^in thing(9,10) 9
+sm1s-t^f1-wipe-m^in loc
+cp 10 wh 10-blanket(9,10) 10
+cp 3 wh 3-bag(3,4)-dim
+wh
+wh
+ij cp 10 wh
+cp 10 wh
+cp 10 wh
+wipe-m^i 6-mucus(5,6)
+ij come-c-m^i string(9,10) 9
+come-c-m^i
+cp wh 17
+cp wh 9
+cp 1 a_name
+cp 1
+ng cp 9
+ng cp 9 9
+sm2s-om9-step-t^pf-m^in
+leave-m^i ij
+ng sm1s-t^p_know-m^x
+9 sm1s-om9-step-t^pf-m^in
+9 sm1s-om9-step-t^pf-m^in
+ng sm1s-t^p-om9-take-m^x a_name
+cp 9 sm1s-om9-step-t^pf-m^in
+ng sm1s-t^p-om9-take-m^x av sm1s-om9-step-t^pf-m^pt
+cp 9 a_name lr sm9-rf-hide-t^pf-m^pt-rl
+ij sm1s-om9-step-t^pf-m^in
+ij
+cp 9

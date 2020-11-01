@@ -1,0 +1,43 @@
+say-m^i sister(1a,2a)
+sm2s-t^p_answer-m^in wh
+sister(1a,2a) a_name
+sister(1a,2a) a_name sm2s-t^p_know-m^s a_name sm1-t^p_enter-m^in 7-school(7,8)
+sm1-t^p_enter-m^in 7-school(7,8)
+ij
+ij
+cp 10 10-aj
+look-m^i sm1-t^p_do-m^in pr 10-nm
+sm1-t^f4-do-m^in-wh
+sm1-t^f4-do-m^in-wh a_place
+sm1-t^f4-do-m^in-wh
+pour-m^ip pr loc a_name
+sister(1a,2a) a_name look-m^i sm1s-t^p_know-m^in if-thresh-m^in
+a_name
+ij 1-friend(1,2)
+1-friend(1,2)
+cp1 loc a_name
+cp 10
+come/m^i loc
+sm1s-t^f4-sing-m^in cj 1 sister(1a,2a) a_name
+come/m^i loc
+come/m^i mother(1a,2a) come/m^i
+come/m^i peel-m^i
+sister(1a,2a) a_name sm1s-t^f4-sing-m^in
+sm1s-t^p-eat-m^in sister(1a,2a) a_name
+sister(1a,2a) a_name
+1-friend(1,2) come/m^i loc
+come/m^i mother(1a,2a)
+sister(1a,2a) a_name
+wh
+cp thing(9,10) 9 sister(1a,2a) a_name
+ij
+come/m^ip sm2p-t^p_play-m^sp loc a_name
+wh
+loc
+a_name come/m^i play-m^ip
+loc
+wh
+om1-leave-m^i ij
+sm2-say/t^pf-m^in sm1-t^p-come-m^in
+sm1-t^p-om2s-splash-m^in
+sm1-t^p_say-m^in sm2s-t^p.om1-break-ap-m^s

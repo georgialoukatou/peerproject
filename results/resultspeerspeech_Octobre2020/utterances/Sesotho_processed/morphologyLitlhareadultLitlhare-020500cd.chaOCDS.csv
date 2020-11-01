@@ -1,0 +1,10 @@
+cp3 loc pr loc
+ij sm2s-t^p_see-m^s sixpence(9,10) pr loc a_name sm1-t^f4-buy-m^pt 3-fire(3,4)
+pr tin(9,10)-lc 9 9 ???
+3-fire(3,4) sm3-t^ne-sm3-cp loc pr loc a_name
+ng sm1s-t^p_know-m^x cp3 side(9,10) 9-wh
+ng sm1s-t^p.om1-know-m^x
+sm1s-be_thirsty/t^pf-m^in av sm1s-t^p_want-m^pt beer(14)
+a_name sm17-t^p_say-p-m^in q sm2s-t^se-sm2s-take_off/t^pf-m^pt
+sm17-t^p_say-p-m^in q sm2s-t^se-sm2s-take_off/t^pf-m^pt
+hurry-c-m^i child(1irg) sm1-t^p-cry-m^pt

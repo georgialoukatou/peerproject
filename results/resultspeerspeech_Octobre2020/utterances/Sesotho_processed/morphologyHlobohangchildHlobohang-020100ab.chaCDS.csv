@@ -1,0 +1,28 @@
+cp wh thing(9,10) 9 a_name
+ij
+cp tape_recorder(9,10)
+cp wh
+ht sm1s-t^p_go_out-m^s a_name
+sickle(9,10)
+wh
+a_name
+a_name sm1-om1s-give-t^pf-m^in
+a_name sm1s-t^p.om10-see-m^in
+sm2s-t^p_put_on-m^in blanket(9,10) 9 wool_blanket(9,10)
+ij
+ij speak-m^i
+sit-m^i 7-chair(7,8)-lc loc
+a_name come/m^i sit-m^i loc
+ij
+car(9,10) 9 a_name
+a_name
+1s sm1s-sit/t^pf-m^in 7-chair(7,8)-lc
+sm2s-t^p.om1s-kick-m^in 5-foot(5,6)-lc
+sm1s-t^p-om2s-beat-m^in
+abandon-m^i loc
+sm2s-t^f1-fall-ap-m^in lr sm1s-sit/t^pf-m^pt-rl
+leave-m^i
+sm1s-t^p-climb-m^in ij
+sm2s-t^p_say-m^in-wh q a_name
+a_name
+a_name

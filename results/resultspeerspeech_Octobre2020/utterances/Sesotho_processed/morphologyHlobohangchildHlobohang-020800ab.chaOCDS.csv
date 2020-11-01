@@ -1,0 +1,19 @@
+sm1-t^p_abandon-m^s wh 2s a_name
+wh
+sm1-t^p_abandon-m^s wh
+cp knife(9,10) 9-1s
+cp 9-2s
+ij
+ij ij a_name
+a_name ij 9 sm2s-om9-take-t^pf-m^in wh
+a_name
+ng sm6-enter-c-p-t^pf/m^pt cp 2s
+sm6-enter-c/t^pf-p-m^in cp a_name
+cj 1s sm1s-om6-enter-c/t^pf-m^in
+ij
+a_name a_name sm1-t^f4-tell-m^in
+ij
+6-6-aj pr 6 a_name 6 1p
+sm2s-t^p_go-m^in wh
+a_name
+wh

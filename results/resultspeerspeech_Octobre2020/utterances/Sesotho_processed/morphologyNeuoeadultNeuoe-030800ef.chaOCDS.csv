@@ -1,0 +1,16 @@
+sm17-t^p_do-p-m^in-wh av
+sm17-t^p_do-p-m^in-wh
+sm17-t^p_do-p-m^in-wh av
+sm2s-t^f1-fill_belly-m^in av
+ij sm2s-t^p_go_out-m^s
+ij sm2s-t^p_wash-m^s 7-word av 7-dish(7,8)
+mouse(9,10) cp9 17-wh
+a_name sm2s-t^pp-sm2s-do-m^pt-wh
+9
+sit-m^i loc
+sit-m^i loc loc mat(3irg)-lc
+sit-m^i loc mat(3irg)-lc
+close-m^i pr loc a_name
+leave-m^i if-om5-give-m^pt a_name sm1-t^p_drink-m^s
+ij
+give-m^i a_name cd 1 sm1-t^po-drink-m^s

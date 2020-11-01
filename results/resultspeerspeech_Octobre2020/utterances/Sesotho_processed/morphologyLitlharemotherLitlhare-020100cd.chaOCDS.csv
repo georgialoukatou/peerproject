@@ -1,0 +1,25 @@
+sm1-t^p_say-m^in-wh
+take-m^i ij
+9
+sm2s-t^p-see-m^in ij
+ng sm1-t^p-dress-m^x
+sm2s-t^p_eat-m^in 8-food(7,8) 8 8 child(1irg) sm2s-t^p-be_greedy-m^in
+a_name so_and_so(1a,2a) ng-attack-m^x child(1irg)
+sm1-t^f1-cry-m^in
+ij brother(1a,2a) a_name
+brother(1a,2a) a_name
+sm1s-t^ne-sm1s-want-m^pt 9 9 sister(1a,2a) a_name 9 cp9 14-bluntness(14) av
+take-m^i
+ij
+wash_hands-m^i sm2s-rf-t^p_take_piece-ap-m^s
+wash_hands-m^i sm2s-rf-t^p_take_piece-ap-m^s
+a_name cp 2 sm2-t^p_spoil-m^in car(9,10) 9-2s
+cp1 wh
+ng-om1-beat-m^x av
+cj 2p fence(9,10) 9 sm2p-t^p-om9-struggle-c-m^in
+sm2s-t^se-sm2s-look-m^pt wh av
+a_name cp1 wh
+sm1-stand-t^pf/m^in
+say-m^i sm1s-t^p-om1-call-m^in
+ij
+hear-m^i sm17-t^p_say-p-m^in sister(1a,2a) a_name

@@ -1,0 +1,16 @@
+2s come-c-m^i spoon(9,10) 9-1s
+sm1s-t^p-om2s-kick-m^in
+ij a_name come-c-m^i
+take-m^i spoon(9,10) cp 9 a_name
+ij ng sm2s-t^p-om1-give-m^in
+take-m^i spoon(9,10) cp 9 a_name
+ng sm1s-t^p.om1-give-m^x
+take-m^i a_name
+om9-give-m^i a_name
+om9-take-m^i cp 9 a_name
+take-m^i
+2s a_name
+take-m^i a_name cp 3
+come/m^i om9-take-m^i
+say-m^i a_name
+cp1s sister(1a,2a) a_name

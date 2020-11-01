@@ -1,0 +1,52 @@
+wh
+say-m^i 6-fatcakes(5,6) sm1-t^ps-sm6-arrive-m^pt
+pr loc
+cp6 wh 6-fatcakes(5,6) 6
+come-c-m^i sm1s-t^p_taste-m^s 5-5-aj
+sm2s-om5-hide-t^pf-m^in
+ng sm2s-t^p_know-m^x
+wrap-rv-m^i sm1p-t^p_see-m^s
+sm17-remain/t^pf-m^in 5-5-aj cp 5
+om1s-break_piece-ap-m^i
+om1s-break_piece-ap-m^i
+a_name om1s-break_piece-ap-m^i
+wh
+stick(9,10)
+sm9-t^ne-sm9-do/t^pf-m^pt wh
+sm1s-t^f1-eat_together_with-m^in cj 10 om1s-break_piece-ap-m^i
+om1s-break_piece-ap-m^i ij so_and_so(1a,2a)
+om1s-break_piece-ap-m^i 5-fatcakes(5,6)
+cp 2s ??? ???
+sister(1a,2a) a_name sm1-t^p_say-m^in q ??? ??? cp wh
+cp wh ??? ???
+cp 7-english(7,8)
+ij om9-cover-m^i
+sm2s-refuse/t^pf-m^in if-om1s-break_piece-ap-m^pt
+ij a_name a_name
+sm2s-refuse/t^pf-m^in if-om1s-break_piece-ap-m^pt
+sm2s-t^p-not_give-rc-m^in
+2s sm2s-t^p-not_give-rc-m^in
+ij ij sm2s-t^p-not_give-rc-m^in
+om1s-give-m^i ij ij
+a_name
+a_name a_name ij
+sm1s-be_greedy-t^pf-m^in
+ij sm1s-be_greedy-t^pf-m^in av
+sm1s-be_greedy-t^pf-m^in ij so_and_so(1a,2a) om1s-break_piece-ap-m^i
+5-5-aj
+sm1s-t^p_want-m^in 5
+ij
+sm1s-t^p_want-m^in 5 cp5 pr loc
+sm1s-t^p_want-m^in 5
+ij pr loc 5
+ij a_name ij
+sm1s-t^p-om2s-not_give-m^in 5-porridge(5,6)
+sm1s-t^p_say-m^in sm1s-t^p.om2s-not_give-m^pt 5-porridge(5,6) sm2s-t^ps-sm2s-om1s-not_give-m^pt 5-fatcakes(5,6) 5-2s
+take-m^i 5-porridge(5,6) cp 5
+5-thief(5,6) 5
+5-thief(5,6) 5
+cp5 wh
+ng cp5 loc
+sm2s-t^p-hear-m^in
+a_name bucket(9,10) 9-aj cp9 wh
+sm1s-t^p-fight-m^in

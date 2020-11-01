@@ -1,0 +1,22 @@
+sm2s-take-t^pf-m^in-wh
+sm2s-steal-t^pf-m^in 5-razor(5,6)
+sm2s-om5-steal-t^pf-m^in
+a_name sm2s-steal-t^pf-m^in 5-razor(5,6)
+sm2s-om5-put-t^pf-m^in 1-boy(1,2)
+cp av ij father(1a,2a)
+sm2s-om5-steal-t^pf-m^in av
+sm2s-om5-put-t^pf-m^in
+cp av ij 1-boy(1,2)
+ij
+sm9-t^p-refuse-m^in wh a_name
+ng om9-eat-m^i
+9-aj
+ng sm2s-t^p_know-m^x sm9-go/t^pf-m^in wh
+ij distressing_event(9,10)
+sm1s-t^f1-om2p-take_out-ap-m^in 9
+ij leave-m^ip ij
+9-2s cp9 wh a_name
+cj 2s sm9-lose-nt-t^pf-m^in
+ij
+cp9 wh
+ij play-m^i ij

@@ -1,0 +1,18 @@
+hear-m^i 7-airplane(7 8)
+sm2s-t^f5-om7-see-m^s
+see-m^i 7-airplane(7 8)
+a_name 1 sm1-put_on/t^pf-m^in 10-wh
+ij ij a_name 2s sm2s-put_on/t^pf-m^in 10-wh
+car(9 10) sm9-t^p-come-m^in ng cp17 av a_name
+2s a_name sm2s-t^f1-do-m^in wh
+ng sm2s-t^f1-if-leave-m^in pr car(9 10)
+sm2s-t^f1-do-m^in wh ij
+a_name sm2s-t^f1-remain-m^in
+sm2s-t^f1-remain-m^in
+car(9 10) 9 ng sm9-t^p-om2s-be_equal-m^x
+ng sm9-t^f1-if-be_equal-m^in 2-person(1 2) 2-2-aj
+come/m^i pr house(9 10|6)/lc a_name
+cp wh
+a_name ng thrash-m^i a_name ij
+a_name come-c-m^i sm1s-t^f2-see-m^pt
+a_name come-c-m^i sm1s-t^f2-see-m^pt thing(9 10) 9-2s

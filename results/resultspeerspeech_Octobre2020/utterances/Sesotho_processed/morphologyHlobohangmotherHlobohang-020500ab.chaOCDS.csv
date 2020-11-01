@@ -1,0 +1,7 @@
+cp1 6-porridge(5,6) a_name
+take-m^i 5-broom(5,6) sm2s-t^p_sweep-m^s loc loc blanket(9,10) 9-1
+a_name wash-m^i 8-dish(7,8) 10
+5-salt(5,6) cp5 wh
+om1-give-m^i
+om7-take_up-m^i om1-give-m^i av
+wh

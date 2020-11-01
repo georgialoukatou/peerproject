@@ -1,0 +1,7 @@
+sm1-t^p_refuse-m^in pr book(9,10) 9-1
+pr-wh mother(1a,2a) a_name
+mother(1a,2a) a_name sm9-t^p_go-m^in pr-wh
+wh
+om1s-give-m^i mother(1a,2a) a_name
+cp 9-1s
+sm1s-t^p.om9-roll-m^in pr 5-foot(5,6)

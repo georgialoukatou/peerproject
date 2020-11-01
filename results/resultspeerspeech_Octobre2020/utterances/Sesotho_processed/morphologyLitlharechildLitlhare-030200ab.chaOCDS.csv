@@ -1,0 +1,23 @@
+ij 2s a_name
+become_silent-m^i 2s a_name
+ng do-m^i 5-noise(5,6)
+ij
+sm9-t^f1-om2s-cause_to_fall-m^in
+cd sm1s-t^pp-sm1s-say-m^pt
+sm9-t^f1-om2s-cause_to_fall-m^in
+a_name come/m^i see-m^s ??? 9 car(9,10)
+a_name ng sm2s-t^p.om9-see-m^x
+sm1s-t^f2-tell-m^in a_name
+sm1p-t^ne-sm1p-t^pp-sm1p-rf-sit-ap-m^pt av
+sm1s-t^f2-say-m^in cp a_name cj a_name sm2-t^ne-sm2-t^pp-sm2-play-ap-m^pt bed(9,10)-lc
+bed(9,10)-lc
+cp wh sr1-t^ne-rl-sm1-om2s-tell-m^in
+ng cp clock(9,10) thing(9,10) 9
+descend-m^i a_name
+descend-m^i bed(9,10)-lc
+wh
+2s a_name sm1s-t^f1-om2s-beat-m^in av ng av
+sm1s-put-t^pf-m^in cp 9
+sm2s-t^p_go-m^in wh 2s a_name ij
+2-child(1,2) cj a_name sm2-t^p_play-m^in
+a_name

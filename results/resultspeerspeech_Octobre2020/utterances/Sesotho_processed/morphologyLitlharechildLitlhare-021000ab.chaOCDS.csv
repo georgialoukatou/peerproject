@@ -1,0 +1,20 @@
+8-shoe(7,8) 8-aj cp 8 8-aj
+cp 8
+om1-tear-ap-m^ip
+om1-tear-ap-m^ip a_name
+om1-leave-m^i a_name
+sm1s-om1-tear-ap-m^in
+sm2s-t^p-hear-m^in
+om1-tear-ap-m^in a_name
+abandon-m^ip a_name
+a_name abandon-m^i
+om1-leave-m^i
+sm17-t^p_say-p-m^in sm1p-om1-leave-m^s a_name a_name
+ij cj 2s 6-liar(1a,2a;5,6)
+ij 2s a_name sm17-say/t^pf-p-m^in sm2s-t^sa-om1s-annoy-m^x
+sm2s-turn_over-nt-t^pf-m^in
+ij 2s a_name ij sm1-t^p_find-m^s
+ij become_silent-m^i 2s child(1irg) aj
+car(9,10) cp 9 a_name
+sm2s-t^p_do-m^in-wh a_name
+2s a_name a_name

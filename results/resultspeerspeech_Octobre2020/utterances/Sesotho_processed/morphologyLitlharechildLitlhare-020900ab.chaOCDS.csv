@@ -1,0 +1,12 @@
+cp2s wh
+cp a_name
+enter-m^i
+a_name
+cp wh sm1-t^ne-rl-sm1-rinse-m^pt loc 5-door(5,6)
+a_name cp2s wh
+a_name
+a_name
+a_name sm2s-t^p_fear-m^in if-speak-m^pt
+a_name
+cd sm2s-t^p_go-m^in pr house(9,10|6)-lc 9-aj sm2s-t^p_tell-m^s sister(1a,2a) a_name a_name sm1-t^p_say-m^pt father(1a,2a)-7-shoe(7,8) pr 1s
+sm1s-t^f1-say-m^in mother(1a,2a) a_name a_name sm1-say/t^pf-m^in pr a_name father(1a,2a)-7-shoe(7,8)

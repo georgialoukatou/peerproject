@@ -1,0 +1,4 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+873	BRO	Brother	je vais aller voir Omer .	%act BRO a remis son masque de chien	%com Omer est le nom du chien de la famille	%act BRO a remis son masque de chien %com Omer est le nom du chien de la famille	Anae/215.cha	BR1	clara						Anae	child	Other child
+874	BRO	Brother	je vais aller voir Omer Arthur .			 	Anae/215.cha	BR1	clara						Anae	child	Other child
+876	BRO	Brother	d'accord ?			 	Anae/215.cha	BR1	clara						Anae	child	Other child

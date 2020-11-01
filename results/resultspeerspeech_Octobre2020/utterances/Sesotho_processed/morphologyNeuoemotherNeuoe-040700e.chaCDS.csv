@@ -1,0 +1,12 @@
+cp2s 10-filth(9 10) body(3 4irg)-lc
+ng 10-clothing(9 10)-lc sm2s-t^mpa-sm2s-put_on/t^pf-m^pt
+10-clothing(9 10) 10-aj av
+ij sm1s-t^p_see-m^in av
+sm9-t^se-sm9-cp cm sm2p-rf-t^p_wash-m^s av av sm2p-t^p_go-m^s clinic(9 10)-lc
+sm2p-t^p_do-m^in 10-thing(9 10) 10-aj av
+sm2p-t^p_try-m^in if-do-m^pt wh av
+a_name sm2s-t^pp-sm2s-do-m^pt-wh
+sm2s-t^ne-sm2s-om9-step-ap-m^pt-wh a_name
+sit-m^i av 2s
+sm9-t^p-break-nt-m^in wh a_name
+ij sm1s-see-t^pf/m^in sm2s-t^se-sm2s-say/t^pf-m^pt

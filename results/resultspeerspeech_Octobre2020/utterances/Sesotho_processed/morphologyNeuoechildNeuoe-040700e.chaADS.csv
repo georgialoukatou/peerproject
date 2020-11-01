@@ -1,0 +1,11 @@
+sm1s-come-c-t^pf-m^in 5-safety_pin(5 6) 5-2s
+ij sm17-t^p_go/p-m^in 6-field(9 6)-lc
+sm1s-t^f1-take-m^in 3-hoe(3 4) 3-1s sm1s-t^p_weed-m^s cj sister(1a 2a) a_name
+10 10
+sm1/t^np-om9-step-m^in
+cd sm1s-t^p_say-m^in sm1s-t^f4-om9-put-m^pt
+ij cp mother(1a 2a)
+sm1s-t^p_hear-m^in cj cp 7-airplane(7 8)
+ij sm1-grab/t^pf-p-m^in cp 14-sleep(14) 1
+cp q cp a_name
+cp a_name sr1-t^pp-rl-sm1-om1s-beat-m^pt

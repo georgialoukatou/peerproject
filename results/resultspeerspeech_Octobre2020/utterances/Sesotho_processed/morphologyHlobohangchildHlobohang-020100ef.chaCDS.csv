@@ -1,0 +1,104 @@
+sit-m^i a_name
+sit-m^i
+17
+17
+cp wh
+cp moon(9,10)
+cp moon(9,10)
+cp moon(9,10)
+cp 9
+ng cp9 loc ij
+play-m^i tape_recorder(9,10)
+hear-m^i
+become_silent-m^i
+sister(1a,2a) a_name sm1-t^pp-sm1-om2s-call-m^pt
+a_name
+sm1s-om2s-beat-t^pf-m^in
+hear-m^i av
+ij come-m^i cj thing(9,10)
+sm1s-t^p-break-m^in 5-foot(5,6)
+say-m^i ng-om1s-break-m^x 5-foot(5,6)
+sm1s-take_out-t^pf-m^in 8-shoe(7,8)
+sm1s-om8-take_out-t^pf-m^in 8-shoe(7,8) 8-2s
+sm1s-om8-take_out-t^pf-m^in
+ij 2s sm2s-t^p-om1s-step-m^in
+sm1s-t^f1-om2s-scold-m^in
+sm1s-t^f1-om2s-scold-m^in
+sm1s-t^f1-om2s-scold-m^in
+a_name sm1s-t^p-om2s-leave_behind-m^in
+sm1s-om2s-grab/t^pf-m^in
+come-rv/c-m^i 5-foot(5,6)-dim 5
+sm1s-om5-grab/t^pf-m^in
+ps/home a_name
+sm2s-t^p_go-m^in wh
+wh
+sit-m^i loc
+sit-m^i loc
+sit-m^i
+see-m^i a_name
+see-m^i sm1s-om9-take-t^pf-m^in
+see-m^i a_name
+a_name
+see-m^ip corn(9,10)
+a_name take-m^i corn(9,10)
+see-m^ip corn(9,10) cp 9
+a_name sm2s-t^p-om9-see-m^in 2s
+see-m^ip corn(9,10) cp 9
+see-m^ip corn(9,10) a_name
+see-m^i
+a_name see-m^i cp 9
+a_name
+come/m^i see-m^i corn(9,10)
+cp 9
+corn(9,10) cp 9
+corn(9,10) cp 9 wh
+brother(1a,2a) a_name
+pinch-m^i tobacco(9,10)
+sm9-t^p_disperse-m^in tobacco(9,10)
+cp 1 a_name
+sm1s-t^f1-om2s-strangle-m^in
+sm1s-t^p-om2s-strangle-m^in
+sm1s-t^p.om2s-grab-m^in pr blanket(9,10) 9
+sm1s-t^p.om2s-grab-m^in pr blanket(9,10) 9
+leave-m^i
+sm1s-t^p-sleep-m^in a_name
+sm1s-t^p_sleep-m^in av
+say-m^i blanket(9,10)
+blanket(9,10)
+say-m^i field(9,6)-lc
+say-m^i 5-grass(5,6)
+5-plant(5,6)
+come-c-m^i thing(9,10) 9 9 sm2s-om9-find/t^pf-m^pt-rl
+9 sm2s-om9-find/t^pf-m^pt-rl
+cp 1
+cp 1 lr sm1-t^p_leave-m^pt-rl loc
+cp 1 5-wall(5,6)-lc
+cp thing(9,10) 9
+loc 5-wall(5,6)-lc 7-spider(7,8) cp 7
+sm8-t^p-bite-m^in
+sm2s-lose-t^pf-m^in 8-shoe(7,8) 2s
+sm2s-lose-t^pf-m^in 8-shoe(7,8)
+cp7 wh
+sm2s-om7-lose-t^pf-m^in
+ij
+ij
+cp7 wh 7
+2s cp7 wh
+sm2s-om8-lose-t^pf-m^in
+8-shoe(7,8)
+sm2s-om8-lose-t^pf-m^in
+sm2s-t^f1-see-m^in cm q 8-shoe(7,8) 8-2s cp8 wh
+see-m^i
+see-m^i cp 8
+wh
+cp 3-sound(3,4) 3 if-milk-m^in
+sm1s-t^p-om2s-milk-m^in
+sm1s-t^p-om2s-milk-m^in
+see-m^i
+see-m^i a_name sm1s-urinate-ap/t^pf-m^in loc
+ng sm2s-t^p-dress-m^x cp wh
+ng sm2s-t^p-dress-m^x
+sleep-m^i
+see-m^i sm1s-t^p-milk-m^in
+say-m^i ij
+say-m^i ij

@@ -1,0 +1,4 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+12624	BOY	Boy	ça vient de monstre et xxx .			 	Anae/2123.cha	BR1	clara		BR1	Lara			Anae	child	Other child
+12625	BOY	Boy	c'est ça Arthur ?			 	Anae/2123.cha	BR1	clara		BR1	Lara			Anae	child	Other child
+12994	BRO	Brother	tiens va dire à Zoum qu'(il) y a son téléphone qui sonne .	add à BRO		add à BRO 	Anae/2123.cha	BRO	clara		BRO	Lara			Anae	child	Other child

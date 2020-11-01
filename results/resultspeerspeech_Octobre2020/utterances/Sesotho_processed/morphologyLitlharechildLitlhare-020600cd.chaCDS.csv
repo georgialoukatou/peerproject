@@ -1,0 +1,197 @@
+cj 1 cp
+sm2s-t^p-know-m^in q sm1p-t^p_eat-m^pt-wh
+7-school(7,8)-lc
+sm1p-t^p_eat-m^in 6-potato_chips(9,10|6)
+ij 2-person(1,2)
+ij
+cp2s 5-liar(5,6) ng sm1s-t^p-say-m^x sm1s-t^f2-om2s-thrash-m^pt 2s
+cp wh sr1-t^p_say-m^in-rl av
+a_name
+come/m^i
+sm1s-t^f2-feel-m^s
+ij sm2s-become_hungry-t^pf-m^in
+ng sm9-t^sa-be-m^x 5-something(5,6)
+sm9-become_hungry-t^pf-m^in
+sm2-om9-contract/t^pf-m^in
+sm2-om9-say-t^pf/m^in
+6-peanut(5,6) 6
+ij
+5-cup(5,6)
+ng sm17-be-m^x sugar(9,10) 17 loc
+ng cp9 loc sugar(9,10) cafe(9,10)-lc a_name
+ng cp9 loc sugar(9,10) cafe(9,10)-lc cj 5-shop(5,6)-lc
+cp2s 14-liar(14) cp9 loc 5-shop(5,6)-lc
+av pr father(1a,2a) a_name sugar(9,10) cp9 loc
+cp9 loc pr father(1a,2a) a_name cj pr a_name cj pr a_name
+cp wh
+ij a_name
+ng om9-come-rv/c-m^i
+om9-put_on-m^i av sm1s-t^p_see-m^s
+om9-put_on-m^i
+look-m^i
+sm1s-t^f2-om5-throw-ap-m^i loc
+a_name sm2s-t^p.om1s-collide_with-ap-m^in-wh
+ij sm2s-t^p_say-m^in-wh
+thing(9,10) 9 9-1s sm9-throw-nt-t^pf-m^pt av
+sm2s-t^ne-sm2s-t^po-buy-m^pt car(9,10) pr 9
+cj car(9,10) 9 sm9-t^p_say-m^in ???
+become_silent-m^i
+???
+???
+ht sm1s-t^p_look-m^s q sm9-t^p_come_from-m^pt wh
+sm1s/t^np-find-m^in pr 5-peanut(5,6)
+sm1s-find/t^pf-m^in pr 5-peanut(5,6)
+sm1s-find/t^pf-m^in
+5-5-aj av
+sm2s-t^p-hear-m^in a_name
+cp6 aj 6-peanut(5,6)
+sm2s-t^f1-know-m^in if-t^p_find-m^pt pr 6-peanut(5,6)
+5-peanut(5,6) 5-5-aj cp wh
+ij cp 5
+a_name
+ij 6-peel(5,6) 6 6-peanut(5,6)
+1s 6-peanut(5,6) cp 6
+ng loc sr9-peel/t^pf-p-m^x-rl
+sm2s-deceive-m^in ng cp 5-peel(5,6)
+thing(9,10) 9 cp 5-peanut(5,6)
+5-5-aj sm1s-om5-eat-t^pf-m^in
+sm1s-t^p-om5-peel-m^in
+ng smash-m^i 6-peanut(5,6) 2s
+sm2s-t^p-hear-m^in
+ng smash-m^i 6-peanut(5,6)
+2s sm2s-t^p-smash-m^in
+sm2s-t^f1-smash-m^in sm2s-eat_together_with-m^s cj 6-peel(5,6)
+sm2s-t^p_say-m^in ??? pr 6-stone(5,6)
+sm2s-t^p-smash-m^in
+10-thing(9,10) 10 10-aj 10
+ij cj 1s sm1s-t^p-om5-break-m^in
+6-peanut(5,6)
+cp 5 lr sm5-appear-t^pf-m^in-rl
+cp 9
+ij sm2s-t^p-om1s-hit-m^in
+sm1s-t^f1-om2s-hit-m^in 2s
+ij av sm1s-t^f1-om2s-not_give-m^in 6-peanut(5,6)
+cp9 loc
+cp 5
+ij sm5-cp wh
+5-5-aj
+cp 5-wh
+5-5-aj av
+a_name ij sm1s-om2s-smash-ap-m^in
+cd sm1s-find/t^pf-m^in pr 5-5-aj
+sm1s-t^f1-om2s-smash-ap-m^in
+sm1s-t^f1-om2s-smash-ap-m^in 6-peanut(5,6)
+ij sm1s-t^se-sm1s-t^p_go-m^in
+cd sm1s-find/t^pf-m^in pr 5-peanut(5,6) 5-5-aj
+sm1s-t^f1-om5-smash-m^s
+sm1s-t^f1-om5-smash-m^in sm1s-t^p.om2s-give-m^s
+sm9-t^f1-say-m^in cd sm1s-fetch-m^in 6-peanut(5,6)
+om1s-give-m^i sm1s-t^f1-om2s-smash-ap-m^in
+cp wh
+ij 6-peanut(5,6)
+sm2s-t^p_do-m^in-wh
+take-m^i corn_stalk(9,10) 9-2s cp 9
+sm1p-t^p_begin-m^in
+do-m^i av
+sm1s-t^f1-smash-m^in 5-peanut(5,6)
+thing(9,10) 9 9-1s 9 car(9,10) cp9 wh
+ng sm1-deceive-m^x cp 9
+sm1-t^p-deceive-m^in cp 9
+1s sm1s-t^p_speak-m^in pr thing(9,10) cp 9 cp9 aj cp 9
+1s sm1s-t^p-om9-open-m^in
+a_name ij cd sm1s-t^po-sm1s-make-m^pt 10-biscuit(9,10) sm2s-t^po-say-m^pt-wh
+sm2s-t^p.om14-grab-m^in pr plate(9,10)
+plate(9,10) cp9 loc pr 3-hut(3,4)-lc
+9 sr9-appear-t^pf-m^pt-rl
+look-m^i a_name
+ng sm1s-t^ny-see-m^x 7-dish(7,8) 7-7-aj av 7 7-school(7,8)
+cp10 wh 8-dish(7,8) 8 a_name
+sm8-come-c-t^pf-p-m^in cp wh
+cp 7-school(7,8) cp car(9,10)
+cp brother(1a,2a) a_name
+sm2s-t^p_say-m^in brother(1a,2a) a_name a_name
+cp2s 14-liar(14)
+5-liar(5,6) cp ??? cp car(9,10)
+cp car(9,10) 9 ??? 7 7-7-aj
+cp ??? 7 sr7-t^p_make_noise-m^pt-rl av
+sm2s-be_full-t^pf
+1s sm1s-t^p-eat-m^in
+sm2s-ng-t^ba-cry-ap-m^i 8-food(7,8) 8-1s
+sm2s-ng-say-m^i sm2s-t^p_want-m^pt 10-1s
+sm2s-t^p-fill_belly-m^in
+ng sm2s-t^be-sm2s-t^se-sm2s-om1s-attack-m^pt
+a_name sm2s-t^p.om1s-attack-ap-m^in-wh
+ng sm2s-t^p_see-m^x sm2s-t^p_step-c-m^in thing(9,10) 9 9-1s
+3-bulgar_wheat(3,4) cp3 loc
+cp3 aj
+sm3-season-p-m^in pr sugar(9,10)
+leave-m^i if-take-m^pt 3-2s cp 3 loc
+eat-m^i cp 6
+sm2s-t^p-give-p-m^in cp sister(1a,2a) a_name
+cp3 aj av
+ij wh
+sm9-pour/t^pf-m^in-wh
+om9-take_out-m^i sm1s-t^p_see-m^s
+appear-c-m^i sm1s-t^p_see-m^s
+a_name ij sm2s-rf-defecate/t^pf-m^in cj ng sm2s-t^pf-rf-defecate-m^x
+loc
+ng sm2s-t^ny-know-m^x lr sm17-rf-t^p_defecate-ap-m^pt-rl 1p
+sm2s-rf-t^p_defecate-ap-m^in loc
+6-stony_hill(5,6)-dim-lc
+sm2s-t^p_like-m^in 5-door(5,6) av
+a_name sm2s-t^ne-sm2s-grab-m^pt loc
+sm2s-t^ne-sm2s-say-m^pt
+look-m^i sm2s-t^p_say-m^s sm2s-t^p-descend-m^pt sm2s-t^p_say-m^pt
+sm2s-t^p_go-m^in wh
+cp 1-aj 1s
+sm2s-t^p_take-m^in 5-safety_pin(5,6)
+mother(1a,2a) a_name sm1-t^p.om1-give-m^in 10-panty(9,10) 10 cj 10-sock(9,10) 10
+sm1-t^f2-om1-buy-ap-m^in panty(9,10) pr a_name
+cj a_name sm1-t^p-laugh-m^in
+cd sm2s-t^p-sm2s-look-t^pf-m^pt loc
+a_name see-m^i
+sm2s-t^p-hear-m^in a_name
+sm1s-t^f1-say-m^in a_name sm1-t^p_come-m^s
+cp child(1irg) 1 2a-a.name
+cp child(1irg) loc road(9,10)
+sm1-t^p-herd-m^in
+sm1-t^p_herd-m^in 10-cow(9,10)
+ij
+sm1-t^p_be_equal-m^in cj 2s av
+ij 2s a_name
+sm2s-t^p.om1-kiss-m^im 10-nose(9,10)-lc
+ng sm2s-t^p.om1-kiss-m^x 2-mouth(3,4)-lc
+a_name sm1s-t^f1-om2s-beat-m^in
+a_name sm1s-t^f1-om2s-beat-m^in
+1s sm1s-t^p.om2s-see-m^in 1s
+sm9-be-t^pf/m^in ng sock(9,10) thing(9,10) 9
+ij ij
+sm1s-t^ke-sm1s-put_on-m^s 10-sock(9,10)
+sm2s-t^p-om1s-attack-m^in av a_name
+cp 2s sr1-t^pp-rl-sm1-om1s-stumble-m^pt
+ij a_name ij
+sm2s-om1s-step-t^pf-m^in ij
+ij
+sm2s-t^pp-sm1-say-m^pt ij a_name ij
+ij ij
+ng sm1s-t^p-be_thirsty-m^x
+ng sm1s-t^p-be_thirsty-m^x
+sm2s-t^pp-sm2s-do-m^pt-wh
+say-m^i ij
+7-up_turned_mouth(7,8) 7 sm7-say/t^pf-m^in
+loc 1s sm1s-do/t^pf-m^in
+take-m^i so_and_so(1a,2a)
+2s sm2s-t^f1-om1-give-m^in av
+a_name sm2s-t^p_do-m^in-wh ij
+child(1irg) sm1-t^p_like-m^in child(1irg) 1
+a_name sm2s-t^p.om1s-pinch-ap-m^in-wh
+ij sm2s om1s-leave-m^i 1s
+a_name sm2s-t^p_do-m^in-wh
+sm2s-t^p-know-m^in a_name sm1s-t^f1-om1-beat-m^pt
+sm1s-t^f1-om2s-hit-m^in
+sm1s-t^f1-om2s-beat-m^in 2s
+sm2s-t^p_do-m^in-wh
+come-rv/c-m^i 5-hand(5,6) 5
+sm1s-t^f1-om2s-beat-m^in ij
+sm2s-t^p.om1s-do-m^in-wh
+sm1s-t^f1-om2s-beat-m^in

@@ -1,0 +1,145 @@
+ij sm1s-t^p-do-m^in
+ht 1s sm1s-t^p_close-m^s
+leave-m^i sm2s-t^p_go-m^s pr loc
+ij sm2s-t^p_close-m^s loc
+sm2s-become_firm-c-t^pf-m^in
+grab-m^i
+a_name ht 1s sm1s-t^f2-cp pr loc
+come-c-m^i sm2s-t^p_say-m^pt
+leave-m^i sm2s-t^p_go-m^s pr loc
+go-m^i loc
+go-m^i loc ij a_name
+come-c-m^i whip(9,10) 9
+a_name cp 10 child(1irg)
+ij ng sm9-cp/ng 9
+pour-m^i pr pr 9
+pour-m^i cj pr pr 9
+cp bed(9,10)
+pr teeth(6irg) cp6 aj
+a_name 6-peanut(5,6) 6-1s sm1s-om6-finish-t^pf-m^in
+sm2s-t^p_eat-m^in sm5-cp 5-nm
+a_name ht sm1p
+a_name ng om6-take_out-m^i
+ij ij cp 7 7-cover(7,8) 7 5-milk(5,6)
+ht sm1s-t^p.om2s-button-m^s
+a_name sm2s-t^ne-sm2s-cut_off-ap-m^pt-wh button(9,10) 9-aj loc loc
+q sm2s-t^f1-put-m^in pr pocket(9,10)-lc
+ij cd sm2s-t^p_like-m^in cj 9
+ng cp6 loc a_name
+cp mother(1a,2a) 1a 1p
+sm5-t^p_want-m^in if-pierce-nt-m^pt 5-peanut(5,6) 5
+see-m^i
+ht sm1s-t^p.om2s-button-m^s
+ij sm1p-ng-sm1p-om1-waken/c-m^i
+ht sm1s-t^p_see-m^s
+ij ng sm2s-t^p-shut_one's_eyes-m^x
+shut_one's_eyes-m^i
+cp 9-1s come-c-m^i thing(9,10) 9-1s
+sm9-t^p_refuse-m^in if-take_out-nt-m^pt
+a_name
+sm9-t^p_refuse-m^in if-come-rv/c-nt-m^pt
+sm1s-t^p-om9-take_out-m^in
+sm1s-t^f2-do-m^in 6-house(9,10|6)/dim
+brown_haired_caterpillar(9,10)
+sm1s-t^f2-om1-tell-m^in
+1s sm1s-enter-t^pf/m^in pr ps/home
+a_name sm1s-ride-t^pf/m^in horse(9,10)
+pr pr a_name ng sm17-t^p_be-m^x 8 8-dish(7,8) pr loc
+a_name come/m^i loc ij
+loc
+reverse-ap-m^i loc
+cj mother(1a,2a) a_name sm1s-t^p_fall_down-c-m^in 5-toy_house(5,6) 5-2s
+sm2s-t^p-om9-roll-m^in blanket(9,10) 9
+sm2s-t^p-om9-roll-m^in
+ng sm1s-t^p_know-m^x q sm2s-t^f1-wash-ap-p-m^pt cp wh
+pr ps/home cp pr loc
+a_name pr ps/home cp pr loc
+sm1s-smear-m^in 6-toy_house(5,6) 6 a_name
+come-c-m^i
+1s pr ps/home sm17-t^p_be-m^in cj 7-dish(7,8)
+1s pr ps/home sm17-t^p_be-m^in cj stove(9,10)
+cp 10-house(9,10|6) 10 1p cj a_name cj a_name
+cj a_name cj av cj a_name cj av
+ij come/m^i sm1s-t^f2-om2s-sweep-ap-m^pt
+ij sm2s-t^p_come-rv/c-m^s 10-thing(9,10) 10
+ij cp 10-house(9,10|6) 10-1s 10
+a_name a_name pr ps/home cp17 17-aj wh
+q sm1s-t^sa-clean-m^in pr ps/home
+q a_name sm2s-t^f1-sit-m^in loc lr sm1s-sit/t^pf-m^pt-rl
+8-dish(7,8) 8 mother(1a,2a) a_name 8-aj
+mother(1a,2a) a_name cj ng sm2s-t^p_stir-m^x pap(9,10) 9 9-2s
+sm9-stick-nt-t^pf-m^in
+pap(9,10) sm2s-om9-cook-t^pf-m^in mother(1a,2a) a_name
+sm1s-t^po-t^mpa-sm1s-cook-m^pt loc
+sm2s-t^p_say-m^in cp 5-porridge(5,6)
+a_name sm1/t^np-om1-beat-m^in pr slap(9,10)
+sm1/t^np-om1-beat-m^in
+a_name om1s-give-ap-cl-m^i 7-dish(7,8) 7
+mother(1a,2a) 1a a_name 5-broom(5,6) 5 cp5 wh
+ij q sm2s-t^p.om1s-lend-m^s 5-broom(5,6)
+a_name sm2s-t^p.om5-put-ap-m^in-wh pr loc
+a_name sm2s-find/t^pf-m^in pr wood(9,10)
+ht sm1s-t^p_see-m^s a_name
+sm1s/t^np-rf-find-ap-m^in pr wood(9,10)
+sm1s/t^np-rf-find-ap-m^in pr wood(9,10)
+a_name take_out-m^i thing(9,10) 9 9-2s pr loc
+ij a_name ij
+a_name ij come/m^i cj 7-cover(7,8) 7 7-7-aj 7-1s 7 5-milk(5,6)
+ij mother(1a,2a) 1a a_name sm1s-t^p-om2s-visit-ap-m^in
+pr loc pr ps/home
+sm1s-t^p-om2s-work-ap-m^in
+ij cp6 loc pr loc
+wash-m^i av
+wash-m^i
+ij sm2s-t^p_come-rv/c-m^s sm1p-t^p_see-m^s q sm17-t^p-leak-m^pt
+come-rv/c-m^i sm1p-t^p_see-m^s q sm17-t^p-leak-m^pt
+sm1s-t^f4-put_on-m^in
+ij ng sm6-t^p_burn-m^x water(6irg) 6
+ng sm6-t^p_burn-m^x
+look-m^i a_name blanket(9,10) 9-2s sm9-fold/t^pf-p-m^in wh
+ij mother(1a,2a) 1a a_name cj 9
+av pr ps/home sm1s-clean-t^pf-m^in av
+sm1s-t^se-sm1s-put_on-m^pt 6-eye(5,6)
+ij a_name
+ij sm1p-t^p.om6-pour-m^s
+a_name thing(9,10) 9 sm9-pour/t^pf-m^in pap(9,10)
+cp9 ps/home
+sm1s-t^f2-om2s-visit-ap-m^in
+abandon-m^i sm1s-t^p.om2s-stir-ap-m^s
+abandon-m^i
+see-m^i loc
+ij sm2s-t^p-see-m^in ij
+sm2s-t^p-see-m^in house(9,10|6)
+ij 9-1s ng om9-step-m^i
+sm2s-t^f1-om9-step-m^in
+ij mother(1a,2a)
+ij ij sm2s-ng-om6-take-m^i
+ng sm1s-t^p-om2s-tell-m^x
+sm1s/t^np-say-m^in sm2s-t^f1-cause_to_fall-m^pt
+sm1s-om2s-tell-t^pf-m^in ij
+sm1s-t^ps-sm1s-om2s-tell-m^pt
+sm1s/t^np-say-m^in sm2s-t^f1-cause_to_fall-m^pt
+ij a_name
+sm1s-t^p-om5-throw_away-m^in
+cp 5-1s pr loc
+10-thing(9,10) 10-av sr10-t^p_do-m^pt-rl
+a_name sm2s-t^ne-sm2s-t^pp-sm2s-do-m^pt-wh
+sm1-crush-p-t^pf/m^in cp 5-stone(5,6)
+a_name sm1-t^f1-om2s-do-m^in-wh
+a_name sm1-t^f1-om2s-pat-m^in
+come-rv/c-m^i 5-stone(5,6)
+om5-come-rv/c-m^i
+a_name sm2s-t^ne-sm2s-t^pp-sm2s-do-m^pt-wh
+ij a_name sm2s-t^ne-sm2s-t^pp-sm2s-do-m^pt-wh
+sm2s-forget/t^pf-m^in
+ij a_name cj 1 sm1s-t^po-t^be-sm1s-t^se-sm1s-om9-fall_down-c-m^pt
+cj 1s ng sm1s-t^p_know-m^x
+a_name cd sm1-t^se-sm1-arrive-t^pf-m^pt loc
+sm1-t^f1-come-m^in wh
+a_name sm1-t^f1-om2s-beat-m^in av
+q sm1s-t^po-om5-take-m^in 5-stone(5,6) 5-5-aj
+ij sm1s-t^po-mock-p-m^in cp 5-stone(5,6)
+ng sm1s-t^p_know-m^x sm1-t^ne-sm1-t^pp-sm1-fall_down/c-m^pt-wh thing(9,10) 9 9 a_name
+1p pr loc
+1p sm1p-t^p_build-m^in 6-house(9,10|6) pr loc sm1p-t^p_say-m^pt
+sm1s-t^ny-sweep-m^x cj if-sweep-m^pt

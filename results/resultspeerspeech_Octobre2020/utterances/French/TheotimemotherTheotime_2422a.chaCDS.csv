@@ -1,0 +1,439 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+34493	MOT	mother	ah bah ils disent un pingouin mais //			%sit  Tim et sa mère regarde un livre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34494	MOT	mother	et ça c'est quoi?			%sit  la mère de Tim lui montre une image du livre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34496	MOT	mother	mh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34497	MOT	mother	un perroquet				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34499	MOT	mother	là?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34501	MOT	mother	une souris			%sit  la mère de Tim lui montre une image /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34504	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34509	MOT	mother	un rhinocéros				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34510	MOT	mother	tu as des moustaches de lait toi			%sit  la mère de Tim lui essuie la bouche Tim regarde toujours le livre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34512	MOT	mother	et oui tu as mangé du xxx des céréales				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34513	MOT	mother	on n' a pas nettoyé la bouche			%sit  la soeur de Tim parle 28673348/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34517	MOT	mother	et ça a fait quoi?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34518	MOT	mother	ça a fait de là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34520	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34522	MOT	mother	et ça a fait de la mousse?			%sit  la mère de Tim lui met le doigt sur ses moustaches de lait /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34524	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34527	MOT	mother	alors celuilà +				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34528	MOT	mother	mais regarde il sont déjà coloriés Tim				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34529	MOT	mother	qui a colorié?			%sit  Tim revient dans la chambre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34531	MOT	mother	c'est Amé?			%sit  la soeur de Tim parle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34533	MOT	mother	www			%sit  la soeur de Tim parle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34536	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34541	MOT	mother	Eustache				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34544	MOT	mother	regarde c'est Eustache			%sit  la mère de Tim lui montre son livre Tim le regarde sa soeur parle 19681172/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34552	MOT	mother	des comment?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34554	MOT	mother	coloriage			%sit  Tim sort de sa chambre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34555	MOT	mother	non mais viens Tim				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34557	MOT	mother	pourquoi non?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34559	MOT	mother	on fera après				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34560	MOT	mother	on peut pas le faire maintenant				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34562	MOT	mother	il y a du monde dans la cuisine				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34563	MOT	mother	attends qu'on te voit au moins faire ton caprice			%sit  la mère de Tim ouvre la porte /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34567	MOT	mother	ici?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34569	MOT	mother	et tu sais que tu as plein d'autres livres là qu'on t'a prêté				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34571	MOT	mother	on pourrait les regarder quand même				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34575	MOT	mother	tous ces livres là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34576	MOT	mother	regarde le livre sur les couleurs				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34578	MOT	mother	regarde celuilà			%sit  la mère de Tim attrape un livre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34579	MOT	mother	oh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34580	MOT	mother	oh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34581	MOT	mother	qu'estce qu'il est beau				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34583	MOT	mother	les grands livres de la petite souris				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34594	MOT	mother	tu veux que je te le lise?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34596	MOT	mother	alors			%sit  la mère de Tim tourne la page /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34597	MOT	mother	petit			%sit  Tim regarde son livre sa soeur parle 2353472496/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34599	MOT	mother	petit www ours se réveille www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34600	MOT	mother	il a encore un peu sommeil				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34601	MOT	mother	allez il faut se lever				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34602	MOT	mother	la journée va commencer				Theotime/2422a.cha	1							Theotime	mother	Keychild
+34603	MOT	mother	alors tu me montres tout ce qui est rouge Tim				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34604	MOT	mother	qu'estce que tu vois qui est rouge?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34607	MOT	mother	c'est rouge ça?			%sit  la soeur de Tim parle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34608	MOT	mother	le ballon				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34610	MOT	mother	oui c'est quoi ça				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34613	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34614	MOT	mother	des chaussons			%sit  la soeur de Tim parle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34622	MOT	mother	www un bol				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34623	MOT	mother	elle lui apporte le bol la souris			%sit  la soeur de Tim parle avec sa mère qui tourne la page 31498832348/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34629	MOT	mother	petit www ours brun est dans son bain				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34630	MOT	mother	il se frotte avec entrain du bout du nez aux bouts des pieds				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34631	MOT	mother	le voilà bien lavé				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34633	MOT	mother	alors il faut trouver une serviette un flacon de parfum un gant de toilette une brosse et une brosse à dents				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34637	MOT	mother	ouais exactement				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34639	MOT	mother	ouais elle est bleue				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34640	MOT	mother	tu as raison aussi				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34641	MOT	mother	on www aurait pu le mettre				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34642	MOT	mother	ouais			%sit  la soeur de Tim parle la mère de Tim tourne la page /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34645	MOT	mother	petit www ours brun ours met ses chaussettes son pull et sa salopette				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34646	MOT	mother	mais non c'est pas petit ours brun				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34648	MOT	mother	petit				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34649	MOT	mother	le voilà bien www habillé				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34650	MOT	mother	youpi il peut aller jouer			%sit  Amé et sa mère parle 415241684/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34654	MOT	mother	alors qu'estce que tu as vu de jaune?			%sit  la soeur de Tim parle 421138422435/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34658	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34659	MOT	mother	oui une bobine de fil			%sit  Amé parle 42665426825/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34662	MOT	mother	mhm				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34664	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34665	MOT	mother	c'est un ferà+repasser on dirait			%sit  la soeur de Tim parle 4361243664/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34667	MOT	mother	hein			%sit  AME parle 4371643792/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34669	MOT	mother	il est où le ferà+repasser dans l'image là?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34671	MOT	mother	oui mais là dans l'image où il est			%sit  AME parle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34675	MOT	mother	voilà				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34680	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34683	MOT	mother	c'est un short				Theotime/2422a.cha	1	c						Theotime	mother	Keychild
+34684	MOT	mother	un short ou un caleçon chais pas				Theotime/2422a.cha	1	c						Theotime	mother	Keychild
+34685	MOT	mother	caleçon				Theotime/2422a.cha	1	c						Theotime	mother	Keychild
+34686	MOT	mother	et ça?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34687	MOT	mother	qu'estce que vous savez ce que c'est			%sit  la mère de Tim montre l'i mage d'un cintre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34692	MOT	mother	www			%sit  Amé parle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34694	MOT	mother	y en a la crêche?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34695	MOT	mother	c'est ça que tu dis?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34697	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34698	MOT	mother	ça xxx c'est pour accrocher les vêtements				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34699	MOT	mother	c'est là			%sit  la mère de Tim lui montre le cintre puis le dessin de l'armoire /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34701	MOT	mother	ça s'appelle comment?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34703	MOT	mother	un cintre				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34706	MOT	mother	oui			%sit  Amé parle sa mère tourne la page Tim regarde les nouvelles images 52862353416/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34710	MOT	mother	alors petit> [/] www [= ! li] <ours euh (.) est> [/] www [= ! li] affamé [/] www [=				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34711	MOT	mother	il met son beau tablier et décide de se préparer un bon petit			%sit  Amé parle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34729	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34730	MOT	mother	ça sert à quoi le tablier?			%sit  discussion entre Amé et sa mère 6214386278/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34734	MOT	mother	à passe tacher Mint			%sit  la mère de Tim parle à Amé 628726315/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34736	MOT	mother	petit ours se lève de bon matin et descend dans son jardin				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34737	MOT	mother	il aime semer bêcher arroser				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34738	MOT	mother	ses plantes sont bien soignées				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34739	MOT	mother	alors Tim				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34740	MOT	mother	qu'estce qu'on trouve?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34751	MOT	mother	alors qu'estce que tu as vu Tim				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34753	MOT	mother	mhm				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34759	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34762	MOT	mother	mhm				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34764	MOT	mother	attention Tim tu vas abîmer le livre				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34766	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34767	MOT	mother	et là?			%sit  la mère de Tim lui montre une nouvelle image /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34768	MOT	mother	qu'estce que c'est?			%sit  Amé commente l'image 72128772832/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34773	MOT	mother	ça?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34774	MOT	mother	c'est un plantoir			%sit  Amé parle 732987738467/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34776	MOT	mother	c'est pour faire les trous pour planter les salades				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34778	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34779	MOT	mother	là c'est le			%sit  la mère de Tim lui montre une nouvelle image /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34786	MOT	mother	alors				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34790	MOT	mother	c'est rose			%act  Tim regarde les images /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34794	MOT	mother	alors petit www ours a euh bien travaillé www			%sit  Tim attrape son micro qui est défait /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34795	MOT	mother	il peut maintenant se reposer				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34797	MOT	mother	ah j'ai pas vu				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34798	MOT	mother	Tim non			%sit  la mère de Tim essaie de lui enlever le micro des mains 811285812547/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34799	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34800	MOT	mother	Tim			%sit  la mère de Tim essaie de lui raccrocher le micro /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34801	MOT	mother	faut pas abîmer ça hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34802	MOT	mother	dis donc			%sit  Amé et sa mère parle Tim regarde et essaie d'attraper le micro que sa mère vient de lui remettre 82795824147/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34806	MOT	mother	tu arrêtes Tim hein			%sit  Amé parle Tim regarde son micro en souriant /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34815	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34817	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34819	MOT	mother	alors			%sit  Amé pleure 84322847267/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34820	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34821	MOT	mother	bon qu'estce qu'on regarde Tim?			%sit  la mère de Tim tourne la page /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34822	MOT	mother	www qu'estce qu'il y a là?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34823	MOT	mother	c'est comment?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34824	MOT	mother	c'est quelle couleur ça?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34826	MOT	mother	c'est pas un cadeau				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34827	MOT	mother	la couleur?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34830	MOT	mother	www			%sit  discussion entre la mère de Tim et Emi 99697916843/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34833	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34834	MOT	mother	alors qu'estce qu'on voit comme euh			%sit  Tim tourne les pages de son livre 9221392644/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34835	MOT	mother	oh bah là ça va vite là hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34840	MOT	mother	alors tu en trouves un www autre				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34842	MOT	mother	ou qu'estce qu'on fait?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34844	MOT	mother	un puzzle?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34850	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34851	MOT	mother	allez				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34853	MOT	mother	ah on fait lequel?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34855	MOT	mother	celuilà?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34856	MOT	mother	Piere Lapin?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34858	MOT	mother	qui vient juste de se réveiller				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34863	MOT	mother	non mais tu t'es mal t'es mal installé là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34865	MOT	mother	mh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34866	MOT	mother	ça va dans le en haut			%sit  la mère de Tim lui montre le coin du puzzle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34868	MOT	mother	mh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34869	MOT	mother	regarde tu vois le rougegorge				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34875	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34876	MOT	mother	les www oreilles du lapin				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34877	MOT	mother	oui là haut là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34880	MOT	mother	ouais				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34883	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34885	MOT	mother	tu t'énerves un peu?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34887	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34889	MOT	mother	c'est bien oui c'est là			%sit  Tim met correctement sa pièce sur le puzzle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34890	MOT	mother	oh bah dis donc				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34892	MOT	mother	mh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34894	MOT	mother	oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34895	MOT	mother	tu le retournes				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34896	MOT	mother	dans l'autre sens				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34897	MOT	mother	c'est là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34898	MOT	mother	c'est au bon www endroit mais faut juste que tu le				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34899	MOT	mother	attends on va remettre ça ça c'est défait				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34900	MOT	mother	faut tu juste les xxx là voilà				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34901	MOT	mother	là tu vois y a sa petite main				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34902	MOT	mother	vas y			%sit  Tim pose sa pièce 1126871127812/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34903	MOT	mother	ouais				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34908	MOT	mother	aïe				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34909	MOT	mother	www tu me fais mal avec ton coude			%sit  Tim essaie de placer sa pièce /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34910	MOT	mother	euh là non				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34911	MOT	mother	je pense pas				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34912	MOT	mother	regarde				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34913	MOT	mother	attends				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34914	MOT	mother	regarde bien				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34915	MOT	mother	regarde				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34916	MOT	mother	qu'estce que c'est qu'on voit là?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34917	MOT	mother	regarde				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34921	MOT	mother	la patte du rouge+gorge				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34922	MOT	mother	voilà				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34925	MOT	mother	le rougegorge				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34928	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34930	MOT	mother	tu le tournes encore			%sit  Tim essaie de mettre sa pièce dans le bon sens /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34931	MOT	mother	encore				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34932	MOT	mother	ah doucement				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34934	MOT	mother	non mais  tu es mal installé là			%sit  Tim déplace les pièces du puzzle en souriant /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34935	MOT	mother	hein aussi				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34936	MOT	mother	viens là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34937	MOT	mother	tu es à moitié allongé sur				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34939	MOT	mother	voilà  il va ici là il va au milieu			%sit  la mère de Tim remet les pièces en place /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34947	MOT	mother	mais si xxx				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34948	MOT	mother	voilà faut prendre son temps				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34952	MOT	mother	ça va en haut				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34955	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34957	MOT	mother	si c'était bien comme tu avais mis				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34958	MOT	mother	regarde c'est bien là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34960	MOT	mother	le petit oiseau il est comme ça				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34961	MOT	mother	vas y			%sit  Tim appuie sur la pièce puis en attrape une autre 1313342131792/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34965	MOT	mother	super				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34971	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34972	MOT	mother	Trotsaut				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34973	MOT	mother	Flopsaut Trotsaut et Queue de coton				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34976	MOT	mother	mh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34977	MOT	mother	il y a ses trois soeurs				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34978	MOT	mother	les trois soeurs de Pierre Lapin				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34981	MOT	mother	regarde le dessin là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34983	MOT	mother	regarde				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34985	MOT	mother	voilà			%sit  Tim fait glisser sa pièce vers le coin du puzzle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34986	MOT	mother	voilà c'est bien			%sit  Tim met sa pièce dans le coin /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34992	MOT	mother	xxx ouais			%sit  Tim se penche vers son puzzle et essaie de placer sa pièce /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34994	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34996	MOT	mother	attends			%sit  sa mère essaie de déplacer la pièce /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34997	MOT	mother	comme ça				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+34998	MOT	mother	vers l'autre bord				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35000	MOT	mother	je pense				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35002	MOT	mother	ah bon				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35004	MOT	mother	à				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35006	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35007	MOT	mother	tu es prudent				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35010	MOT	mother	oh là tu fais un peu hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35011	MOT	mother	regarde la tête du petit lapin			%sit  la mère de Tim lui montre où il doit placer sa pièce /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35013	MOT	mother	bah elle est làbas			%sit  la mère de Tim replace les pièces /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35015	MOT	mother	tu mets en face				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35016	MOT	mother	tu mets xxx				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35017	MOT	mother	voilà			%sit  la mère de Tim assemble les pièces /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35019	MOT	mother	bah regarde là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35020	MOT	mother	tu regardes même pas la pièce avant				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35021	MOT	mother	la xxx				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35023	MOT	mother	faut regarder ce qu'il y dessus				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35024	MOT	mother	qu'estce qu'il y a dessus?			%sit  la mère de Tim lui montre le dessin figurant sur la pièce /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35027	MOT	mother	qu'estce que c'est ça?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35029	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35031	MOT	mother	un adinjt				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35032	MOT	mother	c'est des www oignons				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35034	MOT	mother	et oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35038	MOT	mother	www hop			%sit  la mère de Tim le soulève et le met sur ses genoux /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35039	MOT	mother	alors			%sit  la mère de Tim rapproche le livre /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35040	MOT	mother	la petite queue du lapin			%sit  la mère de Tim lui montre une nouvelle pièce /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35041	MOT	mother	on la met où?			%sit  Tim suce son pouce et regarde la caméra /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35043	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35044	MOT	mother	on va plus rien comprendre à ce que tu dis				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35045	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35047	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35049	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35052	MOT	mother	alors c'est maman qui fait				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35054	MOT	mother	voilà belle démonstration				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35055	MOT	mother	touc			%sit  la mère de Tim pose la dernière pièce /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35056	MOT	mother	bon bah on range alors hein si				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35058	MOT	mother	bah si si tu fais pas				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35059	MOT	mother	tu les fais pas				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35060	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35062	MOT	mother	comment ça se fait que t'as les deux là?			%sit  la mère de Tim attrape l'un des doudous /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35063	MOT	mother	mh			%sit  la mère de Tim lui met son doudou devant le visage /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35064	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35067	MOT	mother	qu'estce tu racontes?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35069	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35071	MOT	mother	aïe				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35072	MOT	mother	aïe			%sit  la mère de Tim l'aide /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35075	MOT	mother	à quoi on joue?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35076	MOT	mother	aux voitures?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35079	MOT	mother	tu veux jouer aux voitures?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35083	MOT	mother	on va faire une pile làbas			%sit  la mère de Tim ramasse les livres /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35086	MOT	mother	alors				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35089	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35091	MOT	mother	où estce qu'elle est la la boite des voitures?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35092	MOT	mother	je crois j'en www ai fais				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35093	MOT	mother	fais voir là			%sit  la mère de Tim tire une caisse vers elle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35094	MOT	mother	donc euh elle elle est dessus				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35095	MOT	mother	là y doit y avoir dessous				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35096	MOT	mother	y en a des voitures non?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35104	MOT	mother	oh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35107	MOT	mother	une coccinelle				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35108	MOT	mother	une coccinelle			%sit  Tim regarde la voiture puis sa mère /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35110	MOT	mother	si				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35112	MOT	mother	et si				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35113	MOT	mother	si ça s'appelle				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35115	MOT	mother	www mais si c'est une coccinelle				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35117	MOT	mother	si c'est une voiture qui s'appelle une coccinelle				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35118	MOT	mother	elle s'appelle comme ça				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35121	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35123	MOT	mother	bon je fais rouler la coccinelle				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35124	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35125	MOT	mother	ça repart				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35126	MOT	mother	oh			%sit  la mère de Tim lache la voiture /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35132	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35135	MOT	mother	raté				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35136	MOT	mother	tu voulais faire quoi?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35138	MOT	mother	qu'estce qu'il y a d'autre là alors?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35140	MOT	mother	www			%sit  Tim joue avec la voiture qu'il vient d'attraper /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35144	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35147	MOT	mother	ah mais attends				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35148	MOT	mother	on va le mettre là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35149	MOT	mother	hop				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35150	MOT	mother	regarde				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35154	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35168	MOT	mother	c'est un c'est un camion ça oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35170	MOT	mother	pour aller où?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35172	MOT	mother	à xxx hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35174	MOT	mother	chez mamie Mic?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35176	MOT	mother	non c'est pas ça				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35177	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35179	MOT	mother	à mil@c				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35182	MOT	mother	tiens			%sit  la mère de Tim lui tend un jouet /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35184	MOT	mother	regarde			%sit  la mère de Tim pose le jouet sur le camion de Tim /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35186	MOT	mother	tu le ramasses				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35187	MOT	mother	tu le mets dans le carton				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35189	MOT	mother	quand je vais passer l'aspirateur euh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35191	MOT	mother	a plus				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35192	MOT	mother	il va partir dans le sac de l'aspirateur				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35194	MOT	mother	bah si				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35196	MOT	mother	éh éh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35199	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35201	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35204	MOT	mother	xxx mis dans l(e) tapis			%sit  Tim jette son jouet par terre 2115343211577/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35205	MOT	mother	voilà				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35211	MOT	mother	ah bon				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35212	MOT	mother	il y a un papa et une maman?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35214	MOT	mother	ah alors où elle est la maman là				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35218	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35220	MOT	mother	et ils vont avoir des petits camions?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35222	MOT	mother	xxx des bébés camions?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35224	MOT	mother	non				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35225	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35228	MOT	mother	ça serait économique ça				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35229	MOT	mother	c'est bien				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35230	MOT	mother	ça coûterait pas cher				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35231	MOT	mother	on mettrait deux camions àcôté et après on www aurait plein de petits camions				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35232	MOT	mother	www			%sit  la mère de Tim lui prend les camions qu'il a dans les mains /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35233	MOT	mother	ah regarde				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35234	MOT	mother	il peut se mettre à deux			%sit  elle met les deux camions bleu à côté et le rouge par dessus /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35235	MOT	mother	transporter la voiture de course			%sit  la mère de Tim fait rouler les camions /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35236	MOT	mother	www			%sit  la mère de Tim fait rouler les camions sur le parquet Tim regarde /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35238	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35243	MOT	mother	oh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35247	MOT	mother	ça fait mal?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35249	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35251	MOT	mother	ou ça chatouille?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35255	MOT	mother	on les remet dans la boite les voitures alors si on www a fini?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35258	MOT	mother	on les met dans la boite hein?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35260	MOT	mother	tiens tu m'aides				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35262	MOT	mother	je les prends alors				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35263	MOT	mother	c'est moi qui les www emmène				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35264	MOT	mother	les voitures elles sont pour moi				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35265	MOT	mother	tu me les donnes				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35266	MOT	mother	hein			%sit  Tim revient vers sa mère /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35267	MOT	mother	ce que je ramasse le garde hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35270	MOT	mother	ah merci				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35271	MOT	mother	allez tu m'en ramènes d'autres			%sit  la mère de Tim range la voiture dans la caisse /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35274	MOT	mother	qu'estce qui est trop lourd?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35276	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35278	MOT	mother	tout www est prétexte				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35279	MOT	mother	allez ramasse les voitures tiens				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35282	MOT	mother	www			%sit  Tim met son camion dans la caisse /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35283	MOT	mother	allez y en a encore				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35284	MOT	mother	une jaune				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35286	MOT	mother	et une coccinelle			%sit  Tim se baisse pour ramasser lla coccinelle /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35288	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35290	MOT	mother	et béh y a xxx +				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35291	MOT	mother	tu crois				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35292	MOT	mother	il y a des xxx c'est une coccinelle hein qu'estce que tu veux				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35293	MOT	mother	c'est pas la même que la coccinelle rouge avec des points noirs			%sit  Tim ramasse des voitures et les met dans sa caisse 24296824932/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35294	MOT	mother	et ça c'est				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35295	MOT	mother	qu'estce que c'est comme voiture ça?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35297	MOT	mother	hein?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35299	MOT	mother	www un quoi?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35300	MOT	mother	c'est un				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35302	MOT	mother	un quatrequatre				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35304	MOT	mother	et oui				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35308	MOT	mother	ah bon				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35311	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35313	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35314	MOT	mother	on peut ouvrir derrière				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35316	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35317	MOT	mother	il faut avoir des petits doigts hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35319	MOT	mother	tu as mis ton doigt dedans?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35322	MOT	mother	xxx on peut pas ouvrir autre chose?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35323	MOT	mother	non?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35325	MOT	mother	mhm				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35328	MOT	mother	à				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35330	MOT	mother	tu t'es coincé le doigt?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35332	MOT	mother	ah ça c'est pas une vraie voiture ça			%sit  la mère de Tim sort un feutre en forme de voiture de la caisse /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35334	MOT	mother	pour dessiner en fait				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35337	MOT	mother	hein?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35342	MOT	mother	tu viens?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35343	MOT	mother	tu l'amènes?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35345	MOT	mother	oh qu'estce c'est qu'est tombé				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35346	MOT	mother	ah c'est la voiture				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35347	MOT	mother	tu tu emmènes euh la voiture et puis le le tableau pour dessiner ?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35349	MOT	mother	pouf				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35350	MOT	mother	www			%sit  Tim sort son ardoise magique 2552972255488/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35351	MOT	mother	attention où tu marches			%sit  l'ardoise tombe des mains de Tim /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35352	MOT	mother	oh mais alors				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35353	MOT	mother	fais attention un peu				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35354	MOT	mother	hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35355	MOT	mother	allez viens				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35356	MOT	mother	viens				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35359	MOT	mother	ah bah dis donc			%sit  la mère de Tim pose l'ardoise sur le tapis /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35360	MOT	mother	tu as un crayon?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35362	MOT	mother	allez			%sit  la mère de Tim lui tend le crayon /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35366	MOT	mother	on l'acheté dans www un magasin?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35368	MOT	mother	tu es sûr que c'est pas le pèrenoël qui te l'a apporté ça?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35371	MOT	mother	je crois hein				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35373	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35375	MOT	mother	à toi			%sit  la mère de Tim lui tend un marteau tampon 2652255265544/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35376	MOT	mother	qu'estce que tu fais là?			%sit  Tim appuie le marteau contre l'ardoise /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35378	MOT	mother	ah ouais				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35380	MOT	mother	ah c'est beau				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35382	MOT	mother	ah				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35384	MOT	mother	mhm			%sit  Tim remet son tanpmon sur l'ardoise 27123352713543/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35386	MOT	mother	mh			%sit  Tim joue avec son tampon sur l'ardoise 2716387272252/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35387	MOT	mother	www				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35388	MOT	mother	c'est qui ça?			%sit  la mère de Tim lui prend le bras avec le tampon 272437272553/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35389	MOT	mother	on va le faire				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35390	MOT	mother	regarde			%sit  la mère de Tim lui fait mettre le tampon une fois de plus sur l'ardoise 272752272896/Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35391	MOT	mother	c'est qui lui?				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35393	MOT	mother	www tu aimes bien inventer				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35394	MOT	mother	www c'est qui lui alors?			%sit  la mère de Tim lui montre la figurine de Mickey puis le dessin /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35395	MOT	mother	tu connais				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35397	MOT	mother	c'est Mickey			%sit  la mère de Tim lui remontre la figurine /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35399	MOT	mother	et là c'est qui?			%sit  la mère de Tim lui montre la figurine de Minni /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35401	MOT	mother	mistigi				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35402	MOT	mother	c'est Minni				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35404	MOT	mother	Minni et Mickey			%sit  la mère de Tim lui remontre les figurines /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35407	MOT	mother	c'est Mickey			%sit  la mère de Tim remontre la figurine correspondante /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35409	MOT	mother	mh				Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35411	MOT	mother	et Minni			%sit  la mère de Tim lui montre la figurine correspondante /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild
+35413	MOT	mother	c'est le garçon c'est la fille			%sit  la mère de Tim lui montre les figurines /Theotime/2422a.cha	Theotime/2422a.cha	1	clara						Theotime	mother	Keychild

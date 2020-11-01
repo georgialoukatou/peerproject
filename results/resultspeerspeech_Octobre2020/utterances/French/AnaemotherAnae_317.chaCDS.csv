@@ -1,0 +1,293 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+14776	MOT	mother	< vous allez jouer un petit peu dedans .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14777	MOT	mother	hein on joue un petit peu dedans d'abord ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14780	MOT	mother	< il y a les livres les poupées la cuisine .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14781	MOT	mother	et puis après on ira jouer dehors .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14783	MOT	mother	hé tu sais les araignées à la campagne il y en a partout hein .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14784	MOT	mother	c'est comme ça .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14789	MOT	mother	Anaé ça va pas non ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14799	MOT	mother	tenez il y a les crêpes les filles là .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14800	MOT	mother	vous voulez les crêpes ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14805	MOT	mother	ah ben si tu veux .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14806	MOT	mother	je vais te chercher une barrette .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14817	MOT	mother	qu'est-ce que tu as trouvé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14818	MOT	mother	hein ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14820	MOT	mother	ah le [//] les [/] les [/] les billets ?	%act MOT met sa barrette à CHI		%act MOT met sa barrette à CHI 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14868	MOT	mother	< oui c'est pour mettre les sachets de thé .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14869	MOT	mother	c'est quoi toutes ces affaires parterre là ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14870	MOT	mother	^ c'est tes affaires Anouk ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14874	MOT	mother	< et Anaé tu sais la petite poupée que Anouk elle avait oublié l'autre jour il faudrait lui rendre .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14875	MOT	mother	tu sais où elle est ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14877	MOT	mother	elle est dans ta chambre je crois .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14878	MOT	mother	on ira la chercher tout à l'heure .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14879	MOT	mother	xxx .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14893	MOT	mother	c'est un sac de quoi que tu as ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14910	MOT	mother	tu vas chercher quoi ?	%act MOT tend son cartable à CHI		%act MOT tend son cartable à CHI 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14911	MOT	mother	cherche le ciseau il est peut-être tombé sous la table sous le (.) sous xxx .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14920	MOT	mother	< comment s'appellent ces petits animaux ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14923	MOT	mother	oui mais c'est des ...			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14927	MOT	mother	petshop@s:eng .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14940	MOT	mother	cherche les ciseaux avec Anouk .	%sit CHI s'agenouille pour regarder sous la table avec COU		%sit CHI s'agenouille pour regarder sous la table avec COU 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14942	MOT	mother	< regarde sous le canapé aussi .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14945	MOT	mother	< ah oui un bout de papier de gâteau .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14947	MOT	mother	pose le sur la table on le mettra à la poubelle .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14953	MOT	mother	tiens regarde là il y a encore un truc qui était dans le sac d' Anouk .	%xpnt show vers le sol de l'index bras tendu		%xpnt show vers le sol de l'index bras tendu 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14954	MOT	mother	la petite pince rose à-côté de ton sac barbeà+papa .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14964	MOT	mother	va jouer avec Anouk chérie .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14967	MOT	mother	ouais .	%sit COU vient en courant vers CHI		%sit COU vient en courant vers CHI 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14968	MOT	mother	allez boire du café .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14969	MOT	mother	vous nous faites du café ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14983	MOT	mother	merci qu'est-ce que c'est ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14989	MOT	mother	< vous buvez du café ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+14992	MOT	mother	hé Anaé arrête de jeter des trucs ça va pas non ?	%sit CHI vient de jeter un objet par terre		%sit CHI vient de jeter un objet par terre 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15022	MOT	mother	allez va faire ton piquenique .	com MOT imite la prononciation de CHI		com MOT imite la prononciation de CHI 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15040	MOT	mother	le noeuf@c .	%sit CHI tend le verre pour le montrer à MOT		%sit CHI tend le verre pour le montrer à MOT 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15045	MOT	mother	< tu peux le boire .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15048	MOT	mother	du jus de quoi ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15050	MOT	mother	ah bon .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15076	MOT	mother	merci .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15083	MOT	mother	< ça y est elle l'a mangé j'ai vu .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15085	MOT	mother	vous pouvez faire des Lego aussi les filles si vous voulez il y a la caisse des legos qui est là .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15086	MOT	mother	tu montres à Anouk les legos Anaé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15087	MOT	mother	approche les par-ici .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15093	MOT	mother	< c'est quel âge ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15094	MOT	mother	c'est quel âge ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15109	MOT	mother	alors il a quel âge ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15112	MOT	mother	il a quel âge Anaé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15114	MOT	mother	sur le gâteau il y a combien de bougies ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15116	MOT	mother	wah@i tout ça .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15135	MOT	mother	non bientôt trois ans .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15137	MOT	mother	comme toi oui toi tu as déjà trois ans .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15141	MOT	mother	l'école du port .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15143	MOT	mother	et toi tu vas à quelle école Anaé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15144	MOT	mother	non [/] non tu l'ouvres pas dans la maison .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15145	MOT	mother	non [/] non [=! signe non de la tête] .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15146	MOT	mother	dehors .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15147	MOT	mother	vous voulez aller dehors un petit peu ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15151	MOT	mother	< mais vous restez en bas [/] dehors en bas d'accord ?	%act MOT suit CHI et COU dehors		%act MOT suit CHI et COU dehors 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15153	MOT	mother	voilà vous restez par-là .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15159	MOT	mother	je vais en remettre .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15160	MOT	mother	donne le [/] le bouchon .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15162	MOT	mother	< <c'est pas grave> [/] Anaé c'est pas grave .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15163	MOT	mother	faites du cerceau en attendant je vais remettre du produit .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15174	MOT	mother	vas y nénette .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15207	MOT	mother	tu fais attention il est très rempli hein .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15208	MOT	mother	tu fais attention de pas le faire tomber .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15248	MOT	mother	chantez une chanson .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15299	MOT	mother	Anaé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15300	MOT	mother	Anaé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15301	MOT	mother	est-ce que tu connais des blagues ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15303	MOT	mother	fais une blague à Anouk .	%sit CHI regarde MOT		%sit CHI regarde MOT 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15304	MOT	mother	tu racontes une blague à Anouk ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15317	MOT	mother	c'est un bébé loup .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15320	MOT	mother	tu te dépêches hein .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15330	MOT	mother	< coucou (.) allez vite [/] vite [/] vite !			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15331	MOT	mother	allez .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15333	MOT	mother	dépêchez vous .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15338	MOT	mother	allez y .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15342	MOT	mother	< allez vite .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15346	MOT	mother	< ben <toutes les deux> [/] vous pouvez monter toutes les deux hein .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15355	MOT	mother	< attention [/] attention .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15372	MOT	mother	non Timothée il était pas là .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15374	MOT	mother	quand vous avez fait du poney Timothée n' était pas là .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15384	MOT	mother	< ton cousin .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15387	MOT	mother	qu'est-ce qu'il vient faire là-dedans Zoum ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15388	MOT	mother	c'est qui Zoum ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15390	MOT	mother	ah bah oui et Timothé c'est ton ..?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15392	MOT	mother	et ouais .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15393	MOT	mother	et c'est qui la soeur de Timothée ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15399	MOT	mother	Anaé monte derrière Anouk sur le cheval .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15405	MOT	mother	vous entendez les oiseaux qui se battent pour les figues ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15414	MOT	mother	tu racontes tes vacances à [/] à Aliyah ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15417	MOT	mother	ben .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15420	MOT	mother	< on est allés où en vacances ?	%sit CHI s'éloigne dans le jardin		%sit CHI s'éloigne dans le jardin 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15422	MOT	mother	tu te souviens ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15423	MOT	mother	où est-ce qu'on a fait du surf ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15425	MOT	mother	ouais .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15427	MOT	mother	< c'était une mer qui s'appelait comment tu te souviens ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15429	MOT	mother	qui ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15431	MOT	mother	< oh bah elle est très [/] très [/] très [/] très vieille .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15433	MOT	mother	< et c'était dans une ville qui s'appelait Laca(nau) +...			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15434	MOT	mother	Lacanau .	%sit CHI met la main devant sa bouche et semble réfléchir		%sit CHI met la main devant sa bouche et semble réfléchir 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15436	MOT	mother	tu te souviens ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15438	MOT	mother	< et on s'est baignés dans l'océan et dans le +...			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15439	MOT	mother	lac			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15445	MOT	mother	on a fait du vélo .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15448	MOT	mother	sur quel bateau ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15453	MOT	mother	ouais est-ce que tu as nagé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15455	MOT	mother	comment tu nages ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15458	MOT	mother	et après on était chez qui ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15459	MOT	mother	on est allés voir qui ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15461	MOT	mother	Aurèle ...			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15463	MOT	mother	Alice et ...			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15465	MOT	mother	et qu'est-ce qu'on a fait chez eux ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15467	MOT	mother	tu t'es baignée dans la piscine ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15469	MOT	mother	et dans la cascade .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15471	MOT	mother	et on a fait le repas ...			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15473	MOT	mother	c'est quoi le repas préhistorique tu nous racontes ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15484	MOT	mother	< qu'est-ce qu'on a mangé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15490	MOT	mother	et puis quoi d' autre ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15493	MOT	mother	< et de la viande et puis quoi ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15502	MOT	mother	< oh là !			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15534	MOT	mother	+ de Némo .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15541	MOT	mother	et le poisson il s'appelle Némo aussi .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15542	MOT	mother	et son papa il s'appelle Marin .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15544	MOT	mother	si [=! rit] .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15546	MOT	mother	si [/] si [/] si .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15547	MOT	mother	comme ton copain .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15550	MOT	mother	hum .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15553	MOT	mother	hum .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15556	MOT	mother	< avec qui tu as joué hier ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15557	MOT	mother	qui est-ce qui est venu à la maison hier ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15559	MOT	mother	comment il s'appelait le garçon ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15561	MOT	mother	Ra(phaël) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15563	MOT	mother	Raphaël .	com MOT reformule		com MOT reformule 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15565	MOT	mother	il était gentil ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15567	MOT	mother	vous avez joué à quoi ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15569	MOT	mother	hum hum qu'est-ce que vous avez mangé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15572	MOT	mother	non .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15574	MOT	mother	< des gâteaux comment ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15576	MOT	mother	des gâteaux /?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15578	MOT	mother	< aux fruits ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15580	MOT	mother	< à quel fruit ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15605	MOT	mother	du sel ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15609	MOT	mother	qu'est-ce qu'on met pour faire les crêpes ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15613	MOT	mother	ouais .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15614	MOT	mother	et puis ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15618	MOT	mother	ah .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15619	MOT	mother	tu fais une salade de tomates .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15625	MOT	mother	qu'est-ce que tu mets dans ta salade de tomates ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15627	MOT	mother	c'est original tout ça .	%sit CHI tend une tasse à MOT		%sit CHI tend une tasse à MOT 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15628	MOT	mother	merci .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15630	MOT	mother	et où est-ce qu'on est allé pour l'anniversaire de Cécile ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15632	MOT	mother	< comment ça s'appelait ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15633	MOT	mother	on est allé à ...			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15634	MOT	mother	Montpellier			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15636	MOT	mother	[=! rit] c'était bien ?	%sit CHI regarde MOT en souriant		%sit CHI regarde MOT en souriant 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15639	MOT	mother	ouais .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15642	MOT	mother	qu'est-ce qui avait à Montpellier ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15644	MOT	mother	y avait une piscine .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15646	MOT	mother	et qu'est-ce que tu as mangé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15662	MOT	mother	hum [/] hum .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15663	MOT	mother	voilà .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15667	MOT	mother	< comment il s'appelle ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15669	MOT	mother	[=! mimique] joli .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15680	MOT	mother	oh bah il a deux tétines .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15699	MOT	mother	qu'est-ce qu'il mange ce bébé ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15701	MOT	mother	ah bon .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15704	MOT	mother	< il tète pas sa maman ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15706	MOT	mother	non ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15707	MOT	mother	pourquoi ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15709	MOT	mother	toi quand t(u) étais un bébé tu tétais pas ta maman ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15711	MOT	mother	ben alors .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15712	MOT	mother	pourquoi lui il téterait pas sa maman ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15714	MOT	mother	non ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15718	MOT	mother	comment on fait ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15719	MOT	mother	comment il fait pour téter sa maman ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15720	MOT	mother	tiens regarde il y a Anouk qui joue aux Lego .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15721	MOT	mother	tu veux jouer avec elle ?			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15726	MOT	mother	c'est un bébé lion .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15727	MOT	mother	un lionceau .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15753	MOT	mother	ben je sais pas où il est ton bébé qui fait pipi moi .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15755	MOT	mother	oui mais c'est parce que le bébé qui fait pipi c'est celui qui a un zizi mais je sais pas où il est .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15761	MOT	mother	ben il doit être dans ta chambre va voir vite fait si tu le trouves dans ta chambre .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15765	MOT	mother	< Anaé reste là .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15768	MOT	mother	mais attends xxx .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15775	MOT	mother	mais attendez les filles je vais y aller moi .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15777	MOT	mother	venez là venez en bas .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15778	MOT	mother	j'ai trouvé celui qui a des dents .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15779	MOT	mother	je vais aller voir là-haut .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15780	MOT	mother	allez descendez je vais le chercher .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15781	MOT	mother	je vais voir si je le trouve .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15802	MOT	mother	regarde Anaé .			 	Anae/317.cha	1	clara						Anae	mother	Keychild
+15811	MOT	mother	<tu veux> [/] tu veux le faire boire dehors ?			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15813	MOT	mother	il est où le bib(e)ron ?			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15814	MOT	mother	je vais te mettre de l'eau dedans .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15816	MOT	mother	tiens emmène le dehors le biberon <je te> [/] je t'amène le biberon avec de l'eau .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15832	MOT	mother	tiens (.) merci .	%act MOT tend le biberon à CHI		%act MOT tend le biberon à CHI 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15836	MOT	mother	attention [/] que ça te coule pas dessus Anaé fais attention .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15837	MOT	mother	penche le quand tu lui donnes à boire pour l'instant .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15838	MOT	mother	non .	%sit CHI penche le bébé mais vers l'avant		%sit CHI penche le bébé mais vers l'avant 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15839	MOT	mother	allonge le .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15841	MOT	mother	allonge le .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15852	MOT	mother	< tiens regarde assieds le sur les marches le bébé .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15854	MOT	mother	tiens viens voir .	%act MOT s'assied sur les marches près de CHI		%act MOT s'assied sur les marches près de CHI 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15855	MOT	mother	viens .	%act MOT tend les bras vers CHI		%act MOT tend les bras vers CHI 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15856	MOT	mother	donne .			 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15857	MOT	mother	allez bébé .	%act MOT donne à boire au bébé		%act MOT donne à boire au bébé 	Anae/317.cha	1	clara		SELF	Lara		DIFFER	Anae	mother	Keychild
+15864	MOT	mother	tiens .	%act MOT tend le biberon à CHI		%act MOT tend le biberon à CHI 	Anae/317.cha	1	clara		1	Lara			Anae	mother	Keychild
+15866	MOT	mother	tu le donnes ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15868	MOT	mother	viens on va le poser là regarde pour l'instant .	%act MOT prend le cheval et le pose		%act MOT prend le cheval et le pose 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15869	MOT	mother	hop .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15870	MOT	mother	à l'écurie le cheval .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15872	MOT	mother	fais attention il va me faire pipi dessus .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15874	MOT	mother	oh le gros pipi .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15875	MOT	mother	ah .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15876	MOT	mother	hum .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15879	MOT	mother	ah la la la la .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15881	MOT	mother	merci .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15882	MOT	mother	qu'est-ce que je fais ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15884	MOT	mother	<oh non> [=! rit] .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15886	MOT	mother	toi tu bois .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15889	MOT	mother	< [=! rit] attends xxx .	%act MOT essuie la bouche de CHI		%act MOT essuie la bouche de CHI 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15891	MOT	mother	oh .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15893	MOT	mother	< non .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15895	MOT	mother	< c'est une grande fille .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15897	MOT	mother	non .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15900	MOT	mother	oui <t(u) as fait> [//] t(u) as voulu faire comme Timothée .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15902	MOT	mother	hum attention arrête .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15904	MOT	mother	oui l'abîme pas le biberon après il pourra plus s'en servir le bébé .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15907	MOT	mother	ah bon .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15928	MOT	mother	vous voulez goûter vous les filles ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15930	MOT	mother	< vous voulez une p(e)tite compote et un p(e)tit gâteau ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15935	MOT	mother	tu veux un goûter toi Anaé ?	%sit CHI boit toujours au biberon du bébé		%sit CHI boit toujours au biberon du bébé 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15936	MOT	mother	tu t'en mets partout là regarde tu vas être toute mouillée .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15938	MOT	mother	tu vas être toute mouillée regarde ta jupe .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15940	MOT	mother	< regarde ta jupe .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15974	MOT	mother	ouais ben mets le à sécher dehors .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15978	MOT	mother	< <venez là> [/] venez là .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15980	MOT	mother	< non .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15981	MOT	mother	<mets le> [/] mets le sur le banc ou sur une chaise .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15986	MOT	mother	allez y a des compotes ...			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15987	MOT	mother	des oursons			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15988	MOT	mother	je vous amène à boire .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15993	MOT	mother	va t'asseoir à-côté d' Anouk Anaé .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+15994	MOT	mother	je vous amène à boire .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16019	MOT	mother	sirop de fraises .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16022	MOT	mother	< mange .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16026	MOT	mother	pose le sur la table Anaé .	%sit CHI a toujours le bras tendu en l'air avec le gâteau		%sit CHI a toujours le bras tendu en l'air avec le gâteau 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16029	MOT	mother	oui mais attends faut mettre de l'eau dedans .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16031	MOT	mother	< vas y .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16032	MOT	mother	(at)tention hein .	%sit CHI prend le verre pour le donner à COU		%sit CHI prend le verre pour le donner à COU 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16037	MOT	mother	pour Arthur le verre ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16039	MOT	mother	d'accord .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16040	MOT	mother	attends .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16128	MOT	mother	< ouais .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16139	MOT	mother	non Anaé regarde tu l'as mis dans le trou la fleur elle est tombée parterre .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16142	MOT	mother	xxx .	com inaudible		com inaudible 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16162	MOT	mother	qu'est-ce que c'est ça ?	%act MOT tend un objet à CHI		%act MOT tend un objet à CHI 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16164	MOT	mother	non je l'ai lavé .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16165	MOT	mother	qu'est-ce que c'est ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16211	MOT	mother	ha ha ha ha ha .	%act MOT apporte un crocodile en duplo et le pose sur la table en actionnant sa bouche		%act MOT apporte un crocodile en duplo et le pose sur la table en actionnant sa bouche 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16213	MOT	mother	attention il y a le gros crocodile qui va vous attaquer .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16218	MOT	mother	< il est un peu gros hein .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16220	MOT	mother	hum .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16222	MOT	mother	c'est quoi ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16232	MOT	mother	tu dis à Aliyah où est-ce qu'on est allé l'autre jour quand on a pris le métro ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16234	MOT	mother	mais non .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16236	MOT	mother	on est allé au musée pour voir les squelettes .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16237	MOT	mother	on a vu des squelettes de quoi ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16240	MOT	mother	et quoi d' autre ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16245	MOT	mother	ouais .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16252	MOT	mother	< mets toi debout Anaé .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16253	MOT	mother	avec la carapace .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16257	MOT	mother	< ouais [/] ouais .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16277	MOT	mother	ramasse ce-qui est tombé parterre Anaé .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16284	MOT	mother	< oh Anaé regarde c'est sale .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16289	MOT	mother	ben oui c'est dégoûtant .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16290	MOT	mother	regarde t(u) as tout sali .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16292	MOT	mother	tout sali [/] sali .	%act MOT emporte la piscine à l'intérieur		%act MOT emporte la piscine à l'intérieur 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16298	MOT	mother	il est sale le p(e)tit poisson ?			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16300	MOT	mother	donne .	%act MOT tend la main vers CHI		%act MOT tend la main vers CHI 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16343	MOT	mother	mais non n' en mets pas trop il y en a déjà beaucoup de l'eau Anaé là ça va déborder .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild
+16354	MOT	mother	attention pas en mettre partout .			 	Anae/317.cha	1	clara			Lara			Anae	mother	Keychild

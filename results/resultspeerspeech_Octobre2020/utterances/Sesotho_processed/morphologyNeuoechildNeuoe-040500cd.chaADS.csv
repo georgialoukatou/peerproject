@@ -1,0 +1,77 @@
+a_name sm1-om1-kick-t^pf-m^in
+sm1s-t^p-hook-m^in
+sm1s-t^p_play-m^s pr 10 av loc
+ng sm1s-t^p_leave-m^s pr 10
+sm1s-t^p_draw-m^s water(6irg) sm1s-t^be-sm1s-om10-sift-m^pt
+cj 17 cp17 pr loc sm9-t^f1-cp 17-1s
+cj sm1s-t^p_be-m^in cj watch(9 10)
+sm9-t^f1-cp 9-1s
+ij sm9-t^f1-cp 9-1s 9 9/cp watch(9 10)-lc
+ij 9 sr9-t^p_say-m^pt-rl ??? ??? sr9-t^p_say-m^pt-rl av
+mother(1a 2a) ng sm10-t^f1-if-throw_away-p-m^in sm10-t^f1-lose-nt-m^pt
+sm10-t^f1-throw_away-p-m^in
+10-thing(9 10) 10 ng sm10-t^p_throw_away-p-m^x
+10 10-aj ng sm10-t^f1-if-throw_away-p-m^in
+ng sm10-t^f1-if-throw_away-p-m^in
+10-bottle(9 10) 10 1p cj 2a-a.name sm9-t^f1-cp 10
+cj sister(1a 2a) a_name sm10-t^f1-cp 10 1p av 10-thing(9 10) 10
+cj 10 ps/home a_name av
+sm17-t^f1-build-p-m^in house(9 10|6) 9-aj
+mother(1a 2a) ij q cp child(1irg) a_name 1
+cp child(1irg) 1-1 cj sm1s-t^se-sm1s-be-m^pt cj child(1irg)
+cp1 loc loc pr house(9 10|6)-lc 9-aj
+ng 1 5-stone(5 6)
+sm2s-t^ne-sm2s-om2-buy-ap/t^pf-m^pt 10-card(9 10)
+av sm2s-om10-give-t^pf-m^in sister(1a 2a) a_name
+ng sm17-t^p_be-m^x matter(9 10) mother(1a 2a)
+cj sm2s-t^f1-om1-buy-ap-m^in 8-shoe(7 8)
+cj 10-thing(9 10) 10 8-shoe(7 8) 8-1 sm10-t^p-tear/nt-m^in cj 10-boot(9 10)
+sm2s-t^f1-om1-buy-ap-m^in 10-boot(9 10) cj 8-shoe(7 8)
+brother(1a 2a) a_name 1 sm1-buy-ap/t^pf-p-m^in 8-shoe(7 8) ng 10-boot(9 10)
+brother(1a 2a) a_name
+1 2a-a.name
+sm1-t^p-wrap-m^in
+sm2-t^ne-sm2-come-t^pf-m^pt cj brother(1a 2a) a_name cj sister(1a 2a) a_name
+sm2-t^ne-sm2-say-m^pt a_name
+a_name sm1/t^np-say-m^in
+brother(1a 2a) a_name cj a_name
+cp 1 sister(1a 2a) a_name
+sm2-t^ne-sm2-cp 2-wh
+sm2-t^ne-sm2-cp 2-aj
+sm2-t^ne-sm2-cp 2-aj
+a_name sm1-go_around-cl-t^pf-m^in cj
+sm1-om6-find/t^pf-m^in a_name
+pr loc 6-stony_hill(5 6)
+lr sm1p-t^ne-rl-sm1p-play-ap-m^pt pr 6 loc
+loc ps/home brother(1a 2a) a_name
+loc 6-stony_hill(5 6)-lc
+cp 6-2s sm6-cp 6-nm
+5-5-aj cp 5 pr loc
+mother(1a 2a) q mother(1a 2a) sm2s-t^f1-buy-m^in 10-thing(9 10) 10-10-aj
+10-bottle(9 10) 10-10-aj sr10-pour/t^pf-m^pt-wh
+10 sm9-t^f1-cp 10 1p cj 10-thing(9 10) 10 sr10-rf-rinse-m^pt-rl
+cj 10-plate(9 10) 10 cj 6-cup(5 6) 6
+av cj 10 10 ps/home a_name 10 10/cp pr house(9 10|6)/lc 1-aj
+sm1-om1s-step-t^pf-m^in
+ij sm9-t^f1-cp 9-1s sm2s-t^f1-give-p-m^in 17
+grandmother(1a 2a)
+ij
+sm1s-t^f1-om1-accompany-m^in
+sm1s-t^f1-be_glad-ap-m^in mother(1a 2a) a_name
+sm1s-t^f1-om9-ride-m^in pr loc sm1s-t^p_go-m^s pr mother(1a 2a) a_name
+sm2s-t^ne-sm2s-t^pp-sm2s-say-m^pt sm1s-t^ne-sm1s-t^pp-sm1s-do-m^pt-wh
+mother(1a 2a) sm1-t^f2-om1s-buy-ap-m^in 6-eye(5 6) 6 7-manner_of_white_people(7 8) 6 sm1s-t^f1-om6-put_on-m^pt-rl
+2s sm2s-t^f2-om1s-buy-ap-m^in cj 8-shoe(7 8) 8 loc 8/cp 8-mirror(7 8)
+8 sm1s-t^f1-go-m^in clinic(9 10)-lc pr 8
+mother(1a 2a)
+ij 8/cp 8-mirror(7 8)
+a_name sm1-buy-ap/t^pf-p-m^in 10-boot(9 10) cp mother(1a 2a) 1a-1
+cj brother(1a 2a) a_name av a_name sm1-t^pp-sm1-put_on-m^pt 7 7-shoe(7 8) ng 10-boot(9 10)
+ng sm1s-t^p-om1-step-m^x
+sm1-t^f1-om1p-give-m^in 6-fatcakes(5 6)
+cp6 loc pr loc
+ij sm1s-t^ps-sm1s-see-m^pt 1-person(1 2) sm1-put_on/t^pf-m^pt thing(9 10)
+cardboard_box(9 10) cj sm9-pour/t^pf-m^in 6-fatcakes(5 6)
+sister(1a 2a) a_name sm1-leave-t^pf-m^in sm1-go/t^pf-m^pt ps/home
+sm1s-t^p_want-m^in if-rf-pull-ap-m^pt bedclothes(9 10)
+ij sm1s-rf-find-ap/t^pf-m^in

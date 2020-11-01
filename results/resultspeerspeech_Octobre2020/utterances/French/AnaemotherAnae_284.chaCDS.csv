@@ -1,0 +1,584 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+8476	MOT	mother	< xxx .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8514	MOT	mother	< ben@i ou sinon tu te mets là regarde .	%act MOT désigne la table en y posant le plat de la main		%act MOT désigne la table en y posant le plat de la main 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8515	MOT	mother	tu [/] tu mets ta chaise de ce côté là .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8516	MOT	mother	après comme ça tu mets ta feuille ici .	%act déplace la feuille de CHI 		%act déplace la feuille de CHI  	Anae/284.cha	1	clara						Anae	mother	Keychild
+8517	MOT	mother	et comme ça il y a rien dessous .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8519	MOT	mother	regarde lève toi je vais bouger ta chaise .	%act MOT déplace la chaise de CHI		%act MOT déplace la chaise de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8522	MOT	mother	tu veux un livre pour mettre en dessous ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8525	MOT	mother	< alors +...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8526	MOT	mother	alors [/] alors regarde on va prendre ça .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8534	MOT	mother	tiens regarde on va prendre //.			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8535	MOT	mother	comme ça .	%act MOT pose le magazine ouvert sur la table		%act MOT pose le magazine ouvert sur la table 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8536	MOT	mother	voilà .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8546	MOT	mother	c'est mon thé .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8555	MOT	mother	après on le lavera et tu pourras remettre des Flanby dedans hein .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8560	MOT	mother	< oh .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8561	MOT	mother	faut que tu ramasses .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8562	MOT	mother	attention tu vas tomber .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8563	MOT	mother	et dans deux semaines c'est Pâques aussi .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8606	MOT	mother	< <tu te massis@c à-côté de moi> [=! discours rapporté] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8608	MOT	mother	< ah si [/] si [/] si .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8610	MOT	mother	[=! rit] tu sais que hier avec mes étudiants j'ai regardé euh des films avec Anaé dessus et puis avec Arthur .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8611	MOT	mother	[=! hoche la tête] quand t(u) étais toute petite .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8613	MOT	mother	on a bien rigolé hein .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8630	MOT	mother	tu racontes à Aliyah qu'est-ce que tu as fait chez Véro comme décoration pour Pâques ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8638	MOT	mother	< alors qu'est-ce que tu as fait tu dis ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8642	MOT	mother	tu veux l'asseoir à-côté de moi .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8645	MOT	mother	Anaé <tu sais> [///] t(u) as vu regarde il y a quelqu'un qui a oublié une écharpe .	%xpnt show l'écharpe de l'index bras tendu	%sit CHI regarde dans la direction pointée par MOT	%xpnt show l'écharpe de l'index bras tendu %sit CHI regarde dans la direction pointée par MOT	Anae/284.cha	1	clara						Anae	mother	Keychild
+8646	MOT	mother	tu sais qui c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8647	MOT	mother	y avait qui hier ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8648	MOT	mother	que moi j'étais pas là je sais pas .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8649	MOT	mother	qui est-ce qui est venu ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8651	MOT	mother	qui est-ce qui est venu à la maison hier ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8653	MOT	mother	hier soir y avait qui à la maison ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8656	MOT	mother	< <qui fai(sait)> [/] qui faisait de la musique avec papa .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8660	MOT	mother	qui est-ce qui fait de la musique avec papa ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8662	MOT	mother	il fait quoi comme instrument Christophe ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8664	MOT	mother	qu'est-ce qu'il fait comme instrument ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8679	MOT	mother	alors ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8680	MOT	mother	il fait quoi Christophe comme instrument tu le sais ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8682	MOT	mother	c'est quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8686	MOT	mother	< qui est-ce qui fait de la trompette ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8689	MOT	mother	< ouais [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8690	MOT	mother	et Christophe il fait quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8693	MOT	mother	de la ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8694	MOT	mother	de la quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8696	MOT	mother	con(tre) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8698	MOT	mother	de la quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8700	MOT	mother	oui .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8702	MOT	mother	et y avait qui d' autre ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8705	MOT	mother	y avait Olive ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8707	MOT	mother	< et Olive il fait quoi comme instrument ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8709	MOT	mother	et [/] et puis qui d' autre ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8711	MOT	mother	non il y en avait un autre aussi .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8713	MOT	mother	< ton parrain .	%act MOT caresse les cheveux de CHI		%act MOT caresse les cheveux de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8714	MOT	mother	<c'est qui ton pa(rrain)> [/] c'est qui ton parrain ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8716	MOT	mother	ah et Zoum il fait de quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8718	MOT	mother	du yyy aussi ?	ximi MOT imite la prononciation de CHI		ximi MOT imite la prononciation de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8720	MOT	mother	allez mets toi debout !	%act MOT tire CHI par les bras@G lecture de livres		%act MOT tire CHI par les bras@G lecture de livres 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8721	MOT	mother	est-ce que tu veux qu'on regarde le livre ensemble ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8723	MOT	mother	tu vas le chercher ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8724	MOT	mother	le livre qui est à-côté de la vache .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8725	MOT	mother	le livre là .	%xpnt show le livre de l'index bras tendu		%xpnt show le livre de l'index bras tendu 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8726	MOT	mother	tu vas me le chercher .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8728	MOT	mother	ouais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8730	MOT	mother	[=! rit] comment il s'appelle ce livre tu sais ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8732	MOT	mother	c'est un livre qui s'appelle ..?	%act MOT porte CHI et l'assoit sur le canapé à côté d'elle		%act MOT porte CHI et l'assoit sur le canapé à côté d'elle 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8733	MOT	mother	crotte ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8734	MOT	mother	de nez			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8737	MOT	mother	< [=! rit] crotte de nez .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8738	MOT	mother	oh c'est qui lui ?	%act MOT ouvre le livre et montre une page à CHI		%act MOT ouvre le livre et montre une page à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8740	MOT	mother	qu'est-ce qu'il fait ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8742	MOT	mother	oh regarde .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8743	MOT	mother	<Jules et Julie étaient voisins> [=! lit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8744	MOT	mother	alors regarde <ils vont> [///] ils traversent la forêt pour aller à l'école .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8745	MOT	mother	regarde lui c'est Jules .	%xpnt show l'image sur le livre de l'index avec contact		%xpnt show l'image sur le livre de l'index avec contact 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8746	MOT	mother	qu'est-ce que c'est comme animal ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8748	MOT	mother	et elle c'est Julie .	%xpnt show l'image sur le livre de l'index avec contact		%xpnt show l'image sur le livre de l'index avec contact 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8749	MOT	mother	c'est un cochon Julie ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8751	MOT	mother	< c'est quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8753	MOT	mother	oui .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8754	MOT	mother	alors ils se promènent <dans la> [/] dans la forêt et [/] et [/] et qu'est-ce qui se passe ?	%act MOT tourne la page du livre		%act MOT tourne la page du livre 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8756	MOT	mother	qu'est-ce qu'il fait ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8758	MOT	mother	[=! rit] non regarde c'est pas sa dent c'est sa griffe .	%xpnt show l'image sur le livre de l'index avec contact		%xpnt show l'image sur le livre de l'index avec contact 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8759	MOT	mother	c'est la même couleur que ses dents mais c'est des griffes en fait .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8760	MOT	mother	c'est comme des grands ongles .	%act MOT fait un geste de la main en forme de griffes	%sit BRO vient s'asseoir dans le canapé devant la caméra	%act MOT fait un geste de la main en forme de griffes %sit BRO vient s'asseoir dans le canapé devant la caméra	Anae/284.cha	1	clara						Anae	mother	Keychild
+8764	MOT	mother	[=! rit] alors qu'est-ce qu'il fait avec ses griffes ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8765	MOT	mother	qu'est-ce qu'il fait ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8766	MOT	mother	il essaye d' attraper ..?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8768	MOT	mother	et comment il s'appelle le cochon on a dit ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8770	MOT	mother	hum ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8772	MOT	mother	J(ules) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8774	MOT	mother	oui [=! sourit] Jules .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8775	MOT	mother	han@i regarde .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8776	MOT	mother	il les a attrapés et il les a mis dans un gros sac rouge .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8777	MOT	mother	et là <il les> [/] il les amène où ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8778	MOT	mother	où est-ce qu'il les met ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8779	MOT	mother	dans une (.) prison .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8782	MOT	mother	alors .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8787	MOT	mother	ah voilà regarde .	%act MOT montre une page à CHI		%act MOT montre une page à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8788	MOT	mother	qu'est-ce qu'il fait là Jules ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8791	MOT	mother	< qu'est-ce qu'il fait ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8793	MOT	mother	qu'est-ce qu'il fait ?	add à CHI		add à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8795	MOT	mother	pourquoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8797	MOT	mother	parce que quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8799	MOT	mother	<il retire une grosse crotte de nez gluante> [=! lit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8801	MOT	mother	< le +//.			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8802	MOT	mother	Jules regarde il a retiré une crotte de nez de son nez .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8803	MOT	mother	et qu'est-ce qu'il fait il la met dans sa ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8805	MOT	mother	beurk .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8807	MOT	mother	< regarde .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8808	MOT	mother	le loup ça le rend malade il est tout vert .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8809	MOT	mother	alors Jules il met son autre doigt dans son autre narine .	%act MOT fait un geste de l'index vers son nez pour illustrer son énoncé		%act MOT fait un geste de l'index vers son nez pour illustrer son énoncé 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8810	MOT	mother	il enlève une crotte de nez encore plus grosse .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8811	MOT	mother	et il la met dans sa bouche .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8812	MOT	mother	en faisant miam miam miam .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8813	MOT	mother	alors là le loup il est de plus en plus malade regarde oh il est tout vert .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8814	MOT	mother	il se jette sur le petit cochon .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8815	MOT	mother	et là qu'est-ce qu'il fait Jules ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8816	MOT	mother	^ il fait prout .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8817	MOT	mother	ça alors .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8818	MOT	mother	<il fait un gros prout et une horrible odeur se répand dans la pièce> [=! lit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8819	MOT	mother	t(u) as vu le loup comment il est .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8820	MOT	mother	oh il est tout malade .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8821	MOT	mother	regarde il est tout vert et il s'enfuit en courant .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8822	MOT	mother	et comme ça (.) Jules et Julie ...	%act MOT tourne la page du livre		%act MOT tourne la page du livre 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8823	MOT	mother	i(ls) sont sauvés .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8824	MOT	mother	et qu'est-ce qu'il fait Jules ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8826	MOT	mother	il se baigne où ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8828	MOT	mother	et qu'est-ce qu'il y a (.) dans ce bain .	%xpnt show sur le livre de l'index en dessinant un cercle		%xpnt show sur le livre de l'index en dessinant un cercle 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8830	MOT	mother	ben@i oui puis là ?	%xpnt show sur le livre de l'index en dessinant un cercle		%xpnt show sur le livre de l'index en dessinant un cercle 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8831	MOT	mother	des bulles .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8833	MOT	mother	des boules .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8835	MOT	mother	oh et regarde qu'est-ce qu'il s(e) passe ?	%act MOT tourne la page		%act MOT tourne la page 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8837	MOT	mother	qui est-ce qui fait un bisou ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8840	MOT	mother	et comment il s'appelle le mouton ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8843	MOT	mother	Ju(lie) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8845	MOT	mother	donc c'est Julie qui fait un bisou à ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8846	MOT	mother	à Jules			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8848	MOT	mother	et voilà .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8849	MOT	mother	oh c'est quoi ça ?	%xpnt show sur la couverture du livre de l'index avec contact		%xpnt show sur la couverture du livre de l'index avec contact 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8851	MOT	mother	c'est quoi comme bête ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8853	MOT	mother	ah oui bien joué .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8867	MOT	mother	qu'est-ce que tu veux faire Anaé ?	%act MOT caresse les cheveux de CHI		%act MOT caresse les cheveux de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8869	MOT	mother	tu veux continuer ton dessin ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8871	MOT	mother	oui vas y .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8873	MOT	mother	hein ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8875	MOT	mother	ah ben@i non c'est pas moi qui dessine c'est toi .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8878	MOT	mother	qu'est-ce que tu vas dessiner ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8880	MOT	mother	< ben@i toutes les deux .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8882	MOT	mother	tu commences il est où ton crayon ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8885	MOT	mother	va le chercher regarde il est parterre .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8888	MOT	mother	ben@i si il est parterre va le chercher .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8894	MOT	mother	< amène moi le petit livre qui est en bas là .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8899	MOT	mother	tu sais le lire celui-là non ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8900	MOT	mother	c'est qui ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8902	MOT	mother	c'est qui ?	%xpnt show sur le livre de l'index avec contact		%xpnt show sur le livre de l'index avec contact 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8904	MOT	mother	bébé quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8905	MOT	mother	c'est un pa(pillon) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8907	MOT	mother	et comment il s'appelle ce bébé papillon tu te souviens ?	%sit BRO se lève du canapé		%sit BRO se lève du canapé 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8908	MOT	mother	c'est Si(mon) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8910	MOT	mother	oh Simon comme qui ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8911	MOT	mother	qui est-ce qui s'appelle Simon ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8912	MOT	mother	qui est-ce qui s'appelle Simon ?	%act MOT caresse les cheveux de CHI		%act MOT caresse les cheveux de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8914	MOT	mother	c'est pas le copain de Juliette c'est le frère de Juliette .	com insiste sur copain et frère 		com insiste sur copain et frère  	Anae/284.cha	1	clara						Anae	mother	Keychild
+8915	MOT	mother	c'est le copain d' Arthur .	com on entend BRO lire en arrière fond		com on entend BRO lire en arrière fond 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8916	MOT	mother	et le frère de Juliette .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8917	MOT	mother	ouais [=! sourit] .	%act MOT regarde CHI		%act MOT regarde CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8919	MOT	mother	<ça ressemble à Jules oui> [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8920	MOT	mother	allez viens .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8921	MOT	mother	tu viens t'asseoir à-côté de moi .	%act MOT tapote sur le canapé pour lui indiquer la place		%act MOT tapote sur le canapé pour lui indiquer la place 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8922	MOT	mother	ou je lis toute seule ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8924	MOT	mother	c'est toi qui lis ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8925	MOT	mother	ha ha .	%act MOT porte CHI pour l'asseoir à côté d'elle		%act MOT porte CHI pour l'asseoir à côté d'elle 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8926	MOT	mother	allez moi je suis ton bébé et tu me racontes l'histoire .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8927	MOT	mother	maman [/] <maman tu me lis le livre> [=! fait le bébé] .	%sit CHI regarde le livre		%sit CHI regarde le livre 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8931	MOT	mother	ah ben@i oui mais faut me raconter l'histoire aussi .	%sit CHI tourne la page 		%sit CHI tourne la page  	Anae/284.cha	1	clara						Anae	mother	Keychild
+8932	MOT	mother	si tu regardes toute seule c'est pas rigolo .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8935	MOT	mother	ouais tu dis n'importe quoi .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8940	MOT	mother	comment ça s'appelle un truc comme ça ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8941	MOT	mother	^ c'est une brouette .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8943	MOT	mother	une yyy .	ximi MOT imite la prononciation de CHI		ximi MOT imite la prononciation de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8944	MOT	mother	c'est pour quoi faire la brouette ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8946	MOT	mother	<oh ben@i oui> [=! rit] .	%act MOT regarde OBS		%act MOT regarde OBS 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8947	MOT	mother	c'est pour jouer .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8948	MOT	mother	oh qu'est-ce qui se passe là ?	%sit CHI a tourné la page		%sit CHI a tourné la page 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8949	MOT	mother	qu'est-ce qu'il fait ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8951	MOT	mother	et elles sont de quelles couleurs ses fleurs ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8953	MOT	mother	elles sont toutes roses ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8955	MOT	mother	ouais et les autres ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8957	MOT	mother	et les autres ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8958	MOT	mother	fais pas de bruit Arthur .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8961	MOT	mother	là il y a écrit aujourd'hui c'est le printemps et Simon est amoureux .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8964	MOT	mother	il [//] ah ça c'est Martin bébé lutin .	%act MOT se penche pour regarder le livre		%act MOT se penche pour regarder le livre 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8966	MOT	mother	tu es amoureuse toi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8968	MOT	mother	<oui bébé bourdon oui> [=! hoche la tête] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8970	MOT	mother	ben@i c'est Simon .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8971	MOT	mother	bébé ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8972	MOT	mother	papillon			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8973	MOT	mother	Filou bébé pou .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8974	MOT	mother	c'est le copain d' Ael .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8982	MOT	mother	c'est Béa bébé abeille .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8983	MOT	mother	alors je t'ai posé une question est-ce que tu es amoureuse ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8987	MOT	mother	tu es amoureuse de qui ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8988	MOT	mother	Nini bébé chenille .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8991	MOT	mother	Odillon bébé bourdon .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8993	MOT	mother	Martin bébé lutin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8995	MOT	mother	Nini bébé chenille .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8997	MOT	mother	Simon bébé papillon .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8998	MOT	mother	Pierrot bébé escargot .	%sit CHI pointe probablement les animaux sur la couverture du livre que MOT nomme ensuite		%sit CHI pointe probablement les animaux sur la couverture du livre que MOT nomme ensuite 	Anae/284.cha	1	clara						Anae	mother	Keychild
+8999	MOT	mother	Filou bébé pou .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9000	MOT	mother	Béa bébé abeille .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9001	MOT	mother	et Estelle bébé coccinelle .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9002	MOT	mother	il y en a pas d' autre là-bas des livres ?	%act MOT regarde vers les jouets		%act MOT regarde vers les jouets 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9004	MOT	mother	tu vas voir si il y a d' autres livres là-bas .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9006	MOT	mother	il y a que la momie ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9009	MOT	mother	< hum .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9011	MOT	mother	alors tu nous dit c'est qui ton amoureux ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9012	MOT	mother	c'est qui ton amoureux ?	%sit CHI se retourne vers MOT		%sit CHI se retourne vers MOT 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9014	MOT	mother	<c'est Zoum> [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9015	MOT	mother	il est un peu grand quand même c'est ton parrain c'est pas ton amoureux .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9017	MOT	mother	c'est qui ton chéri ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9021	MOT	mother	toi aussi t(u) es ma chérie .	%sit BRO saute sur le canapé par derrière		%sit BRO saute sur le canapé par derrière 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9022	MOT	mother	et Marin c'est pas ton copain ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9024	MOT	mother	c'est pas ton amoureux ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9026	MOT	mother	< ah .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9027	MOT	mother	il est gentil ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9040	MOT	mother	ouh@i là doucement .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9043	MOT	mother	wah@i .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9054	MOT	mother	qui est-ce qui dit houhaha@o ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9056	MOT	mother	hum .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9060	MOT	mother	< xxx .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9066	MOT	mother	où (i)l est quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9069	MOT	mother	oui [=! rit] [=! hoche la tête] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9071	MOT	mother	ha [=! crie] au secours .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9085	MOT	mother	c'est quoi ça comme animal ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9087	MOT	mother	qu'est-ce que c'est tu te souviens ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9088	MOT	mother	c'est un scorpion .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9096	MOT	mother	han@i qu'est-ce que c'est que ça ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9097	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9099	MOT	mother	comment il fait le serpent ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9100	MOT	mother	il fait comment ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9101	MOT	mother	il vole ?	%sit CHI soulève le livre à deux reprises		%sit CHI soulève le livre à deux reprises 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9103	MOT	mother	tu en as déjà vu des serpents ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9105	MOT	mother	ah [=! rit] tu as déjà vu des serpents au zoo tu te souviens ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9106	MOT	mother	c'est un scorpion			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9108	MOT	mother	ouais ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9109	MOT	mother	sous la pluie ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9111	MOT	mother	< il pleuvait beaucoup hein .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9113	MOT	mother	han@i et ça qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9116	MOT	mother	non [=! rit] ça ressemble à un crabe mais c'est un scarabée .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9121	MOT	mother	mais il a une tête gentille alors ça va [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9122	MOT	mother	hé oh .	%sit CHI a tourné les pages et une momie en relief sort du livre		%sit CHI a tourné les pages et une momie en relief sort du livre 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9127	MOT	mother	< la momie elle fait hou@o .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9132	MOT	mother	(at)tention <tu vas l'abîmer> [/] tu vas l'abîmer .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9137	MOT	mother	ah ben@i oui elle te prend dans ses bras la momie ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9141	MOT	mother	ouais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9142	MOT	mother	ce soir on va aller à l'anniversaire de Boulette ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9146	MOT	mother	qui a un petit garçon qui s'appelle Loni	%act MOT retire le livre de devant le visage de CHI		%act MOT retire le livre de devant le visage de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9149	MOT	mother	< on va aller voir Loni ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9150	MOT	mother	et y aura Jules aussi .	%act MOT caresse les cheveux de CHI		%act MOT caresse les cheveux de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9151	MOT	mother	et Zoé .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9153	MOT	mother	< et je crois que <y aura pas les> [//] y aura pas Dune et Marie .	%act MOT caresse les cheveux de CHI		%act MOT caresse les cheveux de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9155	MOT	mother	< tu seras la seule petite fille .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9172	MOT	mother	ouais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9173	MOT	mother	je vais te donner un autre livre si tu veux .	%act MOT se lève		%act MOT se lève 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9175	MOT	mother	ah tiens regarde .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9176	MOT	mother	tu montres à Aliyah .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9179	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9188	MOT	mother	non c'est pas un panda .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9192	MOT	mother	< non .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9195	MOT	mother	< c'est un kan(gourou) +...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9196	MOT	mother	kan(gourou)	com MOT décompose le mot en syllabes pour que CHI le complète		com MOT décompose le mot en syllabes pour que CHI le complète 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9197	MOT	mother	qui est-ce qui te l'a donné .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9212	MOT	mother	< c'est [//] +...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9213	MOT	mother	c'était à Quiterie cette robe .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9214	MOT	mother	c'est Quiterie qui te l'a donnée .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9216	MOT	mother	ça c'est comme un jupon .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9219	MOT	mother	ben@i c'est une robe aussi .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9220	MOT	mother	et ça c'est un kangourou .	%act MOT fait sauter la figurine de kangourou sur CHI		%act MOT fait sauter la figurine de kangourou sur CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9223	MOT	mother	stong@o stong@o stong@o stong@o .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9225	MOT	mother	< oh qu'est-ce qu'il a là le kangourou ?	%xpnt show la figurine de l'index avec contact		%xpnt show la figurine de l'index avec contact 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9227	MOT	mother	t(u) as vu il a son bébé dans sa poche .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9228	MOT	mother	il a une poche sur son ventre .	%xpnt show la figurine de l'index avec contact		%xpnt show la figurine de l'index avec contact 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9229	MOT	mother	et dans la poche il met son bébé .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9230	MOT	mother	stong@o stong@o stong@o stong@o stong@o [=! baiser] .	%act MOT fait donner un bisou à CHI par le kangourou		%act MOT fait donner un bisou à CHI par le kangourou 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9233	MOT	mother	c'est un kangourou de Strasbourg .	%sit CHI donne un bisou au kangourou		%sit CHI donne un bisou au kangourou 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9234	MOT	mother	c'est la spécialité de Strasbourg .	%act MOT regarde OBS		%act MOT regarde OBS 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9235	MOT	mother	[=! rit] je l'ai ramené de Strasbourg xxx .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9241	MOT	mother	< stong@o stong@o stong@o .	%act MOT fait sauter la figurine sur CHI		%act MOT fait sauter la figurine sur CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9242	MOT	mother	stong@o .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9244	MOT	mother	hop .	%act MOT pose le kangourou sur la tête de CHI		%act MOT pose le kangourou sur la tête de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9246	MOT	mother	[=! rit] oh badaboum@o .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9250	MOT	mother	oh !			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9251	MOT	mother	regarde ce qu'il t'a amené Ael .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9252	MOT	mother	qu'est-ce qu'on dit ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9254	MOT	mother	c'est (.) Martin bébé lutin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9257	MOT	mother	tu nous le racontes .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9264	MOT	mother	tu racontes à Aliyah l'histoire ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9267	MOT	mother	oh ben@i qu'est-ce qu'il a .	%act MOT se penche un peu vers le livre de CHI		%act MOT se penche un peu vers le livre de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9269	MOT	mother	il est perdu dans le jardin ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9271	MOT	mother	alors il ..?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9273	MOT	mother	hum .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9275	MOT	mother	il est triste regarde il a des grosses larmes aussi grosses que son nez .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9276	MOT	mother	t(u) as vu elles sont grosses ses larmes .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9278	MOT	mother	il s'est perdu dans le jardin .	%sit MOT et BRO sont penchés vers le livre de CHI CHI regarde aussi attentivement son livre		%sit MOT et BRO sont penchés vers le livre de CHI CHI regarde aussi attentivement son livre 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9279	MOT	mother	et il dit <ouin c'est malin> [=! discours rapporté] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9282	MOT	mother	et alors après ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9283	MOT	mother	oh c'est qui lui ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9285	MOT	mother	oui mais lui .	%act MOT tient le livre ouvert pour montrer la page à CHI		%act MOT tient le livre ouvert pour montrer la page à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9288	MOT	mother	c'est Saturnin le petit poussin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9289	MOT	mother	qu'est-ce qu'il a fait Saturnin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9291	MOT	mother	chut .	add à BRO	%act MOT place un doigt devant sa bouche	add à BRO %act MOT place un doigt devant sa bouche	Anae/284.cha	1	clara						Anae	mother	Keychild
+9295	MOT	mother	Saturnin il a mangé tous les petits bouts de pain que Martin il avait mis sur son chemin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9296	MOT	mother	pour retrouver son chemin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9297	MOT	mother	<qu'est-ce que> [/] qu'est-ce qu'il dit ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9298	MOT	mother	il dit <ouin t(u) es vilain> [=! discours rapporté] !			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9300	MOT	mother	alors après .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9302	MOT	mother	qu'est-ce qui se passe après ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9303	MOT	mother	touc@i .	%act MOT tourne la page		%act MOT tourne la page 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9304	MOT	mother	<ne pleure pas mon lapin> [=! lit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9305	MOT	mother	elle est où sa maison ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9306	MOT	mother	elle est où elle est à-côté de quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9308	MOT	mother	ouais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9309	MOT	mother	et elle est en forme de quoi sa maison ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9311	MOT	mother	c'est un cham(pignon) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9312	MOT	mother	champignon	com MOT décompose le mot en syllabes pour que CHI le complète		com MOT décompose le mot en syllabes pour que CHI le complète 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9314	MOT	mother	alors il lui dit <ne pleure pas mon lapin ta maison est au pied du sapin> [=! lit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9315	MOT	mother	<dit le poussin en prenant la main de bébé lutin> [=! lit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9316	MOT	mother	on tourne ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9319	MOT	mother	qu'est-ce qu'(il) y a dans sa maison ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9320	MOT	mother	oh qu'est-ce qu'i(ls) font ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9321	MOT	mother	qu'est-ce qu'i(ls) font ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9324	MOT	mother	d'accord .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9325	MOT	mother	et c'est fini .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9347	MOT	mother	ah Estelle bébé coccinelle qu'est-ce qu'elle fait .	%act MOT s'intéresse au livre que tient CHI		%act MOT s'intéresse au livre que tient CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9349	MOT	mother	<elle lave les fleurs> [=! rit] .	ximi MOT répète ce qu'a dit CHI		ximi MOT répète ce qu'a dit CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9350	MOT	mother	<elle les arrose je crois plutôt> [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9352	MOT	mother	elle les arrose avec son arrosoir .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9353	MOT	mother	oh regarde .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9354	MOT	mother	qu'est-ce qui s'est passé ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9355	MOT	mother	les fleurs elle les a tellement arrosées qu'elles ont poussé jusqu'au ciel .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9356	MOT	mother	t(u) as vu comme elles sont grosses les fleurs .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9358	MOT	mother	elles sont grandes [/] grandes [/] grandes .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9363	MOT	mother	elle a quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9365	MOT	mother	des marques ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9368	MOT	mother	des masques .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9371	MOT	mother	c'est ça ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9372	MOT	mother	ils ont des masques ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9373	MOT	mother	c'est ça que tu dis ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9376	MOT	mother	oh ben@i le revoilà lui qu'est-ce qu'il fait là .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9377	MOT	mother	c'est Simon bébé papillon qu'est-ce qu'il fait dans le livre de Estelle bébé coccinelle ?	%act MOT regarde OBS	%sit BRO se penche vers le livre de CHI	%act MOT regarde OBS %sit BRO se penche vers le livre de CHI	Anae/284.cha	1	clara						Anae	mother	Keychild
+9378	MOT	mother	c'est un coquin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9386	MOT	mother	c'est celui-là .	%act MOT montre un livre à CHI		%act MOT montre un livre à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9400	MOT	mother	parce que les [/] les gros ils sont un peu compliqués pour les tous petits je trouve .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9402	MOT	mother	elle pleure pas elle est en colère .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9426	MOT	mother	ben@i ça je me demande bien .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9428	MOT	mother	je crois que c'est pas moi .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9433	MOT	mother	ben@i tiens c'est un peu facile d' accuser toujours Timothée .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9443	MOT	mother	tu crois ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9445	MOT	mother	ouais ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9447	MOT	mother	< Véro elle m'a dit hier que tu dis toujours que c'est Timothée .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9452	MOT	mother	qu'est-ce qu'il fait Timothée chez Véro ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9454	MOT	mother	oh c'est les même que tout à l'heure Anaé .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9455	MOT	mother	qu'est-ce qu'il fait Timothée chez Véro ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9457	MOT	mother	c'est Nini bébé chenille .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9459	MOT	mother	Martin bébé lutin .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9461	MOT	mother	Odillon bébé bourdon .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9463	MOT	mother	Estelle bébé coccinelle .	%sit BRO se penche vers CHI pour voir son livre		%sit BRO se penche vers CHI pour voir son livre 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9464	MOT	mother	Béa bébé abeille .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9465	MOT	mother	Pierrot bébé escargot .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9466	MOT	mother	et Filou bébé pou .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9475	MOT	mother	tu le sais ce-que c'est .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9476	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9478	MOT	mother	< non .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9480	MOT	mother	< je vois que tiens t(u) as dessiné sur tes mains aussi ?	%act MOT touche la main de CHI		%act MOT touche la main de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9484	MOT	mother	hein ce serait bien d' aller sur les toilettes un peu quand même .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9485	MOT	mother	si tu veux aller à l'école			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9490	MOT	mother	tu voudras aller à l'école toi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9492	MOT	mother	et comment elle va s'appeler cette dame ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9498	MOT	mother	ah ben@i oui [=! rit] une maîtresse qui s'appelle maîtresse .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9499	MOT	mother	moi je crois que ta maîtresse elle s'appellera soit Laure soit Laetitia .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9523	MOT	mother	hop la .	%act MOT retient CHI qui trébuche un peu	%sit CHI s'éloigne vers l'étagère de jeux	%act MOT retient CHI qui trébuche un peu %sit CHI s'éloigne vers l'étagère de jeux	Anae/284.cha	1	clara						Anae	mother	Keychild
+9544	MOT	mother	Anaé tu réponds à Aliyah est-ce que tu veux aller à l'école ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9545	MOT	mother	qu'est-ce qu'on fait à l'école d'abord ?	%sit CHI place une pièce sur le puzzle à encastrer		%sit CHI place une pièce sur le puzzle à encastrer 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9548	MOT	mother	< ah bon [=! rit] et on fait quoi comme boulot ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9550	MOT	mother	<ben@i oui> [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9551	MOT	mother	et comme travail on fait quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9553	MOT	mother	[=! rit] bon .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9554	MOT	mother	on fait euh de la peinture ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9557	MOT	mother	non ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9566	MOT	mother	et du ‹yyy [=! rit]› .	com MOT imite la prononciation du mot mais cela semble plus probable que ce soit celle de BRO		com MOT imite la prononciation du mot mais cela semble plus probable que ce soit celle de BRO 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9568	MOT	mother	tu te rappelle au début de l'année tu disais du ‹yyy [=! rit]› .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9609	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9638	MOT	mother	est-ce que tu te rappelles où est-ce qu'on en avait vu des ânes ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9640	MOT	mother	hum .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9641	MOT	mother	tu te rappelles quand on est parti en vacances ?	%sit CHI semble réfléchir		%sit CHI semble réfléchir 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9642	MOT	mother	avec Anouk .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9643	MOT	mother	et que <vous av(ez)> [/] vous avez fait du poney .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9646	MOT	mother	des quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9648	MOT	mother	des quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9650	MOT	mother	des quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9653	MOT	mother	des ..?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9655	MOT	mother	j'entends pas .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9658	MOT	mother	j'ai pas entendu Anaé .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9670	MOT	mother	< xxx .	add à BRO		add à BRO 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9671	MOT	mother	[=! rit] et puis y avait quoi d' autre ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9672	MOT	mother	comme un âne mais beaucoup plus grand .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9673	MOT	mother	des che(vaux) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9675	MOT	mother	des quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9677	MOT	mother	des che(vaux) .	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9679	MOT	mother	des cheval on dit ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9681	MOT	mother	ah oui .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9682	MOT	mother	et un che(val) .	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9684	MOT	mother	bien .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9713	MOT	mother	qu'est-ce que tu racontes ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9715	MOT	mother	quel petit bébé ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9717	MOT	mother	un bébé quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9720	MOT	mother	un bébé qui est un panda .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9733	MOT	mother	si [/] si c'est Arthur qui l'a regardé .	ximi MOT imite CHI		ximi MOT imite CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9740	MOT	mother	t(u) as mangé des pâtes devant la télé ouais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9741	MOT	mother	j'ai compris de quoi tu parlais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9742	MOT	mother	c'est dans [/] dans l'âge de glace .	%sit CHI regarde MOT		%sit CHI regarde MOT 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9747	MOT	mother	< c'est ça ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9748	MOT	mother	<c'est ça> [//] c'était ça que tu disais ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9751	MOT	mother	la quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9753	MOT	mother	c'est quoi la yyy ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9757	MOT	mother	c'est quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9763	MOT	mother	< c'est quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9782	MOT	mother	d'ailleurs on a oublié xxx .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9789	MOT	mother	c'est ça quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9797	MOT	mother	qu'est-ce que c'est cet animal Anaé ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9804	MOT	mother	< hum .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9809	MOT	mother	allez tu le ranges ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9810	MOT	mother	et viens voir Ael il a amené plein d' animaux .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9816	MOT	mother	allez viens voir .	%sit CHI range le d v d sur la cheminée@G jeu avec figurines d'animaux		%sit CHI range le d v d sur la cheminée@G jeu avec figurines d'animaux 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9819	MOT	mother	oh c'est quoi ça ?	%act MOT tend une figurine à CHI		%act MOT tend une figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9820	MOT	mother	allez toi tu les mets sur la table .	%act MOT désigne la table du plat de la main	%sit CHI prend la figurine	%act MOT désigne la table du plat de la main %sit CHI prend la figurine	Anae/284.cha	1	clara						Anae	mother	Keychild
+9821	MOT	mother	^ d'accord je te les donne et tu les mets sur la table .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9822	MOT	mother	comment elle s'appelle celle-là ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9824	MOT	mother	ah faut que tu parles plus fort .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9833	MOT	mother	< xxx .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9834	MOT	mother	<elle fait caca> [=! rit] ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9836	MOT	mother	mais elle fait pas caca c'est sa queue ma puce <qui est marron> [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9840	MOT	mother	tu la poses sur la table ?	%sit CHI regarde attentivement la girafe		%sit CHI regarde attentivement la girafe 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9842	MOT	mother	parce que regarde il y en a un autre qui arrive .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9845	MOT	mother	< [=! imite le bruit du cheval au galop] oh .	%act MOT fait grimper la girafe sur le dos de CHI		%act MOT fait grimper la girafe sur le dos de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9848	MOT	mother	qu'est-ce que c'est ?	%act MOT montre la figurine à CHI		%act MOT montre la figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9849	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9852	MOT	mother	c'est un truc !			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9853	MOT	mother	c'est pas un truc c'est un ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9854	MOT	mother	un ..?	%act MOT chatouille CHI dans le cou		%act MOT chatouille CHI dans le cou 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9855	MOT	mother	[=! rit] c'est un ..?	%act MOT chatouille CHI dans le cou		%act MOT chatouille CHI dans le cou 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9856	MOT	mother	un z(èbre) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9858	MOT	mother	un quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9860	MOT	mother	non pas un cerf .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9861	MOT	mother	un z(èbre) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9863	MOT	mother	< z(èbre) +...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9864	MOT	mother	zzzzz@o [=! rit] .	%act MOT chatouille CHI du doigt		%act MOT chatouille CHI du doigt 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9866	MOT	mother	c'est un zèbre .	%act MOT aide CHI à se relever		%act MOT aide CHI à se relever 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9875	MOT	mother	c'est pas grave on n' a qu'à dire qu'elle dort .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9877	MOT	mother	tu [//] <elle fait dodo> [/] regarde oh elle fait dodo .	%sit CHI essaie de faire tenir la girafe sur la table mais la girafe tombe		%sit CHI essaie de faire tenir la girafe sur la table mais la girafe tombe 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9879	MOT	mother	oh on dirait qu'elle tire la langue .	%act MOT se penche vers CHI		%act MOT se penche vers CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9880	MOT	mother	fais voir .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9882	MOT	mother	ah ouais elle tire la langue .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9885	MOT	mother	et voilà un autre animal .	%act MOT fait grimper une figurine dans le dos de CHI		%act MOT fait grimper une figurine dans le dos de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9886	MOT	mother	sur ton épaule			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9889	MOT	mother	et qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9891	MOT	mother	c'est un gros singe qui s'appelle un gorille .	com MOT décompose le mot gorille en syllabes		com MOT décompose le mot gorille en syllabes 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9893	MOT	mother	< ouais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9894	MOT	mother	il prend des graines tu crois ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9896	MOT	mother	ah bon .	%act MOT montre une autre figurine à CHI		%act MOT montre une autre figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9898	MOT	mother	oh !			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9899	MOT	mother	qu'est-ce que c'est ça ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9901	MOT	mother	c'est pas tout à fait un éléphant regarde .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9902	MOT	mother	c'est un éléphant avec plein de poils .	%xpnt show la figurine de l'index		%xpnt show la figurine de l'index 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9903	MOT	mother	c'est un mammouth .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9905	MOT	mother	< c'est comme (.) non c'est un bébé mammouth .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9906	MOT	mother	c'est comme dans l'âge de glace (.) tu sais .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9909	MOT	mother	touloumtouloum@i .	%act MOT fait monter la figurine dans le dos de CHI		%act MOT fait monter la figurine dans le dos de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9913	MOT	mother	Many c'est un mammouth .	%act MOT met la figurine sur la tête de CHI		%act MOT met la figurine sur la tête de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9919	MOT	mother	et attention .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9920	MOT	mother	ah non t(u) as pas le droit de regarder .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9921	MOT	mother	t(u) as pas le droit de regarder .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9922	MOT	mother	à ton avis qu'est-ce que c'est cet animal ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9923	MOT	mother	qu'est-ce que c'est cet animal ?	%act MOT fait bouger la figurine en l'air hors de portée de CHI	%sit CHI essaie d'attraper la figurine	%act MOT fait bouger la figurine en l'air hors de portée de CHI %sit CHI essaie d'attraper la figurine	Anae/284.cha	1	clara						Anae	mother	Keychild
+9930	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9931	MOT	mother	hoplà [=! rit] .	%sit CHI trébuche alors qu'elle avançait vers OBS en brandissant la figurine MOT la retient		%sit CHI trébuche alors qu'elle avançait vers OBS en brandissant la figurine MOT la retient 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9944	MOT	mother	[=! petits bruits] (.) attention oh .	%act MOT ramasse une bouteille d'eau par terre puis présente une autre figurine à CHI		%act MOT ramasse une bouteille d'eau par terre puis présente une autre figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9945	MOT	mother	oh regarde .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9947	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9948	MOT	mother	qu'est-ce que c'est ?	%sit CHI regarde la figurine		%sit CHI regarde la figurine 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9949	MOT	mother	c'est un bébé ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9950	MOT	mother	un bébé quoi ?	%sit CHI pose la figurine sur la table		%sit CHI pose la figurine sur la table 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9952	MOT	mother	ah oui .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9953	MOT	mother	oh et lui ?	%act MOT montre une autre figurine		%act MOT montre une autre figurine 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9954	MOT	mother	c'est qui ?	%sit CHI prend la figurine		%sit CHI prend la figurine 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9956	MOT	mother	un quoi ?	%act MOT se penche vers CHI		%act MOT se penche vers CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9958	MOT	mother	un quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9960	MOT	mother	bien .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9961	MOT	mother	oh [/] oh [/] oh [/] oh [/] oh .	%act MOT montre une nouvelle figurine à CHI		%act MOT montre une nouvelle figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9963	MOT	mother	c'est un très gros chien .	%sit CHI regarde OBS		%sit CHI regarde OBS 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9965	MOT	mother	ben@i c'est un ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9966	MOT	mother	un mastiff .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9968	MOT	mother	[=! mimique] je sais pas je connais pas de [/] de gens qui ont des [//] un chien comme ça .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9969	MOT	mother	tu connais un chien comme ça toi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9972	MOT	mother	et le dernier .	%act MOT présente une autre figurine à CHI		%act MOT présente une autre figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9975	MOT	mother	[=! mimique] il a une drôle de tête mais c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9977	MOT	mother	un quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9979	MOT	mother	un quoi ?	com MOT essaie probablement que CHI améliore sa production comme juste avant avec le mot kangourou		com MOT essaie probablement que CHI améliore sa production comme juste avant avec le mot kangourou 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9981	MOT	mother	[=! rit] un hippopotame .	com MOT reformule		com MOT reformule 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9983	MOT	mother	on recommence ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+9985	MOT	mother	tu veux que j'aille en chercher d' autres ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10005	MOT	mother	< tiens regarde pose les à-côté de moi .	%act MOT pose sa main sur le canapé à côté d'elle pour désigner la place		%act MOT pose sa main sur le canapé à côté d'elle pour désigner la place 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10006	MOT	mother	on ira les ranger tous ensemble après .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10007	MOT	mother	Ael il est parti en chercher d' autres .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10008	MOT	mother	est-ce que tu veux bien ramasser ce-qui est à-côté du pied d' Aliyah ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10009	MOT	mother	regarde qu'est-ce que c'est ?	%xpnt show l'emplacement de l'index		%xpnt show l'emplacement de l'index 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10010	MOT	mother	non ça là-bas .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10011	MOT	mother	qu'est-ce que c'est ça ?	%xpnt show l'emplacement de l'index		%xpnt show l'emplacement de l'index 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10014	MOT	mother	oui c'est un singe mais comment ça s'appelle ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10015	MOT	mother	comment ça s'appelle les trucs où on met la main dedans ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10017	MOT	mother	une quoi ?	%act MOT a mis sa main dans la marionnette et la présente à CHI		%act MOT a mis sa main dans la marionnette et la présente à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10019	MOT	mother	une ..?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10024	MOT	mother	<bonjour Anaé> [=! fait parler la marionnette] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10025	MOT	mother	<comment ça va> [=! fait parler la marionnette] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10028	MOT	mother	tu le fais parler ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10030	MOT	mother	t(u) y arrives ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10031	MOT	mother	oui [=! sourit] .	%sit CHI fait bouger la bouche de la marionnette		%sit CHI fait bouger la bouche de la marionnette 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10032	MOT	mother	montre à Aliyah .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10033	MOT	mother	vas y tu fais comme si tu étais le [/] le singe qui parle .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10034	MOT	mother	<comment il dit le> [//] comment il parle le singe ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10036	MOT	mother	ah bon [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10038	MOT	mother	qui est-ce qui l'a donnée cette marionnette ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10039	MOT	mother	tu te rappelles qui est-ce qui a donné cette marionnette ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10041	MOT	mother	han@i qu'est-ce qu'il a ramené Ael ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10043	MOT	mother	oh .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10044	MOT	mother	c'est qui lui ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10048	MOT	mother	c'est un chien .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10049	MOT	mother	c'est un colley .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10050	MOT	mother	ah c(el)ui-là je l'adore .	%sit CHI prend une figurine sur le canapé		%sit CHI prend une figurine sur le canapé 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10051	MOT	mother	qu'est-ce que c'est ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10052	MOT	mother	va montrer à Aliyah .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10053	MOT	mother	comme il est mignon			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10061	MOT	mother	<un p(e)tit ours ouais> [=! hoche la tête] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10071	MOT	mother	oui chut et ça qu'est-ce que c'est ?	add à BRO puis à CHI	%act MOT met l'index devant sa bouche pour signifier à CHI de se taire	add à BRO puis à CHI %act MOT met l'index devant sa bouche pour signifier à CHI de se taire	Anae/284.cha	1	clara						Anae	mother	Keychild
+10072	MOT	mother	Anaé ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10074	MOT	mother	un quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10078	MOT	mother	xxx [=! chuchote] .	com MOT parle toujours à l'oreille de CHI		com MOT parle toujours à l'oreille de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10087	MOT	mother	oh ils sont euh montés sur le ukulélé .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10088	MOT	mother	c'est des animaux qui jouent de la musique ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10089	MOT	mother	qu'est-ce que tu voudras faire comme musique toi quand tu seras plus grande ?	%act MOT caresse les cheveux de CHI		%act MOT caresse les cheveux de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10090	MOT	mother	qu'est-ce que tu voudras faire comme instrument ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10093	MOT	mother	hein ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10096	MOT	mother	de l'atelier d' art .	%act MOT regarde OBS		%act MOT regarde OBS 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10099	MOT	mother	< tu voudras aller à l'atelier d' art ?	%xpnt show BR1 de l'index bras tendu		%xpnt show BR1 de l'index bras tendu 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10117	MOT	mother	mais tu sais Anaé l'atelier d' art c'est que en C@l E@l un .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10118	MOT	mother	c'est pas tout de suite hein .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10120	MOT	mother	hum .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10121	MOT	mother	et qu'est-ce que tu voudrais faire comme instrument de musique ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10123	MOT	mother	<de l'atelier d' art d'accord> [=! hoche la tête] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10150	MOT	mother	[=! sourit] c'est quoi ça ?	%act MOT prend la figurine qu'a apportée BRO et la présente à CHI		%act MOT prend la figurine qu'a apportée BRO et la présente à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10151	MOT	mother	c'est quoi ?	%sit CHI prend la figurine		%sit CHI prend la figurine 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10152	MOT	mother	c'est le ..?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10153	MOT	mother	c'est le quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10157	MOT	mother	c'est le ..?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10159	MOT	mother	< xxx .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10165	MOT	mother	< et ça regarde .	%act MOT montre une autre figurine à CHI		%act MOT montre une autre figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10166	MOT	mother	c'est quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10168	MOT	mother	un quoi ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10170	MOT	mother	comment il fait ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10171	MOT	mother	comment il fait l'éléphant ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10174	MOT	mother	oui (.) oh incroyable .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10198	MOT	mother	oh regarde qu'est-ce que c'est Anaé ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10199	MOT	mother	qu'est-ce que c'est ?	%act MOT présente une figurine à CHI		%act MOT présente une figurine à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10201	MOT	mother	qu'est-ce que c'est ?	%sit CHI tend le bras pour prendre la figurine		%sit CHI tend le bras pour prendre la figurine 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10203	MOT	mother	c'est une four(mi) ...	com MOT fournit l'ébauche du mot à CHI		com MOT fournit l'ébauche du mot à CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10210	MOT	mother	oui [=! hoche la tête] il va chercher encore un .			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10211	MOT	mother	tu lui demandes gentiment ?			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10215	MOT	mother	< [=! rit] t(u) es mignonne .	%act MOT caresse la joue de CHI		%act MOT caresse la joue de CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10217	MOT	mother	fais moi un bisou [=! baiser] .	%act MOT embrasse CHI		%act MOT embrasse CHI 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10218	MOT	mother	qu'est-ce qu'elle dit Véro Anaé c'est toi la plus ...			 	Anae/284.cha	1	clara						Anae	mother	Keychild
+10220	MOT	mother	< on a fait un coup de yyy incroyable encore ?	ximi MOT répète ce qu'a dit CHI	%act MOT touche CHI	ximi MOT répète ce qu'a dit CHI %act MOT touche CHI	Anae/284.cha	1	clara						Anae	mother	Keychild
+10221	MOT	mother	oh non [=! rit] .			 	Anae/284.cha	1	clara						Anae	mother	Keychild

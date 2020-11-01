@@ -1,0 +1,10 @@
+om1s-give-m^i basin(9,10) a_name
+come-rv/c-m^i 5-milk(5,6) 5 a_name
+sm2s-t^f2-om1s-come-ap-m^in cj whip(9,10) loc
+sm2s-t^p_go-m^in loc
+sm2s-t^f4-choose-m^in wh
+ng sm2s-t^p_know-m^x if-choose-ap-m^pt loc
+sm2s-om1-t^p_beat-m^s a_name
+ij ij
+a_name ij sm2s-t^p_choose-m^s 10-pea(9,10) 10
+see-m^ip 7-cripple(7,8) 7

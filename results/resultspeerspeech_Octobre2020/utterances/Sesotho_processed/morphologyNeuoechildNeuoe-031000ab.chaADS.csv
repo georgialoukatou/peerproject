@@ -1,0 +1,559 @@
+sm9-t^p-leave-m^in ps/home 9
+sm9-t^p-run_away-m^in
+sm9-t^p-stand-m^in
+sm9-t^p_go-m^in ps/home a_name sm9-t^p-stand-m^pt sm9-t^p-stand-m^pt
+sm9-t^p-enter-m^in pr house(9,10|6)/lc ps/home a_name sm9-t^p-stand-m^pt
+sm9-t^p-stand-m^in pr house(9,10|6)/lc
+sm9-t^p-go_out-m^in
+sm1s-t^p_say-m^in car(9,10)
+sm9-t^p_say-m^in go_out-m^i 3-temptation(3,4) aj
+mother(1a,2a)
+??? ??? ???
+10-thing(9,10) 10 cp 10 10-turnip(9,10) mother(1a,2a)
+mother(1a,2a) 10-turnip(9,10) 10 cp10 wh
+sm1-t^ps-sm1-t^po-om1p-give-m^pt cj 10-turnip(9,10)
+road(9,10) sr10-cook-t^pf-p-m^pt-rl
+hear-m^i 5-1s 2s cd sm5-t^p_say-m^pt ???
+mother(1a,2a) sm2s-t^p_feed-ap-m^in 10-tea(9,10) 10-nm
+10-nm pr side(9,10) pr pr cup(9,10)-lc
+cj 9 pr 5-cup(5,6)-lc 5 5 10-flower(9,10)
+mother(1a,2a)
+cj ng sm1s-t^p-do-m^x 5-something(5,6)
+ij
+ij ij
+ij ij mother(1a,2a)
+sm9-t^sa-burn-m^in
+sm1s-t^p-om9-drink-m^in
+cd sm9-t^sa-burn-m^in
+sm1s-t^p_want-m^in if-drink-m^pt pr spoon(9,10)
+sm9-t^p-burn-m^in
+sm1s-t^p_want-m^in cd sm9-t^p_be_cold-m^pt
+mother(1a,2a)
+mother(1a,2a) look-m^i sm1s-t^p_take-m^pt wh
+cp 7
+cp9 wh
+whip(9,10) cp9 wh
+sm1s-t^ps-sm1s-bruise-m^pt pr loc
+ij loc
+ij
+ng cp5 loc
+sm5-lose-nt-t^pf-m^in
+sm1s-t^p_say-m^in sm5-lose-nt-t^pf-m^pt
+sm1s-t^p_say-m^in
+sm5-lose-nt-t^pf-m^pt mother(1a,2a)
+look-m^i thing(9,10) 9 thing(9,10) 9 1-friend(1,2) cp 9-1s 1-friend(1,2)
+5-something(5,6)
+1-friend(1,2)
+1-friend(1,2) 1 a_name
+pr loc
+sr2-t^p_be_equal-m^pt-rl cj 2 2-2-aj
+sm1s-t^ne-sm1s-see-m^pt cj tea(9,10) cp9 loc loc
+sm1s-t^p_say-m^in sm1s-t^p_take_piece-m^pt loc
+ij sm1s-t^p_sit-m^in wh
+sm1s-t^f2-sit-m^in loc
+loc
+sm1s-t^f1-om9-pour-m^in loc
+sm9-t^se-sm9-cp aj
+ij
+sm1s-t^f2-do-m^in ??? 9 9
+sm1s-t^f2-do-m^pt car(9,10) 9
+sm1s-t^f2-do-m^in car(9,10) pr whip(9,10) 9
+sm9-t^p-arrive-m^in loc sm9-t^p-stand-m^pt
+sm9-t^p_go-m^in ps/home a_name
+sm9-t^p-arrive-m^in ps/home a_name
+cp pr loc ps/home a_name cp pr loc
+cp loc av ps/home sister(1a,2a)
+loc ps/home a_name
+loc ps/home a_name
+loc ps/home a_name
+loc ps/home
+??? sm9-t^p_enter-m^in ps/home a_name
+sm9-t^p_enter-m^s pr house(9,10|6)/lc
+ij sm9-t^p-arrive-m^in 3-cupboard(3,4)-lc
+sm9-t^p-arrive-m^in
+sm9-t^p-arrive-m^in loc cp 9 ??? sm9-t^p-enter-m^in
+sm9-t^p-om1-step-m^in
+sm1s-t^p-leave-m^in
+sm1s-t^f2-rf-do-m^in
+sm9-t^p-step-m^in
+my_child(1irg) 1/cp 1-aj cp 1
+cp elephant(9,10) cj cp wh cp wh
+1/cp 1-aj ps/home cp wh cp 1
+ghost(9,10) sm9-t^p_do-m^in-wh av
+cp 1 1/cp 1-aj cp wh cp 1 1/home cj 1
+sm9-t^p_do-m^in-wh pr 5-cup(5,6) 5
+mother(1a,2a)
+loc saucepan(9,10)
+9-wh 9-wh
+loc
+1s ng sm1s-t^p.om9-see-m^x
+5-wh
+loc
+cp wh 1 sr1-t^p_say-m^pt-rl cj 2
+cp a_name sm1s-t^p-be_convinced-m^in
+ij cp a_name
+ij sm9-t^p-arrive-m^in
+sm9-t^p-arrive-m^in
+sm9-arrive-t^pf-m^in 3-cupboard(3,4)-lc
+ij sm1s-t^p-crawl-m^in
+cp 9 loc whip(9,10) sm1s-t^f1-om9-take-m^in
+sm1s-t^f1-om1
+sm1s-t^f1-take-m^in ij
+sm1s-t^f1-rf-kneel-ap-m^in
+ij see-m^i bicycle(9,10)
+sm2s-t^p_see-m^s bicycle(9,10)
+see-m^i 9-1s
+sm2s-t^p-see-m^in 1s see-m^i sm2s-t^p-see-m^pt
+ij
+ij sm2s-t^p-see-m^in bicycle(9,10)
+sm1s-t^p_do-m^in bicycle(9,10)
+mother(1a,2a) look-m^i cd sm1s-t^p_do-m^pt av
+ij
+mother(1a,2a) sm1s-t^p.om9-put-m^s bed(9,10)-lc
+sm1s-t^p.om9-put-m^s wh
+bicycle(9,10) see-m^i
+see-m^i see-m^i mother(1a,2a)
+sm2s-put-t^pf-m^in wh mother(1a,2a)
+cp 9 cp 9 see-m^i
+sm1s-t^f1-om1-give-m^in 9-av
+9-av
+cj sm9-t^p-leave-m^in cp9 aj
+car(9,10) cj bicycle(9,10)
+sm1s-t^f1-give-m^in child(1irg) 1 car(9,10) cj bicycle(9,10)
+sm1s-t^f1-give-m^in my_child(1irg) car(9,10) cj bicycle(9,10)
+sm1s-t^p_say-m^in 10-thing(9,10) 10 10 10
+sm1s-t^f1-do-m^in pr loc
+q sm1s-t^p_do-m^in
+ij
+sm1s-t^f2-do-m^in av av
+ij sm9-t^p-jump-m^in loc mother(1a,2a)
+loc mother(1a,2a)
+ij sm9-jump-t^pf-m^in
+ij ij
+ij sm9-jump-t^pf-m^in
+mother(1a,2a) ij car(9,10)
+ij sm9-arrive-t^pf-m^in loc
+sm9-t^p-arrive-m^in loc
+sm1s-t^p_do-m^pt av
+ij ij
+ij sm1s-t^f1-rf-do-ap-m^in
+sm1s-t^p_go-m^in pr grandmother(1a,2a) a_name
+2s mother(1a,2a) sm1s-t^p_take-m^in 14-tin(14)-dim
+sm1s-t^p-leave-m^in
+sm1s-t^p_go-m^in cj 14-tin(14)-dim
+sm1s-t^f4-say-m^in sm1-t^p.om1s-give-m^s 10-peach(9,10)
+ng sm1s-t^f4-do-m^x 5-something(5,6)
+sm1s-t^f4-sit-m^in loc
+ij pr loc
+cp cj pr water(6irg)
+water(6irg) cp 6
+14-tin(14) 14-1s cp 14 ij
+sm1s-t^f1-om14-fetch-m^in
+pr grandmother(1a,2a) a_name
+sm1s-t^p_say-m^in sm1s-t^pp-sm1s-give-p-m^pt peach(9,10)
+cj a_name cj a_name cj a_name cp 10 pr loc
+cp 10
+ij ij 10-2s cp 10 10 mother(1a,2a) a_name cp 10
+a_name sm1-t^sa-leave-m^in
+ng sm1-t^p_give-m^x mother(1a,2a) a_name
+sm1s-say/t^pf-m^in sm1s-t^f1-om10-cook-m^pt
+sm1s-t^p.om10-peel-m^s sm1s-t^p.om10-cook-m^s
+ij sm1s-t^f4-om10-cook-m^in
+sm1s-t^f1-om2s-cook-ap-m^in
+ij
+loc loc sm1s-t^p.om10-make_fire-m^s
+sm1s-t^p.om10-roast-m^s
+sm1s-t^p_say-m^in sm1s-t^p.om10-roast-m^s
+sm1s-t^f4-put-m^in blanket(9,10)
+sm1s-t^f2-om2p-choose-c-m^in
+ij sm1s-t^p_eat-m^in 10-peach(9,10)
+ij
+10-10-aj sm10-remain/t^pf-m^in
+cp av
+ij
+mother(1a,2a) look-m^i thing(9,10) cp9 av
+sm1s-t^p.om9-eat-m^s
+ij loc cj pr bucket(9,10)-lc
+mother(1a,2a) cj grandmother(1a,2a) a_name cj mother(1a,2a) a_name av
+cj 1 sm1-cp loc
+house(9,10|6)
+cp9 aj thing(9,10) 9
+sm1-t^sa-cp ps/home
+cp9 aj thing(9,10) 9 sm2s-t^p-know-m^in mother(1a,2a)
+mother(1a,2a) child(1irg) cp1 wh
+sm1-t^pp-sm1-sleep/t^pf-m^pt mother(1a,2a)
+cp1 wh
+cp1 loc
+sm1-visit-ap/t^pf-m^in mother(1a,2a) a_name
+a_name sm1-t^ne-sm1-say-m^pt
+sm2-remain/t^pf-m^in loc
+a_name cj a_name
+sm1s-t^f4-throw_away-m^in
+say-m^ip mother(1a,2a) cp thing(9,10) 9 sm9-t^ne-sm9-cp loc
+thing(9,10) 9 sm1s-t^ne-sm1s-om2s-see-c-m^pt 9
+cj sm1s-t^ne-sm1s-om9-eat-m^pt
+peach(9,10)
+ij sm1s/t^np-split-m^in cat(9,10) 9 3-day(3,4)-lc 3
+sm1s-t^ne-sm1s-om9-kill-t^pf/m^pt
+3-day(3,4)-lc 3 14-night(14) ps/home sister(1a,2a) so_and_so(1a,2a)
+ps/home sister(1a,2a) a_name cj ij sister(1a,2a) a_name
+sm2-t^p_sing-m^in home(9,10)-lc cj ij
+sm1s/t^np-om9-kill-m^in cat(9,10)
+ps/home
+cj cj sm1s-om9-collide_with/t^pf-m^in
+av cd sm2/t^np-om9-kill-m^in
+9 9-aj 9 9-aj 9-aj cj
+9 9-aj 9 a_name
+cat(9,10)
+9-aj cp 9
+thing(9,10) 9-aj
+ij cp 9 om9-look-m^i mother(1a,2a) cp 9
+mother(1a,2a) sm2s-t^p-go-m^in if-om9-take-m^pt
+wh
+cp9 wh ij peach(9,10) 9-1s 9-aj cp 9 bed(9,10)-lc loc
+ij
+mother(1a,2a) sm1s-t^f4-om9-peel-m^in
+sm2s-t^p-hear-m^in mother(1a,2a)
+sm1s-t^p_cut-ap-m^in a_name
+sm2s-t^p-hear-m^in mother(1a,2a)
+sm1s-t^f4-om1-cut-ap-m^in
+ij pr mother(1a,2a) a_name
+ij
+sm1s-t^p_go-m^in cj 9-1
+sm2s-t^p-hear-m^in mother(1a,2a)
+mother(1a,2a) ng sm2s-t^p_leave-m^x
+ij
+ij mother(1a,2a) 9-aj cp 9
+mother(1a,2a) 10-pea(9,10) 10 sm10-t^pp-sm10-cp loc
+10 sm1p-t^ne-sm1p-om10-eat-m^pt
+sm1p-t^ne-sm1p-om10-take_up-m^pt av
+ij mother(1a,2a)
+mother(1a,2a) 10-pea(9,10) 10 sm10-t^pp-sm10-cp loc
+ij mother(1a,2a)
+road(9,10) sm1p-t^ne-sm1p-om10-eat-m^pt av av av loc
+ij mother(1a,2a) mother(1a,2a) ng sm10-ng-cp-loc
+sm2s-t^f1-come-m^in cj 10-10-aj
+grandmother(1a,2a) sm1-t^p_remain-m^s
+sm1-t^p_come-m^in cj urn(9,10)
+sm1-t^p_remain-m^s home(9,10)-lc
+mother(1a,2a) cj 1p sm1p-t^f1-go-m^in
+loc sm2s-t^p_say-m^in 10-10-aj sm10-t^f1
+sm10-t^f1-come-m^in
+mother(1a,2a) sm1s-t^p_come-m^s cj knife(9,10)
+sm1s-t^f2-peel-m^in
+sm1s-t^f2-cut-ap-m^in a_name
+sm1s-t^f1-om1-leave_behind-ap-m^in
+sm1s-t^f1-leave_behind-m^in sm1s-t^p_put-m^s pr loc
+sm2s-t^p-hear-m^in mother(1a,2a)
+cp mother(1a,2a) sm1s-t^p_cut-m^s sm1s-t^p_cut-m^s
+ij
+knife(9,10) cp9 wh
+sm1-cp 1-nm
+ij
+9-aj cp 9
+ij cp 9 cp 9 blanket(9,10)-lc 9-1s
+om9-look-m^i cp 9
+sm1s-t^f2-om1-give_a_part_to-ap-m^in pr 9
+knife(9,10) cp9 wh mother(1a,2a)
+wh
+sm17-t^p-cry-m^in
+sm2s-t^p-know-m^in mother(1a,2a) sm1s-t^p_say-m^pt sm17-t^p-cry-m^pt
+sm17-t^p-cry-m^in
+10-hawk(9,10) sm17-t^p_say-p-m^in ??? 17
+sm1s-t^p_say-m^in sm17-t^p-cry-m^pt
+mother(1a,2a) sm1s-t^p.om10-put-m^s
+sm1s-t^p_put-m^s loc loc
+loc
+ij
+sm1s-t^p_come-m^in cj knife(9,10)
+sm1s-t^p-pass-m^in
+sm1s-t^f4-take-m^in knife(9,10)
+sm1s-t^f2-cut-ap-m^in a_name
+ij mother(1a,2a)
+sm1s-t^f2-cut-m^in
+pr spoon(9,10)
+sm1s-t^p_cut-m^in pr spoon(9,10)
+sm1s-t^p_cut-ap-m^in a_name pr bottle(9,10)
+cut-m^i cut-m^i 9 cp9 aj
+sm1s-t^f4-cut-m^in pr so_and_so(1a,2a) pr bottle(9,10) pr knife(9,10)
+knife(9,10)
+peach(9,10)
+sm1s-t^p_cut-m^in peach(9,10)
+sm1s-t^p_say-m^in peach(9,10)
+sm1s-t^se-sm1s-om9-cut-t^pf-m^pt
+sm1s-cut-ap/t^pf-m^in
+sm1s-cut-t^pf-m^in string(9,10)
+sm9-t^ne-sm9-cp aj
+sm1s-t^f4-take-m^in knife(9,10)
+sm1s-t^p-pass-m^in
+sm1s-t^f4-take-m^in knife(9,10)
+ij
+ij
+sm1s-t^p-want-m^in
+ij
+ij
+ij mother(1a,2a) sm1s-t^p_come-m^s cj knife(9,10)
+sm1s-fall-ap/t^pf-m^in
+cp 1s sm1-t^f1-rf-pin-m^in
+sm1s-t^p-om9-know-m^in
+mother(1a,2a) sm1s-t^p-know-m^in
+cj 3-greens(3,4)
+ij
+10-10-aj sm10-t^pp-sm10-cp loc pr loc
+ng sm1s-t^p_eat-m^x 10-turnip(9,10)
+ng sm1s-t^p_eat-m^x 10-turnip(9,10) 2s
+mother(1a,2a) cj cd sm1s-eat-t^pf-m^in 10-candy(9,10)
+2s mother(1a,2a) cd sm1s-finish-m^in loc sm1s-t^f2-om2s-choose-c-m^pt
+mother(1a,2a) sm2s-t^se-sm2s-t^f2-finish-m^in
+a_name ng sm1s-t^p.om1-give_a_part_to-ap-m^x
+ij sm1s-t^p.om1-give-m^in av 9 candy(9,10) 9
+10-turnip(9,10) 10 sm1s-t^p-om10-eat-m^in
+ij ij ij sm1s-rf-bite/t^pf-m^in
+sm1s-t^f4-om9-put-m^in pr loc
+candy(9,10)
+wh
+cj av ps/home loc
+sm1s-t^p_pour-m^s water(6irg)
+sm1s-t^f2-choose-m^in
+sm1s-t^p_choose-m^s
+ij
+mother(1a,2a) wheat(9,10) 9 sm2s-t^f1-om9-cook-m^in
+sm2s-t^f2-know-m^in if-om9-cook-m^pt
+mother(1a,2a) cp 1s sr1-t^f1-knead-m^pt-rl cj a_name
+sm9-t^f1-cp 1s av
+mother(1a,2a) sm2s-t^p_say-m^in-wh
+ij
+av cp 1s sr1-t^f1-rf-feed-ap-m^pt-rl mother(1a,2a)
+cj sm1s-t^p-work-m^in
+om1-feed-ap-m^i 14-bread(14)
+sm1-t^p-work-m^in
+ij
+mother(1a,2a) av sm1s-t^f1-feed-ap-m^in cj mother(1a,2a) a_name
+ij
+mother(1a,2a) look-m^i wheat(9,10)
+sm1s-t^p-take-m^in
+sm2s-t^p-hear-m^in mother(1a,2a)
+sm1s-t^p.om9-pour-m^s mother(1a,2a)
+ij
+ij
+cj sm1s-t^p_pass-p-m^in cp a_name
+cj ij
+sm1s-t^ne-sm1s-put_on-m^pt av
+mother(1a,2a) sm17-t^p_come-rv/c-p-m^in cj 10-thing(9,10) 10
+sm1p-t^f1-eat_together_with-m^in cj 10
+ij 9
+sm1p-t^f1-sift-m^in
+cp 1s sr1-t^f1-sift-m^pt-rl mother(1a,2a)
+mother(1a,2a) sm1s-t^p_say-m^in 10-fly(9,10)
+5 ij 5-stone(5,6) cp 5
+5-stone(5,6) cp 5
+cp 1s sr1-t^f1-do-m^pt-rl av
+mother(1a,2a)
+mother(1a,2a)
+sm1s-t^p.om9-eat-m^s
+cj mother(1a,2a) 3-day(3,4) 9 sm1s
+sm1s-om1-give-t^pf-m^in peach(9,10)
+sm1-leave_behind-ap/t^pf-m^in pr 1s
+ij
+cp stick(9,10)
+candy(9,10) mother(1a,2a) sm1s-om9-break-t^pf-m^in
+sm1-om1s-give-t^pf-m^in sm1-om1s-give-t^pf-m^pt ng cp9 loc ij
+ij
+ng cp9 loc
+sm1s-t^p-choose-m^in
+sm1s-t^p-choose-m^in
+mother(1a,2a) look-m^i sm1s-t^p_choose-m^pt sm1s-do/t^pf-m^pt wh
+sm1s/t^np-find-m^in 6-stone(5,6)
+sm1s/t^np-find-m^in pr 6-stone(5,6)
+mother(1a,2a) av ng sm1p-t^ny-finish-m^x
+sm1p-t^f1-choose-m^in
+mother(1a,2a) sm2s-t^p-see-m^in
+sm1s-t^se-sm1s-t^f2-finish-m^pt
+mother(1a,2a) look-m^i loc sm1s-t^se-sm1s-t^f2-finish-m^pt
+look-m^i loc sm1s-t^se-sm1s-finish-m^pt
+look-m^i mother(1a,2a) loc sm1s-t^se-sm1s-t^f2-finish-m^pt
+cp 9
+cp 9 ij
+look-m^ip sm1s-do/t^pf-m^pt-wh
+sm1s-t^p_know-m^in if-choose-m^pt
+loc
+sm1s-t^p_choose-m^in av 1s
+mother(1a,2a) look-m^i q sm1s-do/t^pf-m^pt-wh
+look-m^i mother(1a,2a) sm1s-t^pp-sm1s-say-m^pt
+mother(1a,2a) mother(1a,2a) see-m^i sm1p-do/t^pf-m^pt thing(9,10) cp9 wh
+sm2s-t^p-see-m^in sm1p-t^f2-finish-m^pt mother(1a,2a)
+mother(1a,2a) look-m^i q sm1p-do/t^pf-m^pt 9-wh
+cp wh sr1-do/t^pf-m^pt-rl av
+sm1s-t^p-take-m^in mother(1a,2a)
+ij ij ij ij
+om9-take-m^i av
+my_child(1irg) go/c-m^i 5-hand(5,6) pr loc
+take-m^i take-m^i
+mother(1a,2a) see-m^i cp1s 1-aj q
+mother(1a,2a) look-m^i
+sm1s-t^p_say-m^in thing(9,10)
+mother(1a,2a) 10-thing(9,10) 10 sm10-t^f2-cook-p-m^in om10-look-m^i
+mother(1a,2a) 10
+mother(1a,2a) 10-thing(9,10) 10 sm10-t^f2-cook-p-m^in 10
+mother(1a,2a) look-m^i
+mother(1a,2a) sm2s-t^p-see-m^in sm1p-t^se-sm1p-finish-t^pf-m^pt
+ij
+ij sm1s-t^p_say-m^in
+sm2s-t^p_say-m^in
+sm1p-t^se-sm1p-t^f2-finish-m^pt
+ij sm1s-t^p-be_convinced-m^in
+look-m^i mother(1a,2a)
+sm2s-t^p_know-m^s
+a_name sm1-t^p-choose-m^in av
+ij look-m^i mother(1a,2a) a_name sm1-t^p-choose-m^pt av
+sm1-t^p-choose-m^in av
+ps/home sm1-t^p_choose-m^in wheat(9,10)
+ij
+mother(1a,2a) look-m^in
+look-m^i 6-stone(5,6) 6
+sm1p-t^se-sm1p-t^f2-finish-m^pt
+sm1s-t^p_choose-m^in
+sm1s-t^pp-sm1s-om9-choose-m^pt
+sm1s-t^pp-sm1s-say-m^pt
+mother(1a,2a) sm2s-t^p-see-m^in 6-stone(5,6) ng cp6 loc
+mother(1a,2a) sm2s-t^p-see-m^in
+mother(1a,2a) cj 10-thing(9,10) 10 sm10-t^p-throw_away-p-m^in 10
+sm1s-t^p_pour-m^in wheat(9,10) 9
+9 sm1s-om9-choose-t^pf-m^pt-rl pr loc
+ij mother(1a,2a) sm2s-pour/t^pf-m^in
+ht sm1s-t^p_pour-m^s
+pr loc
+sm9-choose-p-t^pf/m^in
+mother(1a,2a) sm1s-t^p.om9-eat-m^s
+mother(1a,2a) sm2s-t^f1-disperse-m^in
+sm2s-t^f1-disperse-m^in
+cp wh sr1-om9-disperse-t^pf-m^pt-rl loc ij mother(1a,2a)
+cj ng cp 1s
+ng sm1s-t^p_know-m^x
+ng cp 1s ij mother(1a,2a)
+wh
+ij
+ng sm1s-t^p-tire-m^x mother(1a,2a)
+mother(1a,2a) 10 10
+mother(1a,2a) look-m^i
+sm1s-t^p_do-m^s house(9,10|6) 9-wh
+ij mother(1a,2a) leave-m^i
+sm1s-t^p_do-m^in
+sm17-ng-disperse-rc-m^i
+mother(1a,2a)
+mother(1a,2a) sm2s-t^p-see-m^in sm1s-t^se-sm1s-cp 1-aj
+sm1s-t^se-sm1s-cp 1-aj
+mother(1a,2a) sm2s-t^p-see-m^in sm1s-t^se-sm1s-cp 1-aj
+sm1s-t^p_pass-p-m^in cp a_name
+sm1s-t^p-om1-pass-m^in
+sm1s-t^p_pass-m^in a_name
+sm1s-t^p-om1-pass-m^in
+sm1s-t^p_want-m^in sm9-ng-disperse-rc-m^i ij mother(1a,2a)
+mother(1a,2a) look-m^i a_name
+sm1-om1s-give-t^pf-m^in
+sm1s-t^p.om9-eat-m^s
+cd sm1-om1s-give-t^pf-m^in av
+mother(1a,2a) look-m^i
+mother(1a,2a) q sm1s-om2s-give-t^pf-m^in
+q sm1s-om2s-give-t^pf-m^in
+q sm1s-om2s-give-t^pf-m^in peach(9,10)
+10-nm
+sm1s-t^p-om1-give-m^in
+take-m^i
+take-m^i ij ij
+sm1s-t^p-thrash-m^in
+sm1s-t^p-thrash-m^in
+ij mother(1a,2a) cp 3-soil(3,4)
+sm1s-t^p-om9-eat-m^in
+cj sm1s-t^p-om9-eat-m^in
+ij
+ij
+look-m^ip
+sm1p-t^se-sm1p-t^f2-finish-m^pt
+7-tobacco_box(7,8)
+ij
+cp 9-1s
+look-m^i thing(9,10) 9-1s
+look-m^i loc
+sm1s-t^f2-finish-m^in av pr 2
+mother(1a,2a) 6-peel(5,6) 6 10-orange(9,10) sm6-t^p_eat-p-m^in
+sm6-t^p_eat-p-m^in
+sm6-t^p_be_bitter-m^in
+sm6-t^p_be_bitter-m^in ij mother(1a,2a)
+mother(1a,2a) look-m^i a_name
+sm1-t^ps-sm1-t^po-jump-c-ap-m^pt 7-tobacco_box(7,8)
+sm1-t^p_say-m^in
+sm1-t^p_say-m^in
+ij ij sm1-jump-ap/t^pf-m^in loc
+see-m^i
+sm1-om7-jump-ap-c/t^pf-m^in pr 1s
+sm1-t^p.om7-jump-c-ap-m^in blanket(9,10)-lc 9-1s
+sm1-t^p-om7-jump-c-m^in
+sm2s-t^p-tire/c-m^in ij a_name
+sm1-t^p-om7-cover/rv-m^in
+sm1-t^p.om7-cover-rv-m^in pr pr 1s
+take-m^i
+look-m^i mother(1a,2a)
+thing(9,10) 9 a_name sm9-t^ps-sm9-cause_to_fall-p-m^in cp wh
+take-m^i
+cp 5-fatcakes(5,6)
+sm1s-t^p-om5-eat-m^in
+10-rib(5,6|10) 10
+mother(1a,2a) look-m^i
+mother(1a,2a) look-m^i 1s 6-peel(5,6) 6
+mother(1a,2a) ij
+mother(1a,2a) 6-peel(5,6) sm1-t^p_say-m^in
+look-m^i mother(1a,2a)
+sm1s-t^p.om5-throw_away-m^s
+1s sm1s-t^f2-om5-swallow-m^in 5-peel(5,6) 5 sm1s-om5-eat-t^pf-m^pt-rl
+sm1s-t^p_leave_behind-ap-m^in 5-peel(5,6) 5 3-day_time(3,4)
+sm1s-t^p.om5-throw_away-m^s
+sm1s-t^f2-heal-m^in 7-chest_cold(7,8)
+come-c-m^i
+1s ng sm1s-t^f1-if-om1-give-ap-cl-m^in av
+cp cj sm1-t^p-om1s-tire/c-m^in
+close-m^i mother(1a,2a)
+mother(1a,2a) ij sm2s-t^p.om1s-grease-m^s
+mother(1a,2a) sm2s-t^p-see-m^in
+sm17-t^p_descend-m^in
+ij
+sm1s-t^p_do-m^in av 1s
+mother(1a,2a) sm2s-t^p_say-m^in 10
+sm2s-t^p_say-m^in 10
+mother(1a,2a) sm1s-t^po-t^mpa-sm1s-take_up-m^in child(1irg) 1
+sm2s-t^p.om1-bring_down-m^s sm1s-t^p.om1-take_up-m^s
+sm1s-t^p.om1-take_up-m^s
+sm1s-t^p.om1-take_up-m^s av
+q
+sm1s-t^f2-be_equal-m^in cj brother(1a,2a) a_name
+sm1s-t^se-sm1s-know-m^pt if-choose-m^pt
+choose-m^i
+sm1s-t^p.om9-put-m^s loc
+sm1s-t^p.om9-throw_away-m^s
+ij
+take-m^i ij 1-boy(1,2)
+take-m^i cp 9
+cp father(1a,2a)
+father(1a,2a)
+father(1a,2a)
+sister(1a,2a) a_name
+sm2s-t^p_say-m^in sm2s-t^f2-om1-tell-m^pt
+wh
+sister(1a,2a) a_name
+sm2s-t^f1-om1s-give-m^in
+sm2s-t^f1-om1s-give-m^in pen(9,10)
+sm2s-t^f1-om1s-give-m^in pen(9,10)
+ij
+mother(1a,2a) sm1-t^f2-om1-tell-m^s
+mother(1a,2a) sm1-t^f2-om1-tell-m^s a_place
+ij
+take-m^i
+see-m^i sm1-t^p-om5-wrap-m^pt
+5-hand(5,6) cp 5
+cp 5 5-5-aj
+take-m^i
+take-m^i 5-fatcakes(5,6)
+take-m^i sm1s-om9-hide-t^pf-m^pt
+mother(1a,2a) sm1s-tire/t^pf-m^in
+cp 1s
+sm1s-t^p-sit-m^in

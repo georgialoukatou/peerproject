@@ -1,0 +1,9 @@
+ij sm1-drink-t^pf-m^in ng sm1-t^p_be-m^x cj 6-eye(5 6) cp wh
+leave-m^i if-put-m^pt 8-shoe(7 8) 8 2s
+leave-m^i if-take_off-m^pt 8-shoe(7 8) 8 pr loc pr house(9 10|6)/lc
+put-m^i 17 pr loc 2s a_name
+cp 9 wh av
+sm2p-tire/t^pf-m^in go_out-m^ip sm1p-t^p_go-m^s loc
+go_out-m^ip sm2p-t^p_go-m^sp loc av sm1s-t^p-see-m^pt sm2p-tire/t^pf-m^pt
+sit-m^i loc sm17-t^p_see-nt-m^pt cm sm2s-tire/t^pf-m^pt cj ng sm2s-t^p-tire-m^x
+ng om1-tire/c-m^i om1-leave-m^i ij a_name

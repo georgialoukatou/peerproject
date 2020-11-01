@@ -1,0 +1,535 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+26463	MOT	mother	xxx				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26466	MOT	mother	non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26467	MOT	mother	elle a dû tombé			%sit  discussion entre la mère d' Ana et Ger Ana regarde son livre 4937272/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26480	MOT	mother	tu y arrives Ninette?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26482	MOT	mother	non?			%sit  Ana regarde la couverture de son livre 423584572/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26484	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26486	MOT	mother	tu t'asseois là?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26488	MOT	mother	non là?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26491	MOT	mother	il y est là le jeu?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26493	MOT	mother	www			%sit  Ana attrape la pochette /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26494	MOT	mother	où elle m'a mis mon  mon bloc?			%sit  Ana essaie d'enlever la pochette de son livre 1125912156/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26495	MOT	mother	tiens			%sit  elle tend à Ana un bloc note /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26498	MOT	mother	on va les coller dessus				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26519	MOT	mother	oui je viens l'ouvrir				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26520	MOT	mother	oh là là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26522	MOT	mother	oui Ana				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26523	MOT	mother	je viens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26531	MOT	mother	hop				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26534	MOT	mother	c'est ton chocolat?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26535	MOT	mother	tu l'as mis où ton chocolat?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26539	MOT	mother	mm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26541	MOT	mother	viens voir toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26543	MOT	mother	tu viens?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26545	MOT	mother	on va prendre les crayons?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26553	MOT	mother	si si				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26557	MOT	mother	un quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26559	MOT	mother	un ciseau				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26562	MOT	mother	tu veux découper?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26564	MOT	mother	non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26565	MOT	mother	mais tu veux un ciseau				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26568	MOT	mother	viens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26569	MOT	mother	allez viens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26571	MOT	mother	tu viens?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26574	MOT	mother	viens Bichette				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26577	MOT	mother	regarde dans la boite			%sit  Ana ouvre la boite posée sur la table 3463673556/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26587	MOT	mother	c'est la boite magique				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26589	MOT	mother	c'est la boite du bricolage				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26595	MOT	mother	tiens Nine				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26599	MOT	mother	tu colores +				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26601	MOT	mother	qu'est ce qu'on dessine?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26604	MOT	mother	non?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26605	MOT	mother	d'accord				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26606	MOT	mother	tu prends que le				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26607	MOT	mother	c'est quoi ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26610	MOT	mother	un quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26612	MOT	mother	hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26614	MOT	mother	rose?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26616	MOT	mother	tu as une chaise là bas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26617	MOT	mother	si tu allais t'asseoir dessus				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26619	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26626	MOT	mother	faut mettre comme ça le bouchon?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26632	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26633	MOT	mother	qu'estce que tu veux?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26636	MOT	mother	qu'estce que +?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26637	MOT	mother	qu'est ce que je te donne?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26639	MOT	mother	un carré?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26642	MOT	mother	regarde				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26644	MOT	mother	oh le traîneau du pèrenoël				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26647	MOT	mother	tu décolles?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26655	MOT	mother	non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26656	MOT	mother	il faut pas coller comme ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26657	MOT	mother	viens voir				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26659	MOT	mother	je te montre				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26660	MOT	mother	je peux te montrer?			%sit  elle tend la main vers Ana /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26662	MOT	mother	non?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26663	MOT	mother	je te montre pas?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26665	MOT	mother	bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26666	MOT	mother	bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26667	MOT	mother	bah débrouille toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26670	MOT	mother	non mais ça se décolle				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26671	MOT	mother	c'est des www autocollants Ana				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26673	MOT	mother	tu as pas besoin de la colle				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26675	MOT	mother	regarde				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26676	MOT	mother	comme ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26677	MOT	mother	ohlàlà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26678	MOT	mother	tu as tout tordu				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26679	MOT	mother	hop				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26680	MOT	mother	on www enlève là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26682	MOT	mother	xxx				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26683	MOT	mother	comme ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26684	MOT	mother	puis on www enlève celuilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26686	MOT	mother	et on le colle				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26688	MOT	mother	où c'est qu'on le met?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26692	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26693	MOT	mother	yyy mets le là haut				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26697	MOT	mother	ah bah non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26698	MOT	mother	là tu lui as mis la tête dans le décor				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26699	MOT	mother	tiens là			%sit  la vignette se déchire 61386261523/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26700	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26702	MOT	mother	bah oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26703	MOT	mother	tout déchiré				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26704	MOT	mother	tu es un petit peu brusque hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26705	MOT	mother	fais voir				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26706	MOT	mother	on va réparer				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26708	MOT	mother	voilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26710	MOT	mother	le traîneau du Père Noël				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26711	MOT	mother	tu veux une bougie?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26713	MOT	mother	allez				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26715	MOT	mother	une bougie				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26717	MOT	mother	c'est toi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26719	MOT	mother	oh c'est quoi ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26723	MOT	mother	mon sapin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26724	MOT	mother	oui un www arbre				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26728	MOT	mother	alors				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26729	MOT	mother	sapin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26732	MOT	mother	un sapin yyy argenté				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26736	MOT	mother	un www escargot?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26739	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26741	MOT	mother	escargot				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26743	MOT	mother	ah bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26744	MOT	mother	et c'est quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26747	MOT	mother	www c'est?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26749	MOT	mother	c'est pour l'anniversaire?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26751	MOT	mother	c'est pour moi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26753	MOT	mother	oh merci				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26754	MOT	mother	c'est mon cadeau?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26757	MOT	mother	merci ma Ninette				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26758	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26759	MOT	mother	ton sapin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26761	MOT	mother	tu le mets où?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26762	MOT	mother	oui faut le coller là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26764	MOT	mother	allez mets le là haut				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26765	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26769	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26770	MOT	mother	allez				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26773	MOT	mother	très bien				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26774	MOT	mother	qu'est ce qu'il y a?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26776	MOT	mother	attends				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26777	MOT	mother	oh une bougie				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26780	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26781	MOT	mother	faut coller la bougie				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26783	MOT	mother	t'arrives pas toi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26787	MOT	mother	on va en sortir un petit peu comme ça			%sit  elle met des vignettes sur la table /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26789	MOT	mother	puis les www autres on va les garder				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26791	MOT	mother	d'accord?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26792	MOT	mother	alors				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26793	MOT	mother	fais voir				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26794	MOT	mother	nous www avons quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26795	MOT	mother	la bougie on la colle?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26799	MOT	mother	là haut?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26801	MOT	mother	tu mets tout www en haut hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26804	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26809	MOT	mother	c'est toi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26811	MOT	mother	d'accord				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26813	MOT	mother	hop				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26814	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26816	MOT	mother	la belle bougie				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26822	MOT	mother	ouais super				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26824	MOT	mother	elle est un peu tordue hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26826	MOT	mother	oh regarde le Père Noël avec sa hotte				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26829	MOT	mother	et tous les cadeaux là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26834	MOT	mother	tu le veux pas?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26836	MOT	mother	ça c'est quoi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26837	MOT	mother	ah un petit www ange				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26842	MOT	mother	encore?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26843	MOT	mother	et ça c'est quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26845	MOT	mother	Bichette				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26849	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26852	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26854	MOT	mother	et oui ce sont les mêmes				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26857	MOT	mother	et ça?			%sit  elle montre à Ana une nouvelle vignette /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26859	MOT	mother	oh bah d'accord				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26863	MOT	mother	là?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26865	MOT	mother	à côté du sapin?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26870	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26872	MOT	mother	tourner?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26874	MOT	mother	comme ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26876	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26881	MOT	mother	d'accord				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26883	MOT	mother	ah bah ça c'est toi qui l'as mis tordu hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26885	MOT	mother	ah bah une fois c'est collé c'est collé				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26886	MOT	mother	peut plus faire				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26888	MOT	mother	plus rien faire				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26891	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26894	MOT	mother	qu'est ce qu'il y a?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26895	MOT	mother	oh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26896	MOT	mother	et ça c'est quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26899	MOT	mother	oh y a Némo				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26900	MOT	mother	tu veux qu'on lise Némo?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26903	MOT	mother	c'est toi qui lit?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26909	MOT	mother	après?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26911	MOT	mother	tu veux continuer ou je range?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26920	MOT	mother	je le mets où?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26923	MOT	mother	oui ce sont encore les mêmes				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26927	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26928	MOT	mother	ce sont les mêmes				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26932	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26934	MOT	mother	pareille				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26937	MOT	mother	celuilà on met?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26941	MOT	mother	xxx				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26947	MOT	mother	béh ramasse				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26949	MOT	mother	comment ça non?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26951	MOT	mother	ramasse les crayons si il te plaît				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26954	MOT	mother	allez Pestouillette				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26956	MOT	mother	comment ça c'est maman?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26958	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26959	MOT	mother	mets le ton truc			%sit  elle lui tend une vignette /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26961	MOT	mother	ton traîneau				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26963	MOT	mother	et tu me donneras les crayons				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26966	MOT	mother	mets le là bas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26968	MOT	mother	ah c'est moi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26970	MOT	mother	ramasse les stylos				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26975	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26976	MOT	mother	d'accord				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26980	MOT	mother	merci				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26981	MOT	mother	où elle est la boite?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26985	MOT	mother	Ana				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26988	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26989	MOT	mother	mais donne moi la boite				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26992	MOT	mother	faut que je découpe?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26995	MOT	mother	tu me ramasses les crayons si il te plaît				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+26998	MOT	mother	non?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27000	MOT	mother	il faut le découper?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27002	MOT	mother	non?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27003	MOT	mother	bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27004	MOT	mother	donne moi les le crayon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27006	MOT	mother	non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27007	MOT	mother	donne				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27008	MOT	mother	dépêche toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27009	MOT	mother	allez				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27012	MOT	mother	allez Nine				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27013	MOT	mother	dépêche toi je te dis				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27016	MOT	mother	forcément hein tu trouves une excuse				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27019	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27020	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27023	MOT	mother	on www enlève ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27027	MOT	mother	attends attends t'en va pas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27028	MOT	mother	y a le micro				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27032	MOT	mother	c'est toi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27035	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27037	MOT	mother	xxx				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27039	MOT	mother	parce qu'on fait rentrer tout le froid				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27042	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27043	MOT	mother	tu es tombée de l'échelle				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27047	MOT	mother	ça y est mademoiselle?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27049	MOT	mother	tourne xxx				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27051	MOT	mother	bah oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27052	MOT	mother	et mais tu as toujours				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27055	MOT	mother	voilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27057	MOT	mother	comme ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27058	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27059	MOT	mother	bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27066	MOT	mother	tu m'appelles quand tu as fini				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27069	MOT	mother	tu te moques là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27071	MOT	mother	Nine				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27078	MOT	mother	oui			%sit  grésillements /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27081	MOT	mother	ça y est				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27084	MOT	mother	super				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27088	MOT	mother	super				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27090	MOT	mother	allez				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27091	MOT	mother	attends				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27092	MOT	mother	tu es accrochée				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27093	MOT	mother	vas y				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27094	MOT	mother	sauve toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27096	MOT	mother	sauve toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27099	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27101	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27102	MOT	mother	tu es arrivée à le remettre?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27106	MOT	mother	oh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27108	MOT	mother	tu as fait un câlin?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27110	MOT	mother	oh oui bah c'est gentil				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27111	MOT	mother	tu peux avancer?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27112	MOT	mother	qu'il fait froid là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27114	MOT	mother	viens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27115	MOT	mother	on va là bas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27116	MOT	mother	tu le mets où je t'aide?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27118	MOT	mother	non je t'aide pas?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27120	MOT	mother	quand même un petit peu?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27124	MOT	mother	c'est bon?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27127	MOT	mother	mais il est mis comme il faut là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27131	MOT	mother	attends parce que du coup tu as tout mis dessous				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27132	MOT	mother	hop				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27133	MOT	mother	hop				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27134	MOT	mother	voilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27135	MOT	mother	ça doit être comme ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27138	MOT	mother	tu veux sur la robe?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27141	MOT	mother	on le met là?			%sit  la mère d' Ana lui installe son micro 1547715796/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27142	MOT	mother	ça va là?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27148	MOT	mother	ramasse mes crayons Ana				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27153	MOT	mother	mm tu as entendu le bruit du papier				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27154	MOT	mother	tiens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27155	MOT	mother	il est là le tien				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27158	MOT	mother	mh?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27161	MOT	mother	un bleu?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27164	MOT	mother	je sais pas si il en reste des bleus				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27166	MOT	mother	hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27169	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27172	MOT	mother	qu'estce que tu me dis?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27175	MOT	mother	de rien			%sit  Ana revient dans le salon avec une papillote /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27177	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27182	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27183	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27185	MOT	mother	mets dans la poubelle le papier				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27187	MOT	mother	poubelle				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27189	MOT	mother	petit clown				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27195	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27196	MOT	mother	allez viens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27199	MOT	mother	oui je viens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27201	MOT	mother	bon alors ces crayons				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27202	MOT	mother	donne				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27206	MOT	mother	non non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27207	MOT	mother	mais tu viens m'aider toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27209	MOT	mother	à aider				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27216	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27217	MOT	mother	bon euh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27218	MOT	mother	ramasse				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27221	MOT	mother	allez				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27224	MOT	mother	oui je te donne un coup de main				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27226	MOT	mother	ramasse le reste				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27231	MOT	mother	c'est trop lourd?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27237	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27239	MOT	mother	quatre				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27244	MOT	mother	ça y est on www a tout rangé?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27247	MOT	mother	comme ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27249	MOT	mother	et le dernier				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27251	MOT	mother	là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27252	MOT	mother	regarde				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27253	MOT	mother	là devant y a de la place				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27254	MOT	mother	bah				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27256	MOT	mother	voilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27259	MOT	mother	dans l'autre sens				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27261	MOT	mother	non?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27262	MOT	mother	c'est bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27263	MOT	mother	allez				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27267	MOT	mother	pousse toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27269	MOT	mother	ah c'est toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27271	MOT	mother	encore celuilà?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27273	MOT	mother	tu colles toujours le même hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27277	MOT	mother	là en dessous?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27281	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27294	MOT	mother	qu'estce que il y a?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27297	MOT	mother	on le met ce chariot?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27299	MOT	mother	ce traîneau				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27302	MOT	mother	c'est Nemo ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27304	MOT	mother	ah oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27307	MOT	mother	c'est Martin xxx?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27309	MOT	mother	c'est Martin son papa?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27311	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27316	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27317	MOT	mother	et ça c'est qui ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27320	MOT	mother	c'est le méchant?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27321	MOT	mother	comment il s'appelle?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27325	MOT	mother	comment?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27328	MOT	mother	j'ai pas compris				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27331	MOT	mother	magie?			%sit  Ana regarde sa mère en souriant 1858342185922/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27332	MOT	mother	ah				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27334	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27335	MOT	mother	il s'appelle comme ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27336	MOT	mother	il s'appelle pas Bruce?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27340	MOT	mother	si?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27342	MOT	mother	je sais pas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27343	MOT	mother	il me semble				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27345	MOT	mother	faut que je relise mais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27348	MOT	mother	je crois que c'est quelque chose comme ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27351	MOT	mother	c'est le requin?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27353	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27355	MOT	mother	le requin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27358	MOT	mother	Bruce				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27359	MOT	mother	je crois hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27362	MOT	mother	attends				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27363	MOT	mother	on va regarder				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27364	MOT	mother	ohlàlà là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27370	MOT	mother	ah oui tu vois				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27371	MOT	mother	Bruce le requin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27380	MOT	mother	ça c'est quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27381	MOT	mother	ça c'est aussi un requin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27386	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27387	MOT	mother	ça aussi un requin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27390	MOT	mother	xxx Nemo tu le vois Nemo				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27391	MOT	mother	non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27392	MOT	mother	il est pas là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27395	MOT	mother	ah oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27396	MOT	mother	là devant				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27399	MOT	mother	et lui c'est				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27400	MOT	mother	je sais pas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27402	MOT	mother	comment il s'appelle?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27403	MOT	mother	attends				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27404	MOT	mother	on va regarder				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27406	MOT	mother	oui c'est le copain de Nemo euh Nemo				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27409	MOT	mother	c'est Corail				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27414	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27419	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27421	MOT	mother	Marin le papa				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27431	MOT	mother	le euh couvercle				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27433	MOT	mother	hop				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27434	MOT	mother	on va le mettre la dedans				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27436	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27437	MOT	mother	les crayons les ciseaux aussi			%sit  la mère d' Ana jette les ciseaux près de la boite /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27438	MOT	mother	hop				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27441	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27444	MOT	mother	encore le requin?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27446	MOT	mother	alors comment il s'appelle				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27449	MOT	mother	Nemo				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27453	MOT	mother	y a Dori à côté?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27455	MOT	mother	sa copine				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27456	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27459	MOT	mother	tu manges ton truc là qui est en train de fondre				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27461	MOT	mother	ohoh			%sit  Ana mange son hocolat et regarde la nouvelle page du livre /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27462	MOT	mother	là y a les cailloux				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27463	MOT	mother	tu as vu?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27465	MOT	mother	plein de cailloux				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27468	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27474	MOT	mother	encore un caillou				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27477	MOT	mother	un caillou blanc?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27479	MOT	mother	ça ce sont des www étoiles				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27482	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27483	MOT	mother	ça c'est des www étoiles				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27486	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27488	MOT	mother	il est grand?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27492	MOT	mother	ah il est dedans				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27494	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27495	MOT	mother	il est caché dedans				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27498	MOT	mother	comme ça ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27500	MOT	mother	il a la tête en bas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27502	MOT	mother	mh			%sit  la mère d' Ana tourne la page Ana se relève /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27505	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27508	MOT	mother	euh tu crois?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27510	MOT	mother	mais elle est jaune sa maman?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27513	MOT	mother	bleue oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27515	MOT	mother	non				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27516	MOT	mother	jaune là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27517	MOT	mother	www Nemo il est orange				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27520	MOT	mother	et bleu et bleu				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27522	MOT	mother	oui c'est encore Nemo ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27524	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27527	MOT	mother	et là qu'est ce qu'on www a là			%sit  Ana et sa mère déplient une page 2239332224216/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27531	MOT	mother	oui			%sit  Ana mange son chocolat et regarde la page que sa mère tourne 224563225817/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27533	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27537	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27543	MOT	mother	oh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27545	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27547	MOT	mother	et ça c'est quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27549	MOT	mother	tu +				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27550	MOT	mother	oh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27551	MOT	mother	ça ressemble à une grenouille ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27553	MOT	mother	regarde bien				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27556	MOT	mother	regarde				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27557	MOT	mother	on la voit bien là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27559	MOT	mother	et là aussi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27560	MOT	mother	c'est quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27563	MOT	mother	une tortue oui bravo				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27565	MOT	mother	c'est la copine de Nemo?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27569	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27571	MOT	mother	oh regarde				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27573	MOT	mother	c'est encore la tortue				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27575	MOT	mother	ouais c'est le bébé tortue ça				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27577	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27585	MOT	mother	c'est Squiz et Cruche				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27587	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27589	MOT	mother	ah bah il est où le papa de Nemo?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27590	MOT	mother	ohlàlà là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27591	MOT	mother	encore  le requin?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27594	MOT	mother	ah là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27595	MOT	mother	bah on sait pas				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27596	MOT	mother	on www y a pas le l'autocollant encore				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27598	MOT	mother	on www a pas l'image				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27599	MOT	mother	oh et c'est quoi cette petite fille			%sit  la mère d' Ana lui montre une nouvelle page /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27605	MOT	mother	ça c'est le pélican ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27607	MOT	mother	no c'est c'est Marin				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27608	MOT	mother	c'est son papa qui est caché dedans				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27612	MOT	mother	non il l'a caché dans sa bouche				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27614	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27616	MOT	mother	dans son bec				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27620	MOT	mother	ohlàlà là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27623	MOT	mother	ouais				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27628	MOT	mother	c'est le dentiste ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27630	MOT	mother	et bah il est moche hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27633	MOT	mother	et voilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27638	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27640	MOT	mother	et voilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27642	MOT	mother	la tortue				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27644	MOT	mother	xxx disais que c'était une grenouille mais c'est une tortue				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27646	MOT	mother	et voilà				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27648	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27650	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27652	MOT	mother	c'est qui ça?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27654	MOT	mother	le requin oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27656	MOT	mother	c'est Bruce				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27659	MOT	mother	on le voit là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27660	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27663	MOT	mother	Bruce				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27665	MOT	mother	Ana				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27669	MOT	mother	tu as du chocolat de partout				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27671	MOT	mother	mhm				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27673	MOT	mother	oh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27676	MOT	mother	bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27679	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27680	MOT	mother	ah on www a pas fait l'étoile				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27682	MOT	mother	on la met l'étoile?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27685	MOT	mother	on la met où?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27687	MOT	mother	sur ta main?			%sit  la mère d' Ana lui colle la vignette sur la main /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27689	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27692	MOT	mother	non là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27693	MOT	mother	où?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27699	MOT	mother	on le met là?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27702	MOT	mother	www côté des sapins?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27704	MOT	mother	et ça c'est quoi?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27705	MOT	mother	un www ange				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27706	MOT	mother	on le met où l'ange?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27708	MOT	mother	qui joue de la trompette				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27710	MOT	mother	on met où?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27712	MOT	mother	là au milieu?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27715	MOT	mother	ils vont se marcher dessus				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27716	MOT	mother	y a plus de place				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27717	MOT	mother	on va le mettre là				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27718	MOT	mother	ça te va?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27720	MOT	mother	et la dernière étoile?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27723	MOT	mother	www				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27724	MOT	mother	ah			%sit  Ana se secoue la main /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27725	MOT	mother	je				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27727	MOT	mother	oui				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27729	MOT	mother	oh y en a de partout				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27731	MOT	mother	mh				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27735	MOT	mother	tu veux les coller ces machins là?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27738	MOT	mother	ah bon				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27740	MOT	mother	elle est où la colle alors?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27741	MOT	mother	attends				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27742	MOT	mother	je vais te chercher une serviette Ana				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27744	MOT	mother	tu vas lécher?			%sit  Ana se lèche les doigts /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27745	MOT	mother	ça empêche pas que tu en www as de partout				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27748	MOT	mother	www			%sit  Ana se lèche les doigts 2754457275864/Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27749	MOT	mother	tiens Bichette				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27750	MOT	mother	www			%sit  la mère d' Ana lui tend une feuille de sopalin /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27752	MOT	mother	ça y est tu as tout lécher?				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27755	MOT	mother	oui bah tu peux quand même essuyer hein				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27757	MOT	mother	ta bouche aussi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27759	MOT	mother	non c'est pas les www yeux c'est la bouche Ana				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27760	MOT	mother	pousse toi				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27762	MOT	mother	béh oui xxx du chocolat				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27763	MOT	mother	non tu as pas de chocolat sur le front				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27764	MOT	mother	tu en www ange				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27765	MOT	mother	plein la bouche			%sit  elle lui essuie la bouche /Anais/2525a.cha	Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27767	MOT	mother	fais voir				Anais/2525a.cha	1	clara						Anais	mother	Keychild
+27768	MOT	mother	attends			%com fin de l'enregistremnt Ana31a 6	Anais/2525a.cha	1	clara						Anais	mother	Keychild

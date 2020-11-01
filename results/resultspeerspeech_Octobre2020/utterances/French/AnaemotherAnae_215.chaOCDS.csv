@@ -1,0 +1,47 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+217	MOT	mother	allez tu te mets là .	%xpnt show la table de la main en tapotant dessus	%act MOT tape sur la table plusieurs fois la table avec sa paume	%xpnt show la table de la main en tapotant dessus %act MOT tape sur la table plusieurs fois la table avec sa paume	Anae/215.cha	BR1	clara						Anae	mother	Other child
+353	MOT	mother	avec un ballon de foot			 	Anae/215.cha	BR1	clara						Anae	mother	Other child
+364	MOT	mother	< mais il a pas de brassards Arthur !			 	Anae/215.cha	BR1	clara						Anae	mother	Other child
+367	MOT	mother	< mais non !			 	Anae/215.cha	BR1	clara						Anae	mother	Other child
+371	MOT	mother	< c'est un seau !			 	Anae/215.cha	BR1	clara						Anae	mother	Other child
+679	MOT	mother	<tu es habillé> [=! crie] ?	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+681	MOT	mother	tu viens dire bonjour à Aliyah ?			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+682	MOT	mother	tu mettras des chaussures aussi .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+683	MOT	mother	je crois qu'elles sont dans la sallede+bain tes chaussures .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+779	MOT	mother	Ael tu veux bien aller voir dans la chambre d' Anaé si tu trouves Kirikou ?			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+816	MOT	mother	<Ael c'est bon il est en bas> [=! crie] !	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+817	MOT	mother	tu vas lui dire Arthur (.) si tu montes dans la chambre tu lui dis dans les escaliers ?	%act MOT tend la poupée à CHI		%act MOT tend la poupée à CHI 	Anae/215.cha	BR1	clara						Anae	mother	Other child
+846	MOT	mother	c'est bon on l'a trouvé Ael !	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+847	MOT	mother	il était en bas !			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+879	MOT	mother	je ne sais pas Ael .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+881	MOT	mother	va là-haut un p(e)tit peu .	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+888	MOT	mother	< bon Arthur monte dans la chambre .			 	Anae/215.cha	BR1	clara						Anae	mother	Other child
+897	MOT	mother	Ael [/] Ael ?			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+899	MOT	mother	tu vas ramener le masque là-haut ?	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+902	MOT	mother	ben@i va [/] va jouer dans la chambre alors .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+906	MOT	mother	allez montez les garçons .			 	Anae/215.cha	O	clara						Anae	mother	Other child
+999	MOT	mother	<ah mais c'est pas vrai> [=! sourit] !			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1019	MOT	mother	< aïe Ael allez <calme toi> [/] calme toi hop (.) va dans ta chambre .	%act MOT pousse BRO		%act MOT pousse BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1051	MOT	mother	non [/] non [/] non [/] non [/] non Ael tu remontes ça tout d(e) suite .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1053	MOT	mother	on verra ça plus tard .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1067	MOT	mother	Ael [=! crie] non (.) va dans ta chambre !	add à BRO	%sit on entend comme un bruit de maracasse qu'agite probablement BRO	add à BRO %sit on entend comme un bruit de maracasse qu'agite probablement BRO	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1076	MOT	mother	elle est occupée Anaé (.) va dans la chambre .	add à BRO	%sit CHI donne à manger à la poupée	add à BRO %sit CHI donne à manger à la poupée	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1077	MOT	mother	va donc ranger ton bazard à-côté de ton lit .	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1082	MOT	mother	parce que .	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1153	MOT	mother	oui ?	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1155	MOT	mother	oui ?	add à BRO	%act MOT tente de rattraper la poupée	add à BRO %act MOT tente de rattraper la poupée	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1157	MOT	mother	elles sont dans les affaires de ta soeur je crois .	%act MOT cherche du regard		%act MOT cherche du regard 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1158	MOT	mother	euh je les ai vues hier .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1160	MOT	mother	je les ai vues hier regarde dans le gros panier ça doit être dans [///] non avec les livres .	add à BRO	xpnt show le panier de l'index bras tendu	add à BRO xpnt show le panier de l'index bras tendu	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1161	MOT	mother	avec les livres dans une pochette euh (.) en plastique .	add à BRO	xpnt show en direction de l'armoire de l'index bras tendu	add à BRO xpnt show en direction de l'armoire de l'index bras tendu	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1163	MOT	mother	ouais .	%sit CHI est toujours en train de nettoyer sa poupée		%sit CHI est toujours en train de nettoyer sa poupée 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1164	MOT	mother	tu les vois ?	add à BRO		add à BRO 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1524	MOT	mother	wow@i Ael !	add à BRO	%act MOT prend le dessin que BRO a en mains	add à BRO %act MOT prend le dessin que BRO a en mains	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1525	MOT	mother	c'est super beau !			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1526	MOT	mother	c'est quoi ça ?	%xpnt show sur le dessin de l'index	%sit CHI s'éloigne	%xpnt show sur le dessin de l'index %sit CHI s'éloigne	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1527	MOT	mother	c'est quoi comme animal ?			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1528	MOT	mother	qu'est-ce que c'est comme animal ?			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1530	MOT	mother	fais voir ?	%act tend la main pour prendre le dessin		%act tend la main pour prendre le dessin 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1535	MOT	mother	ah d'accord !			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1536	MOT	mother	c'est très beau .			 	Anae/215.cha	BRO	clara						Anae	mother	Other child
+1546	MOT	mother	ah oui [/] oui .	%act MOT dégage la table		%act MOT dégage la table 	Anae/215.cha	BRO	clara						Anae	mother	Other child

@@ -1,0 +1,5 @@
+utterance_id	speaker_id	speaker_role_raw	utterance	Comment	X	Comments	session_id	annotation1	annotator_name1	annotator1_comment	annotation2	annotator_name2	annotator2_comment	Diff_annotations	keychild	speaker	role_adressee
+16088	FAT	father	tu poses sur la table .			 	Anae/317.cha	1	clara			Lara			Anae	adult	Keychild
+16090	FAT	father	t(u) as fini toi ?			 	Anae/317.cha	1	clara			Lara			Anae	adult	Keychild
+16091	FAT	father	ah non c'est pour faire comme ta cousine que t'en veux plus .			 	Anae/317.cha	1	clara			Lara			Anae	adult	Keychild
+16356	FAT	father	parce qu'il va piquer les gâteaux lui .	%sit CHI regarde FAT		%sit CHI regarde FAT 	Anae/317.cha	1	clara			Lara			Anae	adult	Keychild

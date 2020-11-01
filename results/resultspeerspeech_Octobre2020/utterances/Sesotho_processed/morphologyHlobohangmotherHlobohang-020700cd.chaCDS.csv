@@ -1,0 +1,42 @@
+ij take-m^i a_name
+ng sm1s-t^p_put-m^x candle(9,10) av pr 2s
+q sm2s-t^p_see-m^in av
+ij cp 10-bean(9,10)
+ij ng om1s-shine-c-m^i
+sm2s-t^p_come_from-m^in wh
+ij ng om1s-shine-c-m^i
+ij
+sm9-t^p_do-m^in ???
+sm9-t^p_say-m^in-wh
+???
+??? cp wh q father(1a,2a)
+sm9-t^p-bark-m^in
+sm9-t^p_do-m^in wh
+cp ??? 9 wh
+cp5 wh 5-mixed_race_person(5,6)
+ng spit-m^i pr 6-spittle(5,6)
+cp chili(9,10)
+ng cp curry(9,10)
+???
+ng cp ??? cp curry(9,10)
+sm2s-t^f1-om1s-give-m^in curry(9,10)
+come-c-m^i sm1s-t^f2-pour-m^pt curry(9,10) pr 3-greens(3,4)-lc
+sm2s-t^p_do-m^in wh
+ij ng om5-shine-c-m^i 2s
+a_name
+cp mother(1a,2a) a_name
+see-m^i
+9 wh
+cp wh
+cp injury(9,10)
+ij a_name
+ij sm2s-t^p_abandon-m^s loc ij 2s
+sm7-t^po-om1p-do-m^in wh
+sm2s-t^p_say-m^in sm7-t^po-om1p-do-m^pt wh a_name
+chicken(9,10) 9 home(9,10)-lc sm9-t^p-urinate-m^in
+sm9-t^ne-sm9-urinate-m^pt chicken(9,10) a_name
+ng om10-grab-m^i
+ij 2p go/ap-cl-m^i loc sm2p-t^f1-burn-m^pt av pr loc
+a_name enter-m^i pr house(9,10|6)/lc
+ij ng sm2s-t^p_know-m^x if-enter-m^pt
+ij ng cp candy(9,10) cp paper(9,10)
