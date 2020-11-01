@@ -1,8 +1,0 @@
-a_name
-ng cp 1-person(1,2) sr1-t^f4-buy-m^pt-rl curry(9,10) cafe(9,10)-lc
-take-m^i sm2s-t^f1-say-m^pt sm2s-t^p_want-m^pt-wh
-sm2s-t^f1-say-m^pt sm2s-t^p_want-m^pt-wh
-ij run-m^i
-sm2s-t^p_say-m^in curry(9,10)
-ng come-ap-c-m^i loc 3-fire(3,4)
-go/ap-cl-m^ip loc a_name
