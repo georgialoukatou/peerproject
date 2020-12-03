@@ -195,10 +195,12 @@ sum_demuth_register$percentageperRegisterChild<-sum_demuth_register$sumperRegist
 write.table(sum_demuth_register, file=paste0(path, "sum_demuth_register_noinv.txt"), row.names=F, col.names=T,  quote=F)  #MANUSCRIPT TABLE 1
 
 #colnames(sum_demuth_register)[3] <- "mean"
-table2<-unique(data.frame(sum_demuth_register$averagepersession, sum_demuth_register$keychild, sum_demuth_register$register))
-colnames(table2)<- c("mean", "sd", "keychild", "register")
-table2<-table2 %>% unite("mean_sd", mean:sd, )
-wide_table2 <- table2 %>% spread(register, mean_sd)
+
+##Currently broken
+# table2<-unique(data.frame(sum_demuth_register$averagepersession, sum_demuth_register$keychild, sum_demuth_register$register))
+# colnames(table2)<- c("mean", "sd", "keychild", "register")
+# table2<-table2 %>% unite("mean_sd", mean:sd, )
+# wide_table2 <- table2 %>% spread(register, mean_sd)
 #write.table(wide_table2, file=paste0(path, "demuth_table2.txt"), row.names = FALSE, col.names = TRUE)
 
 
