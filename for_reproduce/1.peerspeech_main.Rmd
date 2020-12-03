@@ -4,21 +4,20 @@ author            : "Georgia Loukatou"
 date              : 13/06/2020, 12/10/2020
 output            : html_document
 ---
-  
-  ```{r demuth preparation, eval=TRUE, include=TRUE, message=FALSE}
+
+```{r demuth preparation, eval=TRUE, include=TRUE, message=FALSE}
 library(dplyr)
 library(tidyr)
-library(googlesheets4)
 
 
 ###########Sesotho analysis starts here
 lang<-"Sesotho"
 langf<-"French"
-path="/Users/admin/Desktop/resultspeerspeech/"
+path="../for_reproduce/derived/"
 
 #reads demuth corpus and counts utterances per speaker
 #demuth <-read_sheet("https://docs.google.com/spreadsheets/d/1U-YheTr9fpi844p3pLSFujJOYAAG4BpJTv4Wn6Ki5JM/edit#gid=1937482996") loads from googlesheets
-demuth<-read.csv(file="/Users/admin/Downloads/sesotho_CDS-Sheet1.csv", header=TRUE)
+demuth<-read.csv(file="../for_reproduce/sesotho_CDS.csv", header=TRUE)
 
 #add keychild and session columns (based on childes sessions)
 demuth$keychild <- NA
@@ -258,8 +257,7 @@ dataf$speaker[grep("father|Aunt Relative|Uncle Relative|Zoom Friend|.*Zoom Frien
 dataf$speaker[grep('target_child', dataf$speaker_role_raw)] <- "Target_Child"
 dataf<-dataf[!grepl("@UTF8", dataf$speaker_id),]
 #write.table(dataf, file=paste0(path,"dataf.txt"), row.names=F, col.names=T,  quote=F) 
-
-
+```
 
 ```{r verify annotations}
 datafSecondAnnotations<-subset(dataf, !(dataf$annotation2==""))
@@ -267,8 +265,6 @@ length(which(datafSecondAnnotations$Diff_annotations=="DIFFER"))/nrow(datafSecon
 differing<-subset(datafSecondAnnotations, (datafSecondAnnotations$Diff_annotations=="DIFFER"))
 nquestions<-nrow(subset(differing, differing$annotation1=="?"))+ nrow(subset(differing, differing$annotation2=="?"))
 nquestions/nrow(differing)
-
-
 
 #Sum the number of utterances per speaker category and keychild
 aggregate(dataf$utterance_id,by=list( dataf$speaker, dataf$keychild, dataf$session),length )->sum_french
@@ -503,8 +499,7 @@ for (sp in speakers){
     }
   }
 }
-``` 
-
+ 
 keychildren <- c("Anae")
 #"Anae", "Anais", "Theotime"
 sessions<- as.vector(unique(french$session_id))
@@ -545,13 +540,9 @@ for (sp in speakers){
     }
   }
 }
+```
 
 
-
-
-
-
-``` 
 ```{r statistics}
 #Stats sesotho
 merged_speaker_info_demuth_abs<-subset(merged_speaker_info_demuth, (merged_speaker_info_demuth$register=="CDS"))
