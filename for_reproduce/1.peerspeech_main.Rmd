@@ -74,18 +74,18 @@ sum_demuth<-merge(x=sumspeaker, y=sum_demuth, by.x=c("keychild", "speaker"), by.
 sum_demuth$percentageperSpeakerChild<-sum_demuth$sumperSpeakerChild/sum_demuth$largetotalperchild*100
 write.table(sum_demuth, file=paste0(path, "sum_demuth.txt"), row.names=F, col.names=T,  quote=F) 
 
-#Create table with speaker average across sessions 
-#colnames(sum_demuth)[3] <- "mean"
-table1<-unique(data.frame(sum_demuth$averagepersession, sum_demuth$keychild, sum_demuth$speaker))
-colnames(table1)<- c("mean", "sd", "keychild", "speaker")
-table1<-table1 %>% unite("mean_sd", mean:sd, )
-wide_table1 <- table1 %>% spread(speaker, mean_sd)
-#write.table(wide_table1, file=paste0(path, "demuth_input_3.txt"), row.names = FALSE, col.names = TRUE)
-
-#Create table with speaker percentage overall
-table2<-unique(data.frame(sum_demuth$percentageperSpeakerChild, sum_demuth$keychild, sum_demuth$speaker))
-colnames(table2)<- c("percentage", "keychild", "speaker")
-#write.table(table2, file=paste0(path, "demuth_input_4.txt"), row.names = FALSE, col.names = TRUE)
+# #Create table with speaker average across sessions 
+# #colnames(sum_demuth)[3] <- "mean"
+# table1<-unique(data.frame(sum_demuth$averagepersession, sum_demuth$keychild, sum_demuth$speaker))
+# colnames(table1)<- c("mean", "sd", "keychild", "speaker")
+# table1<-table1 %>% unite("mean_sd", mean:sd, )
+# wide_table1 <- table1 %>% spread(speaker, mean_sd)
+# #write.table(wide_table1, file=paste0(path, "demuth_input_3.txt"), row.names = FALSE, col.names = TRUE)
+# 
+# #Create table with speaker percentage overall
+# table2<-unique(data.frame(sum_demuth$percentageperSpeakerChild, sum_demuth$keychild, sum_demuth$speaker))
+# colnames(table2)<- c("percentage", "keychild", "speaker")
+# #write.table(table2, file=paste0(path, "demuth_input_4.txt"), row.names = FALSE, col.names = TRUE)
 
 
 demuth_backup <- demuth # keep the original file before subsetting
