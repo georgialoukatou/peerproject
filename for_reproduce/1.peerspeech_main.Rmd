@@ -26,16 +26,16 @@ demuth$keychild[demuth$session_id %in% c(2459:2503)] <- "Litlhare"
 demuth$keychild[demuth$session_id %in% c(2504:2542)] <- "Neuoe"
 demuth$session <- paste(demuth$keychild,demuth$session_CHILDES, sep="-")
 
-
-demuth<-subset(demuth, !(demuth$speaker_role_raw=="Target_Child")) #remove target child utterances
+#remove target child utterances
+demuth<-subset(demuth, !(demuth$speaker_role_raw=="Target_Child")) 
 
 #verify annotation matching
 demuthSecondAnnotations<-subset(demuth, !(demuth$annotation2==""))
-length(which(demuthSecondAnnotations$Diff_annotations=="DIFFER"))/nrow(demuthSecondAnnotations)
+length(which(demuthSecondAnnotations$Diff_annotations=="DIFFER"))/nrow(demuthSecondAnnotations) #0.09274855
 #how much due to uncertainty
 differing<-subset(demuthSecondAnnotations, (demuthSecondAnnotations$Diff_annotations=="DIFFER"))
 nquestions<-nrow(subset(differing, differing$annotation1=="?"))+ nrow(subset(differing, differing$annotation2=="?"))
-nquestions/nrow(differing)
+nquestions/nrow(differing) #0.5742925
 
 
 #speaker column
@@ -65,6 +65,8 @@ sum_demuth<-merge(x=largetotal, y=sum_demuth, by.x="keychild", by.y="keychild", 
 #SAVE INFO OF SPEAKERS IN FILE, TABLE 1 IN MANUSCRIPT
 sum_demuth$percentageperSessionSpeakerChild<-NA
 sum_demuth$percentageperSessionSpeakerChild<-sum_demuth$nb_uttpersession/sum_demuth$totalofsession*100
+
+
 average<-aggregate(sum_demuth$percentageperSessionSpeakerChild, by=list(sum_demuth$keychild, sum_demuth$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
 names(average)<-c("keychild", "speaker", "averagepersession")
 sumspeaker<-aggregate(sum_demuth$nb_uttpersession, by=list(sum_demuth$keychild, sum_demuth$speaker), function(x) sum(x))
@@ -82,10 +84,11 @@ write.table(sum_demuth, file=paste0(path, "sum_demuth.txt"), row.names=F, col.na
 # wide_table1 <- table1 %>% spread(speaker, mean_sd)
 # #write.table(wide_table1, file=paste0(path, "demuth_input_3.txt"), row.names = FALSE, col.names = TRUE)
 # 
-# #Create table with speaker percentage overall
-# table2<-unique(data.frame(sum_demuth$percentageperSpeakerChild, sum_demuth$keychild, sum_demuth$speaker))
-# colnames(table2)<- c("percentage", "keychild", "speaker")
-# #write.table(table2, file=paste0(path, "demuth_input_4.txt"), row.names = FALSE, col.names = TRUE)
+
+#Create table with speaker percentage overall
+table2<-unique(data.frame(sum_demuth$percentageperSpeakerChild, sum_demuth$keychild, sum_demuth$speaker))
+colnames(table2)<- c("percentage", "keychild", "speaker")
+write.table(table2, file=paste0(path, "demuth_input_4.txt"), row.names = FALSE, col.names = TRUE)
 
 
 demuth_backup <- demuth # keep the original file before subsetting
@@ -98,9 +101,8 @@ demuth_backup <- demuth # keep the original file before subsetting
 demuth<-subset(demuth, !(demuth$speaker=="Investigator")) #remove investigator utterances
 
 
-nrow(demuth) #69573 including keychild vocs
-#demuth<-subset(demuth, !(demuth$annotation1=="?")) # 69573 - 17159 (NAs) - 3289 (?) = 49125
-totaldemuth<-nrow(demuth) #38565
+nrow(demuth) #38527
+totaldemuth<-nrow(demuth) #38527
 aggregate(demuth$utterance_id,by=list(demuth$annotation1,  demuth$speaker, demuth$keychild,  demuth$session),FUN=length )->sum_demuth_addressee
 colnames(sum_demuth_addressee) <- c("addresse", "speaker", "keychild", "session", "nb_utt")
 
@@ -170,8 +172,8 @@ demuth_c_directed_utts<- as.data.frame(demuth_keychild_directed %>%select(uttera
 #write.table(demuth_oc_directed_utts, file=paste0(path, "Sesothootherchilddirected.txt"), row.names=F, col.names=T,  quote=F) 
 #write.table(demuth_c_directed_utts, file=paste0(path, "/Sesothochilddirected.txt"), row.names=F, col.names=T,  quote=F) 
 #percentage of adult directed speech vs total annotated
-length(demuth_adult_directed$utterance)/totaldemuth *100 #5.3
-length(demuth_otherchild_directed$utterance)/totaldemuth *100 #11.9
+length(demuth_adult_directed$utterance)/totaldemuth *100 #8.05
+length(demuth_otherchild_directed$utterance)/totaldemuth *100 #17.5
 ##
 
 total_reg<-aggregate(sum_demuth_register$nb_utt, by=list(sum_demuth_register$session), FUN=sum)
@@ -218,7 +220,7 @@ sum_demuth_register_speakers<-merge(x=largetotal_reg, y=sum_demuth_register_spea
 
 sum_demuth_register_speakers<-merge(x=total_reg, y=sum_demuth_register_speakers, by.x="session", by.y="session", all.x=TRUE, sort=TRUE)
 sum_demuth_register_speakers$percentage<-NA
-sum_demuth_register_speakers$percentage<-sum_demuth_register_speakers$nb_utt/sum_demuth_register_speakers$total*100
+sum_demuth_register_speakers$percentage<-sum_demuth_register_speakers$nb_utt/sum_demuth_register_speakers$total.x*100
 average<-aggregate(sum_demuth_register_speakers$percentage, by=list(sum_demuth_register_speakers$keychild, sum_demuth_register_speakers$register, sum_demuth_register_speakers$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
 names(average)<-c("keychild", "register", "speakers", "average")
 sum_demuth_register_speakers<-merge(x=average, y=sum_demuth_register_speakers, by.x=c("keychild", "register", "speakers"), by.y=c("keychild", "register", "speakers"), all.x=TRUE, sort=TRUE)
@@ -231,7 +233,7 @@ sum_demuth_register_speakers<-merge(x=sumspeakerregister, y=sum_demuth_register_
 largetotalregsp<-aggregate( sum_demuth_register_speakers$nb_utt, by=list(sum_demuth_register_speakers$keychild,sum_demuth_register_speakers$register,sum_demuth_register_speakers$speakers), FUN=sum)
 names(largetotalregsp)<-c("keychild", "register", "speakers", "largetotalperchildreg")
 sum_demuth_register_speakers<-merge(x=largetotalregsp, y=sum_demuth_register_speakers, by.x=c("keychild", "register", "speakers"), by.y=c("keychild", "register", "speakers"), all.x=TRUE, sort=TRUE)
-sum_demuth_register_speakers$percentageperSpeakerRegisterChild<-sum_demuth_register_speakers$largetotalperchildreg.x/sum_demuth_register_speakers$largetotalperchildkey*100
+sum_demuth_register_speakers$percentageperSpeakerRegisterChild<-sum_demuth_register_speakers$largetotalperchildreg/sum_demuth_register_speakers$largetotalperchildkey*100
 write.table(sum_demuth_register_speakers, file=paste0(path, "sum_demuth_register_speakers_noinv.txt"), row.names=F, col.names=T,  quote=F) 
 
 table2.2<-unique(data.frame(sum_demuth_register_speakers$average, sum_demuth_register_speakers$keychild, sum_demuth_register_speakers$register, sum_demuth_register_speakers$speakers))
@@ -304,9 +306,6 @@ wide_table1 <- table1 %>% spread(speaker, mean_sd)
 #write.table(wide_table1, file=paste0(path, "french_input_3.txt"), row.names = FALSE, col.names = TRUE)
 french_backup <- french 
 ```
-
-
-
 
 ```{r french directedness, eval=TRUE, include=TRUE, message=FALSE}
 dataf<-subset(dataf, !(dataf$speaker=="investigator")) #remove target child utterances
@@ -449,7 +448,9 @@ table2.2f<-table2.2f %>% unite("mean_sd", mean:sd, )
 
 write.table(merged_speaker_info_demuth, file=paste0(path, "demuth1.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
 write.table(merged_speaker_info_french, file=paste0(path, "french1.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
+```
 
+```{r textana,   eval=TRUE, include=TRUE, message=FALSE}
 
 ######SAVE ACTUAL UTTERANCES for text analysis
 keychildren <- c("Hlobohang")
