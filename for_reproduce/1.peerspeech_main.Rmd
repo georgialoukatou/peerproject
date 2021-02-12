@@ -4,20 +4,30 @@ author            : "Georgia Loukatou"
 date              : 13/06/2020, 12/10/2020
 output            : html_document
 ---
+```{r prep-general, eval=TRUE, include=TRUE, message=FALSE}
 
-```{r demuth preparation, eval=TRUE, include=TRUE, message=FALSE}
+#load packages
 library(dplyr)
 library(tidyr)
 
-
-###########Sesotho analysis starts here
+##load datasets
 lang<-"Sesotho"
 langf<-"French"
 path="../for_reproduce/derived/"
 
-#reads demuth corpus and counts utterances per speaker
-#demuth <-read_sheet("https://docs.google.com/spreadsheets/d/1U-YheTr9fpi844p3pLSFujJOYAAG4BpJTv4Wn6Ki5JM/edit#gid=1937482996") loads from googlesheets
+#Demuth, sesotho corpus
 demuth<-read.csv(file="../for_reproduce/sesotho_CDS.csv", header=TRUE)
+
+#French corpus
+dataf<-read.csv(file="../for_reproduce/French_corpus.csv", header=TRUE)
+```
+
+First we are going to prepare the Demuth corpus for analysis. For this we will clean the data and clearly attribute to every utterance: a speaker, an addressee (in broad age/gender categories)
+```{r demuth preparation, eval=TRUE, include=TRUE, message=FALSE}
+#old googlesheet link 
+#demuth <-read_sheet("https://docs.google.com/spreadsheets/d/1U-YheTr9fpi844p3pLSFujJOYAAG4BpJTv4Wn6Ki5JM/edit#gid=1937482996")
+
+#Preparing DEMUTH data for analysis
 
 #add keychild and session columns (based on childes sessions)
 demuth$keychild <- NA
@@ -189,12 +199,12 @@ average<-aggregate(sum_demuth_register$percentageperSessionRegisterChild, by=lis
 names(average)<-c("keychild", "register", "averagepersession")
 #sum_demuth_register<-merge(x=average, y=sum_demuth_register, by.x=c("keychild", "register"), by.y=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 
-#SAVE INFO OF REGISTERS IN FILE, TABLE 2 IN MANUSCRIPT
+#SAVE INFO OF REGISTERS IN FILE, 
 sumregister<-aggregate(sum_demuth_register$nb_utt, by=list(sum_demuth_register$keychild, sum_demuth_register$register), function(x) sum(x))
 names(sumregister)<-c("keychild", "register", "sumperRegisterChild")
 sum_demuth_register<-merge(x=sumregister, y=sum_demuth_register, by.x=c("keychild", "register"), all.x=TRUE, sort=TRUE)
 sum_demuth_register$percentageperRegisterChild<-sum_demuth_register$sumperRegisterChild/sum_demuth_register$largetotalperchild*100
-write.table(sum_demuth_register, file=paste0(path, "sum_demuth_register_noinv.txt"), row.names=F, col.names=T,  quote=F)  #MANUSCRIPT TABLE 1
+write.table(sum_demuth_register, file=paste0(path, "sum_demuth_register_noinv.txt"), row.names=F, col.names=T,  quote=F)  
 
 #colnames(sum_demuth_register)[3] <- "mean"
 
@@ -245,7 +255,6 @@ table2.2<-table2.2 %>% unite("mean_sd", mean:sd, )
 ################################# french corpus
 ```{r french preparation, eval=TRUE, include=TRUE, message=FALSE} 
 #dataf<-read_sheet("https://docs.google.com/spreadsheets/d/1h8esdNOGHDxRr1aupgSKZh8tEmY66s4BJku2RpRTaVg/edit#gid=128166725")
-dataf<-read.csv(file="/Users/admin/Downloads/French_corpus-Sheet1.csv", header=TRUE)
 dataf$keychild <- NA
 dataf$keychild[dataf$utterance_id %in% c(1:16380)] <- "Anae"
 dataf$keychild[dataf$utterance_id %in% c(16381:31097)] <- "Anais"
