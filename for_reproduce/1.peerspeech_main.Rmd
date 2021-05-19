@@ -19,7 +19,10 @@ langf<-"French"
 path="../for_reproduce/"
 
 #for output derived from this script:
-derived="../derived/"
+derived="../for_reproduce/derived/"
+
+#for text output derived from this script:
+derivedtext="../for_reproduce/derived/text_analysis/"
 
 #Load Demuth, sesotho corpus
 demuth<-read.csv(file="../for_reproduce/sesotho_CDS.csv", header=TRUE)
@@ -457,171 +460,121 @@ write.table(table3.2, file=paste0(derived, "french_table3.txt"), row.names = FAL
 ```{r textana,   eval=TRUE, include=TRUE, message=FALSE}
 
 
-######SAVE ACTUAL UTTERANCES for text analysis - conversational turns
-write.table(merged_speaker_info_demuth, file=paste0(derived, "demuth_convt.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
-write.table(merged_speaker_info_french, file=paste0(derived, "french1_convt.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
+######SAVE ACTUAL UTTERANCES for text analysis - 2. conversational turns
+write.table(merged_speaker_info_demuth, file=paste0(derivedtext, "demuth_convt.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
+write.table(merged_speaker_info_french, file=paste0(derivedtext, "french1_convt.txt"), row.names = FALSE, col.names = TRUE, sep=";;")
 
 
-######SAVE ACTUAL UTTERANCES for text analysis
-keychildren <- c("Hlobohang")
-# "Litlhare", "Neuoe" Hlobohang
+######SAVE ACTUAL UTTERANCES for text analysis - 3. adjplusnoun
+
 speakers <- c("mother", "child", "adult")
 sessions<- as.vector(unique(demuth$session))
 sessionsHlobohang<-sessions[1:23]
 sessionsLitlhare<-sessions[24:46]
 sessionsNeuoe<-sessions[47:69]
 #Save for corpus analysis
+keychildren <- c("Neuoe") # "Litlhare", "Neuoe" Hlobohang
 for (sp in speakers){
   for (child in keychildren){
     for (sess in sessionsHlobohang){
       demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
-     # write.table(demuth_keychild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      write.table(demuth_keychild_directed_sp_child_sess, file=paste0(derivedtext, "Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       demuth_otherchild_directed_sp_child_sess<-demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
-      #write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(derivedtext, "Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
-      #write.table(demuth_adult_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      write.table(demuth_adult_directed_sp_child_sess, file=paste0(derivedtext, "Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
       
     }
   }
 }
-keychildren <- c("Litlhare")
-for (sp in speakers){
-  for (child in keychildren){
-    for (sess in sessionsLitlhare){
-      demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
-      #write.table(demuth_keychild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-      demuth_otherchild_directed_sp_child_sess<-  demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
-      #write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-      demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
-      #write.table(demuth_adult_directed_sp_child_sess, file=paste0(path, "utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-      
-    }
-  }
-}
-keychildren <- c("Neuoe")
-for (sp in speakers){
-  for (child in keychildren){
-    for (sess in sessionsNeuoe){
-      demuth_keychild_directed_sp_child_sess<-demuth_keychild_directed[(demuth_keychild_directed$speaker==sp) & ( demuth_keychild_directed$keychild==child)& ( demuth_keychild_directed$session==sess), ]
-      write.table(demuth_keychild_directed_sp_child_sess, file=paste0(derived, "utterances/Sesotho/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-      demuth_otherchild_directed_sp_child_sess<-  demuth_otherchild_directed[(demuth_otherchild_directed$speaker==sp) & ( demuth_otherchild_directed$keychild==child)& ( demuth_otherchild_directed$session==sess), ]
-      write.table(demuth_otherchild_directed_sp_child_sess, file=paste0(derived, "utterances/Sesotho/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-      demuth_adult_directed_sp_child_sess<-  demuth_adult_directed[(demuth_adult_directed$speaker==sp) & ( demuth_adult_directed$keychild==child)& ( demuth_adult_directed$session==sess), ]
-      write.table(demuth_adult_directed_sp_child_sess, file=paste0(derived, "utterances/Sesotho/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-      
-    }
-  }
-}
- 
-keychildren <- c("Anae")
-#"Anae", "Anais", "Theotime"
-sessions<- as.vector(unique(french$session_id))
 
+sessions<- as.vector(unique(french$session_id))
 sessionsAnae<-sessions[1:11]
 sessionsAnais<-sessions[12:23]
 sessionsTheotime<-sessions[24:32]
 
-speakers <- c("mother", "child", "adult")
-
-
+keychildren <- c("Theotime")#"Anae", "Anais", "Theotime"
 for (sp in speakers){
   for (child in keychildren){
     for (sess in sessionsAnae){
       french_keychild_directed_sp_child_sess<-  french_keychild_directed[(french_keychild_directed$speaker==sp) & (french_keychild_directed$keychild==child)& (french_keychild_directed$session_id==sess), ]
       sess<-gsub("/", "_", sess)
-      write.table(french_keychild_directed_sp_child_sess, file=paste0(derived, "utterances/French/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+      write.table(french_keychild_directed_sp_child_sess, file=paste0(derivedtext, "French/", child, sp, sess, "CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+       french_otherchild_directed_sp_child_sess<-  french_otherchild_directed[(french_otherchild_directed$speaker==sp) & ( french_otherchild_directed$keychild==child)& ( french_otherchild_directed$session_id==sess), ]
+      write.table(french_otherchild_directed_sp_child_sess, file=paste0(derivedtext, "French/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F)
+       french_adult_directed_sp_child_sess<-  french_adult_directed[(french_adult_directed$speaker==sp) & ( french_adult_directed$keychild==child)& ( french_adult_directed$session_id==sess), ]
+      write.table(french_adult_directed_sp_child_sess, file=paste0(derivedtext, "French/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+
     }
   }
 }
 
-for (sp in speakers){
-  for (child in keychildren){
-    for (sess in sessionsAnae){
-      french_otherchild_directed_sp_child_sess<-  french_otherchild_directed[(french_otherchild_directed$speaker==sp) & ( french_otherchild_directed$keychild==child)& ( french_otherchild_directed$session_id==sess), ]
-      sess<-gsub("/", "_", sess)
-      write.table(french_otherchild_directed_sp_child_sess, file=paste0(derived, "utterances/French/", child, sp, sess, "OCDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-    }
-  }
-}
-
-for (sp in speakers){
-  for (child in keychildren){
-    for (sess in sessionsAnae){
-      french_adult_directed_sp_child_sess<-  french_adult_directed[(french_adult_directed$speaker==sp) & ( french_adult_directed$keychild==child)& ( french_adult_directed$session_id==sess), ]
-      sess<-gsub("/", "_", sess)
-      write.table(french_adult_directed_sp_child_sess, file=paste0(derived, "utterances/French/", child, sp, sess, "ADS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-    }
-  }
-}
 ```
 
 
 ```{r statistics}
 #Stats sesotho
-merged_speaker_info_demuth_abs<-subset(merged_speaker_info_demuth, (merged_speaker_info_demuth$register=="CDS"))
-aggregate(merged_speaker_info_demuth_abs$utterance_id,by=list(merged_speaker_info_demuth_abs$speaker, merged_speaker_info_demuth_abs$keychild,  merged_speaker_info_demuth_abs$session), FUN=length)->sum_demuth_question1
-colnames(sum_demuth_question1)[3] <- "session"
-aggregate(merged_speaker_info_demuth_abs$utterance_id,by=list(merged_speaker_info_demuth_abs$session), FUN=length)->sum_demuth_question2
-colnames(sum_demuth_question2)[1] <- "session"
-q1<-merge(x=sum_demuth_question1,y=sum_demuth_question2,by=c("session"),all=TRUE)
-colnames(q1)[4] <- "input"
-colnames(q1)[5] <- "total"
-colnames(q1)[3] <- "targetchild"
-colnames(q1)[2] <- "speaker"
-q1_<- transform(q1, ratio = input / total)
-q1_<- transform(q1_, language ="Sesotho")
-q1_$session <-as.factor(q1_$session)
-#Stats French
-#Q1
-merged_speaker_info_french_abs<-subset(merged_speaker_info_french, (merged_speaker_info_french$register=="CDS"))
-aggregate(merged_speaker_info_french_abs$utterance_id,by=list(merged_speaker_info_french_abs$speaker, merged_speaker_info_french_abs$keychild,  merged_speaker_info_french_abs$session_id), FUN=length)->sum_french_question1
-colnames(sum_french_question1)[3] <- "session"
-aggregate(merged_speaker_info_french_abs$utterance_id,by=list(merged_speaker_info_french_abs$session), FUN=length)->sum_french_question2
-colnames(sum_french_question2)[1] <- "session"
-q1f<-merge(x=sum_french_question1,y=sum_french_question2,by=c("session"),all=TRUE)
-colnames(q1f)[4] <- "input"
-colnames(q1f)[5] <- "total"
-colnames(q1f)[3] <- "targetchild"
-colnames(q1f)[2] <- "speaker"
-q1f_<- transform(q1f, ratio = input / total)
-q1f_<- transform(q1f_, language ="French")
-q1f_$session <-as.factor(q1f_$session)
-#(1 + speaker*language|session)
-#amount_speech ~ speaker * lang + (1+speaker * lang|session)+(1+ speaker * lang|child)
-q1<-rbind(q1f_, q1_)
-write.table(q1, file=paste0(derived,"q1_CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
-#Q2
-merged_speaker_info_french1<-subset(merged_speaker_info_french, !(merged_speaker_info_french$register=="Investigator"))
-merged_speaker_info_french2<-subset(merged_speaker_info_french1, !(merged_speaker_info_french1$register=="unclassified"))
-aggregate(merged_speaker_info_french2$utterance_id,by=list(merged_speaker_info_french2$speaker, merged_speaker_info_french2$keychild,  merged_speaker_info_french2$session, merged_speaker_info_french2$register ), FUN=length)->sum_french_question3
-colnames(sum_french_question3)[3] <- "session"
-aggregate(merged_speaker_info_french2$utterance_id,by=list(merged_speaker_info_french2$session), FUN=length)->sum_french_question4
-colnames(sum_french_question4)[1] <- "session"
-q2f<-merge(x=sum_french_question3,y=sum_french_question4,by=c("session"),all=TRUE)
-colnames(q2f)[4] <- "register"
-colnames(q2f)[5] <- "input"
-colnames(q2f)[6] <- "total"
-colnames(q2f)[3] <- "targetchild"
-colnames(q2f)[2] <- "speaker"
-q2f_<- transform(q2f, ratio = input / total)
-q2f_<- transform(q2f_, language ="French")
-q2f_$session <-as.factor(q2f_$session)
-merged_speaker_info_demuth1<-subset(merged_speaker_info_demuth, !(merged_speaker_info_demuth$register=="Investigator"))
-merged_speaker_info_demuth2<-subset(merged_speaker_info_demuth1, !(merged_speaker_info_demuth1$register=="unclassified"))
-aggregate(merged_speaker_info_demuth2$utterance_id,by=list(merged_speaker_info_demuth2$speaker, merged_speaker_info_demuth2$keychild,  merged_speaker_info_demuth2$session, merged_speaker_info_demuth2$register ), FUN=length)->sum_demuth_question3
-colnames(sum_demuth_question3)[3] <- "session"
-aggregate(merged_speaker_info_demuth2$utterance_id,by=list(merged_speaker_info_demuth2$session), FUN=length)->sum_demuth_question4
-colnames(sum_demuth_question4)[1] <- "session"
-q2<-merge(x=sum_demuth_question3,y=sum_demuth_question4,by=c("session"),all=TRUE)
-colnames(q2)[4] <- "register"
-colnames(q2)[5] <- "input"
-colnames(q2)[6] <- "total"
-colnames(q2)[3] <- "targetchild"
-colnames(q2)[2] <- "speaker"
-q2_<- transform(q2, ratio = input / total)
-q2_<- transform(q2_, language ="Sesotho")
-q2_$session <-as.factor(q2_$session)
-#amount_speech ~ speaker * lang * type_speech + (1+speaker * lang * type_speech|session)+ (1+ speaker * lang * type_speech|child)
-q2<-rbind(q2f_, q2_)
-write.table(q2, file=paste0(derived,"q2.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+#merged_speaker_info_demuth_abs<-subset(merged_speaker_info_demuth, (merged_speaker_info_demuth$register=="CDS"))
+#aggregate(merged_speaker_info_demuth_abs$utterance_id,by=list(merged_speaker_info_demuth_abs$speaker, merged_speaker_info_demuth_abs$keychild,  merged_speaker_info_demuth_abs$session), FUN=length)->sum_demuth_question1
+#colnames(sum_demuth_question1)[3] <- "session"
+#aggregate(merged_speaker_info_demuth_abs$utterance_id,by=list(merged_speaker_info_demuth_abs$session), FUN=length)->sum_demuth_question2
+#colnames(sum_demuth_question2)[1] <- "session"
+#q1<-merge(x=sum_demuth_question1,y=sum_demuth_question2,by=c("session"),all=TRUE)
+#colnames(q1)[4] <- "input"
+#colnames(q1)[5] <- "total"
+#colnames(q1)[3] <- "targetchild"
+#colnames(q1)[2] <- "speaker"
+#q1_<- transform(q1, ratio = input / total)
+#q1_<- transform(q1_, language ="Sesotho")
+#q1_$session <-as.factor(q1_$session)
+##Stats French
+##Q1
+#merged_speaker_info_french_abs<-subset(merged_speaker_info_french, (merged_speaker_info_french$register=="CDS"))
+#aggregate(merged_speaker_info_french_abs$utterance_id,by=list(merged_speaker_info_french_abs$speaker, #merged_speaker_info_french_abs$keychild,  merged_speaker_info_french_abs$session_id), FUN=length)->sum_french_question1
+#colnames(sum_french_question1)[3] <- "session"
+#aggregate(merged_speaker_info_french_abs$utterance_id,by=list(merged_speaker_info_french_abs$session), FUN=length)->sum_french_question2
+#colnames(sum_french_question2)[1] <- "session"
+#q1f<-merge(x=sum_french_question1,y=sum_french_question2,by=c("session"),all=TRUE)
+#colnames(q1f)[4] <- "input"
+#colnames(q1f)[5] <- "total"
+#colnames(q1f)[3] <- "targetchild"
+#colnames(q1f)[2] <- "speaker"
+#q1f_<- transform(q1f, ratio = input / total)
+#q1f_<- transform(q1f_, language ="French")
+#q1f_$session <-as.factor(q1f_$session)
+#q1<-rbind(q1f_, q1_)
+#write.table(q1, file=paste0(derived,"q1_CDS.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
+##Q2
+#merged_speaker_info_french1<-subset(merged_speaker_info_french, !(merged_speaker_info_french$register=="Investigator"))
+#merged_speaker_info_french2<-subset(merged_speaker_info_french1, #!(merged_speaker_info_french1$register=="unclassified"))
+#aggregate(merged_speaker_info_french2$utterance_id,by=list(merged_speaker_info_french2$speaker, #merged_speaker_info_french2$keychild,  merged_speaker_info_french2$session, merged_speaker_info_french2$register ), FUN=length)->sum_french_question3
+#colnames(sum_french_question3)[3] <- "session"
+#aggregate(merged_speaker_info_french2$utterance_id,by=list(merged_speaker_info_french2$session), FUN=length)->sum_french_question4
+#colnames(sum_french_question4)[1] <- "session"
+#q2f<-merge(x=sum_french_question3,y=sum_french_question4,by=c("session"),all=TRUE)
+#colnames(q2f)[4] <- "register"
+#colnames(q2f)[5] <- "input"
+#colnames(q2f)[6] <- "total"
+#colnames(q2f)[3] <- "targetchild"
+#colnames(q2f)[2] <- "speaker"
+#q2f_<- transform(q2f, ratio = input / total)
+#q2f_<- transform(q2f_, language ="French")
+#q2f_$session <-as.factor(q2f_$session)
+#merged_speaker_info_demuth1<-subset(merged_speaker_info_demuth, !(merged_speaker_info_demuth$register=="Investigator"))
+#merged_speaker_info_demuth2<-subset(merged_speaker_info_demuth1, !(merged_speaker_info_demuth1$register=="unclassified"))
+#aggregate(merged_speaker_info_demuth2$utterance_id,by=list(merged_speaker_info_demuth2$speaker, merged_speaker_info_demuth2$keychild,  merged_speaker_info_demuth2$session, merged_speaker_info_demuth2$register ), FUN=length)->sum_demuth_question3
+#colnames(sum_demuth_question3)[3] <- "session"
+#aggregate(merged_speaker_info_demuth2$utterance_id,by=list(merged_speaker_info_demuth2$session), FUN=length)->sum_demuth_question4
+#colnames(sum_demuth_question4)[1] <- "session"
+#q2<-merge(x=sum_demuth_question3,y=sum_demuth_question4,by=c("session"),all=TRUE)
+#colnames(q2)[4] <- "register"
+#colnames(q2)[5] <- "input"
+#colnames(q2)[6] <- "total"
+#colnames(q2)[3] <- "targetchild"
+#colnames(q2)[2] <- "speaker"
+#q2_<- transform(q2, ratio = input / total)
+#q2_<- transform(q2_, language ="Sesotho")
+#q2_$session <-as.factor(q2_$session)
+#q2<-rbind(q2f_, q2_)
+#write.table(q2, file=paste0(derived,"q2.csv"), row.names=F, col.names=T, sep="\t",  quote=F) 
 ```
