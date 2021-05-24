@@ -152,27 +152,3 @@ pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for
 
 done done
 done done
-
-
-
-
-          
-# 
-# #####Treetagger
-#   #          /Users/admin/Documents/tree-tagger-MacOSX-3.2.2/cmd/tree-tagger-French "${pathToTextf1}cleanutterance1${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf1}partofspeech${targetchild}${speaker}${session}${addressee}.csv"
-#          #   cut -f2 < "${pathToTextf1}partofspeech${targetchild}${speaker}${session}${addressee}.csv"  > "${pathToTextf1}partofspeech1${targetchild}${speaker}${session}${addressee}.csv"  && mv "${pathToTextf1}partofspeech1${targetchild}${speaker}${session}${addressee}.csv" "${pathToTextf1}partofspeech${targetchild}${speaker}${session}${addressee}.csv" #count questions
-#   #	  	    nnounf=`grep NOM -o  "${pathToTextf1}partofspeech${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
-#   #	  	    nverbf=`grep VER -o  "${pathToTextf1}partofspeech${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
-#   #          nounverbf=$((nnounf +  nverbf)) 
-#   #          rationvf=`echo "scale=3; $nounverbf / $numberofwordsf" | bc ` 
-#     # #        #   nverb=`grep "\-v\|v-\|^v\| v" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  
-# # #    	     nnoun0=`grep  "\-n \|-n-\| n-\|^n-\| n \|^n \|^n$" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l` 
-# # #          nnoun1=`grep  " n$" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  
-# # #          nnoun2=`grep  "\-n$" -o "${pathToText1}morphology${targetchild}${speaker}${session}${addressee}.csv"| wc -l` 
-# # #          nnoun=$(($nnoun0 +  $nnoun1  + $nnoun2)) 
-# # #          nounverb=$((nnoun +  nverb)) 
-# # #          rationv=`echo "scale=3; $nounverb / $numberofwords" | bc ` 	    
-         #     speaker_=$(echo "$speaker" | awk '{print tolower($0)}')
-        #      session_=$(echo "$session" | awk '{print tolower($0)}')
-       #       addressee_=$(echo "$addressee" | awk '{print tolower($0)}')                   
-  
