@@ -1,0 +1,129 @@
+*CHI:	polochon
+%mor:	n|polochon&m
+*CHI:	on en à tous gardé les chaussures
+%mor:	pro:sub|on pro:y|en prep|à pro|tous&m&pl part|garder-PP&m
+	det:art|les&pl n|chaussure&f-PL
+*CHI:	fais voir
+%mor:	v:mdl|faire-PRES&12s v|voir&INF
+*CHI:	lequel ?
+%mor:	pro:int|lequel&m&sg ?
+*CHI:	c'est un requin
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|requin&m
+*CHI:	c'est un méchant
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg adj|méchant&m=evil
+*CHI:	et une 
+%mor:	conj|et pro|une&f&sg
+*CHI:	avec les bébés 
+%mor:	prep|avec det:art|les&pl n|bébé&m-PL
+*CHI:	j'en ai vu un
+%mor:	pro:sub|je$pro:y|en v:aux|avoir&PRES&1s prep|vu det:art|un&m&sg
+*CHI:	eh et ce que vous pouvez m'aider à faire lui ?
+%mor:	co|eh conj|et pro:dem|ce adv|que pro:obj|vous v:mdl|pouvoir&PRES&2p
+	pro:obj|me$v|aider-INF prep|à v:mdl|faire-INF pro:ind|lui ?
+*CHI:	éh mais donne moi cette chaise
+%mor:	co|éh adv|mais v|donner-IMP&2s pro|moi&sg det:dem|cette&f&sg
+	n|chaise&f
+*CHI:	mais ana tu sais pas faire
+%mor:	adv|mais ?|ana part|taire-PP&m v:mdl|savoir&PRES&12s neg|pas
+	v:mdllex|faire-INF
+*CHI:	parce que après tu les mets tous à l'envers
+%mor:	adv|parce prep|que adv|après part|taire-PP&m det:art|les&pl
+	n|mets&m pro|tous&m&pl prep|à det:art|le$n|envers&m
+*CHI:	les bords on les met là
+%mor:	det:art|les&pl n|bord&m-PL pro:sub|on pro:obj|les v|mettre-PRES&3s
+	adv:place|là
+*CHI:	d'accord ?
+%mor:	adv|d'accord ?
+*CHI:	tu veux que je te l'enlève ?
+%mor:	pro:sub|tu v:mdl|vouloir&PRES&12s prep|que pro:sub|je pro:obj|te
+	pro:obj|le$v|enlever-PRES&SUB&13s ?
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	c'est pas grave ana
+%mor:	pro:dem|ce$v:aux|être&PRES&3s neg|pas adj|grave ?|ana
+*CHI:	tu peux m'en faire un autre
+%mor:	part|taire-PP&m n|peu&m-PL pro:obj|me$pro:y|en v:mdl|faire-INF
+	det:art|un&m&sg pro|autre&sg
+*CHI:	fallait le faire comme ça
+%mor:	v:mdl|falloir&IMPF&3s pro:obj|le v:mdllex|faire-INF adv|comme
+	pro:dem|ça
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	tu as qu'à en faire
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s pro:rel|que$prep|à pro:y|en
+	v:mdllex|faire-INF
+*CHI:	celuilà je te le défais autrement
+%mor:	?|celuilà pro:sub|je pro:obj|te det:art|le&m&sg
+	dé#v:mdl|faire-PRES&12s adv|autrement
+*CHI:	attends ana
+%mor:	v|attendre-IMP&2s ?|ana
+*CHI:	parce que la poire il faut l'enlever
+%mor:	adv|parce prep|que det:art|la&f&sg n|poire&f pro:sub|il
+	v:mdl|falloir&PRES&3s pro:obj|le$v|enlever-INF
+*CHI:	d'accord ?
+%mor:	adv|d'accord ?
+*CHI:	parce que autrement pouf on va le déchirer après
+%mor:	adv|parce prep|que adv|autrement n|pouf&m pro:sub|on
+	v:mdl|aller&PRES&3s pro:obj|le v|déchirer-INF adv|après
+*CHI:	d'accord ?
+%mor:	adv|d'accord ?
+*CHI:	celuilà tu le fais pour pour ta marraine ?
+%mor:	?|celuilà part|taire-PP&m det:art|le&m&sg v:mdl|faire-PRES&12s
+	prep|pour prep|pour det:poss|ta&f&sg n|marraine&f ?
+*CHI:	fais voir
+%mor:	v:mdl|faire-PRES&12s v|voir&INF
+*CHI:	ah oui
+%mor:	co|ah co|oui=yes
+*CHI:	ana
+%mor:	?|ana
+*CHI:	et voilà
+%mor:	conj|et adv:place|voilà
+*CHI:	tu veux prendre lui ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s v|prendre-INF pro:ind|lui ?
+*CHI:	un arbre
+%mor:	det:art|un&m&sg n|arbre&m
+*CHI:	à moi
+%mor:	prep|à pro|moi&sg
+*CHI:	où ?
+%mor:	pro:int|où ?
+*CHI:	là ?
+%mor:	adv:place|là ?
+*CHI:	de l'autre côté ana peutêtre
+%mor:	prep|de det:art|le$pro|autre&sg n|côté&m ?|ana ?|peutêtre
+*CHI:	ça c'est un mouton
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|mouton&m
+*CHI:	non à moi
+%mor:	co|non=no prep|à pro|moi&sg
+*CHI:	tu le mets tu le mets comme ça
+%mor:	part|taire-PP&m det:art|le&m&sg n|mets&m part|taire-PP&m
+	det:art|le&m&sg n|mets&m adv|comme pro:dem|ça
+*CHI:	tu le mets comme ça d'accord ?
+%mor:	part|taire-PP&m det:art|le&m&sg n|mets&m adv|comme pro:dem|ça
+	adv|d'accord ?
+*CHI:	en barrière
+%mor:	prep|en n|barrière&f
+*CHI:	non
+%mor:	co|non=no
+*CHI:	on les met
+%mor:	pro:sub|on pro:obj|les v|mettre-PRES&3s
+*CHI:	on on le met comme ça d'accord ?
+%mor:	pro:sub|on pro:sub|on pro:obj|le v|mettre-PRES&3s adv|comme
+	pro:dem|ça adv|d'accord ?
+*CHI:	d'accord ana ?
+%mor:	adv|d'accord ?|ana ?
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	allez mets ana
+%mor:	co|allez n|mets&m ?|ana
+*CHI:	voilà
+%mor:	adv:place|voilà
+*CHI:	moi j'ai canard
+%mor:	pro|moi&sg pro:sub|je$v:aux|avoir&PRES&1s n|canard&m=duck
+*CHI:	attends on met du blanc
+%mor:	v|attendre-IMP&2s pro:sub|on v|mettre-PRES&3s prep|de&le adj|blanc
+*CHI:	de ce côté
+%mor:	prep|de pro:dem|ce n|côté&m
+*CHI:	après y a du blanc
+%mor:	adv|après pro:y|y v:aux|avoir&PRES&3s prep|de&le adj|blanc
+*CHI:	moi j'ai du blanc
+%mor:	pro|moi&sg pro:sub|je$v:aux|avoir&PRES&1s prep|de&le adj|blanc

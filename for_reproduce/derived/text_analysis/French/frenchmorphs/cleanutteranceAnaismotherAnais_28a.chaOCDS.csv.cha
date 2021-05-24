@@ -1,0 +1,146 @@
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	je sais pas ou c'est ma chérie
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas conj|ou
+	pro:dem|ce$v:exist|être&PRES&3s det:poss|ma&sg n|chéri&f
+*CHI:	c'est vous qui avez fait les zouaves avec ce matin
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:obj|vous pro:int|qui
+	v:aux|avoir&PRES&2p part|faire-PP&m det:art|les&pl n|zouave&m-PL
+	prep|avec pro:dem|ce n|matin&m
+*CHI:	il doit être par terre quelque part
+%mor:	pro:sub|il v:mdl|devoir&PRES&3s v:aux|être&INF prep|par n|terre&f
+	det:gen|quelque n|part&f
+*CHI:	t'as trouvé ?
+%mor:	pro:obj|te$v:poss|avoir&PRES&2s part|trouver-PP&m ?
+*CHI:	qu'est ce que tu veux ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce adv|que part|taire-PP&m
+	v:mdl|vouloir&PRES&12s ?
+*CHI:	oui on les mange
+%mor:	co|oui=yes pro:sub|on pro:obj|les v|manger-PRES&SUB&13s
+*CHI:	non il doit pas t'en manquer chloé
+%mor:	co|non=no pro:sub|il v:mdl|devoir&PRES&3s neg|pas
+	pro:obj|te$pro:y|en v|manquer-INF ?|chloé
+*CHI:	je pense le rouge
+%mor:	pro:sub|je v|penser-PRES&SUB&13s det:art|le&m&sg adj|rouge
+*CHI:	non c'est pas ca ?
+%mor:	co|non=no pro:dem|ce$v:exist|être&PRES&3s neg|pas pro:dem|ca ?
+*CHI:	c'est bien chloé
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n|bien&m ?|chloé
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	la
+%mor:	co|la
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	bah tu dis si on te gène
+%mor:	co|bah part|taire-PP&m v|dire-PRES&PASS&12s n|si&m pro:sub|on
+	pro:obj|te v|géner-PRES&SUB&13s=to_block
+*CHI:	ben t'y arrives
+%mor:	adv|ben pro:obj|te$pro:y|y v|arriver-PRES&SUB&2s
+*CHI:	ben voilà t'y arriveras mieuc comme ca
+%mor:	adv|ben co|voilà pro:obj|te$pro:y|y v|arriver-FUT&2s ?|mieuc
+	adv|comme pro:dem|ca
+*CHI:	et bah tu vois
+%mor:	conj|et co|bah part|taire-PP&m v|voir&IMP&PRES&12s
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	ah bah oui
+%mor:	co|ah co|bah co|oui=yes
+*CHI:	et oui
+%mor:	conj|et co|oui=yes
+*CHI:	oui mais après il est redevenu gentil
+%mor:	co|oui=yes n|mai&m-PL prep|après pro:sub|il v:aux|être&PRES&3s
+	re#part|devenir-PP&m adj|gentil&m
+*CHI:	merci chl
+%mor:	co|merci ?|chl
+*CHI:	ah, alors ils sont ou les bords ?
+%mor:	co|ah cm|cm adv|alors pro:sub|ils v:aux|être&PRES&3p conj|ou
+	det:art|les&pl n|bord&m-PL ?
+*CHI:	laisse lui, laisse lui
+%mor:	n|laisse&f part|luire&PP&m cm|cm v|laisser-IMP&2s pro:ind|lui
+*CHI:	un coin
+%mor:	det:art|un&m&sg n|coin&m
+*CHI:	il était complet pourtant le puzzle
+%mor:	pro:sub|il v:aux|être&IMPF&3s n|complet&m adv|pourtant
+	det:art|le&m&sg n|puzzle&m
+*CHI:	non bah ne les, laisse les comme ca
+%mor:	co|non=no co|bah neg|ne det:art|les&pl cm|cm n|laisse&f
+	det:art|les&pl adv|comme pro:dem|ca
+*CHI:	eh tu ranges toi
+%mor:	co|eh part|taire-PP&m v|ranger-PRES&SUB&2s pro|toi&sg
+*CHI:	chloé
+%mor:	?|chloé
+*CHI:	tiens je te emts celui là si tu veux
+%mor:	v|tenir-IMP&2s pro:sub|je pro:obj|te ?|emts pro:dem|celui&m&sg
+	adv:place|là adv|si part|taire-PP&m v:mdl|vouloir&PRES&12s
+*CHI:	tu sais jouer aux dominos
+%mor:	part|taire-PP&m v:mdl|savoir&PRES&12s v|jouer-INF prep|à&les
+	n|domino&m-PL
+*CHI:	on fait avec les animaux ?
+%mor:	pro:sub|on part|faire-PP&m prep|avec det:art|les&pl n|animal&m&pl ?
+*CHI:	mets les à l'envers chloé
+%mor:	v|mettre-IMP&2s det:art|les&pl prep|à det:art|le$n|envers&m ?|chloé
+*CHI:	et toi tu as deux pareils ?
+%mor:	conj|et pro|toi&sg part|taire-PP&m v:aux|avoir&PRES&2s num|deux
+	n|pareil&m-PL ?
+*CHI:	ah bah tu as deux arbres 
+%mor:	co|ah co|bah part|taire-PP&m v:aux|avoir&PRES&2s num|deux
+	n|arbre&m-PL
+*CHI:	tu as qu'à mettre tes deux arbres 
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s pro:rel|que$prep|à v|mettre-INF
+	det:poss|tes&pl num|deux n|arbre&m-PL
+*CHI:	alors soit un arbre soit un cochon chl
+%mor:	adv|alors adv|soit det:art|un&m&sg n|arbre&m adv|soit
+	det:art|un&m&sg n|cochon&m ?|chl
+*CHI:	et bah mets le cochon
+%mor:	conj|et co|bah n|mets&m det:art|le&m&sg n|cochon&m
+*CHI:	alors pioche
+%mor:	adv|alors n|pioche&f
+*CHI:	tu peux mettre l'arbre
+%mor:	pro:sub|tu v:mdl|pouvoir&PRES&12s v|mettre-INF det:art|le$n|arbre&m
+*CHI:	non laisse ta soeur choisir
+%mor:	co|non=no n|laisse&f det:poss|ta&f&sg n|soeur&f v|choisir-INF
+*CHI:	à toi chl
+%mor:	prep|à pro|toi&sg ?|chl
+*CHI:	allez à toi chl
+%mor:	v:mdl|aller&PRES&2p prep|à pro|toi&sg ?|chl
+*CHI:	mets des moutons encore
+%mor:	v|mettre-IMP&2s prep|de&les n|mouton&m-PL adv|encore
+*CHI:	et bah pioche
+%mor:	conj|et co|bah n|pioche&f
+*CHI:	et toi chloé ?
+%mor:	conj|et pro|toi&sg ?|chloé ?
+*CHI:	 cochon ?
+%mor:	n|cochon&m ?
+*CHI:	mets ton cochon la bas
+%mor:	v|mettre-IMP&2s det:poss|ton&m&sg n|cochon&m det:art|la&f&sg
+	adj|bas&m
+*CHI:	ouais mais nous on est les canards
+%mor:	co|ouais=yes adv|mais pro:obj|nous pro:sub|on v:aux|être&PRES&3s
+	det:art|les&pl n|canard&m-PL=duck
+*CHI:	à chl
+%mor:	prep|à ?|chl
+*CHI:	qu'est ce que tu nous as pioché toi ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce adv|que part|taire-PP&m
+	pro:obj|nous v:aux|avoir&PRES&2s part|piocher-PP&m pro|toi&sg ?
+*CHI:	un cochon
+%mor:	det:art|un&m&sg n|cochon&m
+*CHI:	t'as mis quoi avec ton blanc ?
+%mor:	pro:obj|te$v:poss|avoir&PRES&2s adj|mi&m-PL=half pro:int|quoi
+	prep|avec n|ton&m=tone adj|blanc ?
+*CHI:	pioche
+%mor:	n|pioche&f
+*CHI:	a toi chloé
+%mor:	v:aux|avoir&PRES&3s pro|toi&sg ?|chloé
+*CHI:	oui tu pioches
+%mor:	co|oui=yes part|taire-PP&m n|pioche&f-PL
+*CHI:	il y a un mouton la bas
+%mor:	pro:sub|il pro:y|y v:aux|avoir&PRES&3s det:art|un&m&sg n|mouton&m
+	det:art|la&f&sg adj|bas&m
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	allez mets ton cochon
+%mor:	co|allez n|mets&m det:poss|ton&m&sg n|cochon&m
+*CHI:	tu mets ton cochon ma chloé
+%mor:	part|taire-PP&m n|mets&m det:poss|ton&m&sg n|cochon&m
+	det:poss|ma&sg ?|chloé

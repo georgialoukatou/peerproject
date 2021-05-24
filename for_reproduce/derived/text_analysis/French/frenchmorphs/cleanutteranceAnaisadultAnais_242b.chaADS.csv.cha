@@ -1,0 +1,10 @@
+*CHI:	non
+%mor:	co|non=no
+*CHI:	un gentil
+%mor:	det:art|un&m&sg adj|gentil&m
+*CHI:	c'est un beefsteak sur pattes pour le lion
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|beefsteak&m
+	prep|sur n|patte&f-PL prep|pour det:art|le&m&sg n|lion&m
+*CHI:	quand il mange la girafe
+%mor:	adv|quand pro:sub|il v|manger-PRES&SUB&13s det:art|la&f&sg
+	n|girafe&f

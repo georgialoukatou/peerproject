@@ -1,0 +1,85 @@
+	co|oui=yes
+	pro:sub|je v:mdl|savoir&PRES&12s neg|pas conj|ou
+	pro:dem|ce$v:exist|être&PRES&3s det:poss|ma&sg n|chéri&f
+	pro:dem|ce$v:aux|être&PRES&3s pro:obj|vous pro:int|qui
+	v:aux|avoir&PRES&2p part|faire PP&m det:art|les&pl n|zouave&m PL
+	prep|avec pro:dem|ce n|matin&m
+	pro:sub|il v:mdl|devoir&PRES&3s v:aux|être&INF prep|par n|terre&f
+	det:gen|quelque n|part&f
+	pro:obj|te$v:poss|avoir&PRES&2s part|trouver PP&m 
+	pro:int|que$v:aux|être&PRES&3s pro:dem|ce adv|que part|taire PP&m
+	v:mdl|vouloir&PRES&12s 
+	co|oui=yes pro:sub|on pro:obj|les v|manger PRES&SUB&13s
+	co|non=no pro:sub|il v:mdl|devoir&PRES&3s neg|pas
+	pro:obj|te$pro:y|en v|manquer INF |chloé
+	pro:sub|je v|penser PRES&SUB&13s det:art|le&m&sg adj|rouge
+	co|non=no pro:dem|ce$v:exist|être&PRES&3s neg|pas pro:dem|ca 
+	pro:dem|ce$v:aux|être&PRES&3s n|bien&m |chloé
+	co|ouais=yes
+	co|la
+	co|oui=yes
+	co|bah part|taire PP&m v|dire PRES&PASS&12s n|si&m pro:sub|on
+	pro:obj|te v|géner PRES&SUB&13s=to_block
+	adv|ben pro:obj|te$pro:y|y v|arriver PRES&SUB&2s
+	adv|ben co|voilà pro:obj|te$pro:y|y v|arriver FUT&2s |mieuc
+	adv|comme pro:dem|ca
+	conj|et co|bah part|taire PP&m v|voir&IMP&PRES&12s
+	co|oui=yes
+	co|ah co|bah co|oui=yes
+	conj|et co|oui=yes
+	co|oui=yes n|mai&m PL prep|après pro:sub|il v:aux|être&PRES&3s
+	re#part|devenir PP&m adj|gentil&m
+	co|merci |chl
+	co|ah cm|cm adv|alors pro:sub|ils v:aux|être&PRES&3p conj|ou
+	det:art|les&pl n|bord&m PL 
+	n|laisse&f part|luire&PP&m cm|cm v|laisser IMP&2s pro:ind|lui
+	det:art|un&m&sg n|coin&m
+	pro:sub|il v:aux|être&IMPF&3s n|complet&m adv|pourtant
+	det:art|le&m&sg n|puzzle&m
+	co|non=no co|bah neg|ne det:art|les&pl cm|cm n|laisse&f
+	det:art|les&pl adv|comme pro:dem|ca
+	co|eh part|taire PP&m v|ranger PRES&SUB&2s pro|toi&sg
+	|chloé
+	v|tenir IMP&2s pro:sub|je pro:obj|te |emts pro:dem|celui&m&sg
+	adv:place|là adv|si part|taire PP&m v:mdl|vouloir&PRES&12s
+	part|taire PP&m v:mdl|savoir&PRES&12s v|jouer INF prep|à&les
+	n|domino&m PL
+	pro:sub|on part|faire PP&m prep|avec det:art|les&pl n|animal&m&pl 
+	v|mettre IMP&2s det:art|les&pl prep|à det:art|le$n|envers&m |chloé
+	conj|et pro|toi&sg part|taire PP&m v:aux|avoir&PRES&2s num|deux
+	n|pareil&m PL 
+	co|ah co|bah part|taire PP&m v:aux|avoir&PRES&2s num|deux
+	n|arbre&m PL
+	part|taire PP&m v:aux|avoir&PRES&2s pro:rel|que$prep|à v|mettre INF
+	det:poss|tes&pl num|deux n|arbre&m PL
+	adv|alors adv|soit det:art|un&m&sg n|arbre&m adv|soit
+	det:art|un&m&sg n|cochon&m |chl
+	conj|et co|bah n|mets&m det:art|le&m&sg n|cochon&m
+	adv|alors n|pioche&f
+	pro:sub|tu v:mdl|pouvoir&PRES&12s v|mettre INF det:art|le$n|arbre&m
+	co|non=no n|laisse&f det:poss|ta&f&sg n|soeur&f v|choisir INF
+	prep|à pro|toi&sg |chl
+	v:mdl|aller&PRES&2p prep|à pro|toi&sg |chl
+	v|mettre IMP&2s prep|de&les n|mouton&m PL adv|encore
+	conj|et co|bah n|pioche&f
+	conj|et pro|toi&sg |chloé 
+	n|cochon&m 
+	v|mettre IMP&2s det:poss|ton&m&sg n|cochon&m det:art|la&f&sg
+	adj|bas&m
+	co|ouais=yes adv|mais pro:obj|nous pro:sub|on v:aux|être&PRES&3s
+	det:art|les&pl n|canard&m PL=duck
+	prep|à |chl
+	pro:int|que$v:aux|être&PRES&3s pro:dem|ce adv|que part|taire PP&m
+	pro:obj|nous v:aux|avoir&PRES&2s part|piocher PP&m pro|toi&sg 
+	det:art|un&m&sg n|cochon&m
+	pro:obj|te$v:poss|avoir&PRES&2s adj|mi&m PL=half pro:int|quoi
+	prep|avec n|ton&m=tone adj|blanc 
+	n|pioche&f
+	v:aux|avoir&PRES&3s pro|toi&sg |chloé
+	co|oui=yes part|taire PP&m n|pioche&f PL
+	pro:sub|il pro:y|y v:aux|avoir&PRES&3s det:art|un&m&sg n|mouton&m
+	det:art|la&f&sg adj|bas&m
+	co|ouais=yes
+	co|allez n|mets&m det:poss|ton&m&sg n|cochon&m
+	part|taire PP&m n|mets&m det:poss|ton&m&sg n|cochon&m
+	det:poss|ma&sg |chloé

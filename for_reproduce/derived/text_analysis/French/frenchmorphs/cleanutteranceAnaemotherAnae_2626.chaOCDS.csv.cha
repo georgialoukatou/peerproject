@@ -1,0 +1,127 @@
+*CHI:	oui 
+%mor:	co|oui=yes
+*CHI:	non euh les garçons vous allez là-haut un petit peu 
+%mor:	co|non=no co|euh det:art|les&pl n|garçon&m-PL pro:sub|vous co|allez
+	adv:place|là–haut det:art|un&m&sg adj|petit&m n|peu&m
+*CHI:	alors vous faites pas de bruit 
+%mor:	adv|alors pro:obj|vous part|faire-PP&f&pl neg|pas prep|de n|bruit&m
+*CHI:	ael 
+%mor:	?|ael
+*CHI:	arthur ?
+%mor:	?|arthur ?
+*CHI:	allez ael va là-haut un petit peu si il te plaît 
+%mor:	co|allez ?|ael v:mdl|aller&PRES&3s adv:place|là–haut
+	det:art|un&m&sg adj|petit&m n|peu&m adv|si pro:sub|il pro:obj|te
+	v|plaire-PRES&3s
+*CHI:	si va préparer les jouets que tu veux emmener demain 
+%mor:	n|si&m v:mdl|aller&PRES&3s v|préparer-INF det:art|les&pl
+	n|jouet&m-PL prep|que part|taire-PP&m v:mdl|vouloir&PRES&12s
+	v|emmener-INF n|demain&m
+*CHI:	allez 
+%mor:	co|allez
+*CHI:	très bien 
+%mor:	adv|très adv|bien
+*CHI:	oui 
+%mor:	co|oui=yes
+*CHI:	va dans ta chambre 
+%mor:	v:mdl|aller&PRES&3s prep|dans det:poss|ta&f&sg n|chambre&f
+*CHI:	voilà bonne idée 
+%mor:	co|voilà adj|bon&f n|idée&f
+*CHI:	non non non on n' emmène que des petites choses 
+%mor:	co|non=no co|non=no co|non=no pro:sub|on neg|ne
+	v|emmener-PRES&SUB&13s prep|que prep|de&les adj|petit&f-PL
+	n|chose-PL=thing
+*CHI:	et la momie tu la ranges 
+%mor:	conj|et det:art|la&f&sg n|momie&f part|taire-PP&m det:art|la&f&sg
+	v|ranger-PRES&SUB&2s
+*CHI:	tiens ben prends ça et mets le à la poubelle arthur si il te plaît et refais ton lacet 
+%mor:	v|tenir-IMP&2s adv|ben v|prendre-PRES&IMP&12s pro:dem|ça conj|et
+	n|mets&m det:art|le&m&sg prep|à co|la n|poubelle&f ?|arthur adv|si
+	pro:sub|il pro:obj|te v|plaire-PRES&3s conj|et
+	re#v:mdl|faire-PRES&12s det:poss|ton&m&sg n|lacet&m
+*CHI:	ça tu peux l'emmener oui 
+%mor:	pro:dem|ça part|taire-PP&m n|peu&m-PL pro:obj|le$v|emmener-INF
+	n|oui&m
+*CHI:	ael non va faire ça là-haut 
+%mor:	?|ael co|non=no v:mdl|aller&PRES&3s v:mdl|faire-INF pro:dem|ça
+	adv:place|là–haut
+*CHI:	oui 
+%mor:	co|oui=yes
+*CHI:	tu vas où arthur ?
+%mor:	part|taire-PP&m v:mdl|aller&PRES&2s pro:int|où ?|arthur ?
+*CHI:	non hé vous arrêtez tous les deux 
+%mor:	co|non=no co|hé pro:obj|vous v|arrêter-IMP&2p pro|tous&m&pl
+	det:art|les&pl num|deux
+*CHI:	allez hop 
+%mor:	co|allez co|hop
+*CHI:	quel sac ?
+%mor:	det:gen|quel&m&sg n|sac&m ?
+*CHI:	quel sac ?
+%mor:	det:gen|quel&m&sg n|sac&m ?
+*CHI:	chut les garçons 
+%mor:	co|chut det:art|les&pl n|garçon&m-PL
+*CHI:	d'accord 
+%mor:	adv|d'accord
+*CHI:	oui d'accord 
+%mor:	co|oui=yes adv|d'accord
+*CHI:	chut 
+%mor:	co|chut
+*CHI:	ael si il te plaît 
+%mor:	?|ael n|si&m pro:sub|il pro:obj|te v|plaire-PRES&3s
+*CHI:	ael 
+%mor:	?|ael
+*CHI:	le singe ?
+%mor:	det:art|le&m&sg n|singe&m ?
+*CHI:	allez ael pousse toi 
+%mor:	v:mdl|aller&IMP&2p ?|ael v|pousser-IMP&2s pro|toi&sg
+*CHI:	ael viens je vais te 
+%mor:	?|ael v|venir-PRES&12s pro:sub|je v:mdl|aller&PRES&1s pro:obj|te
+*CHI:	quoi non ?
+%mor:	pro:int|quoi co|non=no ?
+*CHI:	bon ael toi tu t'occupes de tes affaires si il te plaît 
+%mor:	co|bon ?|ael pro|toi&sg pro:sub|tu pro:obj|te$v|occuper-PRES&SUB&2s
+	prep|de det:poss|tes&pl n|affaire&f-PL adv|si pro:sub|il pro:obj|te
+	v|plaire-PRES&3s
+*CHI:	non mais tu vas ranger si il te plaît 
+%mor:	co|non=no adv|mais part|taire-PP&m v:mdl|aller&PRES&2s v|ranger-INF
+	n|si&m pro:sub|il pro:obj|te v|plaire-PRES&3s
+*CHI:	oh ael tu me fatigues là 
+%mor:	co|oh ?|ael part|taire-PP&m pro:obj|me v|fatiguer-PRES&SUB&2s
+	adv:place|là
+*CHI:	bien sûr ça s'est fait tout seul 
+%mor:	adv|bien adj|sûr&m pro:dem|ça conj|si$v:aux|être&PRES&3s
+	part|faire-PP&m n|tout&m adv|seul
+*CHI:	tiens tu vas remettre ça dans la salledebain tu sais où ça se met 
+%mor:	v|tenir-IMP&2s part|taire-PP&m v:mdl|aller&PRES&2s re#v|mettre-INF
+	pro:dem|ça prep|dans det:art|la&f&sg n|+n|salle+prep|de+n|bain
+	pro:sub|tu v:mdl|savoir&PRES&12s pro:rel|où pro:dem|ça pro:refl|se
+	v|mettre-PRES&3s
+*CHI:	mais je vais le faire je vais le faire 
+%mor:	adv|mais pro:sub|je v:mdl|aller&PRES&1s pro:obj|le
+	v:mdllex|faire-INF pro:sub|je v:mdl|aller&PRES&1s pro:obj|le
+	v:mdllex|faire-INF
+*CHI:	et omer il est rentré ?
+%mor:	conj|et ?|omer pro:sub|il v:aux|être&PRES&3s part|rentrer-PP&m ?
+*CHI:	il est où ?
+%mor:	pro:sub|il v:aux|être&PRES&3s pro:int|où ?
+*CHI:	tu es sûr ?
+%mor:	part|taire-PP&m v:aux|être&PRES&2s adv|sûr ?
+*CHI:	ael arrête 
+%mor:	?|ael v|arrêter-PRES&SUB&13s
+*CHI:	ael arrête un petit peu si il te plaît 
+%mor:	?|ael v|arrêter-PRES&SUB&13s det:art|un&m&sg adj|petit&m n|peu&m
+	adv|si pro:sub|il pro:obj|te v|plaire-PRES&3s
+*CHI:	va dire à papa que le facteur il est passé et qu'y avait rien ael 
+%mor:	v:mdl|aller&PRES&3s v|dire-INF prep|à n|papa&m prep|que
+	det:art|le&m&sg n|facteur&m pro:sub|il v:aux|être&PRES&3s n|passé&m
+	conj|et pro:rel|que$pro:y|y v:poss|avoir&IMPF&3s neg|rien ?|ael
+*CHI:	ael va dire à papa 
+%mor:	?|ael v:mdl|aller&PRES&3s v|dire-INF prep|à n|papa&m
+*CHI:	les garçons je vous ai 
+%mor:	det:art|les&pl n|garçon&m-PL pro:sub|je pro:obj|vous
+	v:aux|avoir&PRES&1s
+*CHI:	ouais 
+%mor:	co|ouais=yes
+*CHI:	et ça aussi regarde tu ramènes dans ta chambre 
+%mor:	conj|et pro:dem|ça adv|aussi v|regarder-IMP&2s part|taire-PP&m
+	v|ramener-PRES&SUB&2s prep|dans det:poss|ta&f&sg n|chambre&f

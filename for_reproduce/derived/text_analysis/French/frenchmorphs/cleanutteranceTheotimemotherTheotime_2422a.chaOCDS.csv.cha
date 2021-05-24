@@ -1,0 +1,71 @@
+*CHI:	chut
+%mor:	co|chut
+*CHI:	te mets pas devant
+%mor:	pro:obj|te n|mets&m neg|pas n|devant&m
+*CHI:	et ça te plairait toi de prendre ça
+%mor:	conj|et pro:dem|ça pro:obj|te v|plaire-COND&3s pro|toi&sg prep|de
+	v|prendre-INF pro:dem|ça
+*CHI:	arrête ame tais-toi un ptit peu
+%mor:	v|arrêter-PRES&SUB&13s ?|ame v|taire-IMP&2s~pro|toi det:art|un&m&sg
+	?|ptit n|peu&m
+*CHI:	te mets pas juste devant s'il te plaît
+%mor:	pro:obj|te n|mets&m neg|pas adj|juste n|devant&m conj|si$pro:sub|il
+	pro:obj|te v|plaire-PRES&3s
+*CHI:	mets-toi là mais si tu vois bien
+%mor:	v|mettre-IMP&2s~pro|toi adv:place|là n|mai&m-PL adv|si
+	part|taire-PP&m v|voir&IMP&PRES&12s adv|bien
+*CHI:	mets-toi par là voilà 
+%mor:	v|mettre-IMP&2s~pro|toi adv|par adv:place|là adv:place|voilà
+*CHI:	chut
+%mor:	co|chut
+*CHI:	chut
+%mor:	co|chut
+*CHI:	roh attends
+%mor:	?|roh v|attendre-IMP&2s
+*CHI:	une orange
+%mor:	det:art|une&f&sg n|orange
+*CHI:	bon allez ame
+%mor:	co|bon co|allez ?|ame
+*CHI:	chut ame
+%mor:	co|chut ?|ame
+*CHI:	non mais jte pose
+%mor:	co|non=no n|mai&m-PL ?|jte n|pose&f
+*CHI:	a pas de se tacher
+%mor:	v:aux|avoir&PRES&3s neg|pas prep|de pro:refl|se v|tacher-INF
+*CHI:	arrête ame tu m'fatigues là
+%mor:	v|arrêter-PRES&SUB&13s ?|ame part|taire-PP&m
+	pro:obj|me$v|fatiguer-PRES&SUB&2s adv:place|là
+*CHI:	oui oui oui mais oh
+%mor:	co|oui=yes co|oui=yes co|oui=yes n|mai&m-PL co|oh
+*CHI:	tu fermes ta bouche comme dit la maîtresse
+%mor:	part|taire-PP&m n|ferme&f-PL det:poss|ta&f&sg n|bouche&f adv|comme
+	part|dire-PP&m det:art|la&f&sg n|maîtresse&f
+*CHI:	ferme ta bouche
+%mor:	n|ferme&f det:poss|ta&f&sg n|bouche&f
+*CHI:	roh arrête un peu
+%mor:	?|roh v|arrêter-PRES&SUB&13s det:art|un&m&sg n|peu&m
+*CHI:	ah mais tais-toi ame c'est
+%mor:	co|ah adv|mais v|taire-PRES&12s~pro|toi ?|ame
+	pro:dem|ce$v:aux|être&PRES&3s
+*CHI:	hein tu arrêtes un peu là sinon je t'envoie dans ta chambre
+%mor:	co|hein part|taire-PP&m v|arrêter-PRES&SUB&2s det:art|un&m&sg
+	n|peu&m adv:place|là prep|sinon pro:sub|je
+	pro:obj|te$v|envoyer-PRES&SUB&13s prep|dans det:poss|ta&f&sg
+	n|chambre&f
+*CHI:	non tu te tais un ptit peu
+%mor:	co|non=no part|taire-PP&m pro:obj|te v|taire-IMP&2s det:art|un&m&sg
+	?|ptit n|peu&m
+*CHI:	chut
+%mor:	co|chut
+*CHI:	t'entende
+%mor:	pro:obj|te$v|entendre-PRES&SUB&1s
+*CHI:	toi tu vas dans ta chambre parce que j'en ai marre hein
+%mor:	pro|toi&sg part|taire-PP&m v:mdl|aller&PRES&2s prep|dans
+	det:poss|ta&f&sg v|chambrer-PRES&SUB&13s adv|parce adv|que
+	pro:sub|je$pro:y|en v:aux|avoir&PRES&1s adv|marre co|hein
+*CHI:	de t'entendre à côté on va rien pouvoir faire ça va servir à rien
+%mor:	prep|de pro:obj|te$v|entendre-INF prep|à n|côté&m pro:sub|on
+	v:mdl|aller&PRES&3s n|rien&m n|pouvoir&m v:mdl|faire-INF pro:dem|ça
+	v:mdl|aller&PRES&3s v|servir-INF prep|à n|rien&m
+*CHI:	allez zou
+%mor:	co|allez co|zou=off_with_you

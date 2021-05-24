@@ -1,0 +1,89 @@
+*CHI:	dix-huit dix-neuf 
+%mor:	?|dix–huit ?|dix–neuf
+*CHI:	t'as oublié dix-neuf
+%mor:	pro:obj|te$v:poss|avoir&PRES&2s part|oublier-PP&m ?|dix–neuf
+*CHI:	vingt cinq
+%mor:	n|vingt&m n|cinq&m
+*CHI:	ah bon ?
+%mor:	co|ah co|bon ?
+*CHI:	ame ame
+%mor:	?|ame ?|ame
+*CHI:	ame
+%mor:	?|ame
+*CHI:	chut ame parle pas
+%mor:	co|chut ?|ame v|parler-PRES&SUB&13s neg|pas
+*CHI:	chut ame arrête de parler
+%mor:	co|chut ?|ame v|arrêter-PRES&SUB&13s prep|de v|parler-INF
+*CHI:	ame
+%mor:	?|ame
+*CHI:	tu peux rester à côté mais tu parles pas
+%mor:	part|taire-PP&m v:mdl|pouvoir&PRES&12s v|rester-INF prep|à n|côté&m
+	adv|mais part|taire-PP&m v|parler-PRES&SUB&2s neg|pas
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	tu savais
+%mor:	part|taire-PP&m v:mdl|savoir&IMPF&12s
+*CHI:	on peut y aller à pied d'ici
+%mor:	pro:sub|on v:mdl|pouvoir&PRES&3s pro:y|y v:mdl|aller&INF prep|à
+	n|pied&m adv:place|d'ici
+*CHI:	on prendra le bus 
+%mor:	pro:sub|on v|prendre-FUT&3s det:art|le&m&sg n|bus&m
+*CHI:	prendre mon doudou 
+%mor:	v|prendre-INF det:poss|mon&m&sg n|doudou&m=blankie
+*CHI:	des fois que porcinet soit un peu 
+%mor:	prep|de&les n|fois&f prep|que n|porcinet&m=piglet adv|soit
+	det:art|un&m&sg n|peu&m
+*CHI:	chut chut 
+%mor:	co|chut co|chut
+*CHI:	mmh 
+%mor:	?|mmh
+*CHI:	chut
+%mor:	co|chut
+*CHI:	tim l'autre jour il a dormi avec
+%mor:	?|tim det:art|le$pro|autre&sg n|jour&m pro:sub|il
+	v:aux|avoir&PRES&3s part|dormir-PP&m prep|avec
+*CHI:	dessin pour papa ame ? 
+%mor:	n|dessin&m prep|pour n|papa&m ?|ame ?
+*CHI:	tu fais un dessin pour papa pour ce soir ? 
+%mor:	part|taire-PP&m v:mdl|faire-PRES&12s det:art|un&m&sg n|dessin&m
+	prep|pour n|papa&m prep|pour pro:dem|ce n|soir&m ?
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	tellement doucement 
+%mor:	adv|tellement adv|doucement
+*CHI:	faut dire un ptit peu plus fort sinon ça devient un peu 
+%mor:	v:mdl|falloir&PRES&3s v|dire-INF det:art|un&m&sg ?|ptit n|peu&m
+	prep|plus n|fort&m prep|sinon pro:dem|ça v|devenir-PRES&3s
+	pro|un&m&sg adv|peu
+*CHI:	ça me souffle dans les oreilles 
+%mor:	pro:dem|ça pro:obj|me n|souffle&m prep|dans det:art|les&pl
+	n|oreille&f-PL
+*CHI:	comment ça s'écrit ? 
+%mor:	n|comment&m pro:dem|ça conj|si$n|écrit&m ?
+*CHI:	comme ça ? 
+%mor:	adv|comme pro:dem|ça ?
+*CHI:	alors vas-y e 
+%mor:	adv|alors ?|vas–y ?|e
+*CHI:	eh ben commence par un e 
+%mor:	co|eh adv|ben v|commencer-PRES&SUB&13s prep|par det:art|un&m&sg ?|e
+*CHI:	bah non
+%mor:	co|bah co|non=no
+*CHI:	m
+%mor:	?|m
+*CHI:	m comme amélie 
+%mor:	?|m adv|comme ?|amélie
+*CHI:	i
+%mor:	?|i
+*CHI:	ta tête
+%mor:	det:poss|ta&f&sg n|tête&f
+*CHI:	l
+%mor:	?|l
+*CHI:	i 
+%mor:	?|i
+*CHI:	e
+%mor:	?|e
+*CHI:	arrête calme toi ame
+%mor:	v|arrêter-IMP&2s v|calmer-IMP&2s pro|toi&sg ?|ame
+*CHI:	tu n'as pas fait de dessins pour papa
+%mor:	part|taire-PP&m neg|ne$v:poss|avoir&PRES&2s neg|pas part|faire-PP&m
+	prep|de n|dessin&m-PL prep|pour n|papa&m

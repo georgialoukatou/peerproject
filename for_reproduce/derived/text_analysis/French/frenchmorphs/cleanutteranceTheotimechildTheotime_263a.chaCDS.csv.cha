@@ -1,0 +1,14 @@
+*CHI:	c'est à moi
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|à pro|moi&sg
+*CHI:	c'est mon livre
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:poss|mon&m&sg n|livre
+*CHI:	non c'est à moi
+%mor:	co|non=no pro:dem|ce$v:aux|être&PRES&3s prep|à pro|moi&sg
+*CHI:	à moi
+%mor:	prep|à pro|moi&sg
+*CHI:	à moi
+%mor:	prep|à pro|moi&sg
+*CHI:	j'avais rangé toute ma chambre et voilà qu'elle est encore en bazar
+%mor:	pro:sub|je$v:aux|avoir&IMPF&12s part|ranger-PP&m adv|toute
+	det:poss|ma&sg n|chambre&f conj|et co|voilà pro:rel|que$pro:sub|elle
+	v:aux|être&PRES&3s adv|encore prep|en n|bazar&m

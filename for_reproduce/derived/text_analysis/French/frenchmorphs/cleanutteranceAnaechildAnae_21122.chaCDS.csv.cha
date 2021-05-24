@@ -1,0 +1,18 @@
+*CHI:	bonjour 
+%mor:	co|bonjour
+*CHI:	une barbeàpapa 
+%mor:	det:art|une&f&sg n|+n|barbe+prep|à+n|papa&f=cotton_candy
+*CHI:	c'est de ton truc d' autocollants là 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|de det:poss|ton&m&sg n|truc&m
+	adv|de adj|autocollant&m-PL adv:place|là
+*CHI:	c'est toi qui l'as collé 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg pro:int|qui
+	pro:obj|le$v:poss|avoir&PRES&2s part|coller-PP&m
+*CHI:	hein c'est elle qui l'a collé 
+%mor:	co|hein pro:dem|ce$v:exist|être&PRES&3s pro:sub|elle pro:int|qui
+	pro:obj|le$v:poss|avoir&PRES&3s part|coller-PP&m
+*CHI:	anaé allume le 
+%mor:	?|anaé v|allumer-PRES&SUB&13s det:art|le&m&sg
+*CHI:	déjà il faut euh l'allumer le micro 
+%mor:	adv|déjà pro:sub|il v:mdl|falloir&PRES&3s co|euh
+	pro:obj|le$v|allumer-INF det:art|le&m&sg n|micro&m

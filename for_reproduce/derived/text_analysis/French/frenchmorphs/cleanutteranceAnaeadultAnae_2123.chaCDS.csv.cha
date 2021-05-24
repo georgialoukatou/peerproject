@@ -1,0 +1,17 @@
+*CHI:	*CHI:	*CHI:	bonjour 
+%mor:	?|*CHI ?|*CHI co|bonjour
+*CHI:	*CHI:	*CHI:	 oh que tu es belle 
+%mor:	?|*CHI ?|*CHI co|oh adv|que part|taire-PP&m v:aux|être&PRES&2s
+	adj|beau&f&sg=pretty
+*CHI:	*CHI:	*CHI:	viens me faire un bisou anaé anaé 
+%mor:	?|*CHI ?|*CHI v|venir-PRES&12s pro:obj|me v:mdl|faire-INF
+	det:art|un&m&sg n|bisou&m ?|anaé ?|anaé
+*CHI:	*CHI:	*CHI:	raté 
+%mor:	?|*CHI ?|*CHI n|raté&m
+*CHI:	*CHI:	*CHI:	la bise ?
+%mor:	?|*CHI ?|*CHI det:art|la&f&sg n|bise&f ?
+*CHI:	*CHI:	*CHI:	coucou 
+%mor:	?|*CHI ?|*CHI co|coucou=peekaboo
+*CHI:	*CHI:	*CHI:	tu me fais un gâteau ?
+%mor:	?|*CHI ?|*CHI part|taire-PP&m pro:obj|me v:mdllex|faire-PRES&12s
+	det:art|un&m&sg n|gâteau&m ?

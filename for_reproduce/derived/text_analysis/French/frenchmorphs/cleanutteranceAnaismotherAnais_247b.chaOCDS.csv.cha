@@ -1,0 +1,105 @@
+*CHI:	ah bon
+%mor:	co|ah co|bon
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	tu écris chloé
+%mor:	part|taire-PP&m v|écrire-IMP&PRES&12s ?|chloé
+*CHI:	c'est ca que tu veux
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:dem|ca adv|que part|taire-PP&m
+	v:mdl|vouloir&PRES&12s
+*CHI:	il est ou le fer ?
+%mor:	pro:sub|il v:aux|être&PRES&3s conj|ou det:art|le&m&sg n|fer&m ?
+*CHI:	mais je t'ai rien demandé toi
+%mor:	adv|mais pro:sub|je pro:obj|te$v:poss|avoir&PRES&1s n|rien&m
+	adj|demandé&m pro|toi&sg
+*CHI:	et alors si elle veut qu'il dorme dans la baignoire son bébé
+%mor:	conj|et adv|alors n|si&m pro:sub|elle v:mdl|vouloir&PRES&3s
+	pro:rel|que$pro:sub|il v|dormir-PRES&SUB&13s prep|dans
+	det:art|la&f&sg n|baignoire&f det:poss|son&m&sg n|bébé&m
+*CHI:	qu'est ce que tu racontes
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce adv|que part|taire-PP&m
+	v|raconter-PRES&SUB&2s
+*CHI:	non c'est toi je comrpends rien à ce que tu me dis ma chérie
+%mor:	co|non=no pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg pro:sub|je
+	?|comrpends n|rien&m prep|à det:dem|ce&m&sg adv|que part|taire-PP&m
+	pro:obj|me v|dire-PRES&PASS&12s det:poss|ma&sg n|chéri&f
+*CHI:	oui t'as raison
+%mor:	co|oui=yes pro:obj|te$v:poss|avoir&PRES&2s n|raison&f
+*CHI:	fais ton dessin
+%mor:	v:mdl|faire-PRES&12s det:poss|ton&m&sg n|dessin&m
+*CHI:	il est en fabrication
+%mor:	pro:sub|il v:aux|être&PRES&3s prep|en n|fabrication&f
+*CHI:	no il est en train de se faire
+%mor:	?|no pro:sub|il v:aux|être&PRES&3s prep|en n|train&m prep|de
+	pro:refl|se v:mdllex|faire-INF
+*CHI:	il te reste du travail à faire ma fille
+%mor:	pro:sub|il pro:obj|te n|reste&m prep|de&le n|travail&m&sg prep|à
+	v:mdl|faire-INF det:poss|ma&sg n|fille&f
+*CHI:	ahh
+%mor:	?|ahh
+*CHI:	parce que elle veut jouer
+%mor:	adv|parce adv|que pro:sub|elle v:mdl|vouloir&PRES&3s v|jouer-INF
+*CHI:	si ils y sont
+%mor:	adv|si pro:sub|ils pro:y|y v:aux|être&PRES&3p
+*CHI:	merci ma chloé
+%mor:	co|merci det:poss|ma&sg ?|chloé
+*CHI:	oui ils sont très beaux tes dessins ma chloé
+%mor:	co|oui=yes pro:sub|ils v:aux|être&PRES&3p adv|très
+	adj|beau&m&pl=pretty det:poss|tes&pl n|dessin&m-PL det:poss|ma&sg
+	?|chloé
+*CHI:	t'as tout écrit ?
+%mor:	pro:obj|te$v:poss|avoir&PRES&2s adv|tout part|écrire-PP&m ?
+*CHI:	t'as écrit quoi ?
+%mor:	pro:obj|te$v:poss|avoir&PRES&2s n|écrit&m pro:int|quoi ?
+*CHI:	tu y vas
+%mor:	part|taire-PP&m pro:y|y v:mdl|aller&PRES&2s
+*CHI:	dans ta chambre
+%mor:	prep|dans det:poss|ta&f&sg n|chambre&f
+*CHI:	sur le bureau tu descends tout
+%mor:	prep|sur det:art|le&m&sg n|bureau&m part|taire-PP&m
+	v|descendre-PRES&12s adv|tout
+*CHI:	bah tu les amènes au bord des escaliers ou tu les lances des escaliers
+%mor:	co|bah part|taire-PP&m det:art|les&pl adj|amène&m-PL=affable
+	prep|à&le n|bord&m prep|de&les n|escalier&m-PL conj|ou
+	part|taire-PP&m det:art|les&pl n|lance&f-PL prep|de&les
+	n|escalier&m-PL
+*CHI:	non non je monte pas moi
+%mor:	co|non=no co|non=no pro:sub|je v|monter-IMP&2s neg|pas pro|moi&sg
+*CHI:	non je reste là
+%mor:	co|non=no pro:sub|je n|reste&m adv:place|là
+*CHI:	yen a plus ?
+%mor:	?|yen v:aux|avoir&PRES&3s qn|plus ?
+*CHI:	stop
+%mor:	co|stop
+*CHI:	ah excuse moi
+%mor:	co|ah n|excuse&f pro|moi&sg
+*CHI:	bah dis donc ah
+%mor:	co|bah v|dire-PRES&PASS&12s conj|donc co|ah
+*CHI:	t'as qu'à l'enlever, passe de l'autre coté
+%mor:	pro:obj|te$v:poss|avoir&PRES&2s pro:rel|que$prep|à
+	pro:obj|le$v|enlever-INF cm|cm v|passer-IMP&2s prep|de
+	det:art|le$pro|autre&sg adj|coté&m
+*CHI:	na
+%mor:	co|na
+*CHI:	na
+%mor:	co|na
+*CHI:	chloé, stop
+%mor:	?|chloé cm|cm n|stop&m
+*CHI:	non non non tu lui laisses mettre
+%mor:	co|non=no co|non=no co|non=no part|taire-PP&m part|luire&PP&m
+	n|laisse&f-PL v|mettre-INF
+*CHI:	tiens mets mini toi
+%mor:	v|tenir-IMP&2s n|mets&m n|mini&f=mini_skirt pro|toi&sg
+*CHI:	le reste tu laisses mettre ta soeur
+%mor:	det:art|le&m&sg n|reste&m part|taire-PP&m n|laisse&f-PL
+	v|mettre-INF det:poss|ta&f&sg n|soeur&f
+*CHI:	na
+%mor:	co|na
+*CHI:	na
+%mor:	co|na
+*CHI:	na
+%mor:	co|na
+*CHI:	merci chloé
+%mor:	co|merci ?|chloé

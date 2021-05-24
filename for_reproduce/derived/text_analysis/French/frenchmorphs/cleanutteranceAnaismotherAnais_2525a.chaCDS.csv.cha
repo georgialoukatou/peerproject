@@ -1,0 +1,1125 @@
+*CHI:	non
+%mor:	co|non=no
+*CHI:	elle a dû tombé
+%mor:	pro:sub|elle v:aux|avoir&PRES&3s adj|dû&m part|tomber-PP&m
+*CHI:	tu y arrives ninette ?
+%mor:	pro:sub|tu pro:y|y v|arriver-PRES&SUB&2s ?|ninette ?
+*CHI:	non ?
+%mor:	co|non=no ?
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	tu t'asseois là ?
+%mor:	part|taire-PP&m pro:obj|te$v|asseoir&IMP&2s adv:place|là ?
+*CHI:	non là ?
+%mor:	co|non=no adv:place|là ?
+*CHI:	il y est là le jeu ?
+%mor:	pro:sub|il pro:y|y v:aux|être&PRES&3s adv:place|là det:art|le&m&sg
+	n|jeu&m ?
+*CHI:	où elle m'a mis mon mon bloc ?
+%mor:	pro:int|où pro:sub|elle pro:obj|me$v:poss|avoir&PRES&3s
+	part|mettre-PP&m det:poss|mon&m&sg det:poss|mon&m&sg n|bloc&m ?
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	on va les coller dessus
+%mor:	pro:sub|on v:mdl|aller&PRES&3s pro:obj|les v|coller-INF
+	adv:place|dessus
+*CHI:	oui je viens l'ouvrir
+%mor:	co|oui=yes pro:sub|je v|venir-PRES&12s pro:obj|le$v|ouvrir-INF
+*CHI:	oh là là
+%mor:	co|oh adv:place|là adv:place|là
+*CHI:	oui ana
+%mor:	co|oui=yes ?|ana
+*CHI:	je viens
+%mor:	pro:sub|je v|venir-IMP&2s
+*CHI:	hop
+%mor:	co|hop
+*CHI:	c'est ton chocolat ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:poss|ton&m&sg n|chocolat&m ?
+*CHI:	tu l'as mis où ton chocolat ?
+%mor:	part|taire-PP&m pro:obj|le$v:poss|avoir&PRES&2s adj|mi&m-PL=half
+	pro:int|où det:poss|ton&m&sg n|chocolat&m ?
+*CHI:	mm
+%mor:	co|mm
+*CHI:	viens voir toi
+%mor:	v|venir-IMP&2s v|voir&INF pro|toi&sg
+*CHI:	tu viens ?
+%mor:	part|taire-PP&m v|venir-IMP&2s ?
+*CHI:	on va prendre les crayons ?
+%mor:	pro:sub|on v:mdl|aller&PRES&3s v|prendre-INF det:art|les&pl
+	n|crayon&m-PL ?
+*CHI:	si si
+%mor:	co|si n|si&m
+*CHI:	un quoi ?
+%mor:	det:art|un&m&sg pro:int|quoi ?
+*CHI:	un ciseau
+%mor:	det:art|un&m&sg n|ciseau&m
+*CHI:	tu veux découper ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s dé#v|couper-INF ?
+*CHI:	non
+%mor:	co|non=no
+*CHI:	mais tu veux un ciseau
+%mor:	adv|mais part|taire-PP&m v:mdl|vouloir&PRES&12s det:art|un&m&sg
+	n|ciseau&m
+*CHI:	viens
+%mor:	v|venir-IMP&2s
+*CHI:	allez viens
+%mor:	co|allez v|venir-IMP&2s
+*CHI:	tu viens ?
+%mor:	part|taire-PP&m v|venir-IMP&2s ?
+*CHI:	viens bichette
+%mor:	v|venir-IMP&2s n|bichette&f=term_of_endearment
+*CHI:	regarde dans la boite
+%mor:	v|regarder-PRES&SUB&13s prep|dans det:art|la&f&sg
+	v|boiter-PRES&SUB&13s
+*CHI:	c'est la boite magique
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|la&f&sg v|boiter-PRES&SUB&13s
+	adj|magique
+*CHI:	c'est la boite du bricolage
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|la&f&sg v|boiter-PRES&SUB&13s
+	prep|de&le n|bricolage&m
+*CHI:	tiens nine
+%mor:	v|tenir-IMP&2s ?|nine
+*CHI:	tu colores 
+%mor:	part|taire-PP&m v|colorer-PRES&SUB&2s
+*CHI:	qu'est ce qu'on dessine ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:sub|on
+	v|dessiner-PRES&SUB&13s ?
+*CHI:	non ?
+%mor:	co|non=no ?
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	tu prends que le
+%mor:	part|taire-PP&m v|prendre-PRES&IMP&12s prep|que det:art|le&m&sg
+*CHI:	c'est quoi ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi pro:dem|ça ?
+*CHI:	un quoi ?
+%mor:	det:art|un&m&sg pro:int|quoi ?
+*CHI:	hein
+%mor:	co|hein
+*CHI:	rose ?
+%mor:	n|rose ?
+*CHI:	tu as une chaise là bas
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s det:art|une&f&sg n|chaise&f
+	adv:place|là adj|bas&m
+*CHI:	si tu allais t'asseoir dessus
+%mor:	adv|si part|taire-PP&m v:mdl|aller&IMPF&12s
+	pro:obj|te$v|asseoir&INF adv:place|dessus
+*CHI:	mh
+%mor:	co|mh
+*CHI:	faut mettre comme ça le bouchon ?
+%mor:	v:mdl|falloir&PRES&3s v|mettre-INF adv|comme pro:dem|ça
+	det:art|le&m&sg n|bouchon&m ?
+*CHI:	mh
+%mor:	co|mh
+*CHI:	qu'estce que tu veux ?
+%mor:	?|qu'estce prep|que part|taire-PP&m v:mdl|vouloir&PRES&12s ?
+*CHI:	qu'estce que ?
+%mor:	?|qu'estce adv|que ?
+*CHI:	qu'est ce que je te donne ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:int|que pro:sub|je
+	pro:obj|te v|donner-PRES&SUB&13s ?
+*CHI:	un carré ?
+%mor:	det:art|un&m&sg adj|carré&m ?
+*CHI:	regarde
+%mor:	v|regarder-IMP&2s
+*CHI:	oh le traîneau du pèrenoël
+%mor:	co|oh det:art|le&m&sg n|traîneau&m prep|de&le n|+n|père+n|noël
+*CHI:	tu décolles ?
+%mor:	part|taire-PP&m dé#v|coller-PRES&SUB&2s ?
+*CHI:	non
+%mor:	co|non=no
+*CHI:	il faut pas coller comme ça
+%mor:	pro:sub|il v:mdl|falloir&PRES&3s neg|pas v|coller-INF adv|comme
+	pro:dem|ça
+*CHI:	viens voir
+%mor:	v|venir-IMP&2s v|voir&INF
+*CHI:	je te montre
+%mor:	pro:sub|je pro:obj|te n|montre&f
+*CHI:	je peux te montrer ?
+%mor:	pro:sub|je v:mdl|pouvoir&PRES&12s pro:obj|te v|montrer-INF ?
+*CHI:	non ?
+%mor:	co|non=no ?
+*CHI:	je te montre pas ?
+%mor:	pro:sub|je pro:obj|te v|montrer-PRES&SUB&13s neg|pas ?
+*CHI:	bon
+%mor:	co|bon
+*CHI:	bon
+%mor:	co|bon
+*CHI:	bah débrouille toi
+%mor:	co|bah dé#v|brouiller-IMP&2s pro|toi&sg
+*CHI:	non mais ça se décolle
+%mor:	co|non=no adv|mais pro:dem|ça pro:refl|se dé#v|coller-PRES&SUB&13s
+*CHI:	c'est des autocollants ana
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|de&les
+	n|autocollant&m-PL=sticker ?|ana
+*CHI:	tu as pas besoin de la colle
+%mor:	part|taire-PP&m v:poss|avoir&PRES&2s neg|pas n|besoin&m prep|de
+	det:art|la&f&sg n|colle&f
+*CHI:	regarde
+%mor:	v|regarder-IMP&2s
+*CHI:	comme ça
+%mor:	adv|comme pro:dem|ça
+*CHI:	ohlàlà
+%mor:	co|ohlàlà
+*CHI:	tu as tout tordu
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s n|tout&m n|tordu&m
+*CHI:	hop
+%mor:	co|hop
+*CHI:	on enlève là
+%mor:	pro:sub|on v|enlever-IMP&2s adv:place|là
+*CHI:	comme ça
+%mor:	adv|comme pro:dem|ça
+*CHI:	puis on enlève celuilà
+%mor:	adv|puis pro:sub|on v|enlever-PRES&SUB&13s ?|celuilà
+*CHI:	et on le colle
+%mor:	conj|et pro:sub|on det:art|le&m&sg n|colle&f
+*CHI:	où c'est qu'on le met ?
+%mor:	pro:int|où pro:dem|ce$v:exist|être&PRES&3s pro:rel|que$pro:sub|on
+	pro:obj|le v|mettre-PRES&3s ?
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	yyy mets le là haut
+%mor:	v|mettre-IMP&2s det:art|le&m&sg adv:place|là adj|haut&m
+*CHI:	ah bah non
+%mor:	co|ah co|bah co|non=no
+*CHI:	là tu lui as mis la tête dans le décor
+%mor:	adv:place|là part|taire-PP&m pro:ind|lui v:aux|avoir&PRES&2s
+	part|mettre-PP&m det:art|la&f&sg n|tête&f prep|dans det:art|le&m&sg
+	n|décor&m
+*CHI:	tiens là
+%mor:	v|tenir-IMP&2s adv:place|là
+*CHI:	bah oui
+%mor:	co|bah co|oui=yes
+*CHI:	tout déchiré
+%mor:	adv|tout part|déchirer-PP&m
+*CHI:	tu es un petit peu brusque hein
+%mor:	part|taire-PP&m v:exist|être&PRES&2s det:art|un&m&sg adj|petit&m
+	n|peu&m v|brusquer-IMP&2s co|hein
+*CHI:	fais voir
+%mor:	v:mdl|faire-PRES&12s v|voir&INF
+*CHI:	on va réparer
+%mor:	pro:sub|on v:mdl|aller&PRES&3s v|réparer-INF
+*CHI:	voilà
+%mor:	adv:place|voilà
+*CHI:	le traîneau du père noël
+%mor:	det:art|le&m&sg n|traîneau&m prep|de&le n|père&m n|noël
+*CHI:	tu veux une bougie ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s det:art|une&f&sg n|bougie&f
+	?
+*CHI:	allez
+%mor:	co|allez
+*CHI:	une bougie
+%mor:	det:art|une&f&sg n|bougie&f
+*CHI:	c'est toi ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg ?
+*CHI:	oh c'est quoi ça ?
+%mor:	co|oh pro:dem|ce$v:exist|être&PRES&3s pro:rel|quoi pro:dem|ça ?
+*CHI:	mon sapin
+%mor:	det:poss|mon&m&sg n|sapin&m
+*CHI:	oui un arbre
+%mor:	co|oui=yes det:art|un&m&sg n|arbre&m
+*CHI:	alors
+%mor:	adv|alors
+*CHI:	sapin
+%mor:	n|sapin&m
+*CHI:	un sapin yyy argenté
+%mor:	det:art|un&m&sg n|sapin&m adj|argenté&m
+*CHI:	un escargot ?
+%mor:	det:art|un&m&sg n|escargot&m ?
+*CHI:	mh
+%mor:	co|mh
+*CHI:	escargot
+%mor:	n|escargot&m
+*CHI:	ah bon
+%mor:	co|ah co|bon
+*CHI:	et c'est quoi ?
+%mor:	conj|et pro:dem|ce$v:exist|être&PRES&3s pro:rel|quoi ?
+*CHI:	 c'est ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?
+*CHI:	c'est pour l'anniversaire ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|pour det:art|le$n|anniversaire&m
+	?
+*CHI:	c'est pour moi ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|pour pro|moi&sg ?
+*CHI:	oh merci
+%mor:	co|oh co|merci
+*CHI:	c'est mon cadeau ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:poss|mon&m&sg n|cadeau&m ?
+*CHI:	merci ma ninette
+%mor:	co|merci det:poss|ma&sg ?|ninette
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	ton sapin
+%mor:	det:poss|ton&m&sg n|sapin&m
+*CHI:	tu le mets où ?
+%mor:	part|taire-PP&m det:art|le&m&sg n|mets&m pro:int|où ?
+*CHI:	oui faut le coller là
+%mor:	co|oui=yes v:mdl|falloir&PRES&3s pro:obj|le v|coller-INF
+	adv:place|là
+*CHI:	allez mets le là haut
+%mor:	co|allez n|mets&m det:art|le&m&sg adv:place|là adj|haut&m
+*CHI:	allez
+%mor:	co|allez
+*CHI:	très bien
+%mor:	adv|très adv|bien
+*CHI:	qu'est ce qu'il y a ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:sub|il
+	pro:y|y v:aux|avoir&PRES&3s ?
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	oh une bougie
+%mor:	co|oh det:art|une&f&sg n|bougie&f
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	faut coller la bougie
+%mor:	v:mdl|falloir&PRES&3s v|coller-INF det:art|la&f&sg n|bougie&f
+*CHI:	t'arrives pas toi ?
+%mor:	pro:obj|te$v|arriver-PRES&SUB&2s neg|pas pro|toi&sg ?
+*CHI:	on va en sortir un petit peu comme ça
+%mor:	pro:sub|on v:mdl|aller&PRES&3s prep|en n|sortir&m det:art|un&m&sg
+	adj|petit&m n|peu&m adv|comme pro:dem|ça
+*CHI:	puis les autres on va les garder
+%mor:	adv|puis det:art|les&pl pro|autres&pl pro:sub|on
+	v:mdl|aller&PRES&3s pro:obj|les v|garder-INF
+*CHI:	d'accord ?
+%mor:	adv|d'accord ?
+*CHI:	alors
+%mor:	adv|alors
+*CHI:	fais voir
+%mor:	v:mdl|faire-PRES&12s v|voir&INF
+*CHI:	nous avons quoi ?
+%mor:	pro:obj|nous v:aux|avoir&PRES&1p pro:int|quoi ?
+*CHI:	la bougie on la colle ?
+%mor:	det:art|la&f&sg n|bougie&f pro:sub|on det:art|la&f&sg n|colle&f ?
+*CHI:	là haut ?
+%mor:	adv:place|là adj|haut&m ?
+*CHI:	tu mets tout en haut hein
+%mor:	part|taire-PP&m n|mets&m n|tout&m prep|en adj|haut&m co|hein
+*CHI:	c'est toi ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg ?
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	hop
+%mor:	co|hop
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	la belle bougie
+%mor:	det:art|la&f&sg adj|beau&f&sg=pretty n|bougie&f
+*CHI:	ouais super
+%mor:	co|ouais=yes n|super&m
+*CHI:	elle est un peu tordue hein
+%mor:	pro:sub|elle v:exist|être&PRES&3s det:art|un&m&sg n|peu&m n|tordu&f
+	co|hein
+*CHI:	oh regarde le père noël avec sa hotte
+%mor:	co|oh v|regarder-IMP&2s det:art|le&m&sg n|père&m n|noël prep|avec
+	det:poss|sa&f&sg n|hotte&f
+*CHI:	et tous les cadeaux là
+%mor:	conj|et pro|tous&m&pl det:art|les&pl n|cadeau&m-PL adv:place|là
+*CHI:	tu le veux pas ?
+%mor:	part|taire-PP&m det:art|le&m&sg v:mdl|vouloir&PRES&12s neg|pas ?
+*CHI:	ça c'est quoi
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi
+*CHI:	ah un petit ange
+%mor:	co|ah det:art|un&m&sg adj|petit&m n|ange&m
+*CHI:	encore ?
+%mor:	adv|encore ?
+*CHI:	et ça c'est quoi ?
+%mor:	conj|et pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi ?
+*CHI:	bichette
+%mor:	n|bichette&f=term_of_endearment
+*CHI:	mh
+%mor:	co|mh
+*CHI:	et oui ce sont les mêmes
+%mor:	conj|et co|oui=yes pro:dem|ce v:aux|être&PRES&3p det:art|les&pl
+	adj|même&m-PL=same
+*CHI:	et ça ?
+%mor:	conj|et pro:dem|ça ?
+*CHI:	oh bah d'accord
+%mor:	co|oh co|bah adv|d'accord
+*CHI:	là ?
+%mor:	adv:place|là ?
+*CHI:	à côté du sapin ?
+%mor:	prep|à n|côté&m prep|de&le n|sapin&m ?
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	tourner ?
+%mor:	v|tourner-INF ?
+*CHI:	comme ça ?
+%mor:	adv|comme pro:dem|ça ?
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	ah bah ça c'est toi qui l'as mis tordu hein
+%mor:	co|ah co|bah pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg
+	pro:rel|qui pro:sub|il$v:aux|avoir&PRES&2s adj|mi&m-PL=half
+	n|tordu&m co|hein
+*CHI:	ah bah une fois c'est collé c'est collé
+%mor:	co|ah co|bah det:art|une&f&sg n|fois&f
+	pro:dem|ce$v:exist|être&PRES&3s part|coller-PP&m
+	pro:dem|ce$v:aux|être&PRES&3s part|coller-PP&m
+*CHI:	peut plus faire
+%mor:	v:mdl|pouvoir&PRES&3s prep|plus v:mdllex|faire-INF
+*CHI:	plus rien faire
+%mor:	prep|plus n|rien&m v:mdllex|faire-INF
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	qu'est ce qu'il y a ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:sub|il
+	pro:y|y v:aux|avoir&PRES&3s ?
+*CHI:	oh
+%mor:	co|oh
+*CHI:	et ça c'est quoi ?
+%mor:	conj|et pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi ?
+*CHI:	oh y a némo
+%mor:	co|oh pro:y|y v:aux|avoir&PRES&3s ?|némo
+*CHI:	tu veux qu'on lise némo ?
+%mor:	part|taire-PP&m v:mdllex|vouloir&PRES&12s pro:rel|que$pro:sub|on
+	v|lire-SUB&1s ?|némo ?
+*CHI:	c'est toi qui lit ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg pro:int|qui n|lit&m ?
+*CHI:	après ?
+%mor:	adv|après ?
+*CHI:	tu veux continuer ou je range ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s v|continuer-INF conj|ou
+	pro:sub|je v|ranger-PRES&SUB&13s ?
+*CHI:	je le mets où ?
+%mor:	pro:sub|je det:art|le&m&sg n|mets&m pro:int|où ?
+*CHI:	oui ce sont encore les mêmes
+%mor:	co|oui=yes pro:dem|ce v:aux|être&PRES&3p adv|encore det:art|les&pl
+	adj|même&m-PL=same
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	ce sont les mêmes
+%mor:	pro:dem|ce v:aux|être&PRES&3p det:art|les&pl adj|même&m-PL=same
+*CHI:	mh
+%mor:	co|mh
+*CHI:	pareille
+%mor:	n|pareille&f
+*CHI:	celuilà on met ?
+%mor:	?|celuilà pro:sub|on v|mettre-PRES&3s ?
+*CHI:	béh ramasse
+%mor:	co|béh v|ramasser-IMP&2s
+*CHI:	comment ça non ?
+%mor:	n|comment&m pro:dem|ça co|non=no ?
+*CHI:	ramasse les crayons si il te plaît
+%mor:	v|ramasser-PRES&SUB&13s det:art|les&pl n|crayon&m-PL adv|si
+	pro:sub|il pro:obj|te v|plaire-PRES&3s
+*CHI:	allez pestouillette
+%mor:	co|allez ?|pestouillette
+*CHI:	comment ça c'est maman ?
+%mor:	n|comment&m pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s n|maman&f ?
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	mets le ton truc
+%mor:	v|mettre-IMP&2s det:art|le&m&sg det:poss|ton&m&sg n|truc&m
+*CHI:	ton traîneau
+%mor:	det:poss|ton&m&sg n|traîneau&m
+*CHI:	et tu me donneras les crayons
+%mor:	conj|et part|taire-PP&m pro:obj|me v|donner-FUT&2s det:art|les&pl
+	n|crayon&m-PL
+*CHI:	mets le là bas
+%mor:	v|mettre-IMP&2s det:art|le&m&sg adv:place|là adj|bas&m
+*CHI:	ah c'est moi ?
+%mor:	co|ah pro:dem|ce$v:aux|être&PRES&3s pro|moi&sg ?
+*CHI:	ramasse les stylos
+%mor:	v|ramasser-PRES&SUB&13s det:art|les&pl n|stylo&m-PL
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	merci
+%mor:	co|merci
+*CHI:	où elle est la boite ?
+%mor:	pro:int|où pro:sub|elle v:aux|être&PRES&3s det:art|la&f&sg
+	v|boiter-PRES&SUB&13s ?
+*CHI:	ana
+%mor:	?|ana
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	mais donne moi la boite
+%mor:	adv|mais v|donner-IMP&2s pro|moi&sg co|la v|boiter-PRES&SUB&13s
+*CHI:	faut que je découpe ?
+%mor:	v:mdl|falloir&PRES&3s pro:rel|que pro:sub|je
+	dé#v|couper-PRES&SUB&13s ?
+*CHI:	tu me ramasses les crayons si il te plaît
+%mor:	part|taire-PP&m pro:obj|me v|ramasser-PRES&SUB&2s det:art|les&pl
+	n|crayon&m-PL adv|si pro:sub|il pro:obj|te v|plaire-PRES&3s
+*CHI:	non ?
+%mor:	co|non=no ?
+*CHI:	il faut le découper ?
+%mor:	pro:sub|il v:mdl|falloir&PRES&3s pro:obj|le dé#v|couper-INF ?
+*CHI:	non ?
+%mor:	co|non=no ?
+*CHI:	bon
+%mor:	co|bon
+*CHI:	donne moi les le crayon
+%mor:	v|donner-IMP&2s pro|moi&sg det:art|les&pl det:art|le&m&sg
+	n|crayon&m
+*CHI:	non
+%mor:	co|non=no
+*CHI:	donne
+%mor:	v|donner-IMP&2s
+*CHI:	dépêche toi
+%mor:	n|dépêche&f pro|toi&sg
+*CHI:	allez
+%mor:	co|allez
+*CHI:	allez nine
+%mor:	co|allez ?|nine
+*CHI:	dépêche toi je te dis
+%mor:	n|dépêche&f pro|toi&sg pro:sub|je pro:obj|te v|dire-PRES&PASS&12s
+*CHI:	forcément hein tu trouves une excuse
+%mor:	adv|forcément co|hein part|taire-PP&m v|trouver-PRES&SUB&2s
+	det:art|une&f&sg n|excuse&f
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	on enlève ça ?
+%mor:	pro:sub|on v|enlever-PRES&SUB&13s pro:dem|ça ?
+*CHI:	attends attends t'en va pas
+%mor:	v|attendre-IMP&2s v|attendre-IMP&2s pro:obj|te$pro:y|en
+	v:mdl|aller&PRES&3s neg|pas
+*CHI:	y a le micro
+%mor:	pro:y|y v:aux|avoir&PRES&3s det:art|le&m&sg n|micro&m
+*CHI:	c'est toi ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg ?
+*CHI:	parce qu'on fait rentrer tout le froid
+%mor:	adv|parce pro:rel|que$pro:sub|on part|faire-PP&m v|rentrer-INF
+	n|tout&m det:art|le&m&sg n|froid&m
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	tu es tombée de l'échelle
+%mor:	part|taire-PP&m v:aux|être&PRES&2s part|tomber-PP&f prep|de
+	det:art|le$n|échelle&f
+*CHI:	ça y est mademoiselle ?
+%mor:	pro:dem|ça pro:y|y v:exist|être&PRES&3s n|mademoiselle&f ?
+*CHI:	tourne 
+%mor:	v|tourner-IMP&2s
+*CHI:	bah oui
+%mor:	co|bah co|oui=yes
+*CHI:	et mais tu as toujours
+%mor:	conj|et adv|mais part|taire-PP&m v:aux|avoir&PRES&2s adv|toujours
+*CHI:	voilà
+%mor:	adv:place|voilà
+*CHI:	comme ça ?
+%mor:	adv|comme pro:dem|ça ?
+*CHI:	mh
+%mor:	co|mh
+*CHI:	bon
+%mor:	co|bon
+*CHI:	tu m'appelles quand tu as fini
+%mor:	part|taire-PP&m pro:obj|me$v|appeler-PRES&SUB&2s adv|quand
+	part|taire-PP&m v:aux|avoir&PRES&2s part|finir-PP&m
+*CHI:	tu te moques là
+%mor:	part|taire-PP&m pro:obj|te v|moquer-PRES&SUB&2s adv:place|là
+*CHI:	nine
+%mor:	?|nine
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	ça y est
+%mor:	pro:dem|ça pro:y|y v:aux|être&PRES&3s
+*CHI:	super
+%mor:	n|super&m
+*CHI:	super
+%mor:	n|super&m
+*CHI:	allez
+%mor:	co|allez
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	tu es accrochée
+%mor:	part|taire-PP&m v:aux|être&PRES&2s part|accrocher-PP&f
+*CHI:	vas y
+%mor:	v:mdl|aller&PRES&2s pro:y|y
+*CHI:	sauve toi
+%mor:	v|sauver-IMP&2s pro|toi&sg
+*CHI:	sauve toi
+%mor:	v|sauver-IMP&2s pro|toi&sg
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	tu es arrivée à le remettre ?
+%mor:	part|taire-PP&m v:aux|être&PRES&2s n|arrivée&f prep|à
+	det:art|le&m&sg re#v|mettre-INF ?
+*CHI:	oh
+%mor:	co|oh
+*CHI:	tu as fait un câlin ?
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|faire-PP&m det:art|un&m&sg
+	n|câlin&m=coaxing ?
+*CHI:	oh oui bah c'est gentil
+%mor:	co|oh co|oui=yes co|bah pro:dem|ce$v:exist|être&PRES&3s
+	adj|gentil&m
+*CHI:	tu peux avancer ?
+%mor:	pro:sub|tu v:mdl|pouvoir&PRES&12s v|avancer-INF ?
+*CHI:	qu'il fait froid là
+%mor:	pro:rel|que$pro:sub|il part|faire-PP&m n|froid&m adv:place|là
+*CHI:	viens
+%mor:	v|venir-IMP&2s
+*CHI:	on va là bas
+%mor:	pro:sub|on v:mdl|aller&PRES&3s adv:place|là adj|bas&m
+*CHI:	tu le mets où je t'aide ?
+%mor:	part|taire-PP&m det:art|le&m&sg n|mets&m pro:int|où pro:sub|je
+	pro:obj|te$v|aider-IMP&2s ?
+*CHI:	non je t'aide pas ?
+%mor:	co|non=no pro:sub|je pro:obj|te$v|aider-IMP&2s neg|pas ?
+*CHI:	quand même un petit peu ?
+%mor:	adv|quand adj|même&m=same det:art|un&m&sg adj|petit&m n|peu&m ?
+*CHI:	c'est bon ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s co|bon ?
+*CHI:	mais il est mis comme il faut là
+%mor:	adv|mais pro:sub|il v:aux|être&PRES&3s part|mettre-PP&m prep|comme
+	pro:sub|il v:mdllex|falloir&IMP&2s adv:place|là
+*CHI:	attends parce que du coup tu as tout mis dessous
+%mor:	v|attendre-IMP&2s adv|parce conj|que prep|de&le n|coup&m=blow
+	pro:sub|tu v:aux|avoir&PRES&2s n|tout&m adj|mi&m-PL=half
+	adv:place|dessous
+*CHI:	hop
+%mor:	co|hop
+*CHI:	hop
+%mor:	co|hop
+*CHI:	voilà
+%mor:	adv:place|voilà
+*CHI:	ça doit être comme ça
+%mor:	pro:dem|ça v:mdl|devoir&PRES&3s v:aux|être&INF adv|comme pro:dem|ça
+*CHI:	tu veux sur la robe ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s prep|sur det:art|la&f&sg
+	n|robe&f ?
+*CHI:	on le met là ?
+%mor:	pro:sub|on pro:obj|le v|mettre-PRES&3s adv:place|là ?
+*CHI:	ça va là ?
+%mor:	pro:dem|ça v:mdl|aller&PRES&3s adv:place|là ?
+*CHI:	ramasse mes crayons ana
+%mor:	v|ramasser-IMP&2s det:poss|mes&pl n|crayon&m-PL ?|ana
+*CHI:	mm tu as entendu le bruit du papier
+%mor:	co|mm part|taire-PP&m v:aux|avoir&PRES&2s part|entendre-PP&m
+	det:art|le&m&sg n|bruit&m prep|de&le n|papier&m
+*CHI:	tiens
+%mor:	v|tenir-IMP&2s
+*CHI:	il est là le tien
+%mor:	pro:sub|il v:aux|être&PRES&3s adv:place|là det:art|le&m&sg n|tien&m
+*CHI:	mh ?
+%mor:	co|mh ?
+*CHI:	un bleu ?
+%mor:	det:art|un&m&sg adj|bleu&m ?
+*CHI:	je sais pas si il en reste des bleus
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas adv|si pro:sub|il prep|en
+	n|reste&m prep|de&les adj|bleu&m-PL
+*CHI:	hein
+%mor:	co|hein
+*CHI:	mh
+%mor:	co|mh
+*CHI:	qu'estce que tu me dis ?
+%mor:	?|qu'estce prep|que part|taire-PP&m pro:obj|me v|dire-PRES&PASS&12s
+	?
+*CHI:	de rien
+%mor:	prep|de n|rien&m
+*CHI:	mh
+%mor:	co|mh
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	mets dans la poubelle le papier
+%mor:	v|mettre-IMP&2s prep|dans det:art|la&f&sg n|poubelle&f
+	det:art|le&m&sg n|papier&m
+*CHI:	poubelle
+%mor:	n|poubelle&f
+*CHI:	petit clown
+%mor:	adj|petit&m n|clown&m
+*CHI:	allez viens
+%mor:	co|allez v|venir-IMP&2s
+*CHI:	oui je viens
+%mor:	co|oui=yes pro:sub|je v|venir-IMP&2s
+*CHI:	bon alors ces crayons
+%mor:	co|bon adv|alors det:dem|ces&m&pl n|crayon&m-PL
+*CHI:	donne
+%mor:	v|donner-IMP&2s
+*CHI:	non non
+%mor:	co|non=no co|non=no
+*CHI:	mais tu viens m'aider toi
+%mor:	adv|mais part|taire-PP&m v|venir-PRES&12s pro:obj|me$v|aider-INF
+	pro|toi&sg
+*CHI:	à aider
+%mor:	prep|à v|aider-INF
+*CHI:	mh
+%mor:	co|mh
+*CHI:	bon euh
+%mor:	co|bon co|euh
+*CHI:	ramasse
+%mor:	v|ramasser-IMP&2s
+*CHI:	allez
+%mor:	co|allez
+*CHI:	oui je te donne un coup de main
+%mor:	co|oui=yes pro:sub|je pro:obj|te v|donner-PRES&SUB&13s
+	det:art|un&m&sg n|coup&m=blow prep|de n|main&f
+*CHI:	ramasse le reste
+%mor:	v|ramasser-PRES&SUB&13s det:art|le&m&sg n|reste&m
+*CHI:	c'est trop lourd ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s adv|trop adv|lourd ?
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	quatre
+%mor:	n|quatre&m
+*CHI:	ça y est on a tout rangé ?
+%mor:	pro:dem|ça pro:y|y v:aux|être&PRES&3s pro:sub|on
+	v:aux|avoir&PRES&3s n|tout&m adj|rangé&m ?
+*CHI:	comme ça
+%mor:	adv|comme pro:dem|ça
+*CHI:	et le dernier
+%mor:	conj|et det:art|le&m&sg n|dernier&m
+*CHI:	là
+%mor:	adv:place|là
+*CHI:	regarde
+%mor:	v|regarder-IMP&2s
+*CHI:	là devant y a de la place
+%mor:	adv:place|là n|devant&m pro:y|y v:aux|avoir&PRES&3s prep|de
+	det:art|la&f&sg n|place&f
+*CHI:	bah
+%mor:	co|bah
+*CHI:	voilà
+%mor:	adv:place|voilà
+*CHI:	dans l'autre sens
+%mor:	prep|dans det:art|le$pro|autre&sg n|sens&m
+*CHI:	non ?
+%mor:	co|non=no ?
+*CHI:	c'est bon
+%mor:	pro:dem|ce$v:aux|être&PRES&3s co|bon
+*CHI:	allez
+%mor:	co|allez
+*CHI:	pousse toi
+%mor:	v|pousser-IMP&2s pro|toi&sg
+*CHI:	ah c'est toi
+%mor:	co|ah pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg
+*CHI:	encore celuilà ?
+%mor:	adv|encore ?|celuilà ?
+*CHI:	tu colles toujours le même hein
+%mor:	part|taire-PP&m n|colle&f-PL adv|toujours det:art|le&m&sg adv|même
+	co|hein
+*CHI:	là en dessous ?
+%mor:	adv:place|là prep|en adv:place|dessous ?
+*CHI:	qu'estce que il y a ?
+%mor:	?|qu'estce prep|que pro:sub|il pro:y|y v:aux|avoir&PRES&3s ?
+*CHI:	on le met ce chariot ?
+%mor:	pro:sub|on pro:obj|le v|mettre-PRES&3s pro:dem|ce n|chariot&m ?
+*CHI:	ce traîneau
+%mor:	pro:dem|ce n|traîneau&m
+*CHI:	c'est nemo ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?|nemo pro:dem|ça ?
+*CHI:	ah oui
+%mor:	co|ah co|oui=yes
+*CHI:	c'est martin ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?|martin ?
+*CHI:	c'est martin son papa ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?|martin det:poss|son&m&sg n|papa&m ?
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	et ça c'est qui ça ?
+%mor:	conj|et pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:rel|qui
+	pro:dem|ça ?
+*CHI:	c'est le méchant ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|le&m&sg adj|méchant&m=evil ?
+*CHI:	comment il s'appelle ?
+%mor:	adv|comment pro:sub|il pro:refl|se$v|appeler-PRES&SUB&13s ?
+*CHI:	comment ?
+%mor:	n|comment&m ?
+*CHI:	j'ai pas compris
+%mor:	pro:sub|je$v:aux|avoir&PRES&1s neg|pas part|comprendre-PP&m
+*CHI:	magie ?
+%mor:	n|magie&f ?
+*CHI:	ah
+%mor:	co|ah
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	il s'appelle comme ça ?
+%mor:	pro:sub|il pro:refl|se$v|appeler-IMP&2s adv|comme pro:dem|ça ?
+*CHI:	il s'appelle pas bruce ?
+%mor:	pro:sub|il pro:refl|se$v|appeler-PRES&SUB&13s neg|pas ?|bruce ?
+*CHI:	si ?
+%mor:	n|si&m ?
+*CHI:	je sais pas
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas
+*CHI:	il me semble
+%mor:	pro:sub|il pro:obj|me v|sembler-PRES&SUB&13s
+*CHI:	faut que je relise mais
+%mor:	v:mdl|falloir&PRES&3s pro:rel|que pro:sub|je re#v|lire-PRES&SUB&13s
+	adv|mais
+*CHI:	je crois que c'est quelque chose comme ça
+%mor:	pro:sub|je v|croire&PRES&12s adv|que pro:dem|ce$v:aux|être&PRES&3s
+	det:gen|quelque n|chose=thing adv|comme pro:dem|ça
+*CHI:	c'est le requin ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|le&m&sg n|requin&m ?
+*CHI:	le requin
+%mor:	det:art|le&m&sg n|requin&m
+*CHI:	bruce
+%mor:	?|bruce
+*CHI:	je crois hein
+%mor:	pro:sub|je v|croire&PRES&12s co|hein
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	on va regarder
+%mor:	pro:sub|on v:mdl|aller&PRES&3s v|regarder-INF
+*CHI:	ohlàlà là
+%mor:	co|ohlàlà adv:place|là
+*CHI:	ah oui tu vois
+%mor:	co|ah co|oui=yes part|taire-PP&m v|voir&IMP&PRES&12s
+*CHI:	bruce le requin
+%mor:	?|bruce det:art|le&m&sg n|requin&m
+*CHI:	ça c'est quoi ?
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi ?
+*CHI:	ça c'est aussi un requin
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s adv|aussi det:art|un&m&sg
+	n|requin&m
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	ça aussi un requin
+%mor:	pro:dem|ça adv|aussi det:art|un&m&sg n|requin&m
+*CHI:	nemo tu le vois nemo
+%mor:	?|nemo part|taire-PP&m det:art|le&m&sg v|voir&IMP&PRES&12s ?|nemo
+*CHI:	non
+%mor:	co|non=no
+*CHI:	il est pas là
+%mor:	pro:sub|il v:aux|être&PRES&3s neg|pas adv:place|là
+*CHI:	ah oui
+%mor:	co|ah co|oui=yes
+*CHI:	là devant
+%mor:	adv:place|là n|devant&m
+*CHI:	et lui c'est
+%mor:	conj|et part|luire&PP&m pro:dem|ce$v:aux|être&PRES&3s
+*CHI:	je sais pas
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas
+*CHI:	comment il s'appelle ?
+%mor:	adv|comment pro:sub|il pro:refl|se$v|appeler-PRES&SUB&13s ?
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	on va regarder
+%mor:	pro:sub|on v:mdl|aller&PRES&3s v|regarder-INF
+*CHI:	oui c'est le copain de nemo euh nemo
+%mor:	co|oui=yes pro:dem|ce$v:exist|être&PRES&3s det:art|le&m&sg
+	n|copain&m prep|de ?|nemo co|euh ?|nemo
+*CHI:	c'est corail
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n|corail&m&sg
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	marin le papa
+%mor:	n|marin&m det:art|le&m&sg n|papa&m
+*CHI:	le euh couvercle
+%mor:	det:art|le&m&sg co|euh n|couvercle&m
+*CHI:	hop
+%mor:	co|hop
+*CHI:	on va le mettre la dedans
+%mor:	pro:sub|on v:mdl|aller&PRES&3s pro:obj|le v|mettre-INF co|la
+	adv:place|dedans
+*CHI:	les crayons les ciseaux aussi
+%mor:	det:art|les&pl n|crayon&m-PL det:art|les&pl n|ciseau&m-PL adv|aussi
+*CHI:	hop
+%mor:	co|hop
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	encore le requin ?
+%mor:	adv|encore det:art|le&m&sg n|requin&m ?
+*CHI:	alors comment il s'appelle
+%mor:	adv|alors n|comment&m pro:sub|il pro:refl|se$v|appeler-PRES&SUB&13s
+*CHI:	nemo
+%mor:	?|nemo
+*CHI:	y a dori à côté ?
+%mor:	pro:y|y v:aux|avoir&PRES&3s ?|dori prep|à n|côté&m ?
+*CHI:	sa copine
+%mor:	det:poss|sa&f&sg n|copine&f
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	tu manges ton truc là qui est en train de fondre
+%mor:	part|taire-PP&m v|manger-PRES&SUB&2s det:poss|ton&m&sg n|truc&m
+	adv:place|là pro:int|qui v:aux|être&PRES&3s prep|en n|train&m
+	prep|de v|fondre-INF
+*CHI:	ohoh
+%mor:	co|ohoh
+*CHI:	là y a les cailloux
+%mor:	adv:place|là pro:y|y v:aux|avoir&PRES&3s det:art|les&pl
+	n|caillou&m-PL
+*CHI:	tu as vu ?
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|voir&PP&m ?
+*CHI:	plein de cailloux
+%mor:	n|plein&m prep|de n|caillou&m-PL
+*CHI:	mh
+%mor:	co|mh
+*CHI:	encore un caillou
+%mor:	adv|encore det:art|un&m&sg n|caillou&m
+*CHI:	un caillou blanc ?
+%mor:	det:art|un&m&sg n|caillou&m adj|blanc ?
+*CHI:	ça ce sont des étoiles
+%mor:	pro:dem|ça pro:dem|ce v:aux|être&PRES&3p prep|de&les n|étoile&f-PL
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	ça c'est des étoiles
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s prep|de&les n|étoile&f-PL
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	il est grand ?
+%mor:	pro:sub|il v:aux|être&PRES&3s adj|grand&m ?
+*CHI:	ah il est dedans
+%mor:	co|ah pro:sub|il v:aux|être&PRES&3s adv:place|dedans
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	il est caché dedans
+%mor:	pro:sub|il v:aux|être&PRES&3s part|cacher-PP&m adv:place|dedans
+*CHI:	comme ça ouais
+%mor:	adv|comme pro:dem|ça co|ouais=yes
+*CHI:	il a la tête en bas
+%mor:	pro:sub|il v:aux|avoir&PRES&3s det:art|la&f&sg n|tête&f prep|en
+	adj|bas&m
+*CHI:	mh
+%mor:	co|mh
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	euh tu crois ?
+%mor:	co|euh part|taire-PP&m v|croire&PRES&12s ?
+*CHI:	mais elle est jaune sa maman ?
+%mor:	adv|mais pro:sub|elle v:aux|être&PRES&3s adj|jaune det:poss|sa&f&sg
+	n|maman&f ?
+*CHI:	bleue oui
+%mor:	adj|bleu&f n|oui&m
+*CHI:	non
+%mor:	co|non=no
+*CHI:	jaune là
+%mor:	adj|jaune adv:place|là
+*CHI:	 nemo il est orange
+%mor:	?|nemo pro:sub|il v:aux|être&PRES&3s n|orange
+*CHI:	et bleu et bleu
+%mor:	conj|et adj|bleu&m conj|et adj|bleu&m
+*CHI:	oui c'est encore nemo ça
+%mor:	co|oui=yes pro:dem|ce$v:exist|être&PRES&3s adv|encore ?|nemo
+	pro:dem|ça
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	et là qu'est ce qu'on a là
+%mor:	conj|et adv:place|là pro:int|que$v:aux|être&PRES&3s pro:dem|ce
+	pro:rel|que$pro:sub|on v:aux|avoir&PRES&3s adv:place|là
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	oh
+%mor:	co|oh
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	et ça c'est quoi ?
+%mor:	conj|et pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi ?
+*CHI:	tu 
+%mor:	part|taire-PP&m
+*CHI:	oh
+%mor:	co|oh
+*CHI:	ça ressemble à une grenouille ça ?
+%mor:	pro:dem|ça v|ressembler-PRES&SUB&13s prep|à det:art|une&f&sg
+	n|grenouille&f pro:dem|ça ?
+*CHI:	regarde bien
+%mor:	v|regarder-PRES&SUB&13s adv|bien
+*CHI:	regarde
+%mor:	v|regarder-IMP&2s
+*CHI:	on la voit bien là
+%mor:	pro:sub|on det:art|la&f&sg v|voir&PRES&3s n|bien&m adv:place|là
+*CHI:	et là aussi
+%mor:	conj|et adv:place|là adv|aussi
+*CHI:	c'est quoi ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi ?
+*CHI:	une tortue oui bravo
+%mor:	det:art|une&f&sg n|tortue&f co|oui=yes co|bravo
+*CHI:	c'est la copine de nemo ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|la&f&sg n|copine&f prep|de
+	?|nemo ?
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	oh regarde
+%mor:	co|oh v|regarder-IMP&2s
+*CHI:	c'est encore la tortue
+%mor:	pro:dem|ce$v:aux|être&PRES&3s adv|encore det:art|la&f&sg n|tortue&f
+*CHI:	ouais c'est le bébé tortue ça
+%mor:	co|ouais=yes pro:dem|ce$v:aux|être&PRES&3s det:art|le&m&sg n|bébé&m
+	n|tortue&f pro:dem|ça
+*CHI:	mh
+%mor:	co|mh
+*CHI:	c'est squiz et cruche
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?|squiz conj|et n|cruche&f
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	ah bah il est où le papa de nemo ?
+%mor:	co|ah co|bah pro:sub|il v:aux|être&PRES&3s pro:int|où
+	det:art|le&m&sg n|papa&m prep|de ?|nemo ?
+*CHI:	ohlàlà là
+%mor:	co|ohlàlà adv:place|là
+*CHI:	encore le requin ?
+%mor:	adv|encore det:art|le&m&sg n|requin&m ?
+*CHI:	ah là
+%mor:	co|ah adv:place|là
+*CHI:	bah on sait pas
+%mor:	co|bah pro:sub|on v:mdl|savoir&PRES&3s neg|pas
+*CHI:	on y a pas le l'autocollant encore
+%mor:	pro:sub|on pro:y|y v:aux|avoir&PRES&3s neg|pas det:art|le&m&sg
+	det:art|le$n|autocollant&m=sticker adv|encore
+*CHI:	on a pas l'image
+%mor:	pro:sub|on v:aux|avoir&PRES&3s neg|pas det:art|le$n|image&f
+*CHI:	oh et c'est quoi cette petite fille
+%mor:	co|oh conj|et pro:dem|ce$v:exist|être&PRES&3s pro:rel|quoi
+	det:dem|cette&f&sg adj|petit&f n|fille&f
+*CHI:	ça c'est le pélican ouais
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s det:art|le&m&sg
+	n|pélican&m co|ouais=yes
+*CHI:	no c'est c'est marin
+%mor:	?|no pro:dem|ce$v:exist|être&PRES&3s pro:dem|ce$v:aux|être&PRES&3s
+	n|marin&m
+*CHI:	c'est son papa qui est caché dedans
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:poss|son&m&sg n|papa&m
+	pro:int|qui v:aux|être&PRES&3s part|cacher-PP&m adv:place|dedans
+*CHI:	non il l'a caché dans sa bouche
+%mor:	co|non=no pro:sub|il pro:obj|le$v:poss|avoir&PRES&3s
+	part|cacher-PP&m prep|dans det:poss|sa&f&sg n|bouche&f
+*CHI:	mh
+%mor:	co|mh
+*CHI:	dans son bec
+%mor:	prep|dans det:poss|son&m&sg n|bec&m
+*CHI:	ohlàlà là
+%mor:	co|ohlàlà adv:place|là
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	c'est le dentiste ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|le&m&sg n|dentiste pro:dem|ça
+	?
+*CHI:	et bah il est moche hein
+%mor:	conj|et co|bah pro:sub|il v:aux|être&PRES&3s adj|moche co|hein
+*CHI:	et voilà
+%mor:	conj|et adv:place|voilà
+*CHI:	mh
+%mor:	co|mh
+*CHI:	et voilà
+%mor:	conj|et adv:place|voilà
+*CHI:	la tortue
+%mor:	det:art|la&f&sg n|tortue&f
+*CHI:	disais que c'était une grenouille mais c'est une tortue
+%mor:	v|dire-IMPF&12s adv|que pro:dem|ce$v:aux|être&IMPF&3s
+	det:art|une&f&sg n|grenouille&f adv|mais
+	pro:dem|ce$v:aux|être&PRES&3s det:art|une&f&sg n|tortue&f
+*CHI:	et voilà
+%mor:	conj|et adv:place|voilà
+*CHI:	mh
+%mor:	co|mh
+*CHI:	c'est qui ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|qui pro:dem|ça ?
+*CHI:	le requin oui
+%mor:	det:art|le&m&sg n|requin&m co|oui=yes
+*CHI:	c'est bruce
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?|bruce
+*CHI:	on le voit là
+%mor:	pro:sub|on det:art|le&m&sg v|voir&PRES&3s adv:place|là
+*CHI:	mh
+%mor:	co|mh
+*CHI:	bruce
+%mor:	?|bruce
+*CHI:	ana
+%mor:	?|ana
+*CHI:	tu as du chocolat de partout
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s prep|de&le n|chocolat&m prep|de
+	adv|partout
+*CHI:	mhm
+%mor:	co|mhm
+*CHI:	oh
+%mor:	co|oh
+*CHI:	bon
+%mor:	co|bon
+*CHI:	mh
+%mor:	co|mh
+*CHI:	ah on a pas fait l'étoile
+%mor:	co|ah pro:sub|on v:aux|avoir&PRES&3s neg|pas part|faire-PP&m
+	det:art|le$n|étoile&f
+*CHI:	on la met l'étoile ?
+%mor:	pro:sub|on co|la v|mettre-PRES&3s det:art|le$n|étoile&f ?
+*CHI:	on la met où ?
+%mor:	pro:sub|on co|la v|mettre-PRES&3s pro:rel|où ?
+*CHI:	sur ta main ?
+%mor:	prep|sur det:poss|ta&f&sg n|main&f ?
+*CHI:	non là
+%mor:	co|non=no adv:place|là
+*CHI:	où ?
+%mor:	pro:int|où ?
+*CHI:	on le met là ?
+%mor:	pro:sub|on pro:obj|le v|mettre-PRES&3s adv:place|là ?
+*CHI:	 côté des sapins ?
+%mor:	n|côté&m prep|de&les n|sapin&m-PL ?
+*CHI:	et ça c'est quoi ?
+%mor:	conj|et pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi ?
+*CHI:	un ange
+%mor:	det:art|un&m&sg n|ange&m
+*CHI:	on le met où l'ange ?
+%mor:	pro:sub|on pro:obj|le v|mettre-PRES&3s pro:rel|où
+	det:art|le$n|ange&m ?
+*CHI:	qui joue de la trompette
+%mor:	pro:int|qui n|joue&f prep|de det:art|la&f&sg n|trompette
+*CHI:	on met où ?
+%mor:	pro:sub|on v|mettre-PRES&3s pro:rel|où ?
+*CHI:	là au milieu ?
+%mor:	adv:place|là prep|à&le n|milieu&m ?
+*CHI:	ils vont se marcher dessus
+%mor:	pro:sub|ils v:mdl|aller&PRES&3p pro:refl|se v|marcher-INF
+	adv:place|dessus
+*CHI:	y a plus de place
+%mor:	pro:y|y v:aux|avoir&PRES&3s qn|plus prep|de n|place&f
+*CHI:	on va le mettre là
+%mor:	pro:sub|on v:mdl|aller&PRES&3s pro:obj|le v|mettre-INF adv:place|là
+*CHI:	ça te va ?
+%mor:	pro:dem|ça pro:obj|te v:mdl|aller&PRES&3s ?
+*CHI:	et la dernière étoile ?
+%mor:	conj|et det:art|la&f&sg n|dernier&f n|étoile&f ?
+*CHI:	ah
+%mor:	co|ah
+*CHI:	je
+%mor:	pro:sub|je
+*CHI:	oui
+%mor:	co|oui=yes
+*CHI:	oh y en a de partout
+%mor:	co|oh pro:y|y pro:y|en v:aux|avoir&PRES&3s prep|de adv|partout
+*CHI:	mh
+%mor:	co|mh
+*CHI:	tu veux les coller ces machins là ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s pro:obj|les v|coller-INF
+	det:dem|ces&m&pl n|machin&n-PL adv:place|là ?
+*CHI:	ah bon
+%mor:	co|ah co|bon
+*CHI:	elle est où la colle alors ?
+%mor:	pro:sub|elle v:aux|être&PRES&3s pro:int|où det:art|la&f&sg
+	n|colle&f adv|alors ?
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	je vais te chercher une serviette ana
+%mor:	pro:sub|je v:mdl|aller&PRES&1s pro:obj|te v|chercher-INF
+	det:art|une&f&sg n|serviette&f ?|ana
+*CHI:	tu vas lécher ?
+%mor:	part|taire-PP&m v:mdl|aller&PRES&2s v|lécher-INF ?
+*CHI:	ça empêche pas que tu en as de partout
+%mor:	pro:dem|ça v|empêcher-PRES&SUB&13s neg|pas adv|que part|taire-PP&m
+	pro:y|en v:aux|avoir&PRES&2s prep|de adv|partout
+*CHI:	tiens bichette
+%mor:	v|tenir-IMP&2s n|bichette&f=term_of_endearment
+*CHI:	ça y est tu as tout lécher ?
+%mor:	pro:dem|ça pro:y|y v:aux|être&PRES&3s part|taire-PP&m
+	v:aux|avoir&PRES&2s n|tout&m v|lécher-INF ?
+*CHI:	oui bah tu peux quand même essuyer hein
+%mor:	co|oui=yes co|bah part|taire-PP&m n|peu&m-PL conj|quand pro|même
+	v|essuyer-INF=dry co|hein
+*CHI:	ta bouche aussi
+%mor:	det:poss|ta&f&sg n|bouche&f adv|aussi
+*CHI:	non c'est pas les yeux c'est la bouche ana
+%mor:	co|non=no pro:dem|ce$v:exist|être&PRES&3s neg|pas det:art|les&pl
+	n|yeux&m pro:dem|ce$v:exist|être&PRES&3s det:art|la&f&sg n|bouche&f
+	?|ana
+*CHI:	pousse toi
+%mor:	v|pousser-IMP&2s pro|toi&sg
+*CHI:	béh oui du chocolat
+%mor:	co|béh co|oui=yes prep|de&le n|chocolat&m
+*CHI:	non tu as pas de chocolat sur le front
+%mor:	co|non=no part|taire-PP&m v:aux|avoir&PRES&2s neg|pas prep|de
+	n|chocolat&m prep|sur det:art|le&m&sg n|front&m
+*CHI:	tu en ange
+%mor:	part|taire-PP&m prep|en n|ange&m
+*CHI:	plein la bouche
+%mor:	prep|plein det:art|la&f&sg n|bouche&f
+*CHI:	fais voir
+%mor:	v:mdl|faire-PRES&12s v|voir&INF
+*CHI:	attends
+%mor:	v|attendre-IMP&2s

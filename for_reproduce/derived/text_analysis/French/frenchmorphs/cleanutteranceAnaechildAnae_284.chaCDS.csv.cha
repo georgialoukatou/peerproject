@@ -1,0 +1,81 @@
+*CHI:	du ukulélé du ukulélé 
+%mor:	prep|de&le n|ukulélé&m=ukulele prep|de&le n|ukulélé&m=ukulele
+*CHI:	du ukulélé 
+%mor:	prep|de&le n|ukulélé&m=ukulele
+*CHI:	du ukulélé 
+%mor:	prep|de&le n|ukulélé&m=ukulele
+*CHI:	le loup 
+%mor:	det:art|le&m&sg n|loup&m
+*CHI:	un indice anaé ?
+%mor:	det:art|un&m&sg n|indice&m ?|anaé ?
+*CHI:	c'est ton parrain 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:poss|ton&m&sg n|parrain&m
+*CHI:	miam 
+%mor:	co|miam
+*CHI:	bébé 
+%mor:	n|bébé&m
+*CHI:	hop 
+%mor:	co|hop
+*CHI:	le poussin 
+%mor:	det:art|le&m&sg n|poussin&m
+*CHI:	il est rentré 
+%mor:	pro:sub|il v:aux|être&PRES&3s part|rentrer-PP&m
+*CHI:	il est sorti du de son livre il est rentré dans le sien 
+%mor:	pro:sub|il v:exist|être&PRES&3s part|sortir&PP&m prep|de&le prep|de
+	det:poss|son&m&sg n|livre pro:sub|il v:aux|être&PRES&3s
+	part|rentrer-PP&m prep|dans det:art|le&m&sg n|sien&m
+*CHI:	oh 
+%mor:	co|oh
+*CHI:	ben@i c'est toi 
+%mor:	co|ben pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg
+*CHI:	c'est toi anaé qui as dessiné sur la coccinelle c'est pas bien 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg ?|anaé pro:int|qui
+	v:aux|avoir&PRES&2s part|dessiner-PP&m prep|sur det:art|la&f&sg
+	n|coccinelle&f pro:dem|ce$v:exist|être&PRES&3s neg|pas adv|bien
+*CHI:	sauf que là ils sont bébé 
+%mor:	prep|sauf adv|que adv:place|là pro:sub|ils v:exist|être&PRES&3p
+	n|bébé&m
+*CHI:	c'est toi 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg
+*CHI:	je crois que c'est pas moi 
+%mor:	pro:sub|je v|croire&PRES&12s adv|que
+	pro:dem|ce$v:exist|être&PRES&3s neg|pas pro|moi&sg
+*CHI:	c'est toi 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg
+*CHI:	c'est toi 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg
+*CHI:	c'est lou bébé pou 
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?|lou n|bébé&m n|pou&m
+*CHI:	ou sinon sur le pot 
+%mor:	conj|ou prep|sinon prep|sur det:art|le&m&sg n|pot&m=pot
+*CHI:	boh 
+%mor:	co|boh
+*CHI:	oh regarde les grands pieds qu'il a 
+%mor:	co|oh v|regarder-PRES&SUB&13s det:art|les&pl adj|grand&m-PL
+	n|pied&m-PL pro:rel|que$pro:sub|il v:aux|avoir&PRES&3s
+*CHI:	si 
+%mor:	n|si&m
+*CHI:	de la peinture et de la pâte pâte à modeler et des gommettes 
+%mor:	prep|de det:art|la&f&sg n|peinture&f conj|et prep|de
+	det:art|la&f&sg n|pâte&f n|pâte&f prep|à v|modeler-INF conj|et
+	prep|de&les n|gommette&f-PL=sticker
+*CHI:	savane 
+%mor:	n|savane&f
+*CHI:	girafe lion 
+%mor:	n|girafe&f n|lion&m
+*CHI:	c'est ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s ?
+*CHI:	garfiel 
+%mor:	?|garfiel
+*CHI:	l'âge 
+%mor:	det:art|le$n|âge&m
+*CHI:	animal comme la girafe 
+%mor:	n|animal&m&sg prep|comme det:art|la&f&sg n|girafe&f
+*CHI:	dans l'âge de glace deux hein 
+%mor:	prep|dans det:art|le$n|âge&m prep|de n|glace&f n|deux&m co|hein
+*CHI:	pas un bébé mammouth euh 
+%mor:	neg|pas det:art|un&m&sg n|bébé&m n|mammouth&m co|euh
+*CHI:	un lion 
+%mor:	det:art|un&m&sg n|lion&m
+*CHI:	le ptérodactyle 
+%mor:	det:art|le&m&sg n|ptérodactyle&m=pterodactyl

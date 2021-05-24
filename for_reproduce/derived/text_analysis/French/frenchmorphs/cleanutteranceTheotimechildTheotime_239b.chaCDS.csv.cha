@@ -1,0 +1,25 @@
+*CHI:	tu es timide ?
+%mor:	part|taire-PP&m v:aux|être&PRES&2s n|timide ?
+*CHI:	moi je suis pas timide avec les gens
+%mor:	pro|moi&sg pro:sub|je v:aux|être&PRES&1s neg|pas n|timide prep|avec
+	det:art|les&pl n|gens
+*CHI:	c'est c'est maman ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:dem|ce$v:aux|être&PRES&3s
+	n|maman&f ?
+*CHI:	oh tu prends tu 
+%mor:	co|oh part|taire-PP&m v|prendre-PRES&IMP&12s part|taire-PP&m
+*CHI:	tu en prends tout hein
+%mor:	part|taire-PP&m prep|en v|prendre-PRES&IMP&12s n|tout&m co|hein
+*CHI:	si tu veux on échange
+%mor:	adv|si part|taire-PP&m v:mdl|vouloir&PRES&12s pro:sub|on
+	n|échange&m
+*CHI:	je vais te donner un gâteau
+%mor:	pro:sub|je v:mdl|aller&PRES&1s pro:obj|te v|donner-INF
+	det:art|un&m&sg n|gâteau&m
+*CHI:	donne
+%mor:	v|donner-IMP&2s
+*CHI:	moi je veux pas des miettes hein
+%mor:	pro|moi&sg pro:sub|je v:mdl|vouloir&PRES&12s neg|pas prep|de&les
+	n|miette&f-PL co|hein
+*CHI:	non
+%mor:	co|non=no

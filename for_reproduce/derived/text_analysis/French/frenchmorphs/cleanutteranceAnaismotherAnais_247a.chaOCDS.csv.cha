@@ -1,0 +1,163 @@
+*CHI:	je vois pas les mêmes couleurs tu veux lapin rouge ?
+%mor:	pro:sub|je v|voir&IMP&PRES&12s neg|pas det:art|les&pl
+	adj|même&m-PL=same n|couleur&f-PL part|taire-PP&m
+	v:mdl|vouloir&PRES&12s n|lapin&m adj|rouge ?
+*CHI:	bon
+%mor:	co|bon
+*CHI:	attends
+%mor:	v|attendre-IMP&2s
+*CHI:	il y avait des moules
+%mor:	pro:sub|il pro:y|y v:aux|avoir&IMPF&3s prep|de&les n|moule-PL
+*CHI:	les trucs en plastique ils sont ou ?
+%mor:	det:art|les&pl n|truc&m-PL prep|en n|plastique pro:sub|ils
+	v:aux|être&PRES&3p conj|ou ?
+*CHI:	tu peux me les ramasser s'il te plait ?
+%mor:	part|taire-PP&m n|peu&m-PL pro:obj|me pro:obj|les v|ramasser-INF
+	conj|si$pro:sub|il pro:obj|te ?|plait ?
+*CHI:	chl
+%mor:	?|chl
+*CHI:	et alors ah oui c'est ta carte
+%mor:	conj|et conj|alors co|ah co|oui=yes pro:dem|ce$v:exist|être&PRES&3s
+	det:poss|ta&f&sg n|carte&f
+*CHI:	et ça suffit chl tu es pas obligée de la faire pester
+%mor:	conj|et pro:dem|ça v|suffire&PRES&3s ?|chl part|taire-PP&m
+	v:aux|être&PRES&2s neg|pas n|obligé&f prep|de det:art|la&f&sg
+	v:mdl|faire-INF v|pester-INF
+*CHI:	tu peux me donner les crayons papiers dans la boite cloe ?
+%mor:	part|taire-PP&m n|peu&m-PL pro:obj|me v|donner-INF det:art|les&pl
+	n|crayon&m-PL n|papier&m-PL prep|dans det:art|la&f&sg
+	v|boiter-IMP&2s ?|cloe ?
+*CHI:	les crayons la bas 
+%mor:	det:art|les&pl n|crayon&m-PL det:art|la&f&sg adj|bas&m
+*CHI:	merci
+%mor:	co|merci
+*CHI:	merci chloe
+%mor:	co|merci ?|chloe
+*CHI:	prends les autres feuilles s'il te plait tiens
+%mor:	v|prendre-PRES&IMP&12s det:art|les&pl pro|autres&pl n|feuille&f-PL
+	conj|si$pro:sub|il pro:obj|te ?|plait v|tenir-IMP&2s
+*CHI:	je t'en ai mis des grands
+%mor:	pro:sub|je pro:obj|te$pro:y|en v:aux|avoir&PRES&1s part|mettre-PP&m
+	prep|de&les adj|grand&m-PL
+*CHI:	peut-être lacher ton ballon 
+%mor:	adv|peut–être ?|lacher det:poss|ton&m&sg n|ballon&m
+*CHI:	attends leve toi chloé
+%mor:	v|attendre-IMP&2s ?|leve pro|toi&sg ?|chloé
+*CHI:	d'accord c'est bon tu peux te rassoir
+%mor:	adv|d'accord pro:dem|ce$v:exist|être&PRES&3s adj|bon&m
+	part|taire-PP&m n|peu&m-PL pro:obj|te ?|rassoir
+*CHI:	oui je l'ai réparé hier soir
+%mor:	co|oui=yes pro:sub|je pro:obj|le$v:poss|avoir&PRES&1s
+	part|réparer-PP&m n|hier&m n|soir&m
+*CHI:	mais ils sont trop gros
+%mor:	adv|mais pro:sub|ils v:aux|être&PRES&3p adv|trop adj|gros&m
+*CHI:	faut un plus petit
+%mor:	v:mdl|falloir&PRES&3s det:art|un&m&sg adv|plus adj|petit&m
+*CHI:	ah oui
+%mor:	co|ah co|oui=yes
+*CHI:	il est rose le ballon d' ana ?
+%mor:	pro:sub|il v:aux|être&PRES&3s n|rose det:art|le&m&sg n|ballon&m
+	adv|de ?|ana ?
+*CHI:	tu veux une autre ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s det:art|une&f&sg
+	pro|autre&sg ?
+*CHI:	oui tu fais des super trucs
+%mor:	co|oui=yes part|taire-PP&m v:mdl|faire-PRES&12s prep|de&les
+	n|super&m n|truc&m-PL
+*CHI:	no il me faut de la mousse
+%mor:	?|no pro:sub|il pro:obj|me v:mdl|falloir&PRES&3s prep|de
+	det:art|la&f&sg n|mousse
+*CHI:	je sais pas ou elle s'est passée
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas conj|ou pro:sub|elle
+	conj|si$v:aux|être&PRES&3s part|passer-PP&f
+*CHI:	merci chloe il y a pas du orange ?
+%mor:	co|merci ?|chloe pro:sub|il pro:y|y v:aux|avoir&PRES&3s neg|pas
+	prep|de&le n|orange ?
+*CHI:	du jaune
+%mor:	prep|de&le adj|jaune
+*CHI:	alors fais voir le jaune s'il te plait
+%mor:	adv|alors v:mdl|faire-PRES&12s v|voir&INF det:art|le&m&sg adj|jaune
+	conj|si$pro:sub|il pro:obj|te ?|plait
+*CHI:	ah c'est un jaune comme ça
+%mor:	co|ah pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg adj|jaune
+	adv|comme pro:dem|ça
+*CHI:	c'est quoi ce truc
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi pro:dem|ce n|truc&m
+*CHI:	attends on va prendre celle la
+%mor:	v|attendre-IMP&2s pro:sub|on v:mdl|aller&PRES&3s v|prendre-INF
+	pro:dem|celle&f&sg co|la
+*CHI:	j'ai besoin de oval
+%mor:	pro:sub|je$v:aux|avoir&PRES&1s n|besoin&m prep|de ?|oval
+*CHI:	tu me fais celui-la s'il te plait ?
+%mor:	part|taire-PP&m pro:obj|me v:mdl|faire-PRES&12s ?|celui–la
+	conj|si$pro:sub|il pro:obj|te ?|plait ?
+*CHI:	c'est bon ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s co|bon ?
+*CHI:	merci chloe
+%mor:	co|merci ?|chloe
+*CHI:	ah bon
+%mor:	co|ah co|bon
+*CHI:	oui mais pour anais je 
+%mor:	co|oui=yes n|mai&m-PL prep|pour ?|anais pro:sub|je
+*CHI:	elle aime bien mettre du sucre elle a mis du sucre
+%mor:	pro:sub|elle v|aimer-PRES&SUB&13s adv|bien v|mettre-INF prep|de&le
+	n|sucre&m pro:sub|elle v:aux|avoir&PRES&3s part|mettre-PP&m
+	prep|de&le n|sucre&m
+*CHI:	oui et alors
+%mor:	co|oui=yes conj|et adv|alors
+*CHI:	oulala le sachet
+%mor:	?|oulala det:art|le&m&sg n|sachet&m
+*CHI:	pardon
+%mor:	co|pardon
+*CHI:	oui on va faire du lapin apres
+%mor:	co|oui=yes pro:sub|on v:mdl|aller&PRES&3s v:mdl|faire-INF
+	prep|de&le n|lapin&m ?|apres
+*CHI:	presque fini son cochon
+%mor:	adv|presque part|finir-PP&m det:poss|son&m&sg n|cochon&m
+*CHI:	j'ai pris l'autre
+%mor:	pro:sub|je$v:aux|avoir&PRES&1s part|prendre-PP&m
+	det:art|le$pro|autre&sg
+*CHI:	non attends
+%mor:	co|non=no v|attendre-IMP&2s
+*CHI:	fais moi un rond la-dedans
+%mor:	v:mdl|faire-PRES&12s pro|moi&sg det:art|un&m&sg n|rond&m
+	?|la–dedans
+*CHI:	celui-la
+%mor:	?|celui–la
+*CHI:	ou celui-la
+%mor:	conj|ou ?|celui–la
+*CHI:	et celui-la la no no tu ne fais pas
+%mor:	conj|et ?|celui–la co|la ?|no ?|no part|taire-PP&m neg|ne
+	v:mdl|faire-PRES&12s neg|pas
+*CHI:	pas le plus gros
+%mor:	neg|pas det:art|le&m&sg adv|plus adj|gros&m
+*CHI:	ah bon
+%mor:	co|ah co|bon
+*CHI:	ah oui c'est vrai que tu voulais rouge ton lapin
+%mor:	co|ah co|oui=yes pro:dem|ce$v:exist|être&PRES&3s adj|vrai&m adv|que
+	part|taire-PP&m v:mdl|vouloir&IMPF&12s adj|rouge det:poss|ton&m&sg
+	n|lapin&m
+*CHI:	non c'est un cochon
+%mor:	co|non=no pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|cochon&m
+*CHI:	merci chloe
+%mor:	co|merci ?|chloe
+*CHI:	de quoi
+%mor:	prep|de pro:rel|quoi
+*CHI:	mais tu fais recto verso ?
+%mor:	adv|mais part|taire-PP&m v:mdl|faire-PRES&12s n|recto&m n|verso&m ?
+*CHI:	t'ecris derriere aussi
+%mor:	?|t'ecris ?|derriere adv|aussi
+*CHI:	d'accord
+%mor:	adv|d'accord
+*CHI:	chloe t'es pas ?
+%mor:	?|chloe pro:sub|tu$v:aux|être&PRES&2s neg|pas ?
+*CHI:	bien compris
+%mor:	adv|bien part|comprendre-PP&m
+*CHI:	montre moi tes dessins
+%mor:	n|montre&f pro|moi&sg det:poss|tes&pl n|dessin&m-PL
+*CHI:	des rondes et des ovales ?
+%mor:	prep|de&les n|rond&f-PL conj|et prep|de&les n|ovale&m-PL ?
+*CHI:	ouais
+%mor:	co|ouais=yes
+*CHI:	d'accord
+%mor:	adv|d'accord

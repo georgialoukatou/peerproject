@@ -1,0 +1,524 @@
+%mor:	v|venir-IMP&2s
+%mor:	pro:dem|ça part|taire-PP&m pro:y|y v|donner-PRES&SUB&2s prep|à
+	n|papa&m
+%mor:	?|chl pro:sub|elle v:mdl|aller&PRES&3s prep|à det:art|le$n|école&f
+%mor:	part|taire-PP&m v:mdl|faire-PRES&12s det:art|un&m&sg n|bisou&m
+	prep|à n|papa&m
+%mor:	part|taire-PP&m pro:obj|te dé#v|pêcher-PRES&SUB&2s adv|si
+	pro:sub|il pro:obj|te v|plaire-PRES&3s
+%mor:	part|taire-PP&m pro:obj|me v|donner-PRES&SUB&2s chi|titine
+	det:poss|ma&sg n|chéri&f
+%mor:	v|mettre-IMP&2s adv:place|là prep|dans det:poss|ton&m&sg n|camion&m
+%mor:	co|oui=yes part|tomber-PP&m n|oui&m
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|de&les n|chose-PL=thing
+	pro:int|qui v|arriver-PRES&3p co|hein
+%mor:	co|aïe n|bobo&m=ouchie
+%mor:	pro:rel|où pro:dem|ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s neg|pas adj|grave det:poss|ma&sg
+	n|chéri&f
+%mor:	co|euh
+%mor:	pro:sub|on v:mdl|aller&PRES&3s v|pousser-INF det:art|la&f&sg
+	n|table&f prep|par adv:place|là
+%mor:	qn|plus prep|de n|place&f
+%mor:	pro:dem|ce$v:aux|être&PRES&3s part|tomber-PP&m ?
+%mor:	co|bah re#v|mettre-PRES&12s pro:y|y prep|dans det:poss|ton&m&sg
+	n|camion&m
+%mor:	re#v|mettre-IMP&2s prep|dans det:art|le&m&sg n|camion&m
+%mor:	co|ouais=yes
+%mor:	co|oui=yes adv:place|là
+%mor:	part|taire-PP&m v|venir-PRES&12s v|mettre-INF det:art|le&m&sg
+	n|sac&m ?
+%mor:	pro:sub|on v|monter-IMP&2s neg|pas adv|debout prep|sur
+	det:art|un&m&sg n|camion&m pro:int|qui v|rouler-IMP&2s
+	det:poss|ma&sg n|chéri&f
+%mor:	v|venir-IMP&2s pro:obj|me v:mdllex|faire-INF v|voir&INF
+%mor:	pro:int|où part|taire-PP&m v:aux|avoir&PRES&2s part|faire-PP&m
+	n|bobo&m=ouchie adj|petit&m n|coeur&m ?
+%mor:	co|ah adv:place|là adv:place|là adv:place|là adv:place|là
+%mor:	v|tenir-IMP&2s
+%mor:	v|prendre-PRES&IMP&12s ?|titine
+%mor:	v|prendre-PRES&IMP&12s n|doudou&m=blankie conj|et v|venir-PRES&12s
+	pro:obj|me pro:obj|me v|montrer-INF
+%mor:	co|oh det:poss|mon&m&sg n|enfant
+%mor:	part|taire-PP&m pro:sub|tu$v:aux|être&PRES&2s part|faire-PP&m
+	n|bobo&m=ouchie pro:int|où ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s neg|pas det:art|la&f&sg n|premier&f
+	n|fois&f prep|que pro:sub|tu v|monter-PRES&SUB&2s adv|debout
+	vpfx|sur pro:dem|ce n|camion&m pro:int|qui v|rouler-PRES&SUB&13s
+%mor:	co|hein
+%mor:	pro:dem|ça v:mdl|aller&PRES&3s n|mieux&m ?
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|taper-PP&m
+	det:poss|ta&f&sg n|tête&f ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s prep|de
+	det:art|le$n|arnica&f ?
+%mor:	co|oui=yes
+%mor:	v|attendre-IMP&2s
+%mor:	v:mdl|falloir&PRES&3s pro:rel|que pro:sub|je v|trouver-IMP&2s
+	det:art|le$n|arnica&f
+%mor:	co|oui=yes co|oui=yes
+%mor:	det:art|le$n|arnica&f
+%mor:	v|ouvrir-PRES&SUB&13s det:art|le&m&sg n|bec&m
+%mor:	?|clara
+%mor:	pro:sub|on v|mettre-PRES&3s det:art|le&m&sg n|nounours&m=teddy_bear
+%mor:	?|clara
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|finir-PP&m prep|de
+	v|boire&INF ?
+%mor:	part|taire-PP&m det:art|le&m&sg re#v|mettre-PRES&12s prep|dans
+	det:art|le&m&sg n|frigo&m det:poss|ta&f&sg n|bouteille&f ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:sub|il
+	pro:y|y v:aux|avoir&PRES&3s ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:sub|il
+	pro:y|y v:aux|avoir&PRES&3s ?
+%mor:	det:poss|ton&m&sg n|pied&m ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:sub|il
+	v:aux|avoir&PRES&3s pro:dem|ce n|pied&m ?
+%mor:	pro:dem|ça v:mdl|aller&PRES&3s adv:place|là ?
+%mor:	pro:dem|ça pro:y|y v:aux|être&PRES&3s ?
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|finir-PP&m
+	det:poss|ton&m&sg n|ménage&m
+%mor:	pro:dem|ce$v:aux|être&PRES&3s co|bon ?
+%mor:	conj|et det:poss|ton&m&sg n|doudou&m=blankie
+%mor:	part|taire-PP&m det:art|le&m&sg n|mets&m adv:place|là ?
+%mor:	part|taire-PP&m pro:y|en v:aux|avoir&PRES&2s neg|pas n|besoin&m
+%mor:	?|qu'estce prep|que part|taire-PP&m v:mdl|vouloir&IMP&2s
+	v:mdllex|faire-INF ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s v:mdl|faire-INF co|dodo ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s v:mdl|aller&INF prep|à&le
+	n|lit&m ?
+%mor:	conj|et pro:int|où part|taire-PP&m v:mdl|vouloir&PRES&12s
+	v:mdl|faire-INF co|dodo ?
+%mor:	adv:place|là ?
+%mor:	n|montre&f pro|moi&sg pro:int|où
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s neg|pas v|jouer-INF ?
+%mor:	pro:sub|tu v:mdl|vouloir&IMP&2s neg|pas pro:rel|que$pro:sub|on
+	n|joue&f prep|à det:art|la&f&sg n|mouche&f ?
+%mor:	part|taire-PP&m v:aux|être&PRES&2s part|fatiguer-PP&f ?|ana ?
+%mor:	co|ah
+%mor:	part|taire-PP&m v:aux|être&PRES&2s part|fatiguer-PP&f ?
+%mor:	v|venir-IMP&2s n|ver&m-PL pro|moi&sg
+%mor:	v|venir-IMP&2s n|ver&m-PL pro|moi&sg
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas pro:int|où pro:sub|elle
+	v:aux|être&PRES&3s
+%mor:	part|taire-PP&m pro:y|en v:aux|avoir&PRES&2s neg|pas n|besoin&m
+%mor:	v|regarder-IMP&2s pro:sub|on v:mdl|aller&PRES&3s v|monter-INF
+	det:art|le&m&sg n|train&m
+%mor:	v|tenir-IMP&2s pro:dem|ça part|faire-PP&m n|longtemps&m
+%mor:	pro:y|y v:aux|avoir&PRES&3s adv|toujours neg|pas prep|de n|pile&f
+	adv|mais adj|bon&m pro:dem|ça v:mdl|aller&PRES&3s
+	pro:obj|te$v|occuper-INF
+%mor:	v|venir-IMP&2s v|voir&INF ?|ninette
+%mor:	co|non=no
+%mor:	co|non=no
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s pro:rel|que$pro:sub|on
+	v:mdl|faire-PRES&SUB&13s pro:dem|ça ?
+%mor:	pro:sub|on v:mdl|aller&PRES&3s pro:obj|le v|monter-INF ?
+%mor:	co|allez v|venir-IMP&2s
+%mor:	part|taire-PP&m n|porte&f-PL=door ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s adv|lourd ?
+%mor:	co|voilà adv|comme pro:dem|ça
+%mor:	co|allez v|venir-IMP&2s
+%mor:	co|oh co|bah co|non=no pro:sub|on v:mdl|aller&PRES&3s neg|pas
+	?|làhaut
+%mor:	adv:place|là co|ouais=yes
+%mor:	adv:place|là pro:sub|on pro:refl|se v|mettre-PRES&3s adv:place|là
+%mor:	v|attendre-IMP&2s pro:sub|on v:mdl|aller&PRES&3s v|vider-INF
+%mor:	co|ouais=yes
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|colorier-PP&m
+	det:poss|tes&pl n|pied&m-PL prep|à det:art|le$n|école&f
+	det:poss|ma&sg n|chéri&f ?
+%mor:	adv:place|là conj|aussi co|hein
+%mor:	co|bah pro:sub|elle v:aux|avoir&COND&3s part|pouvoir&PP&m&sg
+	pro:obj|te v|laver-INF co|hein ?|raphael
+%mor:	pro:dem|ça
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|une&f&sg n|maison&f ?
+%mor:	co|mhm
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi ?
+%mor:	det:art|un&m&sg n|mouton&m ?
+%mor:	adv:place|là adv:place|dedans ?
+%mor:	co|allez
+%mor:	adv|d'accord
+%mor:	co|ah co|bah pro:sub|il re#v|marcher-IMP&2s co|hein
+%mor:	co|ah co|bah v|dire-PRES&PASS&12s adv|donc
+%mor:	pro:sub|il part|faire-PP&m prep|de&le n|bruit&m co|hein
+%mor:	pro:sub|il v:aux|être&PRES&3s prep|en adj|plein&f n|forme&f
+	det:poss|ton&m&sg n|camion&m
+%mor:	co|ohlàlà
+%mor:	?|qu'estce prep|que part|taire-PP&m v:aux|avoir&PRES&2s
+	part|trouver-PP&m ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi ?
+%mor:	det:art|un&m&sg det:art|un&m&sg n|cochon&m ?
+%mor:	part|taire-PP&m det:art|le&m&sg n|mets&m adv:place|dedans prep|avec
+	det:art|le&m&sg n|mouton&m ?
+%mor:	adv:place|là
+%mor:	co|allez v:mdl|aller&PRES&2s pro:y|y
+%mor:	v|mettre-IMP&2s det:art|le&m&sg ?|làbas
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi pro:dem|ça
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|à pro|toi&sg ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|la&f&sg n|vache&f ?
+%mor:	num|deux
+%mor:	pro:dem|ça pro:y|en part|faire-PP&m n|deux&m ?
+%mor:	co|oui=yes
+%mor:	prep|de pro:rel|quoi ?
+%mor:	co|ah pro:sub|tu v|chercher-IMPF&12s det:art|la&f&sg n|remorque&f
+%mor:	pro:sub|on part|faire-PP&m det:art|un&m&sg adj|petit&m n|circuit&m
+	?
+%mor:	pro:dem|ça ?
+%mor:	co|allez v|accrocher-IMP&2s det:art|le&m&sg
+%mor:	prep|dans det:art|le$pro|autre&sg n|sens&m adv|si pro:obj|te
+	v|plaire-PRES&3s
+%mor:	co|oui=yes
+%mor:	v|venir-IMP&2s adv:place|là pro|toi&sg
+%mor:	adv|si part|taire-PP&m pro:obj|le$v|éteindre-IMPF&12s ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|le&m&sg n|fermier&m adv|que
+	part|taire-PP&m n|mets&m adv:place|dedans ?
+%mor:	adv|comme pro:dem|ça v:mdl|falloir&PRES&3s
+	pro:obj|le$v|accrocher-INF ?
+%mor:	co|oh
+%mor:	v|regarder-IMP&2s
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi pro:dem|ça ?
+%mor:	det:art|un&m&sg n|cheval&m&sg ?
+%mor:	co|oui=yes ?
+%mor:	adv|comme pro:dem|ça
+%mor:	adv:place|voilà
+%mor:	pro:dem|ça
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg
+%mor:	det:art|le$n|arbre&m ?
+%mor:	v|mettre-IMP&2s det:art|le&m&sg adv:place|là
+%mor:	co|oui=yes adv:place|là
+%mor:	co|bah co|non=no adv:place|là co|non=no
+%mor:	pro:y|y v:aux|avoir&PRES&3s det:art|le&m&sg n|tracteur&m
+	pro:int|qui v|passer-PRES&SUB&13s
+%mor:	adv|comme pro:dem|ça ?
+%mor:	adv:place|voilà
+%mor:	part|taire-PP&m prep|en v:mdl|vouloir&PRES&12s det:art|un&m&sg
+	pro|autre&sg
+%mor:	det:art|un&m&sg pro|autre&sg n|arbre&m ?
+%mor:	v|tenir-IMP&2s
+%mor:	pro:rel|où pro:dem|ça ?
+%mor:	adv:place|là ?
+%mor:	adv|encore det:art|un&m&sg ?
+%mor:	v|tenir-IMP&2s
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s v:mdl|aller&INF prep|à&les
+	n:let|w n:let|c ?
+%mor:	co|allez v|venir-PRES&12s adv|vite
+%mor:	v|venir-IMP&2s
+%mor:	?|ana
+%mor:	co|ouais=yes
+%mor:	v|venir-IMP&2s
+%mor:	co|ouh
+%mor:	co|ohlàlà
+%mor:	co|aïe ?
+%mor:	pro:rel|où pro:dem|ça ?
+%mor:	co|ah
+%mor:	co|oui=yes
+%mor:	v|attendre-IMP&2s
+%mor:	co|attention prep|à&le n|micro&m
+%mor:	co|oui=yes adv:place|là
+%mor:	co|oui=yes
+%mor:	co|oui=yes
+%mor:	pro:dem|ce$v:aux|être&PRES&3s adv|bien
+%mor:	co|non=no ?
+%mor:	n|si&m
+%mor:	pro:dem|ce$v:aux|être&PRES&3s part|finir-PP&m ?
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|finir-PP&m ?
+%mor:	co|oui=yes ?
+%mor:	co|oui=yes
+%mor:	adv|encore ?
+%mor:	adv|encore
+%mor:	part|taire-PP&m n|sens&m ?
+%mor:	pro:dem|ça pro:y|y v:aux|être&PRES&3s ?|ana ?
+%mor:	pro:dem|ça pro:y|y v:aux|être&PRES&3s ?
+%mor:	co|non=no co|oui=yes co|non=no
+%mor:	co|oui=yes ?
+%mor:	co|oui=yes
+%mor:	co|ah
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|finir-PP&m ?
+%mor:	conj|et adv|bien
+%mor:	pro:dem|ça pro:y|y v:aux|être&PRES&3s n|jeune n|fille&f ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|dans det:art|la&f&sg n|soirée&f
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|finir-PP&m ?
+%mor:	co|allez
+%mor:	co|oh co|oui=yes
+%mor:	v|attendre-IMP&2s
+%mor:	n|approche&f pro|toi&sg
+%mor:	n|approche&f pro|toi&sg adv|que pro:sub|je pro:obj|te
+%mor:	adv:place|voilà
+%mor:	v|venir-IMP&2s adv:place|là ?|ninette
+%mor:	v|tenir-IMP&2s
+%mor:	co|allez
+%mor:	adj|assise
+%mor:	co|ouais=yes adv|mais pro:dem|ça part|faire-PP&m adv|trop adv|après
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s adv|tout v|mettre-INF ?
+%mor:	co|bon adv|alors pro:sub|on v:mdl|aller&PRES&3s pro:obj|le
+	dé#v:mdllex|faire-INF
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s v:mdl|faire-INF
+	det:art|le&m&sg adj|grand&m ?
+%mor:	v|asseoir&PASS&12s
+%mor:	adv|alors v|attendre-IMP&2s
+%mor:	adv|comment pro:sub|il n|marche&f ?
+%mor:	pro:sub|on v:mdl|aller&PRES&3s pro:obj|le v:mdllex|faire-INF
+	adv|comme pro:dem|ça
+%mor:	adv|alors
+%mor:	co|oui=yes pro:dem|ce$v:exist|être&PRES&3s det:art|une&f&sg
+	adj|petit&f n|fille&f pro:dem|ça
+%mor:	conj|et co|oui=yes
+%mor:	adv|alors pro:sub|il v:mdl|falloir&PRES&3s adv|tout v|enlever-INF ?
+%mor:	co|bon
+%mor:	pro:sub|on dé#part|faire-PP&m adv|alors
+%mor:	adv:place|dedans pro:y|y pro:y|en v:aux|avoir&PRES&3s adv|encore
+%mor:	part|taire-PP&m pro:obj|me det:art|les&pl v|donner-FUT&2s
+%mor:	adv|alors
+%mor:	pro:y|y pro:y|en v:aux|avoir&PRES&3s adv|beaucoup ?
+%mor:	co|mh
+%mor:	co|bah v|prendre-PRES&IMP&12s det:art|les&pl adv|puis
+	part|taire-PP&m pro:obj|me pro:obj|les v|donner-PRES&SUB&2s
+%mor:	adv:place|là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|garçon&m
+%mor:	det:art|un&m&sg adj|petit&m n|garçon&m
+%mor:	num|deux ?
+%mor:	co|merci ?|ana
+%mor:	co|merci det:poss|ma&sg n|fille&f
+%mor:	v|attendre-IMP&2s
+%mor:	pro:sub|je v|voir&IMP&PRES&12s adv|plus adv:place|là pro:dem|ce
+	adv|que pro:sub|je v:aux|être&PRES&1s prep|en n|train&m prep|de
+	v:mdllex|faire-INF
+%mor:	v|attendre-IMP&2s v|attendre-IMP&2s
+%mor:	n|deux&m n|second&f
+%mor:	pro:dem|ça pro:sub|je$v:aux|avoir&PRES&1s part|faire-PP&m
+%mor:	pro:sub|je pro:obj|le$v:poss|avoir&PRES&1s part|faire-PP&m n|deux&m
+%mor:	n|orange
+%mor:	v|attendre-IMP&2s
+%mor:	co|oui=yes
+%mor:	n|pose&f det:art|le&m&sg adv|donc adv:place|là
+%mor:	co|bon co|bah co|voilà
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s n|tout&m adj|vidé&m
+%mor:	v|donner-IMP&2s pro|moi&sg det:art|le&m&sg n|carton&m
+	adv|maintenant
+%mor:	adv|si pro:sub|il pro:obj|te v|plaire-PRES&3s ?|ana v|passer-IMP&2s
+	pro|moi&sg det:art|le&m&sg n|carton&m
+%mor:	det:art|le&m&sg n|carton&m
+%mor:	co|oui=yes
+%mor:	co|merci
+%mor:	co|bon
+%mor:	pro:sub|on v:aux|être&PRES&3s pro:int|où adv:place|là ?
+%mor:	n|orange
+%mor:	adv|ensuite det:art|un&m&sg adj|vert&m
+%mor:	adv|d'accord
+%mor:	?|celuilà ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:dem|ce v:aux|être&PRES&3p
+	det:art|les&pl n|barrière&f-PL
+%mor:	co|poum
+%mor:	pro:int|où det:art|la&f&sg n|barrière&f ?
+%mor:	co|bah v:mdl|falloir&PRES&3s pro:obj|les v|mettre-INF adv:place|là
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas pro:int|où
+	v:aux|être&PRES&3p det:art|les&pl pro|autres&pl co|hein
+%mor:	adv|comme pro:dem|ça
+%mor:	co|oui=yes
+%mor:	pro:sub|il prep|en n|manque&m co|hein pro:sub|je pro:obj|te
+	v|signaler-PRES&SUB&13s
+%mor:	v|passer-IMP&2s pro|moi&sg
+%mor:	?|làbas
+%mor:	co|oui=yes
+%mor:	adv|si pro:sub|il pro:obj|te v|plaire-PRES&3s
+%mor:	co|merci
+%mor:	co|ah
+%mor:	co|ah
+%mor:	co|oui=yes
+%mor:	co|merci ?|ana
+%mor:	pro:dem|ça ?
+%mor:	part|taire-PP&m v:mdl|savoir&PRES&12s pro|toi&sg ?
+%mor:	co|oui=yes
+%mor:	co|non=no
+%mor:	prep|sur det:art|le$pro|autre&sg
+%mor:	prep|sur det:art|le&m&sg adj|bleu&m
+%mor:	prep|sur det:art|le&m&sg adj|gros&m
+%mor:	prep|vers det:art|le&m&sg n|camion&m
+%mor:	co|oui=yes adv:place|là
+%mor:	adv|ensuite
+%mor:	det:art|la&f&sg n|remorque&f ?
+%mor:	co|attention det:art|les&pl n|main&f-PL
+%mor:	det:art|les&pl n|arbre&m-PL ?
+%mor:	v|attendre-IMP&2s
+%mor:	adv:place|voilà
+%mor:	pro:sub|on v:aux|avoir&PRES&3s part|finir-PP&m ?
+%mor:	co|oui=yes adv:place|là
+%mor:	co|ouais=yes
+%mor:	adv|alors
+%mor:	v|regarder-IMP&2s
+%mor:	pro:sub|il v|arriver-PRES&SUB&13s
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi pro:dem|ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi ?
+%mor:	v:mdl|aller&PRES&2s pro:y|y
+%mor:	co|ouais=yes
+%mor:	adv:place|voilà
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|mettre-PP&m
+	det:art|le&m&sg n|fermier&m ?
+%mor:	v|pousser-IMP&2s det:art|le&m&sg
+%mor:	v:mdl|faire-PRES&12s pro:obj|le v|avancer-INF det:art|un&m&sg
+	adj|petit&m n|peu&m
+%mor:	adv|encore det:art|un&m&sg n|peu&m
+%mor:	adv:place|voilà
+%mor:	pro:dem|ça v|bloquer-PRES&SUB&13s adv:place|là ?
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s det:art|le&m&sg
+	n|fermier&m
+%mor:	det:art|le&m&sg n|monsieur&m
+%mor:	v|regarder-IMP&2s
+%mor:	pro:sub|on pro:obj|le v|mettre-PRES&3s pro:rel|où ?
+%mor:	adv:place|là
+%mor:	n|derrière&m ?
+%mor:	prep|derrière det:art|la&f&sg n|remorque&f ?
+%mor:	co|mh
+%mor:	adv|comme pro:dem|ça ?
+%mor:	pro:sub|il n|bouge&m qn|plus ?
+%mor:	v|pousser-IMP&2s det:art|le&m&sg
+%mor:	co|ohlàlà
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi ?
+%mor:	det:art|la&f&sg n|barrière&f ?
+%mor:	co|oui=yes
+%mor:	adv|alors adv|comme pro:dem|ça
+%mor:	co|hop
+%mor:	co|oui=yes
+%mor:	pro:int|où part|taire-PP&m v:mdl|vouloir&PRES&12s
+%mor:	co|non=no adv|debout
+%mor:	pro:dem|ça
+%mor:	v|regarder-IMP&2s n|chéri&f
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:dem|ça adv|que part|taire-PP&m
+	n|mets&m adv:place|dedans
+%mor:	adv|comme pro:dem|ça adv|que part|taire-PP&m n|pique-PL
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|les&pl n|pied&m-PL
+%mor:	co|non=no
+%mor:	prep|dans det:art|le$pro|autre&sg n|sens&m
+%mor:	adv|comme pro:dem|ça n|oui&m
+%mor:	conj|et v:mdl|falloir&PRES&3s pro:rel|que part|taire-PP&m
+	det:art|les&pl v|mettre-PRES&SUB&2s prep|dans det:art|les&pl
+	n|trou&m-PL adv:place|là
+%mor:	co|mh
+%mor:	co|voilà pro:dem|ce$v:aux|être&PRES&3s pro:dem|ça
+%mor:	v|attendre-IMP&2s
+%mor:	v|appuyer-IMP&2s
+%mor:	adv:place|voilà
+%mor:	prep|dans det:art|le&m&sg adj|bon&m n|sens&m
+%mor:	co|oui=yes adv|comme pro:dem|ça
+%mor:	adv:place|voilà
+%mor:	pro:sub|on v:mdl|aller&PRES&3s v:mdl|faire-INF v|tenir-INF
+	adv|comme pro:dem|ça
+%mor:	co|oui=yes pro:sub|il v|bloquer-PRES&SUB&13s ?|làbas
+%mor:	co|mh
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|voir&PP&m ?
+%mor:	co|oui=yes
+%mor:	pro:sub|on pro:obj|le v|mettre-PRES&3s pro:rel|où ?
+%mor:	pro:sub|elle v:aux|être&PRES&3s pro:int|où det:art|la&f&sg
+	adj|petit&f n|maison&f ?
+%mor:	part|taire-PP&m v|croire&PRES&12s pro:rel|que$pro:sub|il
+	v|passer-IMP&2s ?|làdessous ?
+%mor:	v:mdl|faire-PRES&12s v|voir&INF
+%mor:	pro:sub|je v:aux|être&PRES&1s neg|pas adj|sûr&f
+%mor:	neg|pas adj|sûr&m adv|que pro:dem|ça v|passer-PRES&SUB&13s
+%mor:	v:mdl|faire-PRES&12s pro:obj|le v|avancer-INF
+%mor:	pro:sub|il v|rouler-PRES&SUB&13s prep|plus pro:ind|lui
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas
+%mor:	prep|vers det:art|les&pl n|arbre&m-PL ?
+%mor:	v:mdl|faire-PRES&12s v|voir&INF adv|si pro:sub|il
+	v|passer-PRES&SUB&13s ?|làdessous
+%mor:	co|non=no
+%mor:	part|tomber-PP&m det:art|le&m&sg n|jeu&m
+%mor:	pro:dem|ça v:mdl|aller&PRES&3s neg|pas adv:place|là adv|alors
+%mor:	v|venir-IMP&2s
+%mor:	pro:sub|on v:mdl|aller&PRES&3s pro:obj|le v|mettre-INF ?|làbas
+%mor:	adv:place|là
+%mor:	det:art|le$pro|autre&sg ?|làbas
+%mor:	prep|vers det:art|les&pl n|arbre&m-PL
+%mor:	part|taire-PP&m v:aux|avoir&PRES&2s part|mettre-PP&m adv|trop
+	prep|de$n|arbre&m-PL
+%mor:	v|enlever-IMP&2s conj|si$pro:y|en prep|de&les n|arbre&m-PL
+%mor:	v|donner-PRES&SUB&2s pro|moi&sg prep|en det:art|un&m&sg
+	prep|de$n|arbre&m
+%mor:	det:art|le&m&sg v|mettre-INF adv:place|là
+%mor:	co|merci
+%mor:	pro:sub|je det:art|le&m&sg n|mets&m pro:int|où det:art|le&m&sg
+	n|cochon&m ?
+%mor:	adv:place|là
+%mor:	co|allez
+%mor:	adv|encore det:art|un&m&sg n|arbre&m ?
+%mor:	det:art|la&f&sg n|vache&f ?
+%mor:	pro:sub|on co|la v|mettre-PRES&3s pro:rel|où ?
+%mor:	?|làbas prep|dans det:art|la&f&sg adj|petit&f n|maison&f
+%mor:	v:mdl|aller&PRES&2p v:mdl|aller&PRES&3s pro:obj|la v|mettre-INF
+	?|làbas
+%mor:	conj|ou adv|alors prep|sur det:art|le&m&sg n|toit&m prep|de
+	det:art|la&f&sg n|maison&f
+%mor:	co|ah pro:dem|ça v:mdl|devoir&PRES&3s v:aux|être&INF
+%mor:	co|oui=yes adv:place|là
+%mor:	part|taire-PP&m v:mdllex|pouvoir&IMP&2s pro:obj|le v|mettre-INF
+	adv:place|là
+%mor:	det:art|le&m&sg n|cheval&m&sg ?
+%mor:	v|tenir-IMP&2s
+%mor:	pro:sub|on v:mdl|aller&PRES&3s v|mettre-INF det:art|le&m&sg
+	n|cheval&m&sg ?|làhaut
+%mor:	co|hop
+%mor:	v|prendre-PRES&IMP&12s det:art|le$pro|autre&sg n|maison&f
+%mor:	?|làbas
+%mor:	prep|vers det:art|le&m&sg n|truc&m adj|jaune
+%mor:	co|oui=yes
+%mor:	adv:place|là n|oui&m
+%mor:	adv|comme pro:dem|ça
+%mor:	adv|très adv|bien
+%mor:	co|oui=yes
+%mor:	part|taire-PP&m n|mets&m det:art|la&f&sg n|vache&f prep|sur
+	det:art|le&m&sg n|toit&m ?
+%mor:	co|bon adv|alors det:art|le&m&sg n|mouton&m
+%mor:	pro:sub|il v|tenir-PRES&3s neg|pas ?
+%mor:	co|ah co|oui=yes part|taire-PP&m v:aux|avoir&PRES&2s n|raison&f
+	pro:sub|il v|tenir-PRES&3s ?|celuilà
+%mor:	v|mettre-IMP&2s det:art|la&f&sg n|vache&f
+%mor:	pro:sub|elle v:mdl|aller&PRES&3s prep|dessus det:art|la&f&sg
+	n|vache&f
+%mor:	adv:place|voilà
+%mor:	co|bah ?
+%mor:	adv:place|voilà
+%mor:	adv:place|là
+%mor:	co|allez n|avance&f
+%mor:	conj|et adv:place|voilà
+%mor:	det:art|la&f&sg n|maison&f ?
+%mor:	conj|et adv|bien ?
+%mor:	part|taire-PP&m v:mdl|vouloir&PRES&12s v|mettre-INF det:art|le&m&sg
+	n|cochon&m ?|làbas ?
+%mor:	v|tenir-IMP&2s
+%mor:	v|mettre-IMP&2s det:art|le&m&sg n|cochon&m
+%mor:	v|mettre-IMP&2s det:art|le&m&sg n|cochon&m prep|dans
+	det:art|la&f&sg n|maison&f
+%mor:	co|bah v|tenir-IMP&2s
+%mor:	v|mettre-IMP&2s det:art|le&m&sg n|fermier&m prep|dans
+	det:art|la&f&sg n|maison&f
+%mor:	det:art|le&m&sg n|cochon&m ?
+%mor:	det:art|le&m&sg n|cheval&m&sg ?
+%mor:	pro:sub|je v:mdl|savoir&PRES&12s neg|pas
+%mor:	co|oui=yes
+%mor:	co|badaboum
+%mor:	co|badaboum
+%mor:	co|ohlàlà
+%mor:	v|attendre-IMP&2s
+%mor:	pro:sub|il v:mdl|aller&PRES&3s re#v|venir-INF
+%mor:	det:art|le&m&sg n|cheval&m&sg
+%mor:	prep|de pro:rel|quoi ?
+%mor:	pro:dem|ça v|tenir-PRES&3s neg|pas ?
+%mor:	co|ah
+%mor:	pro:dem|ce$v:aux|être&PRES&3s neg|pas part|faire-PP&m prep|pour
+%mor:	v|attendre-IMP&2s
+%mor:	part|taire-PP&m pro:obj|le$v:poss|avoir&PRES&2s part|faire-PP&m
+	n|sortir&m prep|de&le n|rail&m&sg
+%mor:	co|aïe
+%mor:	part|taire-PP&m v:mdl|savoir&PRES&12s det:art|le&m&sg n|cheval&m&sg
+	pro:sub|il v:mdl|aller&PRES&3s ?|peutêtre neg|pas adv:place|là
+	co|hein
+%mor:	v|appuyer-IMP&2s adv:place|dessus
+%mor:	v|appuyer-PRES&SUB&13s prep|sur det:art|le&m&sg n|bouton&m
+	adj|rouge
+%mor:	adv:place|là n|devant&m
+%mor:	co|non=no
+%mor:	v|tourner-IMP&2s neg|pas
+%mor:	v|appuyer-IMP&2s
+%mor:	adv:place|voilà
+%mor:	n|laisse&f det:art|le&m&sg v|tomber-INF det:art|le&m&sg
+	n|cheval&m&sg
+%mor:	adv:place|voilà

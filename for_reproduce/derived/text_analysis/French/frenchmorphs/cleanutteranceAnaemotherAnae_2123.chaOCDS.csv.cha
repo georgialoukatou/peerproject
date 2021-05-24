@@ -1,0 +1,53 @@
+*CHI:	allez les garçons hop 
+%mor:	co|allez det:art|les&pl n|garçon&m-PL co|hop
+*CHI:	non non les garçons c'est pas drôle 
+%mor:	co|non=no co|non=no det:art|les&pl n|garçon&m-PL
+	pro:dem|ce$v:exist|être&PRES&3s neg|pas adj|drôle
+*CHI:	vous allez jouer dans la cabane là-haut 
+%mor:	pro:obj|vous v:mdl|aller&PRES&2p v|jouer-INF prep|dans
+	det:art|la&f&sg n|cabane&f=cabin adv:place|là–haut
+*CHI:	ou dans la chambre 
+%mor:	conj|ou prep|dans det:art|la&f&sg n|chambre&f
+*CHI:	ah bon par qui ?
+%mor:	co|ah co|bon prep|par pro:rel|qui ?
+*CHI:	un cadeau d' anniversaire ?
+%mor:	det:art|un&m&sg n|cadeau&m adv|de n|anniversaire&m ?
+*CHI:	c'est quoi ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi ?
+*CHI:	pour les travaux ?
+%mor:	prep|pour det:art|les&pl n|travail&m&pl ?
+*CHI:	merci les garçons 
+%mor:	co|merci det:art|les&pl n|garçon&m-PL
+*CHI:	tiens prends une bouteille et des verres arthur et allez boire un coup dehors 
+%mor:	v|tenir-IMP&2s v|prendre-PRES&IMP&12s det:art|une&f&sg
+	n|bouteille&f conj|et prep|de&les n|verre&m-PL ?|arthur conj|et
+	co|allez n|boire&m det:art|un&m&sg n|coup&m=blow adv:place|dehors
+*CHI:	bonjour 
+%mor:	co|bonjour
+*CHI:	attends prends des verres en plastique et allez allez boire dehors 
+%mor:	v|attendre-IMP&2s v|prendre-PRES&IMP&12s prep|de&les n|verre&m-PL
+	prep|en n|plastique conj|et co|allez co|allez n|boire&m
+	adv:place|dehors
+*CHI:	euh ben prends des verres pas en plastique 
+%mor:	co|euh co|ben v|prendre-PRES&IMP&12s prep|de&les n|verre&m-PL
+	neg|pas prep|en n|plastique
+*CHI:	qu'est-ce que tu fais avec la montre de ton père toi ?
+%mor:	pro:int|que$v:int|est–ce adv|que part|taire-PP&m v:mdl|faire-IMP&2s
+	prep|avec det:art|la&f&sg n|montre&f prep|de det:poss|ton&m&sg
+	n|père&m pro|toi&sg ?
+*CHI:	ouais 
+%mor:	co|ouais=yes
+*CHI:	ouais tu oublies pas l'heure du judo ael 
+%mor:	co|ouais=yes part|taire-PP&m v|oublier-PRES&SUB&2s neg|pas
+	det:art|le$n|heure&f prep|de&le n|judo&m ?|ael
+*CHI:	les garçons 
+%mor:	det:art|les&pl n|garçon&m-PL
+*CHI:	allez 
+%mor:	co|allez
+*CHI:	ael tu vas bientôt te mettre en kimono 
+%mor:	?|ael part|taire-PP&m v:mdl|aller&PRES&2s adv|bientôt pro:obj|te
+	v|mettre-INF prep|en n|kimono&m
+*CHI:	si 
+%mor:	n|si&m
+*CHI:	vite vite vite 
+%mor:	adv|vite adv|vite adv|vite
