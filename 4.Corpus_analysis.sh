@@ -11,11 +11,11 @@ pathToTextwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for_
 pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for_reproduce/derived/text_analysis/French/wordseg/"
 
 ####SESOTHO
-  for speaker in  "adult" "mother" "child"; 
+  for speaker in  "child"; #mother adult 
   do
-    	for addressee in  "CDS" "OCDS" "ADS" ;
+    	for addressee in  "OCDS"; # "ADS" "CDS"
     	do 
-      		for targetchild in "Hlobohang" ; #"Hlobohang" "Neuoe"
+      		for targetchild in "Hlobohang" "Litlhare" "Neuoe" ; #"Hlobohang" "Neuoe"
       		do
       		
      			if [ $targetchild == "Hlobohang" ]; then
@@ -47,7 +47,7 @@ pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for
 	    
       #cut -f24 < "${pathToText}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv"
       #awk 'FNR>1'  "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv"  > "${pathToText}morphology${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToText}morphology${targetchild}${speaker}${session}${addressee}1.csv" "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv"
-	    #sed -e 's/-/ /g' "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}morphologymorphemes${targetchild}${speaker}${session}${addressee}.csv" 
+	    #sed -e 's/-/ /g' -e 's/#/ /g' "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}morphologymorphemes${targetchild}${speaker}${session}${addressee}.csv" 
 
 
       #cut -f12 < "${pathToText}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}question${targetchild}${speaker}${session}${addressee}.csv"
@@ -66,7 +66,7 @@ pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for
       	 
          numberofwords=`sed  '5q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
          numberofmorphemes=`sed  '5q;d' "${pathToTextwordseg}statsmorphemes${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
-         numberofuttsinglewords=`sed  '2q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+        numberofuttsinglewords=`sed  '2q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
          numberofhapaxes=`sed  '7q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
          
          mattr=`sed  '3q;d' "${pathToTextwordseg}stats${targetchild}${speaker}${session}${addressee}.csv"  | awk '{printf $3}' | tr -d '\n'`
@@ -87,7 +87,7 @@ pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for
          echo ${ratioturn}
 
 
- 	   # echo "${targetchild},${speaker},${addressee},${session},${numberoflines},${numberofwords},${numberofmorphemes},${mlu},${mlumorphemes},${mattr},${numberofuttsinglewords},${numberofhapaxes},${percquest},${ratioturn}" >> "${path_}shortoutputSesotho.csv"   
+ 	    echo "${targetchild},${speaker},${addressee},${session},${numberoflines},${numberofwords},${numberofmorphemes},${mlu},${mlumorphemes},${mattr},${numberofuttsinglewords},${numberofhapaxes},${percquest},${ratioturn}" >> "${path_}shortoutputSesotho_onlychildOCDS.csv"   
  done done  
 
 
@@ -128,31 +128,31 @@ pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for
 
    #CLAN files
    #sed '/*CHI:/d' "${pathToTextf}frenchmorphs/cleanutterance${targetchild}${speaker}${session}${addressee}.csv.cha" > "${pathToTextf}frenchmorphs/cleanutterance1${targetchild}${speaker}${session}${addressee}.csv"
-   #sed -e 's/-/ /g' -e  's/%mor://g' -e  's/\?//g' -e 's/  / /g'  "${pathToTextf}frenchmorphs/cleanutterance1${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf}frenchmorphs/cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv"
+   #sed -e 's/-/ /g'  -e 's/#/ /g' -e  's/%mor://g' -e  's/\?//g' -e 's/  / /g'  "${pathToTextf}frenchmorphs/cleanutterance1${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf}frenchmorphs/cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv"
   
 
 
 
 ####measure variables:
-            numberofmorphemesf=`wc -w "${pathToTextf}frenchmorphs/cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv"| awk '{printf $1}' | tr -d ' '`
+          #  numberofmorphemesf=`wc -w "${pathToTextf}frenchmorphs/cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv"| awk '{printf $1}' | tr -d ' '`
             #echo ${numberofmorphemesf}
 
- 	          nquestionf=`grep ? -o  "${pathToTextf}partofspeechutterance${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
-      	  	numberoflinesf=`sed  '1q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'` 		
-            numberofwordsf=`sed  '5q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
-      		  numberofuttsinglewordsf=`sed  '2q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
-      	    numberofhapaxesf=`sed  '7q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
-      	    mattrf=`sed  '3q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv"  | awk '{printf $3}' | tr -d '\n'`
-            mluf=`echo "scale=3; $numberofwordsf / $numberoflinesf" | bc`		
-            mlumorphemesf=`echo "scale=3; $numberofmorphemesf / $numberoflinesf" | bc`   
+ 	         # nquestionf=`grep ? -o  "${pathToTextf}partofspeechutterance${targetchild}${speaker}${session}${addressee}.csv"| wc -l`  #count questions
+      	  #	numberoflinesf=`sed  '1q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'` 		
+          #  numberofwordsf=`sed  '5q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+      		#  numberofuttsinglewordsf=`sed  '2q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+      	  #  numberofhapaxesf=`sed  '7q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv" | awk '{printf $3}' | tr -d '\n'`
+      	  #  mattrf=`sed  '3q;d' "${pathToTextfwordseg}stats${targetchild}${speaker}${session}${addressee}.csv"  | awk '{printf $3}' | tr -d '\n'`
+          #  mluf=`echo "scale=3; $numberofwordsf / $numberoflinesf" | bc`		
+          #  mlumorphemesf=`echo "scale=3; $numberofmorphemesf / $numberoflinesf" | bc`   
            # echo ${mlumorphemesf}
-   	        percquestf=`echo "scale=3; $nquestionf / $numberoflinesf" | bc` 
+   	      #  percquestf=`echo "scale=3; $nquestionf / $numberoflinesf" | bc` 
         
-            ntotalturnsf=`grep "${speaker}', '${session}', '${addressee}', '_match" -o "${path_}frenchturns1.txt"|wc -l`
-            ntotalf=`grep "${speaker}', '${session}', '${addressee}', " -o "${path_}frenchturns1.txt"|wc -l`  
-            ratioturnf=`echo "scale=3; $ntotalturnsf / $ntotalf" | bc `
+          #  ntotalturnsf=`grep "${speaker}', '${session}', '${addressee}', '_match" -o "${path_}frenchturns1.txt"|wc -l`
+          #  ntotalf=`grep "${speaker}', '${session}', '${addressee}', " -o "${path_}frenchturns1.txt"|wc -l`  
+          #  ratioturnf=`echo "scale=3; $ntotalturnsf / $ntotalf" | bc `
  
-  	    echo "${targetchild},${speaker},${addressee},${session},${numberoflinesf},${numberofwordsf},${numberofmorphemesf},${mluf},${mlumorphemesf},${mattrf},${numberofuttsinglewordsf},${numberofhapaxesf},${percquestf},${ratioturnf}" >> "${path_}shortoutputFrench.csv" 
+  	    #echo "${targetchild},${speaker},${addressee},${session},${numberoflinesf},${numberofwordsf},${numberofmorphemesf},${mluf},${mlumorphemesf},${mattrf},${numberofuttsinglewordsf},${numberofhapaxesf},${percquestf},${ratioturnf}" >> "${path_}shortoutputFrench.csv" 
  
  
 
