@@ -47,7 +47,7 @@ pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for
 	    
       #cut -f24 < "${pathToText}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv"
       #awk 'FNR>1'  "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv"  > "${pathToText}morphology${targetchild}${speaker}${session}${addressee}1.csv"  && mv "${pathToText}morphology${targetchild}${speaker}${session}${addressee}1.csv" "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv"
-	    #sed -e 's/-/ /g' "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}morphologymorphemes${targetchild}${speaker}${session}${addressee}.csv" 
+	    #sed -e 's/-/ /g'  -e 's/#/ /g' "${pathToText}morphology${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}morphologymorphemes${targetchild}${speaker}${session}${addressee}.csv" 
 
 
       #cut -f12 < "${pathToText}${targetchild}${speaker}${session}${addressee}.csv" > "${pathToText}question${targetchild}${speaker}${session}${addressee}.csv"
@@ -122,7 +122,8 @@ pathToTextfwordseg="/Users/lscpuser/Documents/peerproject/github/peerproject/for
 
    #CLAN files
    #sed '/*CHI:/d' "${pathToTextf}frenchmorphs/cleanutterance${targetchild}${speaker}${session}${addressee}.csv.cha" > "${pathToTextf}frenchmorphs/cleanutterance1${targetchild}${speaker}${session}${addressee}.csv"
-   #sed -e 's/-/ /g' -e  's/%mor://g' -e  's/\?//g' -e 's/  / /g'  "${pathToTextf}frenchmorphs/cleanutterance1${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf}frenchmorphs/cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv"
+   #sed -e 's/-/ /g'  -e 's/#/ /g' -e  's/%mor://g' -e  's/\?//g' -e 's/  / /g'  
+"${pathToTextf}frenchmorphs/cleanutterance1${targetchild}${speaker}${session}${addressee}.csv" > "${pathToTextf}frenchmorphs/cleanutterancewordseg${targetchild}${speaker}${session}${addressee}.csv"
   
 
 
