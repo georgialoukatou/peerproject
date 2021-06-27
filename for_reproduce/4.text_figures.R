@@ -8,7 +8,7 @@ library(gridExtra)
 library(gtable)
 library(forcats)
 
-childes_path <- "/Users/lscpuser/Documents/peerproject/github/peerproject/for_reproduce/derived/text_analysis/"
+childes_path <- "/Users/lscpuser/Documents/peerproject/github/peerproject/for_reproduce/draft/draft1/"
 
 demuthlongstats<-read.csv(glue(childes_path, "shortoutputSesotho.csv" ), header=FALSE)
 colnames(demuthlongstats)<-c("targetchild","speaker","addressee","session","numberoflines","numberofwords","numberofmorphemes","mlu","mlumorphemes","mattr","numberofuttsinglewords","numberofhapaxes","percquest","ratioturn")
@@ -21,6 +21,12 @@ frenchlongstats$language<-"French"
 frenchlongstats<-frenchlongstats[!is.na(frenchlongstats$numberoflines), ]
 
 stats<-rbind(demuthlongstats, frenchlongstats)
+
+stats$numberofhapaxes <- as.numeric(stats$numberofhapaxes)
+stats$numberofwords <- as.numeric(stats$numberofwords)
+stats$numberoflines <- as.numeric(stats$numberoflines)
+stats$numberofuttsinglewords <- as.numeric(stats$numberofuttsinglewords)
+
 
 stats$ratiohapaxes<-stats$numberofhapaxes/stats$numberofwords
 stats$ratiouttsinglewords<-stats$numberofuttsinglewords/stats$numberoflines
@@ -45,8 +51,8 @@ colnames(acrossmorphosynt)<- c("language", "register", "speaker", "mlumean", "si
 ##
 
 #####TABLE-MORPHOSYNTAX
-write.table(morphosynt, file=paste0("/Users/admin/Desktop/resultspeerspeech/morphosyntax.txt"), row.names = FALSE, col.names = TRUE)
-write.table(acrossmorphosynt, file=paste0("/Users/admin/Desktop/resultspeerspeech/morphosyntax_short.txt"), row.names = FALSE, col.names = TRUE)
+write.table(morphosynt, file=glue(childes_path, "morphosyntax.txt"), row.names = FALSE, col.names = TRUE)
+write.table(acrossmorphosynt, file=glue(childes_path, "morphosyntax_short.txt"), row.names = FALSE, col.names = TRUE)
 
 acrossnumberoflines<-aggregate(stats$numberoflines, by=list(stats$language, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
 averagequestion<-aggregate(stats$percquest, by=list(stats$targetchild, stats$addressee, stats$speaker), function(x) cbind(round(mean(x),2), round(sd(x),2)) )
@@ -117,7 +123,7 @@ get_legend<-function(myggplot){
   return(legend)
 }
 
-statsna$mlu<-as.numeric(stats$mlu)
+#statsna$mlu<-as.numeric(stats$mlu)
 title1=textGrob("Morphosyntactic properties ", gp=gpar(fontface="bold"))
 title2=textGrob("Lexical properties", gp=gpar(fontface="bold"))
 title3=textGrob("Interactional properties", gp=gpar(fontface="bold"))
@@ -130,54 +136,69 @@ statsOCDS<-subset(stats, (stats$addressee=="OCDS"))
 demuth<-subset(stats, (stats$language=="Sesotho")) 
 french<-subset(stats, (stats$language=="French")) 
 
+
+
 demuth$addressee <- factor(demuth$addressee,levels = c("CDS", "OCDS", "ADS"))
 french$addressee <- factor(french$addressee,levels = c("CDS", "OCDS", "ADS"))
+demuth$speaker <- factor(demuth$speaker,levels = c("mother", "adult", "child"))
+french$speaker <- factor(french$speaker,levels = c("mother", "adult", "child"))
 
+demuth$mlu <- as.double(demuth$mlu)
+french$mlu <- as.double(french$mlu)
+
+demuth$percquest <- as.double(demuth$percquest)
+french$percquest <- as.double(french$percquest)
+
+french$ratioturn<-as.double(french$ratioturn)
+french$mlumorphemes<-as.double(french$mlumorphemes)
 
 demuth$targetchild<-as.factor(demuth$targetchild)
+
+french<-french[!is.na(french$numberoflines), ]
+
 plot1<-ggplot(demuth, aes(x=addressee, y=mlu, fill=speaker))+ geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylab("Mean utt. length") + ylim(2, 7) +scale_color_manual(values=c('#999999','#E69F00', 'violet')) #+ theme(legend.position = "none")
 plot2<-ggplot(french, aes(x=addressee, y=mlu, fill=speaker))+ geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French") + ylab("Mean utt. length") + ylim(2, 7) +scale_color_manual(values=c('#999999','#E69F00', 'violet'))
 #legend <- get_legend(plot2)
-png(filename=".../mlu_new1.png", width = 13, height = 4, units = 'in', res = 500)
+png(filename="mlu_new1.png", width = 13, height = 4, units = 'in', res = 500)
 grid.arrange(arrangeGrob(plot1, plot2, top=title1, ncol=2),  nrow = 2, heights = c(5, 1))
 dev.off()
 
-plot3<-ggplot(demuth, aes(x=addressee, y=mattr, fill=speaker)) + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylab("Type token ratio") + ylim(0.65, 1)+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
-plot4<-ggplot(french, aes(x=addressee, y=mattr, fill=speaker)) + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French")  + ylab("Type token ratio") + ylim(0.65, 1) +scale_color_manual(values=c('#999999','#E69F00', 'violet'))
-png(filename=".../ttr_new.png",  width = 13, height = 4, units = 'in', res = 500)
+plot3<-ggplot(demuth, aes(x=addressee, y=as.double(mattr), fill=speaker)) + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylab("Type token ratio") + ylim(0.65, 1)+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
+plot4<-ggplot(french, aes(x=addressee, y=as.double(mattr), fill=speaker)) + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French")  + ylab("Type token ratio") + ylim(0.65, 1) +scale_color_manual(values=c('#999999','#E69F00', 'violet'))
+png(filename="ttr_new.png",  width = 13, height = 4, units = 'in', res = 500)
 grid.arrange(arrangeGrob(plot3, plot4, top=title2, ncol=2), nrow = 2, heights = c(5, 1))
 dev.off()
 
 frenchlongstats$addressee <- factor(frenchlongstats$addressee,levels = c("CDS", "OCDS", "ADS"))
 
-plot5<-ggplot(demuth, aes(x=addressee, y=percquest, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho")+ ylim(0.0, 0.9)  + ylab("Question ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
-plot6<-ggplot(frenchlongstats, aes(x=addressee, y=percquest, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French") + ylim(0.0, 0.9)  + ylab("Question ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))  
-png(filename=".../questionratio_new.png",  width = 13, height = 4, units = 'in', res = 500)
+plot5<-ggplot(demuth, aes(x=addressee, y=as.double(percquest), fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho")+ ylim(0.0, 0.9)  + ylab("Question ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
+plot6<-ggplot(french, aes(x=addressee, y=percquest, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French") + ylim(0.0, 0.9)  + ylab("Question ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))  
+png(filename="questionratio_new.png",  width = 13, height = 4, units = 'in', res = 500)
 grid.arrange(arrangeGrob(plot5, plot6, top=title3, ncol=2), nrow = 2, heights = c(5, 1))
 dev.off()
 
-plot7<-ggplot(demuth, aes(x=addressee, y=ratiouttsinglewords, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylim(0.0, 0.75) + ylab("Single word utt. ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
+plot7<-ggplot(demuth, aes(x=addressee, y=as.double(ratiouttsinglewords), fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylim(0.0, 0.75) + ylab("Single word utt. ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
 plot8<-ggplot(french, aes(x=addressee, y=ratiouttsinglewords, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French") + ylim(0.0, 0.75) + ylab("Single word utt. ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))  
-png(filename=".../singlewordutt_new.png",  width = 13, height = 4, units = 'in', res = 500)
+png(filename="singlewordutt_new.png",  width = 13, height = 4, units = 'in', res = 500)
 grid.arrange(arrangeGrob(plot7, plot8, top=title1, ncol=2), nrow = 2, heights = c(5, 1))
 dev.off()
 
-plot9<-ggplot(demuth, aes(x=addressee, y=ratioturn, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho")+ ylim(0.0, 1.0) + ylab("Conv. turn ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
+plot9<-ggplot(demuth, aes(x=addressee, y=as.double(ratioturn), fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho")+ ylim(0.0, 1.0) + ylab("Conv. turn ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
 plot10<-ggplot(french, aes(x=addressee, y=ratioturn, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French")+ ylim(0.0, 1.0)   + ylab("Conv. turn ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))  
-png(filename=".../convturn_new.png",  width = 13, height = 4, units = 'in', res = 500)
+png(filename="convturn_new.png",  width = 13, height = 4, units = 'in', res = 500)
 grid.arrange(arrangeGrob(plot9, plot10, top=title3, ncol=2), nrow = 2, heights = c(5, 1))
 dev.off()
 
-plot11<-ggplot(demuth, aes(x=addressee, y=ratiohapaxes, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylab("Hapax ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
+plot11<-ggplot(demuth, aes(x=addressee, y=as.double(ratiohapaxes), fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylab("Hapax ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))
 plot12<-ggplot(french, aes(x=addressee, y=ratiohapaxes, fill=speaker))+ geom_boxplot(aes(fill=speaker))  + geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French")  + ylab("Hapax ratio")+scale_color_manual(values=c('#999999','#E69F00', 'violet'))  
-png(filename=".../hapax_new.png",  width = 13, height = 4, units = 'in', res = 500)
+png(filename="hapax.png",  width = 13, height = 4, units = 'in', res = 500)
 grid.arrange(arrangeGrob(plot11, plot12, top=title2, ncol=2), nrow = 2, heights = c(5, 1))
 dev.off()
 
 
-plot1<-ggplot(demuth, aes(x=addressee, y=mlumorphemes, fill=speaker))+ geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylab("Mean utt. length") + ylim(2, 7) +scale_color_manual(values=c('#999999','#E69F00', 'violet')) #+ theme(legend.position = "none")
-plot2<-ggplot(french, aes(x=addressee, y=mlumorphemes, fill=speaker))+ geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French") + ylab("Mean utt. length") + ylim(2, 7) +scale_color_manual(values=c('#999999','#E69F00', 'violet'))
-png(filename=".../mlu_new1.png", width = 13, height = 4, units = 'in', res = 500)
-grid.arrange(arrangeGrob(plot1, plot2, top=title1, ncol=2),  nrow = 2, heights = c(5, 1))
+plot13<-ggplot(demuth, aes(x=addressee, y=as.double(mlumorphemes), fill=speaker))+ geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="Sesotho") + ylab("Mean utt. length (morphemes)") + ylim(2, 7) +scale_color_manual(values=c('#999999','#E69F00', 'violet')) #+ theme(legend.position = "none")
+plot14<-ggplot(french, aes(x=addressee, y=mlumorphemes, fill=speaker))+ geom_boxplot(aes(fill=speaker)) +  geom_point(aes(fill=speaker, colour=targetchild), size = 0.6, position = position_jitterdodge()) + labs(title="French") + ylab("Mean utt. length (morphemes)") + ylim(2, 7) +scale_color_manual(values=c('#999999','#E69F00', 'violet'))
+png(filename="/mlu_morphemes.png", width = 13, height = 4, units = 'in', res = 500)
+grid.arrange(arrangeGrob(plot13, plot14, top=title1, ncol=2),  nrow = 2, heights = c(5, 1))
 dev.off()
 
