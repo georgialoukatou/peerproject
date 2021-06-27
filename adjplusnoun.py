@@ -7,7 +7,7 @@ nlp = spacy.load("fr_core_news_lg")
 import sys
 from sys import argv
 
-pathToTextf="/Users/lscpuser/Documents/peerproject/github/peerproject/for_reproduce/derived/text_analysis/French/" 
+pathToTextf="..." ###TO COMPLETE
 
 
 targetchildren=["Anae", "Anais", "Theotime"]
