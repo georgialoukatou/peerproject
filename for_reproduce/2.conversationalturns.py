@@ -1,13 +1,13 @@
-
 #create output file
-file_output=open(".../for_reproduce/derived/text_analysis/sesothoturns.txt","w") 
+file_output=open("/Users/lscpuser/Documents/peerproject/github/peerproject/for_reproduce/draft/draft1/sesothoturns.txt","w") ####TO COMPLETE
 
 #insert language ("french" or "sesotho")
-lang="sesotho"
 
 
 #open demuth_convt.txt or french1_convt.txt from text_analysis folder
-with open('.../for_reproduce/derived/text_analysis/demuth_convt.txt', "r") as fp: #demuth1 and french1 must have child utterances!!!
+#with open('/Users/lscpuser/Documents/peerproject/github/peerproject/for_reproduce/derived/text_analysis/demuth_convt.txt', "r") as fp: #demuth1 and french1 must have child utterances!!!
+with open('/Users/lscpuser/Documents/peerproject/github/peerproject/for_reproduce/draft/draft1/demuth1_all.txt', "r" ) as fp: ####TO COMPLETE
+   lang="sesotho" ###TO COMPLETE
    lines = fp.readlines()
    for line in range(len(lines) - 1):
         info_=str(lines[line]).lower().rstrip().replace('other child', 'child').replace('target_child', 'keychild').split(';;')
@@ -36,6 +36,7 @@ with open('.../for_reproduce/derived/text_analysis/demuth_convt.txt', "r") as fp
   
 
 file_output.close()
+
 
          
          
